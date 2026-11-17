@@ -32,6 +32,23 @@
   "origin": "seed",
   "updated": "2026-11-17"
  },
+ "abz-innovation": {
+  "aliases": [
+   "ABZ Innovation Kft"
+  ],
+  "categories": [
+   "aerial",
+   "agro"
+  ],
+  "country": "HU",
+  "description": "Венгерский производитель дронов.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "abz-innovation",
+  "name": "ABZ Innovation",
+  "origin": "news",
+  "updated": "2026-11-17"
+ },
  "acsl": {
   "aliases": [
    "ACSL",
@@ -264,6 +281,20 @@
   "focus": [],
   "id": "amazon",
   "name": "Amazon",
+  "origin": "news",
+  "updated": "2026-11-17"
+ },
+ "amicro": {
+  "aliases": [],
+  "categories": [
+   "components"
+  ],
+  "country": "CN",
+  "description": "",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "amicro",
+  "name": "Amicro",
   "origin": "news",
   "updated": "2026-11-17"
  },
@@ -739,13 +770,15 @@
  "dji": {
   "aliases": [
    "SZ DJI Technology Co., Ltd.",
-   "DJI Technology"
+   "DJI Technology",
+   "ДЖИ"
   ],
   "categories": [
-   "aerial"
+   "aerial",
+   "components"
   ],
   "country": "CN",
-  "description": "",
+  "description": "Китайский производитель дронов.",
   "first_seen": "2026-11-16",
   "focus": [],
   "id": "dji",
@@ -1914,15 +1947,27 @@
    "cleaning"
   ],
   "country": "IN",
-  "description": "",
+  "description": "Производитель роботов для уборки, выходец из IIT Bombay.",
   "first_seen": "2026-11-16",
   "focus": [
    "floor"
   ],
   "id": "peppermint-robotics",
+  "last_round": {
+   "as_of": "2026-11-04",
+   "currency": "INR",
+   "investors": [
+    "pi Ventures",
+    "Crane Venture Partners"
+   ],
+   "source": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPOWRfdFV6TDBNM2I4aFpmZjZKenNjeDNTX3pqclc4UExxMzZiLXFPRXh3eUtaR3ppbGFvdm9XZmdRQjNHaTRnOEhLdFd2LXVQOENvMG9Ic3c0cHMxbEZzbU02am1xNDVIZFExdy1mWktmNHFfUU55ekgtT3RnalU3cVFEZkpkNkF1eDhOYVhMdFNzZHUtaXJpOE9jaEhCZjdBNXZJU1d0NGQxV0R4Q3NSMEROZVJkaFVtSW1fQ3lzRXFVNXZ2Q2xmTzkzNW5CdlppY2w2dng2VzdHRUU4bGVXdThRUW5tU0tnV0hZdlc3VGVURi04dnBKWmVQYUI2UdIBgwJBVV95cUxNdDFib09fS3FQWnhWZ283UUxyWEFXUUpJNW9rZmpyRTAyZlcycXlaZmJQTUJKeXF4emd6bjlmV2NwR1VYUTV3V1M1eldNUkN5elJnWGwxWHNLc2xwQlg5emtsd1FIaE9hM1pDWHJNcDFMUjhUM1gxaENEVFQtV1FNUkR4RnNwX3R2akp3QmlwNE5vb2Fnd3NfNEF4SC1ITU1EeTFxR0VQYTktd2RsR1l3aFd0S3V3aktWemh2Yll4UTVZc3dldXVyYS1MOTRoRWMxb1VLN0JhQTdMZlVaSVBrd0pXNWFiX1M3ZlZ0X193QVBxNmpwbGs5Ri1xbW40SVNEdU5n?oc=5",
+   "type": "unknown",
+   "usd": 10642843.16,
+   "value": 1000000000.0
+  },
   "name": "Peppermint Robotics",
   "origin": "seed",
-  "updated": "2026-11-16"
+  "updated": "2026-11-17"
  },
  "percepto": {
   "aliases": [],
@@ -2219,6 +2264,21 @@
   "origin": "news",
   "updated": "2026-11-17"
  },
+ "royal-caribbean": {
+  "aliases": [],
+  "categories": [
+   "cleaning",
+   "aerial"
+  ],
+  "country": "US",
+  "description": "Круизная компания.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "royal-caribbean",
+  "name": "Royal Caribbean",
+  "origin": "news",
+  "updated": "2026-11-17"
+ },
  "runway": {
   "aliases": [
    "Runway AI"
@@ -2415,6 +2475,23 @@
   "origin": "seed",
   "updated": "2026-11-16"
  },
+ "skypsi": {
+  "aliases": [
+   "Sky PSI"
+  ],
+  "categories": [
+   "aerial",
+   "cleaning"
+  ],
+  "country": "",
+  "description": "Компания, занимающаяся очисткой дронами.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "skypsi",
+  "name": "SkyPSI",
+  "origin": "news",
+  "updated": "2026-11-17"
+ },
  "skyways": {
   "aliases": [],
   "categories": [
@@ -2494,6 +2571,24 @@
   "origin": "seed",
   "updated": "2026-11-16"
  },
+ "stingray-robotix": {
+  "aliases": [
+   "Stingray Robotix"
+  ],
+  "categories": [
+   "marine"
+  ],
+  "country": "IN",
+  "description": "",
+  "first_seen": "2026-11-17",
+  "focus": [
+   "tank"
+  ],
+  "id": "stingray-robotix",
+  "name": "Stingray Robotix",
+  "origin": "news",
+  "updated": "2026-11-17"
+ },
  "swescan": {
   "aliases": [
    "Swescan"
@@ -2565,7 +2660,7 @@
    "cleaning"
   ],
   "country": "US",
-  "description": "",
+  "description": "Производитель оборудования для профессиональной уборки полов",
   "first_seen": "2026-11-16",
   "focus": [
    "floor"
@@ -2573,7 +2668,7 @@
   "id": "tennant",
   "name": "Tennant",
   "origin": "seed",
-  "updated": "2026-11-16"
+  "updated": "2026-11-17"
  },
  "tevel-aerobotics": {
   "aliases": [

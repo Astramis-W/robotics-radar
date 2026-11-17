@@ -1,4 +1,21 @@
 {
+ "abz-innovation--c30": {
+  "categories": [
+   "aerial",
+   "agro"
+  ],
+  "company_id": "abz-innovation",
+  "description": "Промышленный дрон для распыления.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "abz-innovation--c30",
+  "name": "C30",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQlFZZ2JQeGpzUkplemp1X0VVMWZSOThVVWJ5OVFEaXR0X1Q0RVExUVZmQ054MnVJZlM4UVBEY2VtaVZHMF8wRXRxMDlyd1JGX0JRdnBJRVhucmdQTXhjb2dXaUJXVHZHQV9WMHVyTHJEanBHOHFPTnRPczFpU3ZpaGwyNjNfbDN4STB2V3ZpS0tTWVEzaTloNG9Gcw?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-17"
+ },
  "acsl--soten": {
   "categories": [
    "aerial"
@@ -295,6 +312,23 @@
    "https://dronedj.com/2026/11/16/new-firmware-dji-matrice-4/"
   ],
   "stage": "serial",
+  "updated": "2026-11-17"
+ },
+ "dji--dji-modify": {
+  "categories": [
+   "aerial",
+   "components"
+  ],
+  "company_id": "dji",
+  "description": "ПО для обработки данных съёмки дронов и построения 3D-моделей.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "dji--dji-modify",
+  "name": "DJI Modify",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMicEFVX3lxTE5RM2FuaU5IREljTWdXX3VoRGpPa1U0UDhIM21ON0dubE00aTI1aDBqa2lobml3bjVWNUpDZ0RxVjc5ZWNYZWhybTBJTXJ2WlBkRDhHRHoyVVhKeXI2bUZSSnBHSzVOUmFMTGxNeHI5WTA?oc=5"
+  ],
+  "stage": "unknown",
   "updated": "2026-11-17"
  },
  "dronamics--black-swan": {
@@ -668,6 +702,25 @@
   "stage": "unknown",
   "updated": "2026-11-16"
  },
+ "skypsi--operator": {
+  "categories": [
+   "aerial",
+   "cleaning"
+  ],
+  "company_id": "skypsi",
+  "description": "Платформа для поиска коммерческих заказов независимых подрядчиков.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "skypsi--operator",
+  "name": "Operator+",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNG5rWS1mOFFibWVGSF9peDRrRmZ0OTVUUXVuYUk0dUJBaHFfZEJvbkFBM2FiY3NZVnJJR05QbzdsT0FPbE9ReGtYalRHanY4bkdJUU43b0d4dGVSWlVNWi0xU05NM0s1V1M5V193cTZfeXRERFY5TXY4SjJvOVhSTklOUGtDelZTbWh6bzdiYVFqYjc1eVBxSkh3MmpXbkVQbkFCcC05eHVnTkIyQjlHeWFOLUJ5VjBDYUtubF9kYncySEU?oc=5",
+   "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeU1zdlRsWWhJSGFLNEZUUUtuN0lEb3ZZQjFfOHl5VTVZa3A3UFpLVnRRSGNHY1d6eFRORUU2U1JQSldCNHExdTV2b2NUdjhLMW9pR1cwemNJLVRMeGJfY2tMRjEzcm1JbjZlNTZSOGpfMzJzNXBpZFdLZGNuMzVGR2xwZUxmX2Y4NUNUN29QS2h5dUY5cEZxNEFTdWRVSjBpR2cxR2JIemxqSTY0VEJncTA4eFkwazZzSVg0cmJ5VQ?oc=5",
+   "https://news.google.com/rss/articles/CBMitgFBVV95cUxOakgzMTRkMTVSWURMcXJVTnIxckxKZjRRTVFsdC02alk0cDhpNW9LTi1aYWc2am1JdFoyM1NNMFgtdkM5VXBKSjdyOVlBZzE1ZnNoY1poMEQ0TnBzSVVXVHN1SUhydW8tdFhtc0dIeTNzQkZkS002LURwUjVFX0dQU1JOc2ZnMlNlS3Q1YWhpcE1aTnFiM3B1UGk2ZFlCM21XZnFnOTN2T2d2U1NaUlg2V01jYXN5QQ?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-17"
+ },
  "skyways--v2": {
   "categories": [
    "aerial",
@@ -681,6 +734,24 @@
   "name": "V2",
   "sources": [
    "https://dronedj.com/2026/11/10/skyways-shell-drone-offshore-gulf/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-17"
+ },
+ "tennant--p1-vac": {
+  "categories": [
+   "cleaning"
+  ],
+  "company_id": "tennant",
+  "description": "Автономный роботизированный пылесос для уборки полов",
+  "first_seen": "2026-11-17",
+  "focus": [
+   "floor"
+  ],
+  "id": "tennant--p1-vac",
+  "name": "P1 VAC",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZFgxV2NnS0YwaVk0SEtVd19leFVVSGdDNzhNVWtZRWZ6Mk9DUjctbjVHOEdiQmdya00xNDQ5QVc2Nkw4TG4yQXJCR2FJck1CLUVOcHdPRU5tYVFmMFlrYWhLRm9UcEdxenVsV3g5a1ZXOXR4NUE5Sk5oWVloMEZQZzlfaURKanpEMFlpRWJlTVBNMlZTMy1TMF8yWVVUUlRiZzRjZFVnY200Z2VVUklELXpvcVBGOXlLWU9rVjF4WTZUVmJCVlVsOWp3?oc=5"
   ],
   "stage": "unknown",
   "updated": "2026-11-17"
