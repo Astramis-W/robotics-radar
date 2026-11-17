@@ -386,6 +386,22 @@
   "origin": "seed",
   "updated": "2026-11-17"
  },
+ "aquiline-drones": {
+  "aliases": [
+   "Aquiline Drones"
+  ],
+  "categories": [
+   "aerial"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "aquiline-drones",
+  "name": "Aquiline Drones",
+  "origin": "news",
+  "updated": "2026-11-17"
+ },
  "asus": {
   "aliases": [
    "Asus",
@@ -605,11 +621,14 @@
   "updated": "2026-11-16"
  },
  "boston-dynamics": {
-  "aliases": [],
+  "aliases": [
+   "Бостон Динамикс"
+  ],
   "categories": [
    "humanoid",
    "inspection",
-   "logistics"
+   "logistics",
+   "manufacturing"
   ],
   "country": "US",
   "description": "Разработчик мобильных роботов, включая гуманоида Atlas.",
@@ -638,6 +657,20 @@
   "name": "Brain Corp",
   "origin": "seed",
   "updated": "2026-11-16"
+ },
+ "brinc": {
+  "aliases": [],
+  "categories": [
+   "aerial"
+  ],
+  "country": "US",
+  "description": "Разработчик дронов для служб общественной безопасности и реагирования на экстренные вызовы.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "brinc",
+  "name": "BRINC",
+  "origin": "news",
+  "updated": "2026-11-17"
  },
  "built-robotics": {
   "aliases": [],
@@ -1120,6 +1153,20 @@
   },
   "updated": "2026-11-17"
  },
+ "faresin": {
+  "aliases": [],
+  "categories": [
+   "agro"
+  ],
+  "country": "IT",
+  "description": "Итальянский производитель сельскохозяйственной техники.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "faresin",
+  "name": "Faresin",
+  "origin": "news",
+  "updated": "2026-11-17"
+ },
  "farmdroid": {
   "aliases": [],
   "categories": [
@@ -1352,6 +1399,61 @@
   "origin": "seed",
   "updated": "2026-11-16"
  },
+ "general-autonomy": {
+  "aliases": [],
+  "categories": [
+   "humanoid"
+  ],
+  "country": "IN",
+  "description": "",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "general-autonomy",
+  "name": "General Autonomy",
+  "origin": "news",
+  "updated": "2026-11-17"
+ },
+ "genesis-ai": {
+  "aliases": [
+   "Genesis AI",
+   "Genesis"
+  ],
+  "categories": [
+   "manufacturing",
+   "logistics",
+   "components",
+   "humanoid"
+  ],
+  "country": "US",
+  "description": "Разработчик роботов общего назначения.",
+  "employees": {
+   "as_of": "2026-11-17",
+   "source": "https://news.crunchbase.com/venture/robot-factory-workers-genesis-ai-fundraise/",
+   "value": 100
+  },
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "genesis-ai",
+  "last_round": {
+   "as_of": "2026-11-17",
+   "currency": "USD",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTWFFQXhWNzlaWHRMZ2E5dWdTY0pIa2dVci0wa0VETFVvZXRzS2Z3Vm9uenBueTdiNFVpQmxXTHBGUm1IS04tdEJuaTJKY0hoVHhsSWVhOGNFeUcyc09LSlV3aG05bzMycGZDa29JM3hvRFp1bm1UV1ZLblBFdzBMdVdMSzh4Zlk3M1drZm8tNUIyQ00?oc=5",
+   "type": "series_a",
+   "usd": 500000000.0,
+   "value": 500000000.0
+  },
+  "name": "Genesis AI",
+  "origin": "news",
+  "updated": "2026-11-17",
+  "valuation": {
+   "as_of": "2026-11-17",
+   "currency": "USD",
+   "source": "https://news.crunchbase.com/venture/robot-factory-workers-genesis-ai-fundraise/",
+   "usd": 3500000000.0,
+   "value": 3500000000.0
+  }
+ },
  "geoskan": {
   "aliases": [
    "Geoscan"
@@ -1367,6 +1469,20 @@
   "name": "Геоскан",
   "origin": "seed",
   "updated": "2026-11-16"
+ },
+ "globalfoundries": {
+  "aliases": [],
+  "categories": [
+   "humanoid"
+  ],
+  "country": "US",
+  "description": "Производитель полупроводников.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "globalfoundries",
+  "name": "GlobalFoundries",
+  "origin": "news",
+  "updated": "2026-11-17"
  },
  "google-deepmind": {
   "aliases": [],
@@ -2164,7 +2280,8 @@
  "promise-robotics": {
   "aliases": [],
   "categories": [
-   "construction"
+   "construction",
+   "manufacturing"
   ],
   "country": "CA",
   "description": "Торонтская компания, автоматизирующая домостроение.",
@@ -2173,11 +2290,11 @@
   "id": "promise-robotics",
   "last_round": {
    "as_of": "2026-11-17",
-   "currency": "USD",
+   "currency": "CAD",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVXhzMXczR3hQcFZ2VTZiQVZZRmV3WklsZW5sc0F2enlHdGZveWJjLXcxeWhLOENjS0N2bl9pWGdhLU95ZmlrSjNMaG00M1ctSTUtajhVeWNaODNSMUZxdlRTSmZOcnFiX01hSno4UmZMLWhSMXhza2Q4ZkJTbEhMWTg1cTdfN05qbk9nWkVlQ2hPUllyREVDRldPVnRnSUZRZmY2NmFvc0dOY2pIZVZLTFpzWEJ0cTVwTENtV3pSeVcxRVlL?oc=5",
-   "type": "unknown",
-   "usd": 40000000.0,
+   "source": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOc1k0UkhBRlZlSkRSaUJFN0tjanpJRmx2am1SdEp5XzVaS1RJcnNWeElyUUZlUzJDeTdDMUd4THVGcEF0OERGTVNvSjRVZng2TlFrdW9LN3NKN1RvS3dTbVZjUDBJYnlYRXBkWmtIRU5RREIxc2JNaUxHeHZ0S0Z2ZnYxZWtrd1V1UUxFdUUwMEJfVGZCZHRBSUZRdjZXRDcxMU03VnB0V2ItVC1aYnVsR0R5d3ZjWmlqQ0V4NXRPUjhGOXRNYnRIWlRVTUxiakFZRFNONnFGb21oWHJvVHNDTVE0eU9OTzdsbVBXNVo4eEdLcllCQmNN?oc=5",
+   "type": "series_b",
+   "usd": 27984356.74,
    "value": 40000000.0
   },
   "name": "Promise Robotics",
@@ -2235,6 +2352,29 @@
   "name": "Qlayers",
   "origin": "seed",
   "updated": "2026-11-16"
+ },
+ "raise": {
+  "aliases": [],
+  "categories": [],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "raise",
+  "last_round": {
+   "as_of": "2026-11-17",
+   "currency": "USD",
+   "investors": [
+    "Nittany Angels"
+   ],
+   "source": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNc1NtZHBMdDdOeUlPMTdiWUxUU2JhQ1RNa3FjN3h4QXJENjF2MkllQkRpTkVNWXR2am5OZE1CWEIwVm5TZWE3Rm0wb2RoZmZ1ZWcxRFp0aGlfcnp6eVRpM0p4OUQwd2UwSDd2blp4SzJiM2o0WUd4WE9WeFVpamQ4MTdOUnlkemwxcUlfOFNDY05VdTU4UFFLaVhNbzNJN3FDVnpDdjd3?oc=5",
+   "type": "seed",
+   "usd": 189000.0,
+   "value": 189000.0
+  },
+  "name": "Raise",
+  "origin": "news",
+  "updated": "2026-11-17"
  },
  "re-gen-robotics": {
   "aliases": [],
@@ -2799,6 +2939,29 @@
   "origin": "seed",
   "updated": "2026-11-16"
  },
+ "taisei": {
+  "aliases": [],
+  "categories": [
+   "construction"
+  ],
+  "country": "JP",
+  "description": "Японская строительная компания",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "taisei",
+  "last_round": {
+   "as_of": "2026-11-17",
+   "currency": "USD",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPS1RfeVV6dF9CcTUxcWlQMlFJU2dpeHFkRHBMSUo4Tk5YR2VSeXZVM2ZYWURvT01IdVMzODdIX3lPem95UTFDQjFRUmdUUURRMjd3Q0NTcnpOUVdIY0JwWFUxQThwM3JVUmJfT0ZlWG1vRHJJcWVkSHh1ZjA0aTJmX0pTM2ZWUEdVNkx1dHZDdXdxUE1YLXEweS1Pcjhac1VTRWIxS3ZQTkJMZTVBNUFIdGJHY0d3U21jR0dJ?oc=5",
+   "type": "",
+   "usd": 150000000.0,
+   "value": 150000000.0
+  },
+  "name": "Taisei",
+  "origin": "news",
+  "updated": "2026-11-17"
+ },
  "tarsbot": {
   "aliases": [
    "Aptiv"
@@ -2849,6 +3012,27 @@
   "origin": "seed",
   "updated": "2026-11-17"
  },
+ "tesla": {
+  "aliases": [
+   "Тесла"
+  ],
+  "categories": [
+   "delivery"
+  ],
+  "country": "US",
+  "description": "Производитель электромобилей, разрабатывающий беспилотное такси Cybercab.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "tesla",
+  "name": "Tesla",
+  "origin": "news",
+  "robots_deployed": {
+   "as_of": "2026-11-17",
+   "source": "https://www.cnews.ru/news/top/2026-11-17_ilon_mask_sobiraetsya_cherez",
+   "value": 573
+  },
+  "updated": "2026-11-17"
+ },
  "tevel-aerobotics": {
   "aliases": [
    "Tevel"
@@ -2865,6 +3049,29 @@
   "name": "Tevel Aerobotics",
   "origin": "seed",
   "updated": "2026-11-16"
+ },
+ "tutor-intelligence": {
+  "aliases": [],
+  "categories": [
+   "logistics"
+  ],
+  "country": "US",
+  "description": "",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "tutor-intelligence",
+  "last_round": {
+   "as_of": "2026-11-17",
+   "currency": "USD",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY2dVbF9YUUNvb1hLOVVteGtCd0pZVXJFX1BXZGZtaE54ZjFmUTV3TTYxd202djdDLXpzYWJ1dmNLQUJWazZJazcxWlY2X0luSlRhQlBxQXlPd1F1S0FVRUpscnRDMGd5dTNRTVNoTk1fSlVhNWdmb29xVnFhMVZBZW9nTHhROXJyTXFOOG9fRVNhakl1NFp4Q21lcjQ0SVFVN1JfN0VEalE1TW5qdjdUN09wMjRfaVIyZ1E?oc=5",
+   "type": "unknown",
+   "usd": 75000000.0,
+   "value": 75000000.0
+  },
+  "name": "Tutor Intelligence",
+  "origin": "news",
+  "updated": "2026-11-17"
  },
  "tuv-sud": {
   "aliases": [],
@@ -2894,6 +3101,22 @@
   "name": "Тьюбот",
   "origin": "seed",
   "updated": "2026-11-16"
+ },
+ "uav-dach": {
+  "aliases": [
+   "UAV DACH – European Association for Unmanned Aviation"
+  ],
+  "categories": [
+   "aerial"
+  ],
+  "country": "",
+  "description": "Европейская ассоциация беспилотной авиации.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "uav-dach",
+  "name": "UAV DACH",
+  "origin": "news",
+  "updated": "2026-11-17"
  },
  "ubtech": {
   "aliases": [
@@ -2978,18 +3201,23 @@
   "updated": "2026-11-17"
  },
  "universal-robots": {
-  "aliases": [],
+  "aliases": [
+   "Teradyne",
+   "Sereact",
+   "Teradyne Robotics"
+  ],
   "categories": [
-   "manufacturing"
+   "manufacturing",
+   "logistics"
   ],
   "country": "DK",
-  "description": "",
+  "description": "Американская компания, владеющая Universal Robots и Mobile Industrial Robotics",
   "first_seen": "2026-11-16",
   "focus": [],
   "id": "universal-robots",
   "name": "Universal Robots",
   "origin": "seed",
-  "updated": "2026-11-16"
+  "updated": "2026-11-17"
  },
  "unix-ai": {
   "aliases": [
@@ -3102,6 +3330,38 @@
    "value": 34000000.0,
    "year": 2025
   },
+  "updated": "2026-11-17"
+ },
+ "waymo": {
+  "aliases": [
+   "Waymo"
+  ],
+  "categories": [
+   "delivery"
+  ],
+  "country": "US",
+  "description": "",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "waymo",
+  "name": "Waymo",
+  "origin": "news",
+  "updated": "2026-11-17"
+ },
+ "windracers": {
+  "aliases": [
+   "Windracers ULTRA"
+  ],
+  "categories": [
+   "aerial"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "windracers",
+  "name": "Windracers",
+  "origin": "news",
   "updated": "2026-11-17"
  },
  "wing": {

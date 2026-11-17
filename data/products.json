@@ -176,7 +176,8 @@
   "name": "Prime Air",
   "sources": [
    "https://dronexl.co/2026/11/16/amazon-nampa-drone-permit-conditions-no-noise-altitude-limit/",
-   "https://dronexl.co/2026/11/15/amazon-baton-rouge-drone-routes-changed-30-an-hour/"
+   "https://dronexl.co/2026/11/15/amazon-baton-rouge-drone-routes-changed-30-an-hour/",
+   "https://dronexl.co/2026/11/17/amazon-nampa-drone-complaint-contact-not-public-wrong-number/"
   ],
   "stage": "serial",
   "updated": "2026-11-17"
@@ -268,7 +269,8 @@
  },
  "boston-dynamics--atlas": {
   "categories": [
-   "humanoid"
+   "humanoid",
+   "manufacturing"
   ],
   "company_id": "boston-dynamics",
   "description": "Гуманоидный робот Atlas в колёсной конфигурации.",
@@ -277,7 +279,27 @@
   "id": "boston-dynamics--atlas",
   "name": "Atlas",
   "sources": [
-   "https://habr.com/ru/articles/1105822/?utm_campaign=1105822&utm_source=habrahabr&utm_medium=rss"
+   "https://habr.com/ru/articles/1105822/?utm_campaign=1105822&utm_source=habrahabr&utm_medium=rss",
+   "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOUkVfQUFaWjJjdmMtN21oOHpHLUJyMnJYRjFaZXFQNFVIMlRvMEVUYWZSWkdqdk92ZzFGU00xaTRLNnpJYVE2bHdzZkt2d1NUQXpoOGFXYl9LQ2VZc1lWMGRSWmpfZHM1eXZ4QUxKZGltSzFGMXFyTVNwV0hmOWZVcXM3Vmg3dXV3aHJRQ1dLeDR6ZkMzUEk3R3dKbU5NejVLcm9WNTdicXRqVDE0Zlk5SlU5b2ZUeF96a1ZOS3FtNXBlYVRyblg3U1VNQ19fUkdzR2ZHTmk0RmpqTVhG?oc=5",
+   "https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/"
+  ],
+  "stage": "pilot",
+  "updated": "2026-11-17"
+ },
+ "brinc--brinc-liveops": {
+  "categories": [
+   "aerial"
+  ],
+  "company_id": "brinc",
+  "description": "iOS-приложение для просмотра живого видео с дронов агентства и данных о воздушной обстановке.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "brinc--brinc-liveops",
+  "name": "BRINC LiveOps",
+  "sources": [
+   "https://dronedj.com/2026/11/17/brinc-drone-ios-app-live/",
+   "https://dronelife.com/2026/11/17/brinc-liveops-app-first-responders/",
+   "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUzJlTXZ4R1pSRU1XNWFwTUJmaU1nc29tRXdpblFhWThZSkZ6bmlOcTdqWTFuTXJMOTEtT29OblZ2bzFiR21GUG85TFpvYm4tbmN4NmdDUXBETWhMSnBrWmkxdDRpaWwyM1AyRTFoeUo3N2c0WHluTTFwUnNkNHhqTmFjcjZudXM?oc=5"
   ],
   "stage": "unknown",
   "updated": "2026-11-17"
@@ -398,6 +420,22 @@
   "stage": "unknown",
   "updated": "2026-11-17"
  },
+ "faresin--eramix": {
+  "categories": [
+   "agro"
+  ],
+  "company_id": "faresin",
+  "description": "Электрический автономный кормосмеситель-робот с фрезой для силоса и беспроводной индукционной зарядкой.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "faresin--eramix",
+  "name": "Eramix",
+  "sources": [
+   "https://www.futurefarming.com/smart-farming/faresin-unveils-electric-eramix-feeding-robot-at-eima/"
+  ],
+  "stage": "prototype",
+  "updated": "2026-11-17"
+ },
  "galileo--galileo-c1-w": {
   "categories": [
    "logistics"
@@ -412,6 +450,57 @@
    "https://news.google.com/rss/articles/CBMimgJBVV95cUxQRmgyakFjeVVOX0w5V2JCelZjQ1ZXekRNak5ic0dNaHBpNmdOVDdFazdzeEE1d09VN2NULWlWdlVRa1JfYVBQME1JeHlfXzZuWEtOR3BMaGs1azZBVHlXSUtBQlVJWEF4U3JSQlFxdTZRR3ZibFpEVUR3Y0taMEVXN3JEd3FxMU5oOE9IbUNWSXlHbmZsSnF0aERweVVON2p0OF9uZElhTEhqd1dJYlZoQW1wV2stM0ZNZUNaZnU2SUlJWXFSU1p1MHRvTGc1TlBqV0F5N3FfaUZtUmliZnQ1bEF0aThLNUVhTmNQdWpiOFNXa1BISWFxdUNIVU5JNzlUTlI0SG9jdmJDczEwdVByN0lzaFpZWmNBS1HSAZoCQVVfeXFMUEZoMmpBY3lVTl9MOVdiQnpWY0NWV3pETWpOYnNHTWhwaTZnTlQ3RWs3c3hBNXdPVTdjVC1pVnZVUWtSX2FQUDBNSXh5X182blhLTkdwTGhrNWs2QVR5V0lLQUJVSVhBeFNyUkJRcXU2UUd2YmxaRFVEd2NLWjBFVzdyRHdxcTFOaDhPSG1DVkl5R25mbEpxdGhEcHlVTjdqdDhfbmRJYUxIandXSWJWaEFtcFdrLTNGTWVDWmZ1NklJSVlxUlNadTB0b0xnNU5QaldBeTdxX2lGbVJpYmZ0NWxBdGk4SzVFYU5jUHVqYjhTV2tQSElhcXVDSFVOSTc5VE5SNEhvY3ZiQ3MxMHVQcjdJc2haWVpjQUtR?oc=5"
   ],
   "stage": "serial",
+  "updated": "2026-11-17"
+ },
+ "general-autonomy--taara": {
+  "categories": [
+   "humanoid"
+  ],
+  "company_id": "general-autonomy",
+  "description": "Гуманоидный робот высотой 1,43 м с полезной нагрузкой 10 кг для общих задач.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "general-autonomy--taara",
+  "name": "Taara",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOTnA0SWpMX29QWVEtTmF0VkxxRy1vcElhdnBOeGQ2Q1BhTDBvcFZNVzFyNVFzblFJSzI2SlE3Ql9XZFVMLVllUXRiRjY0ZllmN0xjRFc2dE5FWEpDT1U1bno1dmVIeFAxX2NlTzBXdkFMRmloOVFwelJmMXhnejE5anBXZmZTenc3b0x6dXFweTliR1hxZFlKRURhdXgzc01QeGRYOV93dmgxZzBRcGd6UFZQTTNJSl92ejgyOUh6YWJ6aEx2Qm5MQ2NhUFJzdmp6UHVkTWI3aTJnQ0wwLWRZUjd5NU9xbldYVW8zRFAyU3VLcmRHQm9MUjBR?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-17"
+ },
+ "genesis-ai--eno": {
+  "categories": [
+   "humanoid",
+   "components"
+  ],
+  "company_id": "genesis-ai",
+  "description": "Робот, который первоначально нацелен на производство, логистику и лаборатории.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "genesis-ai--eno",
+  "name": "Eno",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQlJMSlpCWFVKaDFXTDB6M1FBSnBqLUs4U3AzNXVTdXpNOHA2Z2hVVHVFdlNzUlNSNEhaMDlQUmcyUlhCcEN6ci1WUjU1MC1OV1NfYXhTQmFRQmo4U0FZWUxPSFdqNG9ubmptX1hVeVUtMDhVVlJGWkRVaXZydnBrMkNZS3pJRjFER1hFN2c2N3ZHNi1VVFFNVDVqY1dOS3M4NXBEOTdlSW9xczVtcE95bEdWbDBhNUxZZWYw?oc=5",
+   "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB1c3VtQkRvTHBNQVRCX2k2WVdOWmJHUlJCNGhUdldPMnJTN3RhenFoMWV1Z3BESFhYaEhqaXN6NEtQN3lPZ0c5Y1JOelljbVR4ck9aYms3dFpjaFRXMGc?oc=5",
+   "https://news.crunchbase.com/venture/robot-factory-workers-genesis-ai-fundraise/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-17"
+ },
+ "globalfoundries--atlas": {
+  "categories": [
+   "humanoid"
+  ],
+  "company_id": "globalfoundries",
+  "description": "Гуманоидный робот.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "globalfoundries--atlas",
+  "name": "Atlas",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMimwFBVV95cUxPa1hxb2plM1RnTFU0a1NiS3V6Yy0xZ3p4b0JVWXBZVmdfdHViUUo2T2FneGdET2wxME9xeFpPdEFTcDV3MTZFdGhZRTFrNnFTOUNINGhiRGZObG1CZDRXSFA3RUJsOWU1Z01VRk01U3dVck9nMTZsN0FjVWMxUDM2VHBUdTRrOG9lalZjcTVfRE9Ma3N6LWpBdFpBUQ?oc=5"
+  ],
+  "stage": "pilot",
   "updated": "2026-11-17"
  },
  "google-deepmind--gemini-robotics-25": {
@@ -808,6 +897,22 @@
   "stage": "unknown",
   "updated": "2026-11-17"
  },
+ "tesla--cybercab": {
+  "categories": [
+   "delivery"
+  ],
+  "company_id": "tesla",
+  "description": "Двухместный беспилотный автомобиль без руля и педалей, управляемый камерами и ИИ.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "tesla--cybercab",
+  "name": "Cybercab",
+  "sources": [
+   "https://www.cnews.ru/news/top/2026-11-17_ilon_mask_sobiraetsya_cherez"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-17"
+ },
  "uc-berkeley--robosimstudio": {
   "categories": [
    "manufacturing",
@@ -825,6 +930,22 @@
   "stage": "prototype",
   "updated": "2026-11-17"
  },
+ "universal-robots--sereact-cortex": {
+  "categories": [
+   "logistics"
+  ],
+  "company_id": "universal-robots",
+  "description": "Модель зрение-язык-действие для захвата и обработки неизвестных объектов",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "universal-robots--sereact-cortex",
+  "name": "Sereact Cortex",
+  "sources": [
+   "https://t.me/prorobots/3668"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-17"
+ },
  "viam--launchpad": {
   "categories": [
    "components"
@@ -840,6 +961,22 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-16"
+ },
+ "windracers--windracers-ultra": {
+  "categories": [
+   "aerial"
+  ],
+  "company_id": "windracers",
+  "description": "Грузовой дрон, испытанный в BVLOS-полёте в Индиане.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "windracers--windracers-ultra",
+  "name": "Windracers ULTRA",
+  "sources": [
+   "https://dronexl.co/2026/11/17/purdue-chase-plane-indiana-drone-corridor-bvlos-flight/"
+  ],
+  "stage": "pilot",
+  "updated": "2026-11-17"
  },
  "wing--walmart-drone-delivery": {
   "categories": [
