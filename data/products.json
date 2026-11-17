@@ -395,22 +395,6 @@
   "stage": "serial",
   "updated": "2026-11-16"
  },
- "kelluu--halo": {
-  "categories": [
-   "aerial"
-  ],
-  "company_id": "kelluu",
-  "description": "Дирижабль с встроенным пассивным радаром для наблюдения за воздушным пространством на малых высотах.",
-  "first_seen": "2026-11-17",
-  "focus": [],
-  "id": "kelluu--halo",
-  "name": "HALO",
-  "sources": [
-   "https://www.suasnews.com/2026/11/kelluu-unveils-a-passive-radar-for-a-new-era/"
-  ],
-  "stage": "unknown",
-  "updated": "2026-11-17"
- },
  "kret--dmr-2854": {
   "categories": [
    "components"
@@ -426,23 +410,6 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-16"
- },
- "matrixspace--portable-c-uas-detection-solutions": {
-  "categories": [
-   "security",
-   "aerial"
-  ],
-  "company_id": "matrixspace",
-  "description": "Портативные радарные решения для обнаружения малых дронов.",
-  "first_seen": "2026-11-17",
-  "focus": [],
-  "id": "matrixspace--portable-c-uas-detection-solutions",
-  "name": "Portable C-UAS detection solutions",
-  "sources": [
-   "https://www.suasnews.com/2026/11/matrixspace-portable-c-uas-detection-solutions-now-available-on-jiatf-401-c-uas-marketplace/"
-  ],
-  "stage": "unknown",
-  "updated": "2026-11-17"
  },
  "matternet--m3": {
   "categories": [
@@ -714,22 +681,6 @@
   "name": "V2",
   "sources": [
    "https://dronedj.com/2026/11/10/skyways-shell-drone-offshore-gulf/"
-  ],
-  "stage": "unknown",
-  "updated": "2026-11-17"
- },
- "tesla--cybercab": {
-  "categories": [
-   "delivery"
-  ],
-  "company_id": "tesla",
-  "description": "Беспилотный автомобиль Tesla.",
-  "first_seen": "2026-11-17",
-  "focus": [],
-  "id": "tesla--cybercab",
-  "name": "Cybercab",
-  "sources": [
-   "https://3dnews.ru/1151377"
   ],
   "stage": "unknown",
   "updated": "2026-11-17"

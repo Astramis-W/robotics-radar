@@ -112,30 +112,6 @@
   "origin": "seed",
   "updated": "2026-11-16"
  },
- "aevex": {
-  "aliases": [
-   "AEVEX"
-  ],
-  "categories": [
-   "aerial"
-  ],
-  "country": "",
-  "description": "",
-  "first_seen": "2026-11-17",
-  "focus": [],
-  "id": "aevex",
-  "name": "AEVEX",
-  "origin": "news",
-  "revenue": {
-   "as_of": "2026-11-14",
-   "currency": "USD",
-   "source": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVzBFc3ZGU29sT3B0NjFJSVBKNTRmU2EtbVp4X01wcC13cmlyc3ZoZlhRLWJpeEJzRnh4alM2cEhkMGlONkgzcWYwSGpSYTI4bzJHMThvbWZ2UzJMM2o2UWZJVUJWUHVtb2RTaEdMemNFdkEzaGJWWGlJV2d4aXVfVXc4eTA5VXZ0TVR6QWxGSFZLQ25rVjdtSEgySm04aHJW?oc=5",
-   "usd": 840000000.0,
-   "value": 840000000.0,
-   "year": 2026
-  },
-  "updated": "2026-11-17"
- },
  "agibot": {
   "aliases": [],
   "categories": [
@@ -1330,22 +1306,6 @@
   "origin": "news",
   "updated": "2026-11-16"
  },
- "gxo-logistics": {
-  "aliases": [
-   "GXO"
-  ],
-  "categories": [
-   "logistics"
-  ],
-  "country": "US",
-  "description": "",
-  "first_seen": "2026-11-17",
-  "focus": [],
-  "id": "gxo-logistics",
-  "name": "GXO Logistics",
-  "origin": "news",
-  "updated": "2026-11-17"
- },
  "hausbots": {
   "aliases": [],
   "categories": [
@@ -1511,22 +1471,6 @@
   "name": "Keenon Robotics",
   "origin": "seed",
   "updated": "2026-11-16"
- },
- "kelluu": {
-  "aliases": [
-   "Kelluu Oy"
-  ],
-  "categories": [
-   "aerial"
-  ],
-  "country": "FI",
-  "description": "Финская компания, разрабатывающая автономные летательные аппараты и системы.",
-  "first_seen": "2026-11-17",
-  "focus": [],
-  "id": "kelluu",
-  "name": "Kelluu",
-  "origin": "news",
-  "updated": "2026-11-17"
  },
  "kite-robotics": {
   "aliases": [],
@@ -1747,21 +1691,6 @@
   "origin": "news",
   "updated": "2026-11-17"
  },
- "matrixspace": {
-  "aliases": [],
-  "categories": [
-   "security",
-   "aerial"
-  ],
-  "country": "",
-  "description": "Разработчик AI-радаров для обнаружения и отслеживания низколетящих объектов.",
-  "first_seen": "2026-11-17",
-  "focus": [],
-  "id": "matrixspace",
-  "name": "MatrixSpace",
-  "origin": "news",
-  "updated": "2026-11-17"
- },
  "matternet": {
   "aliases": [],
   "categories": [
@@ -1774,29 +1703,6 @@
   "focus": [],
   "id": "matternet",
   "name": "Matternet",
-  "origin": "news",
-  "updated": "2026-11-17"
- },
- "mavria": {
-  "aliases": [
-   "Mavria"
-  ],
-  "categories": [],
-  "country": "",
-  "description": "",
-  "first_seen": "2026-11-17",
-  "focus": [],
-  "id": "mavria",
-  "last_round": {
-   "as_of": "2026-11-14",
-   "currency": "USD",
-   "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUFdSZXlscTY1RndVc2xnSWd4WmZva0tFa0FXQWpydWd3TlBUMHhaZnZoV1ZjY2QzRkpwQ1VoZW1ja0VKZ0FKaERpWUdZZ3JEOHB0Q1FMNTJZN2NoblEwdl9PNTV2QjlpWE1zSnJnRmEyTVVCS0NMaG10cWFZUnNBSk0wVUV6ZmZ2WmxXZlBkaGEtUnlWZ19zdjhIWE0?oc=5",
-   "type": "unknown",
-   "usd": 130000000.0,
-   "value": 130000000.0
-  },
-  "name": "Mavria",
   "origin": "news",
   "updated": "2026-11-17"
  },
@@ -1927,23 +1833,6 @@
   "origin": "seed",
   "updated": "2026-11-17"
  },
- "narwal": {
-  "aliases": [
-   "Narwal Robotics"
-  ],
-  "categories": [
-   "service",
-   "cleaning"
-  ],
-  "country": "CN",
-  "description": "Производитель домашних роботов-пылесосов с функцией мытья полов",
-  "first_seen": "2026-11-16",
-  "focus": [],
-  "id": "narwal",
-  "name": "Narwal",
-  "origin": "news",
-  "updated": "2026-11-16"
- },
  "nilfisk": {
   "aliases": [],
   "categories": [
@@ -1987,47 +1876,6 @@
   "name": "OffWorld",
   "origin": "seed",
   "updated": "2026-11-16"
- },
- "ondas": {
-  "aliases": [
-   "Ondas Inc.",
-   "ONDS"
-  ],
-  "categories": [
-   "aerial"
-  ],
-  "country": "US",
-  "description": "",
-  "first_seen": "2026-11-17",
-  "focus": [],
-  "id": "ondas",
-  "name": "Ondas",
-  "origin": "news",
-  "revenue": {
-   "as_of": "2026-11-13",
-   "currency": "USD",
-   "source": "https://dronelife.com/2026/11/13/ondas-revenue-growth-defense-drones-2026/",
-   "usd": 167500000.0,
-   "value": 167500000.0,
-   "year": 2026
-  },
-  "updated": "2026-11-17"
- },
- "openai": {
-  "aliases": [
-   "Open AI"
-  ],
-  "categories": [
-   "components"
-  ],
-  "country": "US",
-  "description": "Компания в области ИИ, разработчик ChatGPT",
-  "first_seen": "2026-11-17",
-  "focus": [],
-  "id": "openai",
-  "name": "OpenAI",
-  "origin": "news",
-  "updated": "2026-11-17"
  },
  "path-robotics": {
   "aliases": [],
@@ -2130,27 +1978,6 @@
   "name": "Physicl",
   "origin": "news",
   "updated": "2026-11-16"
- },
- "plural": {
-  "aliases": [],
-  "categories": [],
-  "country": "",
-  "description": "",
-  "first_seen": "2026-11-17",
-  "focus": [],
-  "id": "plural",
-  "last_round": {
-   "as_of": "2026-11-16",
-   "currency": "USD",
-   "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMidEFVX3lxTE13ZGlnZGU1MVRKNUk3Zll2YlBVM3czdEYyTFJQQXA0RTZPMFZXWEZEVnREUm9NcnVnTUY3bVJqcFFBQW9yTWtwUmU2RGlhaUo1Qzkwd0VHUTR0TUJCVlZqZVNTM1F2NjY5T3FNSzN3WlFrQ3Vi?oc=5",
-   "type": "",
-   "usd": 1100000000.0,
-   "value": 1100000000.0
-  },
-  "name": "Plural",
-  "origin": "news",
-  "updated": "2026-11-17"
  },
  "polight": {
   "aliases": [
@@ -2539,30 +2366,6 @@
   },
   "updated": "2026-11-17"
  },
- "shield": {
-  "aliases": [
-   "Echodyne"
-  ],
-  "categories": [
-   "aerial",
-   "components"
-  ],
-  "country": "",
-  "description": "Компания, развивающая автономные системы для оборонных задач и систему радаров.",
-  "first_seen": "2026-11-17",
-  "focus": [],
-  "id": "shield",
-  "name": "Shield",
-  "origin": "news",
-  "updated": "2026-11-17",
-  "valuation": {
-   "as_of": "2026-11-10",
-   "currency": "USD",
-   "source": "https://dronedj.com/2026/11/09/shield-echodyne-acquire-counter-drone/",
-   "usd": 28800000000.0,
-   "value": 28800000000.0
-  }
- },
  "skydio": {
   "aliases": [],
   "categories": [
@@ -2771,22 +2574,6 @@
   "name": "Tennant",
   "origin": "seed",
   "updated": "2026-11-16"
- },
- "tesla": {
-  "aliases": [
-   "Тесла"
-  ],
-  "categories": [
-   "delivery"
-  ],
-  "country": "US",
-  "description": "",
-  "first_seen": "2026-11-17",
-  "focus": [],
-  "id": "tesla",
-  "name": "Tesla",
-  "origin": "news",
-  "updated": "2026-11-17"
  },
  "tevel-aerobotics": {
   "aliases": [
@@ -3033,31 +2820,6 @@
   "id": "wing",
   "name": "Wing",
   "origin": "seed",
-  "updated": "2026-11-17"
- },
- "wonder": {
-  "aliases": [
-   "Wonder"
-  ],
-  "categories": [
-   "service"
-  ],
-  "country": "",
-  "description": "Компания, основанная Марком Лором, работающая в сфере роботизации питания.",
-  "first_seen": "2026-11-17",
-  "focus": [],
-  "id": "wonder",
-  "last_round": {
-   "as_of": "2026-11-14",
-   "currency": "USD",
-   "investors": [],
-   "source": "https://www.therobotreport.com/food-robotics-2-0-why-this-time-could-be-different/",
-   "type": "unknown",
-   "usd": 3000000000.0,
-   "value": 3000000000.0
-  },
-  "name": "Wonder",
-  "origin": "news",
   "updated": "2026-11-17"
  },
  "world-labs": {
