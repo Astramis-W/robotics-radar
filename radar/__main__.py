@@ -3,6 +3,7 @@
   check    проверить источники (ничего не пишет, модель не вызывает)
   run      обычный прогон: сбор -> разбор моделью -> сборка страницы -> уведомления
   weekly   раз в неделю: обогащение карточек + дайджест + сборка страницы
+  review   пересмотреть уже записанные события по текущим правилам релевантности
   collect | extract | enrich | digest | build | seed — те же шаги по отдельности
 """
 from __future__ import annotations
@@ -21,6 +22,7 @@ from .entities import load_seed
 from .extract import run_extract
 from .fx import Rates
 from .llm import LLM
+from .review import run_review
 from .store import Store
 from .util import now_iso
 
@@ -46,7 +48,7 @@ def cmd_check(_args) -> int:
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="radar", description=__doc__,
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("command", choices=["check", "run", "weekly", "collect", "extract",
+    parser.add_argument("command", choices=["check", "run", "weekly", "review", "collect", "extract",
                                             "enrich", "digest", "build", "seed"])
     parser.add_argument("--limit", type=int, help="сколько новостей или компаний обработать за раз")
     parser.add_argument("-v", "--verbose", action="store_true")
@@ -88,6 +90,13 @@ def main(argv: list[str] | None = None) -> int:
                  "в очереди %d", got["processed"], got["relevant"], got["events_new"],
                  got["events_merged"], got["companies_new"], got["left_in_queue"])
 
+    if cmd == "review":
+        got = run_review(store, llm, tax)
+        record["errors"] += got.pop("errors")
+        record.update(got)
+        log.info("пересмотр: проверено %d, убрано %d, важность изменена у %d, карточек убрано %d",
+                 got["reviewed"], got["removed"], got["rescored"], got["companies_removed"])
+
     if cmd in ("weekly", "enrich"):
         got = run_enrich(store, llm, tax, settings, rates, limit=args.limit)
         record["errors"] += got.pop("errors")
@@ -110,7 +119,7 @@ def main(argv: list[str] | None = None) -> int:
     record["queue"] = len(store.queue)
     store.log_run(record)
 
-    if cmd in ("run", "weekly", "build", "extract", "enrich", "digest", "seed"):
+    if cmd in ("run", "weekly", "review", "build", "extract", "enrich", "digest", "seed"):
         counts = build(store, tax, settings)
         log.info("страница: компаний %(companies)d, решений %(products)d, событий %(events)d", counts)
     store.save()

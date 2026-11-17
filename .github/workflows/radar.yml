@@ -10,7 +10,7 @@ on:
         description: "Что запустить"
         type: choice
         default: run
-        options: [run, weekly, check]
+        options: [run, weekly, review, check]
 
 permissions:
   contents: write

@@ -62,6 +62,7 @@ Settings → Secrets and variables → Actions → Variables → `DEPLOY_PAGES` 
 | Рубрики, типы событий, «наши ниши» | `config/taxonomy.yaml` |
 | Стартовый список компаний | `config/seed_companies.yaml` |
 | Ручные правки карточек (побеждают автоматику), скрытие и склейка дублей | `config/overrides.yaml` |
+| Правила «что берём и что не берём» для модели | `radar/extract.py`, блок `RELEVANCE` |
 
 **Telegram.** Публичные каналы читаются через веб-превью `t.me/s/имя`: аккаунт, сессии и ключи
 не нужны. Допишите имена каналов в `config/sources.yaml`; каналам про беспилотники ставьте
@@ -82,6 +83,7 @@ pip install -r requirements.txt
 python -m radar check      # проверить, что источники отвечают (ничего не пишет)
 python -m radar run        # сбор → разбор → страница
 python -m radar weekly     # обогащение карточек + дайджест
+python -m radar review     # пересмотреть записанные события по текущим правилам релевантности
 python -m pytest -q        # тесты, без сети и ключей
 python -m http.server 8000 --directory site    # посмотреть страницу локально
 ```

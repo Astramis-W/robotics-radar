@@ -139,11 +139,20 @@ def parse_telegram(html: str, channel: str, region: str | None = None) -> list[d
 
 def fetch_telegram(client: httpx.Client, src: dict) -> list[dict]:
     channel = src["channel"].lstrip("@")
-    r = client.get(f"https://t.me/s/{channel}")
-    r.raise_for_status()
-    items = parse_telegram(r.text, channel, src.get("region"))
-    if not items and "tgme_widget_message" not in r.text:
-        raise ValueError("нет публичного превью (канал закрытый, пустой или переименован)")
+    items, before = [], None
+    for page in range(max(1, int(src.get("pages", 1)))):
+        r = client.get(f"https://t.me/s/{channel}", params={"before": before} if before else None)
+        r.raise_for_status()
+        if "tgme_widget_message" not in r.text:
+            if page == 0:
+                raise ValueError("нет публичного превью (канал закрытый, пустой или переименован)")
+            break
+        items += parse_telegram(r.text, channel, src.get("region"))
+        ids = [int(x) for x in re.findall(r'data-post="[^"/]+/(\d+)"', r.text)]
+        if not ids:
+            break
+        before = min(ids)                # следующая страница — посты старше самого раннего на этой
+        time.sleep(1.0)
     return items
 
 
@@ -195,7 +204,7 @@ def _fetch_source(client: httpx.Client, kind: str, src: dict, window: str) -> tu
         if kind == "rss":
             return fetch_rss(client, src), ""
         if kind == "gnews":
-            return fetch_gnews(client, src, window), ""
+            return fetch_gnews(client, src, str(src.get("window") or window)), ""
         return fetch_telegram(client, src), ""
     except httpx.HTTPStatusError as exc:
         return [], f"HTTP {exc.response.status_code}"
@@ -220,6 +229,11 @@ def _fetch_gently(client: httpx.Client, jobs: list[tuple[str, dict]], window: st
             results[i] = _fetch_source(client, jobs[i][0], jobs[i][1], window)
             time.sleep(GENTLE_PAUSE * 1.5)
     return [results[i] for i in range(len(jobs))]
+
+
+def _window_days(window) -> int:
+    m = re.match(r"^(\d+)d$", str(window or ""))
+    return int(m.group(1)) if m else 0
 
 
 def source_label(kind: str, src: dict) -> str:
@@ -252,16 +266,22 @@ def collect(store: Store | None, sources: dict, *, dry_run: bool = False) -> dic
             results = list(pool.map(lambda j: _fetch_source(client, j[0], j[1], window), jobs))
         results += _fetch_gently(client, slow_jobs, window)
 
+        today = now().strftime("%Y-%m-%d")
         for (kind, src), (items, error) in zip(jobs + slow_jobs, results):
             new = 0
+            keep = max(max_age, _window_days(src.get("window"))) if kind == "gnews" else max_age
+            src_cutoff = cutoff if keep == max_age else now() - timedelta(days=keep)
             for it in items:
-                if datetime.strptime(it["published"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=UTC) < cutoff:
+                if datetime.strptime(it["published"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=UTC) < src_cutoff:
                     continue
                 keys = dedupe_keys(it)
-                if any(k in seen for k in keys) or it["id"] in queued:
-                    continue
+                known = any(k in seen for k in keys) or it["id"] in queued
                 for k in keys:
-                    seen[k] = it["published"][:10]
+                    seen[k] = today      # дата последней встречи: пока запись видна в ленте, она не «забывается»
+                if known:
+                    continue
+                if keep != max_age:
+                    it["keep_days"] = keep       # запросу с длинным окном разрешены и старые новости
                 if src.get("filter") and not kw.passes(it):
                     continue
                 if kind != "rss" and kw.exclude and kw.exclude.search(it["title"]):

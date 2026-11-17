@@ -42,16 +42,17 @@ rss:
   - {name: Naked Science,             url: "https://naked-science.ru/feed", region: ru, filter: true}
 
 # Поиск Google News по запросам. Даёт только заголовки, зато ловит новости из любых изданий.
+# window: 30d — искать за 30 дней вместо обычных трёх: для узких ниш, где новости редкие.
 google_news:
   # Россия
   - {q: "робототехника компания", lang: ru}
   - {q: "роботы инвестиции раунд", lang: ru}
   - {q: "сервисные роботы внедрение", lang: ru}
-  - {q: "дрон мойка фасадов", lang: ru}
-  - {q: "робот для мойки окон фасадов", lang: ru}
-  - {q: "робот поломоечный", lang: ru}
+  - {q: "дрон мойка фасадов", lang: ru, window: 30d}
+  - {q: "робот для мойки окон фасадов", lang: ru, window: 30d}
+  - {q: "робот поломоечный", lang: ru, window: 30d}
   - {q: "агродрон беспилотник сельское хозяйство", lang: ru}
-  - {q: "робот очистка резервуаров", lang: ru}
+  - {q: "робот очистка резервуаров", lang: ru, window: 30d}
   - {q: "складские роботы внедрение", lang: ru}
   - {q: "роботизация производства Россия", lang: ru}
   - {q: "беспилотные авиационные системы гражданские производитель", lang: ru}
@@ -59,11 +60,11 @@ google_news:
   - {q: "robotics startup raises", lang: en}
   - {q: "robotics funding round Series", lang: en}
   - {q: "drone company raises funding", lang: en}
-  - {q: "facade cleaning drone", lang: en}
-  - {q: "window cleaning robot building", lang: en}
-  - {q: "autonomous floor cleaning robot", lang: en}
-  - {q: "tank cleaning robot", lang: en}
-  - {q: "magnetic crawler robot", lang: en}
+  - {q: "facade cleaning drone", lang: en, window: 30d}
+  - {q: "window cleaning robot building", lang: en, window: 30d}
+  - {q: "autonomous floor cleaning robot", lang: en, window: 30d}
+  - {q: "tank cleaning robot", lang: en, window: 30d}
+  - {q: "magnetic crawler robot", lang: en, window: 30d}
   - {q: "agricultural robot startup", lang: en}
   - {q: "mining autonomous robot underground", lang: en}
   - {q: "inspection robot deployment", lang: en}
@@ -73,10 +74,13 @@ google_news:
 
 # Публичные Telegram-каналы (читаются через веб-превью t.me/s/..., аккаунт и ключи не нужны).
 # channel — имя из ссылки: t.me/prorobots -> prorobots
+# pages: N — читать N страниц превью (по ~20 постов) для каналов, которые пишут очень часто
 # Стартовый набор из двух каналов, проверенных на доступность 16.11.2026. Добавьте свои.
 telegram:
   - {channel: prorobots,        region: ru}
   - {channel: robotics_channel, region: ru}
+  - {channel: innocluster,      region: ru, filter: true}            # Московский инновационный кластер
+  - {channel: banksta,          region: ru, filter: true, pages: 2}  # Банкста: ~85 постов в день, читаем две страницы
   # Каналы про беспилотники часто наполовину состоят из военной хроники — ставьте им filter: true:
   # - {channel: имя_канала, region: ru, filter: true}
 

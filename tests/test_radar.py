@@ -333,3 +333,67 @@ def test_collect_retries_rate_limited_search(monkeypatch):
                            "google_news": [{"q": "a"}, {"q": "b"}, {"q": "c"}]}, dry_run=True)
     assert calls == ["r", "a", "b", "c", "b"] and not got["errors"]       # второй заход — только по отказу
     assert sleeps == [c.GENTLE_PAUSE] * 3 + [c.RETRY_AFTER, c.GENTLE_PAUSE * 1.5]
+
+
+# ---------- длинное окно для ниш, пересмотр базы, страницы Telegram ----------
+
+def test_niche_window_keeps_older_items(monkeypatch, env):
+    import radar.collect as c
+    store, tax, settings, rates = env
+    old = (now() - timedelta(days=20)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    def fake(client, kind, src, window):
+        it = {"id": "x" + src["q"], "source": "S", "kind": "gnews", "region_hint": "", "collected": old,
+              "url": "https://e.example/" + src["q"], "title": "Robot cleans tall glass facade in pilot " + src["q"],
+              "text": "", "published": old}
+        return [it], ""
+    monkeypatch.setattr(c, "_fetch_source", fake)
+    monkeypatch.setattr(c.time, "sleep", lambda _s: None)
+    got = c.collect(store, {"google_news": [{"q": "usual"}, {"q": "niche", "window": "30d"}]})
+    assert got["new_items"] == 1 and store.queue[0]["keep_days"] == 30      # обычный запрос 20-дневное не берёт
+    assert set(store.seen.values()) == {now().strftime("%Y-%m-%d")}         # «виденное» — по дате встречи
+    assert c.collect(store, {"google_news": [{"q": "niche", "window": "30d"}]})["new_items"] == 0
+    stats = run_extract(store, FakeLLM({}), tax, settings, rates)           # и разбор его не выбрасывает как старое
+    assert stats["dropped_old"] == 0 and stats["processed"] == 1
+
+
+def test_review_removes_offtopic_and_orphans(env):
+    from radar.review import run_review
+    store, tax, settings, rates = env
+    store.queue = [item(1, "Робот"), item(2, "Еда"), item(3, "Радар")]
+    run_extract(store, FakeLLM({
+        "Робот": [ev(type="funding", title="RoboCo привлекла раунд", company_name="RoboCo", importance=5)],
+        "Еда": [ev(type="funding", title="FoodCo привлекла раунд", company_name="FoodCo", product_name="App")],
+        "Радар": [ev(type="ma", title="RoboCo купила стартап", company_name="RoboCo", importance=3)],
+    }), tax, settings, rates)
+    assert len(store.events) == 3 and "foodco" in store.companies and store.products
+
+    class Judge:
+        available = True
+        def __init__(self, verdict): self.verdict = verdict
+        def json(self, system, user, schema, **_):
+            rows = json.loads(user.split("События:\n", 1)[1])
+            return {"items": [{"idx": r["idx"], **self.verdict(r)} for r in rows]}
+
+    wipe = run_review(store, Judge(lambda r: {"keep": False, "importance": 1}), tax)
+    assert len(store.events) == 3 and "подозрительно" in wipe["errors"][0]     # предохранитель сработал
+
+    got = run_review(store, Judge(lambda r: {"keep": "FoodCo" not in r["title"], "importance": 4}), tax)
+    assert got["removed"] == 1 and got["removed_titles"] == ["FoodCo привлекла раунд"]
+    assert got["companies_removed"] == 1 and "foodco" not in store.companies and not store.products
+    assert {e["importance"] for e in store.events} == {4} and got["rescored"] == 2
+
+
+def test_telegram_reads_several_pages(monkeypatch):
+    import radar.collect as c
+    post = lambda n: (f'<div class="tgme_widget_message" data-post="chan/{n}"><div class="tgme_widget_message_text">'  # noqa: E731
+                      f'Пост номер {n} про роботов и ещё немного текста, чтобы он не считался слишком коротким постом.</div>'
+                      f'<a class="tgme_widget_message_date"><time datetime="2026-11-16T10:00:00+00:00"></time></a></div>')
+    asked = []
+    class Client:
+        def get(self, url, params=None):
+            asked.append(params)
+            html = post(30) + post(31) if not params else post(28) + post(29)
+            return type("R", (), {"text": html, "raise_for_status": lambda self: None})()
+    monkeypatch.setattr(c.time, "sleep", lambda _s: None)
+    items = c.fetch_telegram(Client(), {"channel": "chan", "pages": 2})
+    assert asked == [None, {"before": 30}] and [i["url"][-2:] for i in items] == ["30", "31", "28", "29"]
