@@ -2486,6 +2486,21 @@
   "origin": "seed",
   "updated": "2026-11-16"
  },
+ "sber": {
+  "aliases": [
+   "Sber",
+   "СБЕР"
+  ],
+  "categories": [],
+  "country": "RU",
+  "description": "",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "sber",
+  "name": "Сбер",
+  "origin": "news",
+  "updated": "2026-11-17"
+ },
  "serbot": {
   "aliases": [],
   "categories": [
