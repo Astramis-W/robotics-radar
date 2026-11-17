@@ -1,4 +1,36 @@
 {
+ "acsl--soten": {
+  "categories": [
+   "aerial"
+  ],
+  "company_id": "acsl",
+  "description": "Дрон ACSL, для которого создаётся программа обучения и сертификации.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "acsl--soten",
+  "name": "SOTEN",
+  "sources": [
+   "https://dronedj.com/2026/11/11/acsl-soten-drone-training-usi/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-17"
+ },
+ "aerodata--aeroforce-x": {
+  "categories": [
+   "aerial"
+  ],
+  "company_id": "aerodata",
+  "description": "Беспилотник класса MALE с заявленной выносливостью до 40 часов и полезной нагрузкой до 1300 кг.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "aerodata--aeroforce-x",
+  "name": "AeroForce X",
+  "sources": [
+   "https://dronexl.co/2026/11/16/aerodata-aeroforce-x-first-flight-pilot-on-board-strausberg/"
+  ],
+  "stage": "prototype",
+  "updated": "2026-11-17"
+ },
  "agibot--g2": {
   "categories": [
    "humanoid",
@@ -15,6 +47,122 @@
   ],
   "stage": "pilot",
   "updated": "2026-11-16"
+ },
+ "agxeed--agbot-t2-series-7": {
+  "categories": [
+   "agro"
+  ],
+  "company_id": "agxeed",
+  "description": "Второе поколение беспилотного трактора AgBot без кабины.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "agxeed--agbot-t2-series-7",
+  "name": "AgBot T2 Series 7",
+  "sources": [
+   "https://www.futurefarming.com/machinery/claas-scoops-two-awards-at-toty-2027-agxeed-wins-again-with-agbot/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-17"
+ },
+ "agxeed--w4": {
+  "categories": [
+   "agro"
+  ],
+  "company_id": "agxeed",
+  "description": "Автономный полевой робот для косьбы и ворошения травы",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "agxeed--w4",
+  "name": "W4",
+  "price": {
+   "as_of": "2026-11-16",
+   "currency": "EUR",
+   "source": "https://www.futurefarming.com/tech-in-focus/field-robots/user-review-will-field-robots-become-the-next-milking-robots/",
+   "usd": 220122.74,
+   "value": 200000.0
+  },
+  "sources": [
+   "https://www.futurefarming.com/tech-in-focus/field-robots/user-review-will-field-robots-become-the-next-milking-robots/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-17"
+ },
+ "aigen--element": {
+  "categories": [
+   "agro"
+  ],
+  "company_id": "aigen",
+  "description": "Солнечный полевой робот для механической прополки картофеля, кукурузы, сои и томатов с 2–4 рабочими руками.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "aigen--element",
+  "name": "Element",
+  "price": {
+   "as_of": "2026-11-11",
+   "currency": "EUR",
+   "source": "https://www.futurefarming.com/tech-in-focus/field-robots/fira-usa-van-autonome-smalspoortrekker-tot-15-meter-brede-spotsprayer/",
+   "usd": 49197.43,
+   "value": 44700.0
+  },
+  "sources": [
+   "https://www.futurefarming.com/tech-in-focus/field-robots/fira-usa-van-autonome-smalspoortrekker-tot-15-meter-brede-spotsprayer/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-17"
+ },
+ "air-white-whale--w5000": {
+  "categories": [
+   "aerial",
+   "logistics"
+  ],
+  "company_id": "air-white-whale",
+  "description": "Беспилотный грузовой самолёт грузоподъёмностью 5 т и дальностью 2600 км.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "air-white-whale--w5000",
+  "name": "W5000",
+  "sources": [
+   "https://3dnews.ru/1151362",
+   "https://dronexl.co/2026/11/16/china-w5000-cargo-drone-first-flight-air-force-cessna-caravans/"
+  ],
+  "stage": "prototype",
+  "updated": "2026-11-17"
+ },
+ "amazon--mk30": {
+  "categories": [
+   "delivery",
+   "aerial"
+  ],
+  "company_id": "amazon",
+  "description": "Дрон доставки Amazon Prime Air.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "amazon--mk30",
+  "name": "MK30",
+  "sources": [
+   "https://dronexl.co/2026/11/13/amazon-drone-noise-spring-texas-wing-walmart-richmond-hub/",
+   "https://dronedj.com/2026/11/11/amazon-drone-delivery-uk-sail4/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-17"
+ },
+ "amazon--prime-air": {
+  "categories": [
+   "aerial",
+   "delivery"
+  ],
+  "company_id": "amazon",
+  "description": "Хаб доставки дронами.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "amazon--prime-air",
+  "name": "Prime Air",
+  "sources": [
+   "https://dronexl.co/2026/11/16/amazon-nampa-drone-permit-conditions-no-noise-altitude-limit/",
+   "https://dronexl.co/2026/11/15/amazon-baton-rouge-drone-routes-changed-30-an-hour/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-17"
  },
  "andromeda-robotics--abi": {
   "categories": [
@@ -33,6 +181,41 @@
   "stage": "unknown",
   "updated": "2026-11-16"
  },
+ "apptronik--apollo": {
+  "categories": [
+   "humanoid",
+   "logistics"
+  ],
+  "company_id": "apptronik",
+  "description": "Гуманоидный робот для складских задач",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "apptronik--apollo",
+  "name": "Apollo",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeldYUVdhYkhDZ1VmeV8xeDM2RDgxX2Y4U3h2eGI2SEt4LWRtUXFhNEhyQmVCcVYzZDR0N2Z5SWcyRk5rV3p2MWVDZXp6djQtczdrQ0lIemRSRkZubEpzUlo3Ym9GekhBTllvZVBwWDR6aEt2QnB5MlFHc3BmU3ZPdjB0NzhiNjhGYUFIYW93?oc=5"
+  ],
+  "stage": "pilot",
+  "updated": "2026-11-17"
+ },
+ "asus--gallop": {
+  "categories": [
+   "humanoid",
+   "manufacturing"
+  ],
+  "company_id": "asus",
+  "description": "Человекоподобный робот для повторяющихся задач на производстве электроники",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "asus--gallop",
+  "name": "Gallop",
+  "sources": [
+   "https://habr.com/ru/articles/1108292/?utm_campaign=1108292&utm_source=habrahabr&utm_medium=rss",
+   "https://news.google.com/rss/articles/CBMic0FVX3lxTE41Tmg1c2xLa3hNY0t1OVRrOGQzODNPd0dCcUFHWldxbkJMQVlPMG5YaC1CcVRld21TTnpTZ0NkR1FZVG9NaDFYVHVIUkM4TkxhQ21tNGdoLWR1cnk1MnlYbm1ua1ZqVl81R2JkSEZJQkZhcmc?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-17"
+ },
  "bhf-robotics--blitz-electric-weeder": {
   "categories": [
    "agro"
@@ -48,6 +231,153 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-16"
+ },
+ "biobest--polly": {
+  "categories": [
+   "agro"
+  ],
+  "company_id": "biobest",
+  "description": "Полностью автономный робот для опыления томатов.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "biobest--polly",
+  "name": "Polly",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRmI1MUdibUs1STRsTzNMYmNnU0JuWnNqVFhVNnZaMUxxb3VCb181b0lpQ09jVWNMcE54TjJxeGplaTVOTWZQWmVqSFN4T2NqVWxzSGQtWjJMcXdwVTVCb1o1UnViU2lDQ3ZQQkNYUHltV3BZamxHWDNXU2NWTk8zcTRDNDZ3OURxSktUbk1iU2pZMVc0bFVWbmZrTno1cDZxSnpIN0V1bmJLbVZWalZFVGU1U01wR293NHU3aGJROEptQQ?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-17"
+ },
+ "boston-dynamics--atlas": {
+  "categories": [
+   "humanoid"
+  ],
+  "company_id": "boston-dynamics",
+  "description": "Гуманоидный робот Atlas в колёсной конфигурации.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "boston-dynamics--atlas",
+  "name": "Atlas",
+  "sources": [
+   "https://habr.com/ru/articles/1105822/?utm_campaign=1105822&utm_source=habrahabr&utm_medium=rss"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-17"
+ },
+ "custom-electronics--vtol-sail-wing": {
+  "categories": [
+   "aerial",
+   "components"
+  ],
+  "company_id": "custom-electronics",
+  "description": "Дальнобойный VTOL-самолёт с коаксиальной квадрокоптерной схемой для длительных полётов.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "custom-electronics--vtol-sail-wing",
+  "name": "VTOL Sail Wing",
+  "sources": [
+   "https://www.suasnews.com/2026/11/custom-electronics-inc-cei-offers-advanced-drone-power-and-uav-solutions/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-17"
+ },
+ "dji--dji-matrice-4-series": {
+  "categories": [
+   "aerial"
+  ],
+  "company_id": "dji",
+  "description": "Корпоративные дроны Matrice 4E и Matrice 4T для инспекций, картографии и спасательных операций.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "dji--dji-matrice-4-series",
+  "name": "DJI Matrice 4 Series",
+  "sources": [
+   "https://dronedj.com/2026/11/16/new-firmware-dji-matrice-4/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-17"
+ },
+ "dronamics--black-swan": {
+  "categories": [
+   "aerial",
+   "logistics"
+  ],
+  "company_id": "dronamics",
+  "description": "",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "dronamics--black-swan",
+  "name": "Black Swan",
+  "sources": [
+   "https://dronexl.co/2026/11/16/dronamics-spac-trust-redemptions-black-swan-nasdaq/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-17"
+ },
+ "dronecloud--dronecloud-fly": {
+  "categories": [
+   "aerial"
+  ],
+  "company_id": "dronecloud",
+  "description": "Бесплатный сервис уведомлений о полётах вблизи железных дорог, автомагистралей и другой чувствительной инфраструктуры.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "dronecloud--dronecloud-fly",
+  "name": "Dronecloud Fly",
+  "sources": [
+   "https://dronedj.com/2026/11/12/dronecloud-uk-drone-pilot-notification/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-17"
+ },
+ "dronetag--scout-gen-2": {
+  "categories": [
+   "aerial",
+   "security"
+  ],
+  "company_id": "dronetag",
+  "description": "Стационарный приёмник Remote ID для мониторинга дронов на больших территориях",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "dronetag--scout-gen-2",
+  "name": "Scout Gen 2",
+  "sources": [
+   "https://dronedj.com/2026/11/13/dronetag-scout-gen-2-drone-remote-id/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-17"
+ },
+ "dynamic-creatures--hugo": {
+  "categories": [
+   "service"
+  ],
+  "company_id": "dynamic-creatures",
+  "description": "Мобильный выразительный робот-персонаж для перемещения по гостевым зонам.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "dynamic-creatures--hugo",
+  "name": "Hugo",
+  "sources": [
+   "https://www.therobotreport.com/dynamic-creatures-partners-sixth-wall-studio-bring-hasbro-characters-life-with-robots/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-17"
+ },
+ "galileo--galileo-c1-w": {
+  "categories": [
+   "logistics"
+  ],
+  "company_id": "galileo",
+  "description": "Робот-собака для складов.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "galileo--galileo-c1-w",
+  "name": "Galileo C1-W",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMimgJBVV95cUxQRmgyakFjeVVOX0w5V2JCelZjQ1ZXekRNak5ic0dNaHBpNmdOVDdFazdzeEE1d09VN2NULWlWdlVRa1JfYVBQME1JeHlfXzZuWEtOR3BMaGs1azZBVHlXSUtBQlVJWEF4U3JSQlFxdTZRR3ZibFpEVUR3Y0taMEVXN3JEd3FxMU5oOE9IbUNWSXlHbmZsSnF0aERweVVON2p0OF9uZElhTEhqd1dJYlZoQW1wV2stM0ZNZUNaZnU2SUlJWXFSU1p1MHRvTGc1TlBqV0F5N3FfaUZtUmliZnQ1bEF0aThLNUVhTmNQdWpiOFNXa1BISWFxdUNIVU5JNzlUTlI0SG9jdmJDczEwdVByN0lzaFpZWmNBS1HSAZoCQVVfeXFMUEZoMmpBY3lVTl9MOVdiQnpWY0NWV3pETWpOYnNHTWhwaTZnTlQ3RWs3c3hBNXdPVTdjVC1pVnZVUWtSX2FQUDBNSXh5X182blhLTkdwTGhrNWs2QVR5V0lLQUJVSVhBeFNyUkJRcXU2UUd2YmxaRFVEd2NLWjBFVzdyRHdxcTFOaDhPSG1DVkl5R25mbEpxdGhEcHlVTjdqdDhfbmRJYUxIandXSWJWaEFtcFdrLTNGTWVDWmZ1NklJSVlxUlNadTB0b0xnNU5QaldBeTdxX2lGbVJpYmZ0NWxBdGk4SzVFYU5jUHVqYjhTV2tQSElhcXVDSFVOSTc5VE5SNEhvY3ZiQ3MxMHVQcjdJc2haWVpjQUtR?oc=5"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-17"
  },
  "google-deepmind--gemini-robotics-25": {
   "categories": [
@@ -65,6 +395,22 @@
   "stage": "serial",
   "updated": "2026-11-16"
  },
+ "kelluu--halo": {
+  "categories": [
+   "aerial"
+  ],
+  "company_id": "kelluu",
+  "description": "Дирижабль с встроенным пассивным радаром для наблюдения за воздушным пространством на малых высотах.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "kelluu--halo",
+  "name": "HALO",
+  "sources": [
+   "https://www.suasnews.com/2026/11/kelluu-unveils-a-passive-radar-for-a-new-era/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-17"
+ },
  "kret--dmr-2854": {
   "categories": [
    "components"
@@ -80,6 +426,73 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-16"
+ },
+ "matrixspace--portable-c-uas-detection-solutions": {
+  "categories": [
+   "security",
+   "aerial"
+  ],
+  "company_id": "matrixspace",
+  "description": "Портативные радарные решения для обнаружения малых дронов.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "matrixspace--portable-c-uas-detection-solutions",
+  "name": "Portable C-UAS detection solutions",
+  "sources": [
+   "https://www.suasnews.com/2026/11/matrixspace-portable-c-uas-detection-solutions-now-available-on-jiatf-401-c-uas-marketplace/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-17"
+ },
+ "matternet--m3": {
+  "categories": [
+   "aerial",
+   "medical"
+  ],
+  "company_id": "matternet",
+  "description": "Дрон для доставки с докингом M3 Dock, который можно установить на крыше больницы.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "matternet--m3",
+  "name": "M3",
+  "sources": [
+   "https://dronedj.com/2026/11/10/matternet-hospital-drone-delivery-swisslog/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-17"
+ },
+ "mobilicom--swarmix": {
+  "categories": [
+   "aerial",
+   "components"
+  ],
+  "company_id": "mobilicom",
+  "description": "Семейство защищённых высокопроизводительных mesh-коммуникаций для роёв дронов и автономных флотов.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "mobilicom--swarmix",
+  "name": "SwarmiX",
+  "sources": [
+   "https://www.suasnews.com/2026/11/mobilicom-announces-participation-in-upcoming-industry-investor-conferences/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-17"
+ },
+ "naio-technologies--oz": {
+  "categories": [
+   "agro"
+  ],
+  "company_id": "naio-technologies",
+  "description": "Электрический агроробот для механической прополки с навесными орудиями для посадки, культивации и уборки.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "naio-technologies--oz",
+  "name": "Oz",
+  "sources": [
+   "https://www.futurefarming.com/tech-in-focus/field-robots/na-o-extends-robot-oz-with-new-plug-planting-implement/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-17"
  },
  "naio-technologies--sanka": {
   "categories": [
@@ -97,6 +510,114 @@
   "stage": "prototype",
   "updated": "2026-11-16"
  },
+ "remedy-robotics--remedy-n1": {
+  "categories": [
+   "medical"
+  ],
+  "company_id": "remedy-robotics",
+  "description": "Роботизированный катетер для экстренных операций при ишемическом инсульте, включая тромбэктомию.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "remedy-robotics--remedy-n1",
+  "name": "Remedy N1",
+  "sources": [
+   "https://spectrum.ieee.org/telesurgery-stroke"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-17"
+ },
+ "richtech-robotics--intelligent-cleaning-system": {
+  "categories": [
+   "cleaning",
+   "service"
+  ],
+  "company_id": "richtech-robotics",
+  "description": "Система, объединяющая автономных уборочных роботов, камерный мониторинг и централизованные операционные данные.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "richtech-robotics--intelligent-cleaning-system",
+  "name": "Intelligent Cleaning System",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/16/richtech-robotics-to-unveil-ai-powered-cleaning-system-at-issa-show-2026/107210/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-17"
+ },
+ "ring--ring-drone-cam": {
+  "categories": [
+   "aerial",
+   "service",
+   "security"
+  ],
+  "company_id": "ring",
+  "description": "Домашняя внутренняя дрон-камера весом 165 граммов.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "ring--ring-drone-cam",
+  "name": "Ring Drone Cam",
+  "price": {
+   "as_of": "2026-11-10",
+   "currency": "USD",
+   "source": "https://dronexl.co/2026/11/13/ring-drone-cam-cbs-crash-no-manual-controls-failsafe/",
+   "usd": 249.99,
+   "value": 249.99
+  },
+  "sources": [
+   "https://dronexl.co/2026/11/13/axon-skydio-1-2-billion-ring-drone-cam-nampa-amazon-flight-data/",
+   "https://dronexl.co/2026/11/13/ring-drone-cam-cbs-crash-no-manual-controls-failsafe/"
+  ],
+  "stage": "prototype",
+  "updated": "2026-11-17"
+ },
+ "ring--ring-robotics": {
+  "categories": [
+   "security",
+   "aerial"
+  ],
+  "company_id": "ring",
+  "description": "Домашний дрон с камерой и колёсный робот для патрулирования коммерческих объектов.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "ring--ring-robotics",
+  "name": "Ring Robotics",
+  "sources": [
+   "https://habr.com/ru/articles/1106378/?utm_campaign=1106378&utm_source=habrahabr&utm_medium=rss"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-17"
+ },
+ "robbyant--lingbot-touch": {
+  "categories": [
+   "components"
+  ],
+  "company_id": "robbyant",
+  "description": "Открытая тактильная базовая модель для роботов, предобученная на почти 5000 часах реальных тактильных данных.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "robbyant--lingbot-touch",
+  "name": "LingBot-Touch",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/15/robbyant-launches-lingbot-touch-to-give-robots-a-sense-of-touch/107152/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-17"
+ },
+ "rosteh--depesha": {
+  "categories": [
+   "other"
+  ],
+  "company_id": "rosteh",
+  "description": "Наземный робот.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "rosteh--depesha",
+  "name": "Депеша",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUzU5OGtzbW1lcWtfMHRFVEMtNjg5VFJtUkl3OEg1TmJrQTd4VkcyX19nenZfTFZGaXA5ZGliN3JVUEFlMEpYVG0yMktNMzE5SngyZmt5RXM2VGxjVWhja0lsVS1ycTlaV2ktd1l4WWRRdTZKazNvWVJTeDlXVWh6WllsWlVWQ1V4WUd6WTRDeG5KTDc3aDAwQmVsTEJCZ2s?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-17"
+ },
  "runway--praxis-1": {
   "categories": [
    "components"
@@ -112,6 +633,57 @@
   ],
   "stage": "serial",
   "updated": "2026-11-16"
+ },
+ "saildrone--voyager": {
+  "categories": [
+   "marine",
+   "security"
+  ],
+  "company_id": "saildrone",
+  "description": "Беспилотный надводный аппарат длиной 10 м с ветровым приводом, солнечной энергетикой и вспомогательным мотором.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "saildrone--voyager",
+  "name": "Voyager",
+  "sources": [
+   "https://dronexl.co/2026/11/13/coast-guard-saildrones-great-lakes-season-ends-privacy/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-17"
+ },
+ "serve-robotics--av-delivery-developer-portal": {
+  "categories": [
+   "delivery",
+   "service"
+  ],
+  "company_id": "serve-robotics",
+  "description": "Публичный API и песочница для вызова роботов автопарка Serve для локальной доставки.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "serve-robotics--av-delivery-developer-portal",
+  "name": "AV Delivery Developer Portal",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/15/serve-robotics-opens-autonomous-delivery-network-to-developers-and-businesses/107169/",
+   "https://www.therobotreport.com/serve-robotics-opens-robot-delivery-network-for-others-to-build-on/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-17"
+ },
+ "skydio--controller-2": {
+  "categories": [
+   "aerial"
+  ],
+  "company_id": "skydio",
+  "description": "Полевой ручной контроллер для дронов Skydio X10, X10D и R10.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "skydio--controller-2",
+  "name": "Controller 2",
+  "sources": [
+   "https://dronedj.com/2026/11/10/skydio-drone-controller-2-5g/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-17"
  },
  "skydio--f10-lightrunner": {
   "categories": [
@@ -129,6 +701,56 @@
   "stage": "unknown",
   "updated": "2026-11-16"
  },
+ "skyways--v2": {
+  "categories": [
+   "aerial",
+   "inspection"
+  ],
+  "company_id": "skyways",
+  "description": "Гибридный VTOL-беспилотник с электродвигателями для взлёта и тяжёлотопливным двигателем для крейсерского полёта.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "skyways--v2",
+  "name": "V2",
+  "sources": [
+   "https://dronedj.com/2026/11/10/skyways-shell-drone-offshore-gulf/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-17"
+ },
+ "tesla--cybercab": {
+  "categories": [
+   "delivery"
+  ],
+  "company_id": "tesla",
+  "description": "Беспилотный автомобиль Tesla.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "tesla--cybercab",
+  "name": "Cybercab",
+  "sources": [
+   "https://3dnews.ru/1151377"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-17"
+ },
+ "uc-berkeley--robosimstudio": {
+  "categories": [
+   "manufacturing",
+   "components"
+  ],
+  "company_id": "uc-berkeley",
+  "description": "Открытый инструмент агентного кодирования симуляций роботизированных ячеек.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "uc-berkeley--robosimstudio",
+  "name": "RoboSimStudio",
+  "sources": [
+   "https://www.therobotreport.com/can-ai-agents-program-industrial-robots-without-training-data-berkeley-says-yes/"
+  ],
+  "stage": "prototype",
+  "updated": "2026-11-17"
+ },
  "viam--launchpad": {
   "categories": [
    "components"
@@ -144,5 +766,57 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-16"
+ },
+ "wing--walmart-drone-delivery": {
+  "categories": [
+   "aerial",
+   "delivery"
+  ],
+  "company_id": "wing",
+  "description": "",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "wing--walmart-drone-delivery",
+  "name": "Walmart drone delivery",
+  "sources": [
+   "https://dronexl.co/2026/11/13/wing-walmart-ponchatoula-louisiana-drone-delivery-coming-soon/",
+   "https://dronexl.co/2026/11/13/wing-walmart-ocoee-drone-delivery-police-not-ours/",
+   "https://dronexl.co/2026/11/13/wing-walmart-eastgate-cincinnati-drone-delivery-union-township/"
+  ],
+  "stage": "pilot",
+  "updated": "2026-11-17"
+ },
+ "zipline--platform-2": {
+  "categories": [
+   "delivery",
+   "aerial"
+  ],
+  "company_id": "zipline",
+  "description": "Автономный электрический летательный аппарат, который опускает заказ в грузовом контейнере на тросе с высоты около 300 футов.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "zipline--platform-2",
+  "name": "Platform 2",
+  "sources": [
+   "https://dronedj.com/2026/11/12/chipotle-pga-zipline-drone-delivery/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-17"
+ },
+ "zoox--robotaksi-zoox": {
+  "categories": [
+   "delivery"
+  ],
+  "company_id": "zoox",
+  "description": "Роботакси без места водителя.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "zoox--robotaksi-zoox",
+  "name": "Роботакси Zoox",
+  "sources": [
+   "https://vc.ru/transport/3259014-uber-zapusk-robotaksi-zoox-v-las-vegase?from=rss"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-17"
  }
 }
