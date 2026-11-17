@@ -1056,7 +1056,8 @@
  },
  "faraday-future": {
   "aliases": [
-   "FF"
+   "FF",
+   "Faraday Future Intelligent Electric"
   ],
   "categories": [
    "delivery",
@@ -1072,10 +1073,10 @@
   "revenue": {
    "as_of": "2026-11-16",
    "currency": "USD",
-   "source": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxONEhpR1hzMFNmaHNOTTBNSEoxczFDRTZrd29IZFczaGFET1c2UVhJYXB0R2lQR1JMZmwwOWxwQVk4VjRaMFljaW5hR2w2Y0Z1RURJbi1tQzJrQnhoOXYzb2MzN0s1dkRfRnAtb1RZdHE4UVBlVEVwUzh3dzIwRWRWYklkNnNZZVJqMERPanhQdXljMndpY185SjUtUUFLaU5EVGgwb3p3NTl1XzNQMmt0bmhucjdNeW9CWWNOT2VrSlRValM5NnVFRjdDSXdjdElDcllDaXhpNnNpdjRKYkNoTHNPeWw5R2FOV1ZjSURieTBlV0VtOWMzcFhmQXU3NkpiQ0pXVXU0SXhuRGFMZjNsVUI0NWFValFtaFhiYjRrYzlXTFBuQjg0R0FRQVZHS3FUNXA5V0VpQi1vWENja3lHbDNTZGJlU0VlOUdrUktNQXRyWEZicFBBRllsZUxTTjdITWNBRjFxNnpYejdrTExxNkpiVVhRWk9JamdNbG52VQ?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMijgNBVV95cUxOQkJyMk9fYU8wRHJ1NXFBdFlsVHl5SUp6TE96S0RIN3dCVFQ5S0JIUWs2Z1dLSWdjMmhPcm1laW96MWlpdHVFR0dBWEE5Yl85Z0oxU285cEk0RmFnTXFGd1JzU0JZdTQzWkptVkpMYUdqTS1OTDhiVUp6VHYtN3hQeXdQdUJoSlA4YUVmaHgyYUs5N1RuQjFvVWxUMjJnX1gzdkRnSjhiTFhCWmRJQm05NWVlcTNTUEgxWC1iMkRiTVRzOFhWOUc3MlNPU3hpblNmb181YUt6eUVaODY2UXcyUGwyZVY4ZFh2ckVtZ3VGN3haU21NR3VHZXF5SU9xN1hzS1I4SWsyMjBxYlpnY09SdEVnQ1JzaktSNEZ3ME1VZFFXSW10X1BnUWRwRWZLZDRQMEg5Z2F1WFBRMzJnVE1QekcydG81dWZJNktFVE1xaThZUDIwSjZrMDI2UUx0c0pyX2Rtb1hfWmNyOTU2S0tXVjJsalVvS0N0MFg3RWxwWHd5LU56bUtXV1ZHSHpXZw?oc=5",
    "usd": 2300000.0,
    "value": 2300000.0,
-   "year": 2026
+   "year": null
   },
   "updated": "2026-11-17"
  },
@@ -1191,6 +1192,22 @@
   "focus": [],
   "id": "fort-robotics",
   "name": "Fort Robotics",
+  "origin": "news",
+  "updated": "2026-11-17"
+ },
+ "foundation": {
+  "aliases": [
+   "Foundation Future Industries"
+  ],
+  "categories": [
+   "humanoid"
+  ],
+  "country": "US",
+  "description": "Стартап humanoid-роботов.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "foundation",
+  "name": "Foundation",
   "origin": "news",
   "updated": "2026-11-17"
  },
@@ -1630,6 +1647,22 @@
   "origin": "seed",
   "updated": "2026-11-16"
  },
+ "lg-electronics": {
+  "aliases": [
+   "LG"
+  ],
+  "categories": [
+   "humanoid"
+  ],
+  "country": "KR",
+  "description": "",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "lg-electronics",
+  "name": "LG Electronics",
+  "origin": "news",
+  "updated": "2026-11-17"
+ },
  "lionsbot": {
   "aliases": [],
   "categories": [
@@ -1741,6 +1774,29 @@
   "focus": [],
   "id": "matternet",
   "name": "Matternet",
+  "origin": "news",
+  "updated": "2026-11-17"
+ },
+ "mavria": {
+  "aliases": [
+   "Mavria"
+  ],
+  "categories": [],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "mavria",
+  "last_round": {
+   "as_of": "2026-11-14",
+   "currency": "USD",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUFdSZXlscTY1RndVc2xnSWd4WmZva0tFa0FXQWpydWd3TlBUMHhaZnZoV1ZjY2QzRkpwQ1VoZW1ja0VKZ0FKaERpWUdZZ3JEOHB0Q1FMNTJZN2NoblEwdl9PNTV2QjlpWE1zSnJnRmEyTVVCS0NMaG10cWFZUnNBSk0wVUV6ZmZ2WmxXZlBkaGEtUnlWZ19zdjhIWE0?oc=5",
+   "type": "unknown",
+   "usd": 130000000.0,
+   "value": 130000000.0
+  },
+  "name": "Mavria",
   "origin": "news",
   "updated": "2026-11-17"
  },
@@ -1988,8 +2044,8 @@
    "as_of": "2026-11-14",
    "currency": "USD",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1GZW4weGtoeVNUVnlvVUFFVVJ1M2FJSXZsdEczR25xSl9LQWJmb0M2OV85UTR3bEJXdTJVc3daTlh0VlJwTmlvOXN4S0pwZ2tobVp0OG5sUGhuX3pvNmtoVV9jc3gzZEJJSmkwWHhpN2w?oc=5",
-   "type": "series_d_plus",
+   "source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUFdSZXlscTY1RndVc2xnSWd4WmZva0tFa0FXQWpydWd3TlBUMHhaZnZoV1ZjY2QzRkpwQ1VoZW1ja0VKZ0FKaERpWUdZZ3JEOHB0Q1FMNTJZN2NoblEwdl9PNTV2QjlpWE1zSnJnRmEyTVVCS0NMaG10cWFZUnNBSk0wVUV6ZmZ2WmxXZlBkaGEtUnlWZ19zdjhIWE0?oc=5",
+   "type": "unknown",
    "usd": 300000000.0,
    "value": 300000000.0
   },
@@ -2087,7 +2143,7 @@
    "as_of": "2026-11-16",
    "currency": "USD",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYlBLNUF4WDBkaHhzSkxBanFzREtmZ3VQd0Q1MXJoR1NRdFNjTTlzSGdqanlEbXlZV29aUVlwWHlmazRPc3hiY2QyVEVhd0VCd3ktN094VmRObUZZV1Ytc2h6QUdnQjZXM3llc1RVUHdEdmNfd3RTeWd4dlRZdVFHd0hVYlhkeUNQckh6Rlg4YkNHeHhmejl6dGJUd2dkMFczSGlScUVzbTRieE1fcGJJX1RQTUczeVFlbGsxX9IBygFBVV95cUxOTXo1TkVDcmgyRmpWSlNrREpZeER2blNZY3lQYXRIV05OemZWR01IM2RrekR5ZXJ6NzF5eTgyaGRRUlVXaVhKOHdsN2IzZFNtdTFybHRzUlZDS2hzdl80cEExcUx5RzVOWExTVDVNd1lQQ2x0bVd1MEFjYmVOMWtWbTFLRHJvV0dBT3JSMXVUeUUwbFRBYURzZXkxUXVZb3BibS1ZNi1KN21DMjRubjZ1b05iUWhReEhvZWJlU0RhZkJ0ZUJRSHBweFp3?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMidEFVX3lxTE13ZGlnZGU1MVRKNUk3Zll2YlBVM3czdEYyTFJQQXA0RTZPMFZXWEZEVnREUm9NcnVnTUY3bVJqcFFBQW9yTWtwUmU2RGlhaUo1Qzkwd0VHUTR0TUJCVlZqZVNTM1F2NjY5T3FNSzN3WlFrQ3Vi?oc=5",
    "type": "",
    "usd": 1100000000.0,
    "value": 1100000000.0
@@ -2198,8 +2254,8 @@
    "as_of": "2026-11-16",
    "currency": "USD",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWkVyUk9mMk94UzJ3SThkYWx2YTFGVW1DU2xyeUxsYmtDZExta1M1Zm5JTGVSS1VEdkExdmVUUWFnX2RaX2NFQ0E4VVNzbkF1bEw3SVlSb0xXamVyTTk1WF9FMG91QVktQkRrY19PR0NzVmkyQ2dSYThHemI5SDlCY0VBVldFbnpsQmxz?oc=5",
-   "type": "series_b",
+   "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1IZ3JXOG9kVWFjTnJEdHdpcGtyLVJzQzZVQ2pQQ0QwZVN4NG5ZZnpaTUhGWGZvWGZZMkdOV3QzX0lveWpJakZ3U09qQjIyVG9QM19xOEttR2owMnRVaGNiNWtwUzNjZEEwa0cyZ1VOWUJqeUXSAXNBVV95cUxNSGdyVzhvZFVhY05yRHR3aXBrci1Sc0M2VUNqUENEMGVTeDRuWWZ6Wk1IRlhmb1hmWTJHTld0M19Jb3lqSWpGd1NPakIyMlRvUDNfcThLbUdqMDJ0VWhjYjVrcFMzY2RBMGtHMmdVTllCanlF?oc=5",
+   "type": "unknown",
    "usd": 62000000.0,
    "value": 62000000.0
   },
