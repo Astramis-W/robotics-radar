@@ -1,0 +1,148 @@
+{
+ "agibot--g2": {
+  "categories": [
+   "humanoid",
+   "service"
+  ],
+  "company_id": "agibot",
+  "description": "Колёсный гуманоидный робот",
+  "first_seen": "2026-11-16",
+  "focus": [],
+  "id": "agibot--g2",
+  "name": "G2",
+  "sources": [
+   "https://www.therobotreport.com/six-agibot-g2-robots-complete-1730-tasks-in-24-hour-shanghai-convenience-store-trial/"
+  ],
+  "stage": "pilot",
+  "updated": "2026-11-16"
+ },
+ "andromeda-robotics--abi": {
+  "categories": [
+   "medical",
+   "service"
+  ],
+  "company_id": "andromeda-robotics",
+  "description": "Робот-компаньон для ухода",
+  "first_seen": "2026-11-16",
+  "focus": [],
+  "id": "andromeda-robotics--abi",
+  "name": "Abi",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUjdaeGxONWd2U29MX2lXWmJpRFVUVWNjMlhRT3MzQy1DWDF3SnR0TTVYRzZxRmdZVWJEalpMX1FDb2pqcGpYRXNNbnZsemt3U3loZ1hzaVBGVlpuZFpNeUtpQTdUbWZSMU0xSDBjWUFtUTd4R0pZRWJOZFlUU3NtLTVpMW5BVmVMZ1ZWMTMtM0Y5eVU?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-16"
+ },
+ "bhf-robotics--blitz-electric-weeder": {
+  "categories": [
+   "agro"
+  ],
+  "company_id": "bhf-robotics",
+  "description": "Робот-пропольщик: распознаёт сорняки камерами и уничтожает электричеством",
+  "first_seen": "2026-11-16",
+  "focus": [],
+  "id": "bhf-robotics--blitz-electric-weeder",
+  "name": "Blitz Electric Weeder",
+  "sources": [
+   "https://www.futurefarming.com/smart-farming/blitz-electric-weeder-uses-electricity-and-camera-technology-to-control-weeds/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-16"
+ },
+ "google-deepmind--gemini-robotics-25": {
+  "categories": [
+   "components"
+  ],
+  "company_id": "google-deepmind",
+  "description": "Vision-language-action модель для роботов",
+  "first_seen": "2026-11-16",
+  "focus": [],
+  "id": "google-deepmind--gemini-robotics-25",
+  "name": "Gemini Robotics 2.5",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/15/google-deepmind-launches-gemini-robotics-2-5-with-improved-dexterity-and-industrial-capabilities/107186/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-16"
+ },
+ "kret--dmr-2854": {
+  "categories": [
+   "components"
+  ],
+  "company_id": "kret",
+  "description": "Бесколлекторный датчиковый шаговый двигатель, 30 В, номинальная мощность 2 500 Вт",
+  "first_seen": "2026-11-16",
+  "focus": [],
+  "id": "kret--dmr-2854",
+  "name": "ДМР 2854",
+  "sources": [
+   "https://t.me/prorobots/3658"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-16"
+ },
+ "naio-technologies--sanka": {
+  "categories": [
+   "agro"
+  ],
+  "company_id": "naio-technologies",
+  "description": "Электрический полевой робот с трёхточечной навеской и ВОМ",
+  "first_seen": "2026-11-16",
+  "focus": [],
+  "id": "naio-technologies--sanka",
+  "name": "Sanka",
+  "sources": [
+   "https://www.futurefarming.com/tech-in-focus/field-robots/naio-sanka-new-electric-field-robot/"
+  ],
+  "stage": "prototype",
+  "updated": "2026-11-16"
+ },
+ "runway--praxis-1": {
+  "categories": [
+   "components"
+  ],
+  "company_id": "runway",
+  "description": "World action model для роботов с открытыми весами",
+  "first_seen": "2026-11-16",
+  "focus": [],
+  "id": "runway--praxis-1",
+  "name": "Praxis-1",
+  "sources": [
+   "https://www.therobotreport.com/runways-praxis-1-world-action-model-for-robotics-is-now-available/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-16"
+ },
+ "skydio--f10-lightrunner": {
+  "categories": [
+   "aerial"
+  ],
+  "company_id": "skydio",
+  "description": "Беспилотник самолётного типа с камерой",
+  "first_seen": "2026-11-16",
+  "focus": [],
+  "id": "skydio--f10-lightrunner",
+  "name": "F10 Lightrunner",
+  "sources": [
+   "https://spectrum.ieee.org/skydio-f10-lightrunner-asymmetrical-drone"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-16"
+ },
+ "viam--launchpad": {
+  "categories": [
+   "components"
+  ],
+  "company_id": "viam",
+  "description": "",
+  "first_seen": "2026-11-16",
+  "focus": [],
+  "id": "viam--launchpad",
+  "name": "Launchpad",
+  "sources": [
+   "https://www.therobotreport.com/viam-launchpad-aims-to-accelerate-robotics-deployments/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-16"
+ }
+}

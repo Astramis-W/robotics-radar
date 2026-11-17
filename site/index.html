@@ -1,0 +1,693 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Радар робототехники</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cg fill='none' stroke='%232a78d6' stroke-width='2.6' stroke-linecap='round'%3E%3Cpath d='M5 27A22 22 0 0 1 27 5'/%3E%3Cpath d='M12 27A15 15 0 0 1 27 12'/%3E%3C/g%3E%3Ccircle cx='24' cy='24' r='4' fill='%23eb6834'/%3E%3C/svg%3E">
+<style>
+:root {
+  color-scheme: light;
+  --plane: #f9f9f7;
+  --surface: #fcfcfb;
+  --ink: #0b0b0b;
+  --ink-2: #52514e;
+  --muted: #76746e;
+  --hair: #e1e0d9;
+  --axis: #c3c2b7;
+  --wash: rgba(11, 11, 11, .05);
+  --series: #2a78d6;      /* все события */
+  --focus: #eb6834;       /* наши ниши */
+  --link: #1c5cab;
+  --on-series: #ffffff;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --plane: #0d0d0d;
+    --surface: #1a1a19;
+    --ink: #f0efec;
+    --ink-2: #c3c2b7;
+    --muted: #898781;
+    --hair: #2c2c2a;
+    --axis: #383835;
+    --wash: rgba(255, 255, 255, .07);
+    --series: #3987e5;
+    --focus: #d95926;
+    --link: #86b6ef;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--plane); color: var(--ink);
+  font: 15px/1.5 var(--sans);
+}
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button, select, input { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--series); outline-offset: 2px; border-radius: 4px; }
+.wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+
+/* шапка */
+.top { padding: 18px 0 10px; }
+.top .wrap { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.brand { display: flex; align-items: center; gap: 10px; margin: 0; font-size: 20px; font-weight: 650; letter-spacing: -.01em; }
+.brand svg { width: 26px; height: 26px; flex: none; }
+.stamp { color: var(--muted); font-size: 13px; }
+
+/* вкладки */
+.tabs { position: sticky; top: 0; z-index: 5; background: var(--plane); border-bottom: 1px solid var(--hair); }
+.tabs .wrap { display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; }
+.tabs .wrap::-webkit-scrollbar { display: none; }
+.tab {
+  flex: none; background: none; border: 0; border-bottom: 2px solid transparent; margin-bottom: -1px;
+  padding: 11px 12px 9px; font-weight: 550; color: var(--ink-2); cursor: pointer; white-space: nowrap;
+}
+.tab small { font-weight: 400; color: var(--muted); margin-left: 5px; font-size: 12px; }
+.tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--ink); }
+
+/* фильтры */
+.filters { padding: 12px 0 4px; }
+.frow { display: flex; flex-wrap: wrap; gap: 8px 10px; align-items: center; }
+.seg { display: inline-flex; border: 1px solid var(--hair); border-radius: 8px; overflow: hidden; background: var(--surface); }
+.seg button { background: none; border: 0; padding: 6px 11px; cursor: pointer; color: var(--ink-2); min-height: 34px; }
+.seg button + button { border-left: 1px solid var(--hair); }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--plane); }
+.toggle {
+  display: inline-flex; align-items: center; gap: 7px; min-height: 34px; padding: 6px 11px; cursor: pointer;
+  border: 1px solid var(--hair); border-radius: 8px; background: var(--surface); color: var(--ink-2);
+}
+.toggle[aria-pressed="true"] { border-color: var(--focus); color: var(--ink); box-shadow: inset 0 0 0 1px var(--focus); }
+.dot { width: 9px; height: 9px; border-radius: 50%; background: var(--focus); flex: none; display: inline-block; }
+.search {
+  flex: 1 1 170px; min-width: 150px; min-height: 34px; padding: 6px 11px;
+  border: 1px solid var(--hair); border-radius: 8px; background: var(--surface);
+}
+.chips { display: flex; gap: 6px; overflow-x: auto; padding: 10px 0 6px; scrollbar-width: none; }
+.chips::-webkit-scrollbar { display: none; }
+.chip {
+  flex: none; padding: 4px 11px; min-height: 30px; border-radius: 15px; cursor: pointer;
+  border: 1px solid var(--hair); background: none; color: var(--ink-2); font-size: 14px; white-space: nowrap;
+}
+.chip[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--plane); }
+
+main { padding: 6px 0 40px; min-height: 50vh; }
+h2 { font-size: 15px; font-weight: 650; margin: 26px 0 8px; }
+.note { color: var(--muted); font-size: 14px; }
+.empty { padding: 36px 0; color: var(--ink-2); }
+.empty button { margin-top: 10px; }
+.btn { border: 1px solid var(--hair); background: var(--surface); border-radius: 8px; padding: 7px 13px; cursor: pointer; }
+select.btn { padding-right: 8px; }
+.bar-tools { display: flex; gap: 10px; align-items: center; justify-content: space-between; margin: 14px 0 0; flex-wrap: wrap; }
+
+/* главное за период */
+.lead { padding: 14px 0 6px; }
+.lead .what { color: var(--muted); font-size: 13px; }
+.lead h1 { font-size: clamp(22px, 5.2vw, 34px); line-height: 1.16; letter-spacing: -.02em; font-weight: 680; margin: 4px 0 8px; max-width: 24em; }
+.lead p { margin: 0; color: var(--ink-2); max-width: 46em; }
+.also { margin: 12px 0 0; padding: 0; list-style: none; display: grid; gap: 4px 28px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); }
+.also li { padding: 8px 0; border-top: 1px solid var(--hair); font-weight: 550; line-height: 1.3; }
+.also .amt { color: var(--ink-2); font-weight: 400; margin-left: 6px; white-space: nowrap; }
+
+/* лента */
+.day { margin: 22px 0 0; font-size: 13px; color: var(--muted); font-weight: 500; }
+.ev { padding: 13px 0 14px; border-bottom: 1px solid var(--hair); }
+.ev-head { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; font-size: 13px; color: var(--muted); }
+.ev-head b { color: var(--ink); font-weight: 650; font-size: 15px; white-space: nowrap; }
+.ev h3 { margin: 2px 0 3px; font-size: 17px; line-height: 1.3; font-weight: 550; letter-spacing: -.005em; }
+.ev.big h3 { font-weight: 680; }
+.ev p { margin: 4px 0 0; color: var(--ink-2); max-width: 62em; }
+.meta { display: flex; flex-wrap: wrap; gap: 2px 12px; font-size: 13.5px; color: var(--ink-2); align-items: center; }
+.meta button { background: none; border: 0; padding: 0; color: var(--link); cursor: pointer; font-weight: 550; }
+.meta button:hover { text-decoration: underline; }
+.ours { display: inline-flex; align-items: center; gap: 6px; color: var(--ink); }
+.src { margin-top: 5px; font-size: 13px; color: var(--muted); }
+.src a { margin-right: 10px; }
+
+/* компании и решения */
+.row { padding: 12px 0; border-bottom: 1px solid var(--hair); scroll-margin-top: 56px; }
+.row-main { display: grid; grid-template-columns: 1fr auto; gap: 4px 16px; align-items: baseline; width: 100%;
+  background: none; border: 0; padding: 0; text-align: left; cursor: pointer; }
+.row-main .nm { font-size: 16.5px; font-weight: 600; line-height: 1.3; }
+.row-main .kp { text-align: right; font-size: 13.5px; color: var(--ink-2); white-space: nowrap; }
+.row-main .kp b { color: var(--ink); font-size: 15px; font-weight: 650; }
+.row-main .sub { grid-column: 1 / -1; font-size: 13.5px; color: var(--ink-2); display: flex; flex-wrap: wrap; gap: 2px 12px; align-items: center; }
+.row .desc { margin: 5px 0 0; color: var(--ink-2); max-width: 62em; }
+.card { margin: 12px 0 4px; padding: 14px 16px; background: var(--surface); border: 1px solid var(--hair); border-radius: 10px; }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 12px 24px; margin: 0; }
+.facts div { min-width: 0; }
+.facts dt { font-size: 12.5px; color: var(--muted); }
+.facts dd { margin: 1px 0 0; font-weight: 550; overflow-wrap: anywhere; }
+.facts dd small { display: block; font-weight: 400; color: var(--ink-2); font-size: 13px; }
+.card h4 { margin: 16px 0 4px; font-size: 13px; color: var(--muted); font-weight: 500; }
+.card ul { margin: 0; padding: 0; list-style: none; }
+.card li { padding: 6px 0; border-top: 1px solid var(--hair); font-size: 14.5px; }
+.card li:first-child { border-top: 0; }
+.card li span { color: var(--muted); font-size: 13px; margin-right: 8px; white-space: nowrap; }
+.tag { font-size: 12.5px; border: 1px solid var(--hair); border-radius: 5px; padding: 0 6px; color: var(--ink-2); white-space: nowrap; }
+
+/* аналитика */
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0 28px; margin-top: 10px; }
+.tile { padding: 12px 0; border-bottom: 1px solid var(--hair); }
+.tile .lbl { font-size: 13px; color: var(--ink-2); }
+.tile .val { font-size: 28px; font-weight: 650; letter-spacing: -.02em; line-height: 1.15; }
+.tile .hint { font-size: 12.5px; color: var(--muted); }
+.viz { background: var(--surface); border: 1px solid var(--hair); border-radius: 10px; padding: 14px 14px 8px; margin-top: 8px; }
+.viz h3 { margin: 0; font-size: 14.5px; font-weight: 600; }
+.viz .cap { margin: 1px 0 6px; font-size: 13px; color: var(--muted); display: flex; gap: 14px; flex-wrap: wrap; align-items: center; }
+.viz svg { display: block; width: 100%; height: auto; overflow: visible; }
+.viz text { font: 11px var(--sans); fill: var(--muted); font-variant-numeric: tabular-nums; }
+.viz .grid { stroke: var(--hair); stroke-width: 1; }
+.viz .base { stroke: var(--axis); stroke-width: 1; }
+.viz .col { fill: var(--series); }
+.viz .col, .viz .mark, .viz .peak { pointer-events: none; }   /* события ловит вся полоса .hit */
+.viz .hit { fill: transparent; cursor: default; }
+.viz .hit:hover + .col, .viz .col.on { opacity: .72; }
+.viz .mark { fill: var(--focus); stroke: var(--surface); stroke-width: 2; }
+.viz .peak { fill: var(--ink-2); }
+.viz details { margin-top: 6px; font-size: 13px; }
+.viz summary { cursor: pointer; color: var(--ink-2); padding: 4px 0; width: max-content; }
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+th, td { text-align: left; padding: 6px 12px 6px 0; border-top: 1px solid var(--hair); vertical-align: top; }
+th { font-weight: 500; color: var(--muted); border-top: 0; }
+td.d { white-space: nowrap; }
+td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; padding-right: 0; }
+.rank { display: grid; grid-template-columns: minmax(110px, 34%) 1fr; gap: 7px 12px; align-items: center; margin: 6px 0 8px; }
+.rank button { background: none; border: 0; padding: 0; text-align: left; cursor: pointer; font-size: 13.5px; color: var(--ink-2); }
+.rank button:hover { color: var(--ink); text-decoration: underline; }
+.rank .track { display: flex; align-items: center; gap: 8px; min-width: 0; }
+.rank .fill { height: 10px; min-width: 2px; background: var(--series); border-radius: 0 4px 4px 0; }
+.rank .v { font-size: 13px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+
+/* дайджест */
+.digest { max-width: 44em; }
+.digest h3 { font-size: 17px; margin: 22px 0 6px; }
+.digest p, .digest ul { margin: 6px 0; color: var(--ink); }
+.digest ul { padding-left: 20px; }
+
+/* подвал */
+.status { border-top: 1px solid var(--hair); padding: 14px 0 40px; font-size: 13px; color: var(--muted); }
+.status summary { cursor: pointer; }
+.status table { margin-top: 8px; max-width: 640px; }
+.status .bad { color: var(--ink); font-weight: 600; }
+
+#tip {
+  position: fixed; z-index: 20; pointer-events: none; max-width: 280px; padding: 8px 10px;
+  background: var(--ink); color: var(--plane); border-radius: 8px; font-size: 13px; line-height: 1.35;
+}
+#tip b { display: block; font-size: 15px; }
+#tip i { display: block; font-style: normal; opacity: .75; }
+#tip span { display: block; margin-top: 3px; }
+@media (min-width: 760px) {
+  body { font-size: 15.5px; }
+  .ev { display: grid; grid-template-columns: 150px 1fr; gap: 0 20px; }
+  .ev-head { flex-direction: column; justify-content: flex-start; gap: 2px; padding-top: 4px; }
+}
+@media (prefers-reduced-motion: no-preference) { .tab, .chip, .seg button { transition: background-color .12s, color .12s; } }
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <p class="brand">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><g fill="none" stroke="var(--series)" stroke-width="2.6" stroke-linecap="round"><path d="M5 27A22 22 0 0 1 27 5"/><path d="M12 27A15 15 0 0 1 27 12"/></g><circle cx="24" cy="24" r="4" fill="var(--focus)"/></svg>
+    Радар робототехники
+  </p>
+  <span class="stamp" id="stamp"></span>
+</div></header>
+
+<nav class="tabs" aria-label="Разделы"><div class="wrap" role="tablist" id="tabs"></div></nav>
+
+<section class="filters" aria-label="Фильтры"><div class="wrap">
+  <div class="frow">
+    <div class="seg" id="f-days" role="group" aria-label="Период"></div>
+    <div class="seg" id="f-region" role="group" aria-label="Регион"></div>
+    <button class="toggle" id="f-focus" type="button" aria-pressed="false"><span class="dot"></span>Наши ниши</button>
+    <input class="search" id="f-q" type="search" placeholder="Компания, продукт, слово" aria-label="Поиск">
+  </div>
+  <div class="chips" id="f-cats" role="group" aria-label="Рубрики"></div>
+</div></section>
+
+<main><div class="wrap" id="view"><p class="empty">Загружаю данные…</p></div></main>
+<footer class="status"><div class="wrap" id="status"></div></footer>
+<div id="tip" role="tooltip" hidden></div>
+
+<script>
+"use strict";
+const DATA_URL = "data/radar.json";
+const REFRESH_MS = 10 * 60 * 1000;
+const PAGE = 60;
+
+const S = { tab: "feed", days: 30, region: "all", focus: false, cats: new Set(), q: "", type: "", sort: "activity", open: "", more: PAGE };
+let D = null, L = {};
+
+/* ---------- мелкие помощники ---------- */
+const $ = (id) => document.getElementById(id);
+function h(tag, attrs, ...kids) {
+  const el = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs || {})) {
+    if (v == null || v === false) continue;
+    if (k === "class") el.className = v;
+    else if (k.startsWith("on")) el.addEventListener(k.slice(2), v);
+    else el.setAttribute(k, v === true ? "" : v);
+  }
+  for (const kid of kids.flat()) if (kid != null && kid !== false) el.append(kid);
+  return el;
+}
+const NS = "http://www.w3.org/2000/svg";
+function s(tag, attrs) { const el = document.createElementNS(NS, tag); for (const [k, v] of Object.entries(attrs || {})) el.setAttribute(k, v); return el; }
+const okUrl = (u) => typeof u === "string" && /^https?:\/\//i.test(u);
+function link(url, text) { return okUrl(url) ? h("a", { href: url, target: "_blank", rel: "noopener noreferrer" }, text) : document.createTextNode(text); }
+
+const regionNames = (() => { try { return new Intl.DisplayNames(["ru"], { type: "region" }); } catch { return null; } })();
+const SHORT_COUNTRY = { US: "США", GB: "Великобритания", AE: "ОАЭ", KR: "Южная Корея", CZ: "Чехия" };
+function country(code) { if (!code) return ""; if (SHORT_COUNTRY[code]) return SHORT_COUNTRY[code]; try { return regionNames ? regionNames.of(code) : code; } catch { return code; } }
+const dShort = new Intl.DateTimeFormat("ru", { day: "numeric", month: "short" });
+const dLong = new Intl.DateTimeFormat("ru", { day: "numeric", month: "long", weekday: "long" });
+const dMonth = new Intl.DateTimeFormat("ru", { month: "short", year: "2-digit" });
+const dStamp = new Intl.DateTimeFormat("ru", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
+const asDate = (iso) => new Date(iso.length === 10 ? iso + "T12:00:00" : iso);
+const isoDay = (d) => d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+const nf = new Intl.NumberFormat("ru");
+function compact(n) {
+  const f = (x) => String(Math.round(x * 10) / 10).replace(".", ",");
+  if (n >= 1e9) return f(n / 1e9) + " млрд";
+  if (n >= 1e6) return f(n / 1e6) + " млн";
+  if (n >= 1e3) return f(n / 1e3) + " тыс.";
+  return nf.format(Math.round(n));
+}
+const usd = (n) => "$" + compact(n);
+const SIGN = { USD: "$", EUR: "€", RUB: "₽", GBP: "£", CNY: "¥", JPY: "¥" };
+function money(m) {                       /* {value, currency, usd} -> «€7,5 млн (≈ $8,3 млн)» */
+  if (!m || !m.value) return "";
+  if (m.currency === "USD" || !m.currency) return usd(m.value);
+  const own = m.currency === "RUB" ? compact(m.value) + " ₽" : (SIGN[m.currency] || m.currency + " ") + compact(m.value);
+  return m.usd ? own + " (≈ " + usd(m.usd) + ")" : own;
+}
+function host(u) { try { return new URL(u).hostname.replace(/^www\./, ""); } catch { return "источник"; } }
+
+/* ---------- фильтры ---------- */
+function since() { if (!S.days) return ""; const d = new Date(); d.setDate(d.getDate() - S.days + 1); return isoDay(d); }
+function matchCommon(x, text) {
+  if (S.region === "ru" && x.country !== "RU") return false;
+  if (S.region === "world" && x.country === "RU") return false;
+  if (S.focus && !(x.focus && x.focus.length)) return false;
+  if (S.cats.size && !(x.categories || []).some((c) => S.cats.has(c))) return false;
+  if (S.q && !text.toLowerCase().includes(S.q)) return false;
+  return true;
+}
+const eventsNow = () => { const from = since(); return D.events.filter((e) => (!from || e.date >= from) && (!S.type || e.type === S.type) && matchCommon(e, e.title + " " + e.company + " " + e.summary)); };
+const companiesNow = () => D.companies.filter((c) => matchCommon(c, c.name + " " + (c.aliases || []).join(" ") + " " + (c.description || "")));
+const productsNow = () => D.products.filter((p) => matchCommon(p, p.name + " " + p.company + " " + (p.description || "")));
+const filtersActive = () => S.region !== "all" || S.focus || S.cats.size || S.q || S.type;
+function resetFilters() { S.region = "all"; S.focus = false; S.cats.clear(); S.q = ""; S.type = ""; $("f-q").value = ""; update(); }
+
+/* ---------- состояние в адресе (ссылкой можно поделиться с коллегой) ---------- */
+function saveHash() {
+  const p = new URLSearchParams();
+  if (S.tab !== "feed") p.set("tab", S.tab);
+  if (S.days !== 30) p.set("days", S.days);
+  if (S.region !== "all") p.set("region", S.region);
+  if (S.focus) p.set("focus", 1);
+  if (S.cats.size) p.set("cat", [...S.cats].join(","));
+  if (S.q) p.set("q", S.q);
+  if (S.open) p.set("c", S.open);
+  history.replaceState(null, "", p.toString() ? "#" + p : location.pathname + location.search);
+}
+function loadHash() {
+  const p = new URLSearchParams(location.hash.slice(1));
+  if (["feed", "companies", "products", "stats", "digest"].includes(p.get("tab"))) S.tab = p.get("tab");
+  if (p.has("days") && [7, 30, 90, 0].includes(+p.get("days"))) S.days = +p.get("days");
+  if (["ru", "world"].includes(p.get("region"))) S.region = p.get("region");
+  S.focus = p.get("focus") === "1";
+  S.cats = new Set((p.get("cat") || "").split(",").filter(Boolean));
+  S.q = (p.get("q") || "").toLowerCase();
+  S.open = p.get("c") || "";
+}
+
+/* ---------- подсказка ---------- */
+const tip = $("tip");
+function showTip(x, y, value, label, lines) {
+  tip.replaceChildren(h("b", null, value), h("i", null, label), ...(lines || []).map((t) => h("span", null, t)));
+  tip.hidden = false;
+  const r = tip.getBoundingClientRect();
+  tip.style.left = Math.max(8, Math.min(x + 12, innerWidth - r.width - 8)) + "px";
+  tip.style.top = Math.max(8, y - r.height - 12) + "px";
+}
+const hideTip = () => { tip.hidden = true; };
+addEventListener("scroll", hideTip, { passive: true });
+
+/* ---------- панель управления ---------- */
+const TABS = [["feed", "Лента"], ["companies", "Компании"], ["products", "Решения"], ["stats", "Аналитика"], ["digest", "Дайджест"]];
+function seg(el, options, get, set) {
+  el.replaceChildren(...options.map(([value, label]) => h("button", { type: "button", "aria-pressed": String(get() === value), onclick: () => { set(value); update(); } }, label)));
+}
+function drawControls() {
+  const counts = { feed: eventsNow().length, companies: companiesNow().length, products: productsNow().length };
+  $("tabs").replaceChildren(...TABS.map(([id, label]) => h("button", { class: "tab", type: "button", role: "tab", "aria-selected": String(S.tab === id), onclick: () => { S.tab = id; S.more = PAGE; update(); scrollTo({ top: 0 }); } },
+    label, counts[id] != null ? h("small", null, nf.format(counts[id])) : null)));
+  seg($("f-days"), [[7, "7 дней"], [30, "30"], [90, "90"], [0, "Всё"]], () => S.days, (v) => { S.days = v; });
+  seg($("f-region"), [["all", "Все"], ["ru", "Россия"], ["world", "Мир"]], () => S.region, (v) => { S.region = v; });
+  $("f-focus").setAttribute("aria-pressed", String(S.focus));
+  $("f-cats").replaceChildren(...D.taxonomy.categories.map((c) => h("button", { class: "chip", type: "button", "aria-pressed": String(S.cats.has(c.id)), onclick: () => { S.cats.has(c.id) ? S.cats.delete(c.id) : S.cats.add(c.id); update(); } }, c.label)));
+}
+$("f-focus").addEventListener("click", () => { S.focus = !S.focus; update(); });
+let qTimer;
+$("f-q").addEventListener("input", (e) => { clearTimeout(qTimer); qTimer = setTimeout(() => { S.q = e.target.value.trim().toLowerCase(); S.more = PAGE; update(true); }, 180); });
+
+/* ---------- общие куски ---------- */
+const catLabels = (ids) => (ids || []).filter((c) => c !== "other" || ids.length === 1).map((c) => L.cat[c] || c);
+function oursTag(focus) { return focus && focus.length ? h("span", { class: "ours" }, h("span", { class: "dot" }), "наша ниша: " + focus.map((f) => L.focus[f] || f).join(", ")) : null; }
+function openCompany(id) { S.tab = "companies"; S.open = id; S.q = ""; $("f-q").value = ""; S.cats.clear(); S.region = "all"; S.focus = false; update(); requestAnimationFrame(() => { const el = document.getElementById("c-" + id); if (el) el.scrollIntoView({ block: "start" }); }); }
+function empty(text) { return h("div", { class: "empty" }, text, filtersActive() ? h("div", null, h("button", { class: "btn", type: "button", onclick: resetFilters }, "Сбросить фильтры")) : null); }
+function moreButton(total) { return total > S.more ? h("p", null, h("button", { class: "btn", type: "button", onclick: () => { S.more += PAGE; update(true); } }, "Показать ещё " + Math.min(PAGE, total - S.more))) : null; }
+
+/* ---------- лента ---------- */
+function eventRow(e) {
+  const amount = money(e.amount);
+  return h("article", { class: "ev" + (e.importance >= 4 ? " big" : "") },
+    h("div", { class: "ev-head" }, h("span", null, L.type[e.type] || e.type), amount ? h("b", null, amount) : null),
+    h("div", null,
+      h("h3", null, e.title),
+      h("div", { class: "meta" },
+        e.company_id ? h("button", { type: "button", onclick: () => openCompany(e.company_id) }, e.company) : null,
+        e.country ? h("span", null, country(e.country)) : null,
+        ...catLabels(e.categories).map((c) => h("span", { class: "tag" }, c)),
+        oursTag(e.focus)),
+      e.summary ? h("p", null, e.summary) : null,
+      h("div", { class: "src" }, ...e.sources.slice(0, 4).map((x) => link(x.url, x.source || host(x.url))), e.sources.length > 4 ? "и ещё " + (e.sources.length - 4) : null)));
+}
+function viewFeed() {
+  const list = eventsNow();
+  if (!list.length) return [empty(D.events.length ? "По этим фильтрам событий нет." : "Событий пока нет: первый прогон ещё не разобрал новости.")];
+  const out = [];
+  const top = [...list].sort((a, b) => b.importance - a.importance || ((b.amount || {}).usd || 0) - ((a.amount || {}).usd || 0) || (a.date < b.date ? 1 : -1));
+  if (!S.q && !S.type && list.length >= 4) {
+    const [first, ...rest] = top;
+    out.push(h("section", { class: "lead" },
+      h("div", { class: "what" }, "Главное " + (S.days ? "за " + S.days + " дн." : "за всё время") + ", " + dShort.format(asDate(first.date))),
+      h("h1", null, first.title),
+      h("p", null, first.summary),
+      h("ul", { class: "also" }, ...rest.slice(0, 4).map((e) => h("li", null, e.title, (e.amount || {}).usd ? h("span", { class: "amt" }, usd(e.amount.usd)) : null)))));
+  }
+  out.push(activityChart(list));
+  out.push(h("div", { class: "bar-tools" },
+    h("span", { class: "note" }, nf.format(list.length) + " " + plural(list.length, "событие", "события", "событий")),
+    h("select", { class: "btn", "aria-label": "Тип события", onchange: (e) => { S.type = e.target.value; S.more = PAGE; update(); } },
+      h("option", { value: "" }, "Все типы"), ...D.taxonomy.event_types.map((t) => h("option", { value: t.id, selected: S.type === t.id }, t.label)))));
+  let day = "";
+  for (const e of list.slice(0, S.more)) {
+    if (e.date !== day) { day = e.date; out.push(h("div", { class: "day" }, dLong.format(asDate(day)))); }
+    out.push(eventRow(e));
+  }
+  out.push(moreButton(list.length));
+  return out;
+}
+function plural(n, one, few, many) { const a = n % 10, b = n % 100; return a === 1 && b !== 11 ? one : a >= 2 && a <= 4 && (b < 10 || b >= 20) ? few : many; }
+
+/* ---------- компании ---------- */
+function fact(label, value, note, source) {
+  if (!value) return null;
+  return h("div", null, h("dt", null, label), h("dd", null, value, note || source ? h("small", null, note || "", note && source ? ", " : "", source ? link(source, "источник") : null) : null));
+}
+function companyCard(c) {
+  const events = D.events.filter((e) => e.company_id === c.id).slice(0, 12);
+  const products = D.products.filter((p) => p.company_id === c.id);
+  const lr = c.last_round, STATUS = { active: "работает", acquired: "куплена", closed: "закрыта" };
+  const facts = [
+    fact("Страна", [country(c.country), c.hq_city].filter(Boolean).join(", ")),
+    fact("Основана", c.founded ? String(c.founded) : ""),
+    c.website && okUrl(c.website) ? h("div", null, h("dt", null, "Сайт"), h("dd", null, link(c.website, host(c.website)))) : null,
+    fact("Статус", STATUS[c.status] || ""),
+    fact("Привлечено всего", money(c.funding_total), c.funding_total && c.funding_total.as_of ? "на " + dShort.format(asDate(c.funding_total.as_of)) : "", c.funding_total && c.funding_total.source),
+    fact("Последний раунд", lr ? money(lr) : "", lr ? [lr.as_of ? dShort.format(asDate(lr.as_of)) : "", (lr.investors || []).slice(0, 4).join(", ")].filter(Boolean).join(", ") : "", lr && lr.source),
+    fact("Раунды в радаре", c.funding_seen_usd ? usd(c.funding_seen_usd) : "", "сумма событий в ленте"),
+    fact("Оценка", money(c.valuation), c.valuation && c.valuation.as_of ? "на " + dShort.format(asDate(c.valuation.as_of)) : "", c.valuation && c.valuation.source),
+    fact("Выручка", money(c.revenue), c.revenue && c.revenue.year ? "за " + c.revenue.year + " г." : "", c.revenue && c.revenue.source),
+    fact("Роботов у клиентов", c.robots_deployed ? nf.format(c.robots_deployed.value) : "", c.robots_deployed && c.robots_deployed.as_of ? "на " + dShort.format(asDate(c.robots_deployed.as_of)) : "", c.robots_deployed && c.robots_deployed.source),
+    fact("Сотрудников", c.employees ? nf.format(c.employees.value) : "", "", c.employees && c.employees.source),
+    fact("ИНН", c.inn || ""),
+    fact("Другие названия", (c.aliases || []).join(", ")),
+  ].filter(Boolean);
+  return h("div", { class: "card" },
+    facts.length ? h("dl", { class: "facts" }, ...facts) : null,
+    !c.enriched_at ? h("p", { class: "note" }, "Сайт, раунды, выручка и парк появятся после еженедельного обогащения карточек.") : null,
+    c.enrich_note ? h("p", { class: "note" }, c.enrich_note) : null,
+    products.length ? h("h4", null, "Решения") : null,
+    products.length ? h("ul", null, ...products.map((p) => h("li", null, h("b", null, p.name), p.stage && p.stage !== "unknown" ? [" ", h("span", { class: "tag" }, L.stage[p.stage])] : null, p.description ? " " + p.description : ""))) : null,
+    events.length ? h("h4", null, "События") : null,
+    events.length ? h("ul", null, ...events.map((e) => h("li", null, h("span", null, dShort.format(asDate(e.date))), link(e.sources[0] && e.sources[0].url, e.title)))) : null,
+    h("p", { class: "note" }, "id для ручных правок: " + c.id));
+}
+function viewCompanies() {
+  const from = since(), active = new Map();
+  for (const e of D.events) if (e.company_id && (!from || e.date >= from)) active.set(e.company_id, (active.get(e.company_id) || 0) + 1);
+  const list = companiesNow();
+  if (!list.length) return [empty("По этим фильтрам компаний нет.")];
+  const round = (c) => (c.last_round || {}).usd || 0, total = (c) => Math.max((c.funding_total || {}).usd || 0, c.funding_seen_usd || 0);
+  const SORT = {
+    activity: (a, b) => (active.get(b.id) || 0) - (active.get(a.id) || 0) || (b.focus || []).length - (a.focus || []).length || a.name.localeCompare(b.name, "ru"),
+    round: (a, b) => round(b) - round(a) || a.name.localeCompare(b.name, "ru"),
+    total: (a, b) => total(b) - total(a) || a.name.localeCompare(b.name, "ru"),
+    name: (a, b) => a.name.localeCompare(b.name, "ru"),
+  };
+  list.sort(SORT[S.sort]);
+  const out = [h("div", { class: "bar-tools" },
+    h("span", { class: "note" }, nf.format(list.length) + " " + plural(list.length, "компания", "компании", "компаний")),
+    h("select", { class: "btn", "aria-label": "Сортировка", onchange: (e) => { S.sort = e.target.value; update(true); } },
+      ...[["activity", "По активности за период"], ["round", "По последнему раунду"], ["total", "По привлечённым деньгам"], ["name", "По алфавиту"]].map(([v, t]) => h("option", { value: v, selected: S.sort === v }, t))))];
+  const shown = list.slice(0, S.more);
+  if (S.open && !shown.some((c) => c.id === S.open)) { const c = list.find((x) => x.id === S.open); if (c) shown.unshift(c); }
+  for (const c of shown) {
+    const n = active.get(c.id) || 0, open = S.open === c.id;
+    const key = S.sort === "total" && total(c) ? [h("b", null, usd(total(c))), " всего"] : round(c) ? [h("b", null, usd(round(c))), " раунд"] : n ? [h("b", null, String(n)), " " + plural(n, "событие", "события", "событий")] : null;
+    out.push(h("div", { class: "row", id: "c-" + c.id },
+      h("button", { class: "row-main", type: "button", "aria-expanded": String(open), onclick: () => { S.open = open ? "" : c.id; update(true); } },
+        h("span", { class: "nm" }, c.name), h("span", { class: "kp" }, key),
+        h("span", { class: "sub" }, c.country ? h("span", null, country(c.country)) : null, ...catLabels(c.categories).map((x) => h("span", { class: "tag" }, x)), oursTag(c.focus))),
+      c.description ? h("p", { class: "desc" }, c.description) : null,
+      open ? companyCard(c) : null));
+  }
+  out.push(moreButton(list.length));
+  return out;
+}
+
+/* ---------- решения ---------- */
+function viewProducts() {
+  const list = productsNow();
+  if (!list.length) return [empty(D.products.length ? "По этим фильтрам решений нет." : "Решения появятся, когда в новостях встретятся конкретные продукты.")];
+  const out = [h("div", { class: "bar-tools" }, h("span", { class: "note" }, nf.format(list.length) + " " + plural(list.length, "решение", "решения", "решений")))];
+  for (const p of list.slice(0, S.more)) {
+    out.push(h("div", { class: "row" },
+      h("div", { class: "row-main", style: "cursor:auto" },
+        h("span", { class: "nm" }, p.name), h("span", { class: "kp" }, p.price ? h("b", null, money(p.price)) : null),
+        h("span", { class: "sub" },
+          h("span", { class: "meta" }, h("button", { type: "button", onclick: () => openCompany(p.company_id) }, p.company)),
+          p.country ? h("span", null, country(p.country)) : null,
+          p.stage && p.stage !== "unknown" ? h("span", { class: "tag" }, L.stage[p.stage]) : null,
+          ...catLabels(p.categories).map((x) => h("span", { class: "tag" }, x)), oursTag(p.focus))),
+      p.description ? h("p", { class: "desc" }, p.description) : null,
+      p.sources && p.sources.length ? h("div", { class: "src" }, ...p.sources.slice(0, 3).map((u) => link(u, host(u)))) : null));
+  }
+  out.push(moreButton(list.length));
+  return out;
+}
+
+/* ---------- графики ---------- */
+function buckets(list) {
+  /* шаг по времени зависит от периода: дни -> недели -> месяцы */
+  const dates = list.map((e) => e.date).sort();
+  const end = new Date(); end.setHours(12, 0, 0, 0);
+  let start = new Date(end);
+  if (S.days) start.setDate(start.getDate() - S.days + 1); else if (dates.length) start = asDate(dates[0]);
+  const span = Math.round((end - start) / 864e5) + 1;
+  const step = span <= 45 ? "day" : span <= 200 ? "week" : "month";
+  const keyOf = (d) => {
+    if (step === "day") return isoDay(d);
+    if (step === "month") return isoDay(d).slice(0, 7) + "-01";
+    const m = new Date(d); m.setDate(m.getDate() - ((m.getDay() + 6) % 7)); return isoDay(m);
+  };
+  const rows = new Map();
+  for (const d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) {
+    const k = keyOf(d);
+    if (!rows.has(k)) rows.set(k, { key: k, count: 0, money: 0, ours: 0, titles: [] });
+  }
+  for (const e of list) {
+    const r = rows.get(keyOf(asDate(e.date)));
+    if (!r) continue;
+    r.count++; if (e.focus && e.focus.length) r.ours++;
+    if (e.type === "funding" && e.amount && e.amount.usd) r.money += e.amount.usd;
+    r.titles.push(e);
+  }
+  const label = (k) => step === "month" ? dMonth.format(asDate(k)) : step === "week" ? "нед. с " + dShort.format(asDate(k)) : dShort.format(asDate(k));
+  return { step, rows: [...rows.values()].map((r) => ({ ...r, label: label(r.key) })) };
+}
+function niceMax(v) { if (v <= 4) return 4; const p = Math.pow(10, Math.floor(Math.log10(v))); for (const m of [1, 2, 4, 5, 8, 10]) if (v <= m * p) return m * p; return 10 * p; }
+function columns(rows, value, fmt, opts) {
+  const W = Math.max(300, Math.min(1008, document.getElementById("view").clientWidth - 30)), H = 128, padL = opts.padL || 40, padT = 14, axisH = 20;
+  const svg = s("svg", { viewBox: `0 0 ${W} ${H + padT + axisH}`, role: "img", "aria-label": opts.aria });
+  const max = niceMax(Math.max(1, ...rows.map(value))), band = (W - padL) / rows.length, bw = Math.max(2, Math.min(24, band - 2));
+  for (const t of [0, .5, 1]) {
+    const y = padT + H - H * t;
+    svg.append(s("line", { class: t ? "grid" : "base", x1: padL, x2: W, y1: y, y2: y }));
+    const tx = s("text", { x: padL - 6, y: y + 4, "text-anchor": "end" }); tx.textContent = fmt(max * t, true); svg.append(tx);
+  }
+  const every = Math.ceil(58 / band), peak = rows.reduce((a, r) => (value(r) > value(a) ? r : a), rows[0]);
+  rows.forEach((r, i) => {
+    const x = padL + i * band + (band - bw) / 2, v = value(r), hgt = v ? Math.max(2, H * v / max) : 0, y = padT + H - hgt, rad = Math.min(4, bw / 2, hgt);
+    const hit = s("rect", { class: "hit", x: padL + i * band, y: padT, width: band, height: H });
+    const bar = s("path", { class: "col", d: hgt ? `M${x},${padT + H}V${y + rad}Q${x},${y} ${x + rad},${y}H${x + bw - rad}Q${x + bw},${y} ${x + bw},${y + rad}V${padT + H}Z` : "" });
+    const show = (ev) => showTip(ev.clientX, ev.clientY, fmt(v), r.label, opts.lines ? opts.lines(r) : []);
+    hit.addEventListener("pointermove", show); hit.addEventListener("pointerdown", show); hit.addEventListener("pointerleave", hideTip);
+    svg.append(hit, bar);
+    if (opts.mark && opts.mark(r)) svg.append(s("circle", { class: "mark", cx: x + bw / 2, cy: Math.max(6, y - 8), r: 4 }));
+    if (r === peak && v) { const t = s("text", { class: "peak", x: x + bw / 2, y: Math.max(10, y - (opts.mark && opts.mark(r) ? 17 : 5)), "text-anchor": i < 2 ? "start" : i > rows.length - 3 ? "end" : "middle" }); t.textContent = opts.cap ? opts.cap(v) : fmt(v); svg.append(t); }
+    if (i % every === 0 && padL + i * band + 50 < W) { const t = s("text", { x: padL + i * band + band / 2, y: padT + H + 15, "text-anchor": i === 0 ? "start" : "middle" }); t.textContent = r.label.replace("нед. с ", ""); svg.append(t); }
+  });
+  return svg;
+}
+function tableView(head, rows) {
+  return h("details", null, h("summary", null, "Таблица"),
+    h("table", null, h("thead", null, h("tr", null, ...head.map((t, i) => h("th", { class: i ? "n" : null }, t)))),
+      h("tbody", null, ...rows.map((r) => h("tr", null, ...r.map((t, i) => h("td", { class: i ? "n" : null }, t)))))));
+}
+function activityChart(list) {
+  const b = buckets(list), ours = b.rows.some((r) => r.ours);
+  const unit = { day: "по дням", week: "по неделям", month: "по месяцам" }[b.step];
+  return h("section", { class: "viz" },
+    h("h3", null, "Сколько событий попало в радар"),
+    h("div", { class: "cap" }, h("span", null, unit), ours ? h("span", { class: "ours" }, h("span", { class: "dot" }), "есть события в наших нишах") : null),
+    columns(b.rows, (r) => r.count, (v, axis) => axis ? nf.format(Math.round(v)) : nf.format(v) + " " + plural(v, "событие", "события", "событий"), {
+      aria: "Число событий " + unit, mark: (r) => r.ours > 0, cap: (v) => nf.format(v),
+      lines: (r) => [...r.titles].sort((a, c) => c.importance - a.importance).slice(0, 3).map((e) => e.title),
+    }),
+    tableView(["Период", "Событий", "В наших нишах"], b.rows.filter((r) => r.count).map((r) => [r.label, nf.format(r.count), nf.format(r.ours)])));
+}
+function viewStats() {
+  const list = eventsNow();
+  if (!list.length) return [empty("По этим фильтрам данных нет.")];
+  const rounds = list.filter((e) => e.type === "funding" && e.amount && e.amount.usd).sort((a, b) => b.amount.usd - a.amount.usd);
+  const sum = rounds.reduce((a, e) => a + e.amount.usd, 0);
+  const period = S.days ? "за " + S.days + " дн." : "за всё время";
+  const tile = (label, value, hint) => h("div", { class: "tile" }, h("div", { class: "lbl" }, label), h("div", { class: "val" }, value), h("div", { class: "hint" }, hint));
+  const out = [h("div", { class: "tiles" },
+    tile("Событий", nf.format(list.length), period),
+    tile("Объявлено раундов", rounds.length ? usd(sum) : "—", rounds.length + " " + plural(rounds.length, "раунд", "раунда", "раундов") + " " + period),
+    tile("Компаний с событиями", nf.format(new Set(list.map((e) => e.company_id).filter(Boolean)).size), "в базе всего " + nf.format(D.meta.counts.companies)),
+    tile("В наших нишах", nf.format(list.filter((e) => e.focus && e.focus.length).length), "событий " + period))];
+  out.push(activityChart(list));
+  if (rounds.length) {
+    const b = buckets(list);
+    out.push(h("section", { class: "viz" },
+      h("h3", null, "Объявленные раунды, $"),
+      h("div", { class: "cap" }, h("span", null, "сумма раундов с раскрытой суммой, " + { day: "по дням", week: "по неделям", month: "по месяцам" }[b.step])),
+      columns(b.rows, (r) => r.money, (v, axis) => v || !axis ? usd(v) : "0", {
+        aria: "Сумма объявленных раундов", padL: 58, lines: (r) => r.titles.filter((e) => e.type === "funding" && e.amount && e.amount.usd).sort((a, c) => c.amount.usd - a.amount.usd).slice(0, 3).map((e) => e.company + ": " + usd(e.amount.usd)),
+      }),
+      tableView(["Период", "Сумма"], b.rows.filter((r) => r.money).map((r) => [r.label, usd(r.money)]))));
+  }
+  const byCat = new Map();
+  for (const e of list) for (const c of e.categories) byCat.set(c, (byCat.get(c) || 0) + 1);
+  const cats = [...byCat.entries()].sort((a, b) => b[1] - a[1]), top = cats.length ? cats[0][1] : 1;
+  out.push(h("section", { class: "viz" },
+    h("h3", null, "События по рубрикам"),
+    h("div", { class: "cap" }, h("span", null, "событие с двумя рубриками считается в обеих; нажмите на рубрику, чтобы отфильтровать")),
+    h("div", { class: "rank" }, ...cats.flatMap(([id, n]) => [
+      h("button", { type: "button", onclick: () => { S.cats = new Set([id]); update(); } }, L.cat[id] || id),
+      h("div", { class: "track" }, h("div", { class: "fill", style: "width:" + Math.max(1, 86 * n / top) + "%" }), h("span", { class: "v" }, nf.format(n)))]))));
+  if (rounds.length) {
+    out.push(h("h2", null, "Крупнейшие раунды " + period));
+    out.push(h("table", null,
+      h("thead", null, h("tr", null, h("th", null, "Компания"), h("th", null, "Дата"), h("th", { class: "n" }, "Сумма"))),
+      h("tbody", null, ...rounds.slice(0, 12).map((e) => h("tr", null,
+        h("td", null, h("span", { class: "meta" }, h("button", { type: "button", onclick: () => openCompany(e.company_id) }, e.company)), " ", h("span", { class: "note" }, [country(e.country), ...catLabels(e.categories)].filter(Boolean).join(", "))),
+        h("td", { class: "d" }, dShort.format(asDate(e.date))),
+        h("td", { class: "n" }, money(e.amount)))))));
+  }
+  return out;
+}
+
+/* ---------- дайджест ---------- */
+function inline(text) {                       /* **жирный** и [текст](адрес) — без innerHTML */
+  const out = [], re = /\*\*(.+?)\*\*|\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g;
+  let last = 0, m;
+  while ((m = re.exec(text))) {
+    if (m.index > last) out.push(text.slice(last, m.index));
+    out.push(m[1] != null ? h("b", null, m[1]) : link(m[3], m[2]));
+    last = re.lastIndex;
+  }
+  if (last < text.length) out.push(text.slice(last));
+  return out;
+}
+function markdown(md) {
+  const out = []; let ul = null;
+  for (const raw of md.split("\n")) {
+    const line = raw.trim();
+    if (!line) { ul = null; continue; }
+    const head = line.match(/^#{1,4}\s+(.*)$/), item = line.match(/^[-*•]\s+(.*)$/);
+    if (head) { ul = null; out.push(h("h3", null, ...inline(head[1]))); }
+    else if (item) { if (!ul) { ul = h("ul"); out.push(ul); } ul.append(h("li", null, ...inline(item[1]))); }
+    else { ul = null; out.push(h("p", null, ...inline(line))); }
+  }
+  return out;
+}
+function viewDigest() {
+  if (!D.digests.length) return [h("div", { class: "empty" }, "Дайджеста пока нет. Он пишется раз в неделю, после того как в базе накопятся события за семь дней.")];
+  return D.digests.flatMap((d, i) => [
+    h("h2", null, "Неделя " + dShort.format(asDate(d.start)) + " — " + dShort.format(asDate(d.end))),
+    h("p", { class: "note" }, "по " + d.events + " " + plural(d.events, "событию", "событиям", "событиям") + ", составлен " + dStamp.format(asDate(d.created))),
+    i === 0 ? h("div", { class: "digest" }, ...markdown(d.markdown)) : h("details", null, h("summary", { class: "note" }, "Показать"), h("div", { class: "digest" }, ...markdown(d.markdown)))]);
+}
+
+/* ---------- подвал: здоровье источников ---------- */
+function drawStatus() {
+  const m = D.meta, bad = m.sources.filter((x) => x.error);
+  $("stamp").textContent = "обновлено " + dStamp.format(asDate(m.generated));
+  const bits = [nf.format(m.counts.companies) + " компаний", nf.format(m.counts.products) + " решений", nf.format(m.counts.events) + " событий"];
+  if (m.counts.queue) bits.push("в очереди на разбор " + nf.format(m.counts.queue));
+  if (m.cost_30d_usd) bits.push("расход на модель за 30 дней ≈ $" + String(m.cost_30d_usd).replace(".", ","));
+  $("status").replaceChildren(
+    h("p", null, "В базе: " + bits.join(", ") + "."),
+    m.sources.length ? h("details", null,
+      h("summary", null, "Источники: " + m.sources.length + (bad.length ? ", не ответили " + bad.length : ", все ответили") + (m.sources_checked ? " (сбор " + dStamp.format(asDate(m.sources_checked)) + ")" : "")),
+      h("table", null, h("thead", null, h("tr", null, h("th", null, "Источник"), h("th", { class: "n" }, "Записей"), h("th", { class: "n" }, "Новых"))),
+        h("tbody", null, ...m.sources.map((x) => h("tr", null, h("td", { class: x.error ? "bad" : null }, x.source + (x.error ? " — " + x.error : "")), h("td", { class: "n" }, nf.format(x.fetched)), h("td", { class: "n" }, nf.format(x.new))))))) : null);
+}
+
+/* ---------- сборка экрана ---------- */
+const VIEWS = { feed: viewFeed, companies: viewCompanies, products: viewProducts, stats: viewStats, digest: viewDigest };
+function update(keepScroll) {
+  if (!D) return;
+  hideTip();
+  if (S.tab !== "companies") S.open = "";
+  drawControls();
+  $("view").replaceChildren(...VIEWS[S.tab]().filter(Boolean));
+  saveHash();
+}
+async function load(first) {
+  try {
+    const res = await fetch(DATA_URL + "?t=" + Date.now(), { cache: "no-store" });
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    const data = await res.json();
+    if (D && D.meta.generated === data.meta.generated) return;
+    D = data;
+    const map = (rows) => Object.fromEntries(rows.map((r) => [r.id, r.label]));
+    L = { cat: map(D.taxonomy.categories), type: map(D.taxonomy.event_types), stage: map(D.taxonomy.stages), focus: map(D.taxonomy.focus) };
+    if (first) { loadHash(); $("f-q").value = S.q; }
+    drawStatus();
+    update(!first);
+    if (first && S.open) requestAnimationFrame(() => { const el = document.getElementById("c-" + S.open); if (el) el.scrollIntoView(); });
+  } catch (err) {
+    if (!D) $("view").replaceChildren(h("div", { class: "empty" }, "Данные не загрузились (" + err.message + "). Если радар только что развёрнут — запустите первый прогон: python -m radar run."));
+  }
+}
+let resizeTimer;
+addEventListener("resize", () => { clearTimeout(resizeTimer); resizeTimer = setTimeout(() => update(true), 200); });
+load(true);
+setInterval(() => { if (!document.hidden) load(false); }, REFRESH_MS);
+document.addEventListener("visibilitychange", () => { if (!document.hidden) load(false); });
+</script>
+</body>
+</html>

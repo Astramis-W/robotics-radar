@@ -1,0 +1,130 @@
+# Источники радара. Правьте свободно: добавляйте и убирайте строки.
+#
+#   filter: true   — общий источник: берём только записи с ключевыми словами (см. keywords)
+#   region: ru     — подсказка «в основном про Россию»; страну компании модель определяет сама
+#
+# Проверить, что все источники живы:  python -m radar check
+
+settings:
+  max_age_days: 7        # новости старше не берём
+  fulltext_limit: 25     # сколько статей за прогон дочитывать целиком, если в ленте только анонс
+  gnews_window: 3d       # окно поиска Google News
+
+rss:
+  # --- мир: профильные ---
+  - {name: The Robot Report,          url: "https://www.therobotreport.com/feed/"}
+  - {name: IEEE Spectrum Robotics,    url: "https://spectrum.ieee.org/feeds/topic/robotics.rss"}
+  - {name: TechCrunch Robotics,       url: "https://techcrunch.com/category/robotics/feed/"}
+  - {name: Robotics & Automation News, url: "https://roboticsandautomationnews.com/feed/"}
+  - {name: Robohub,                   url: "https://robohub.org/feed/"}
+  - {name: New Atlas Robotics,        url: "https://newatlas.com/robotics/index.rss"}
+  # --- мир: дроны ---
+  - {name: DroneLife,                 url: "https://dronelife.com/feed/"}
+  - {name: DroneDJ,                   url: "https://dronedj.com/feed/"}
+  - {name: DroneXL,                   url: "https://dronexl.co/feed/"}
+  - {name: sUAS News,                 url: "https://www.suasnews.com/feed/"}
+  - {name: Dronewatch EU,             url: "https://www.dronewatch.eu/feed/"}
+  # --- мир: агро, горная отрасль ---
+  - {name: AgFunderNews,              url: "https://agfundernews.com/feed", filter: true}
+  - {name: Future Farming,            url: "https://www.futurefarming.com/feed/", filter: true}
+  - {name: Mining Technology,         url: "https://www.mining-technology.com/feed/", filter: true}
+  # --- мир: инвестиции ---
+  - {name: Crunchbase News,           url: "https://news.crunchbase.com/feed/", filter: true}
+  - {name: Tech Funding News,         url: "https://techfundingnews.com/feed/", filter: true}
+  # --- Россия ---
+  - {name: Хабр / Робототехника,      url: "https://habr.com/ru/rss/hubs/robot/articles/all/?fl=ru", region: ru}
+  - {name: vc.ru,                     url: "https://vc.ru/rss/all", region: ru, filter: true}
+  - {name: CNews,                     url: "https://www.cnews.ru/inc/rss/news.xml", region: ru, filter: true}
+  - {name: Коммерсантъ,               url: "https://www.kommersant.ru/RSS/news.xml", region: ru, filter: true}
+  - {name: Ведомости / Технологии,    url: "https://www.vedomosti.ru/rss/rubric/technology", region: ru, filter: true}
+  - {name: ТАСС,                      url: "https://tass.ru/rss/v2.xml", region: ru, filter: true}
+  - {name: 3DNews,                    url: "https://3dnews.ru/news/rss/", region: ru, filter: true}
+  - {name: Naked Science,             url: "https://naked-science.ru/feed", region: ru, filter: true}
+
+# Поиск Google News по запросам. Даёт только заголовки, зато ловит новости из любых изданий.
+google_news:
+  # Россия
+  - {q: "робототехника компания", lang: ru}
+  - {q: "роботы инвестиции раунд", lang: ru}
+  - {q: "сервисные роботы внедрение", lang: ru}
+  - {q: "дрон мойка фасадов", lang: ru}
+  - {q: "робот для мойки окон фасадов", lang: ru}
+  - {q: "робот поломоечный", lang: ru}
+  - {q: "агродрон беспилотник сельское хозяйство", lang: ru}
+  - {q: "робот очистка резервуаров", lang: ru}
+  - {q: "складские роботы внедрение", lang: ru}
+  - {q: "роботизация производства Россия", lang: ru}
+  - {q: "беспилотные авиационные системы гражданские производитель", lang: ru}
+  # мир
+  - {q: "robotics startup raises", lang: en}
+  - {q: "robotics funding round Series", lang: en}
+  - {q: "drone company raises funding", lang: en}
+  - {q: "facade cleaning drone", lang: en}
+  - {q: "window cleaning robot building", lang: en}
+  - {q: "autonomous floor cleaning robot", lang: en}
+  - {q: "tank cleaning robot", lang: en}
+  - {q: "magnetic crawler robot", lang: en}
+  - {q: "agricultural robot startup", lang: en}
+  - {q: "mining autonomous robot underground", lang: en}
+  - {q: "inspection robot deployment", lang: en}
+  - {q: "humanoid robot startup funding", lang: en}
+  - {q: "warehouse robots deployment", lang: en}
+  - {q: "robotics acquisition", lang: en}
+
+# Публичные Telegram-каналы (читаются через веб-превью t.me/s/..., аккаунт и ключи не нужны).
+# channel — имя из ссылки: t.me/prorobots -> prorobots
+# Стартовый набор из двух каналов, проверенных на доступность 16.11.2026. Добавьте свои.
+telegram:
+  - {channel: prorobots,        region: ru}
+  - {channel: robotics_channel, region: ru}
+  # Каналы про беспилотники часто наполовину состоят из военной хроники — ставьте им filter: true:
+  # - {channel: имя_канала, region: ru, filter: true}
+
+# Ключевые слова для источников с filter: true (регулярные выражения, без учёта регистра).
+keywords:
+  include:
+    - "робот"
+    - "роботи"
+    - "дрон(а|ы|ов|ом|ами|у|е)?\\b"
+    - "беспилот"
+    - "бпла"
+    - "\\bбас\\b"
+    - "коптер"
+    - "кобот"
+    - "экзоскелет"
+    - "манипулятор"
+    - "\\brobot"
+    - "\\bdrone"
+    - "\\buav\\b"
+    - "\\buas\\b"
+    - "unmanned"
+    - "humanoid"
+    - "\\bcobot"
+    - "autonomous (vehicle|tractor|machine|mobile|truck|haul)"
+    - "\\bamr\\b"
+    - "\\bagv\\b"
+  # военная хроника и происшествия — мимо (радар про рынок и продукты); проверяется заголовок
+  exclude:
+    - "\\bсби(т|ли|ты)"
+    - "\\bпво\\b"
+    - "атак"
+    - "\\bудар"
+    - "обстрел"
+    - "погиб"
+    - "пострада"
+    - "\\bранен"
+    - "\\bвсу\\b"
+    - "\\bсво\\b"
+    - "боев(ая|ой|ые|ых|ого)"
+    - "противник"
+    - "минобороны"
+    - "перехва(т|чен)"
+    - "уничтож"
+    - "нал[её]т"
+    - "взрыв"
+    - "диверс"
+    - "беспилотная опасность"
+    - "\\bshot down"
+    - "\\bairstrike"
+    - "drone (attack|strike)s?"
+    - "\\bkilled\\b"

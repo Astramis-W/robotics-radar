@@ -1,0 +1,122 @@
+# Стартовый каркас базы: известные игроки по рубрикам и прямые аналоги в «наших нишах».
+# Здесь только название, страна и рубрика — без цифр. Сайт, раунды, выручку и парк
+# дописывает еженедельное обогащение (python -m radar enrich) со ссылками на источники.
+# Список составлен по памяти модели: если компания закрылась или переехала,
+# обогащение это поправит, а ручные правки кладите в config/overrides.yaml.
+#
+# country — ISO-код страны штаб-квартиры; focus — id ниши из taxonomy.yaml
+
+companies:
+  # --- фасады и высотный клининг ---
+  - {name: Lucid Bots,        aliases: [Lucid Drone Technologies], country: US, categories: [aerial, cleaning], focus: [facade]}
+  - {name: KTV Working Drone, country: "NO", categories: [aerial, cleaning], focus: [facade]}
+  - {name: Apellix,           country: US, categories: [aerial, inspection], focus: [facade]}
+  - {name: Skyline Robotics,  country: US, categories: [cleaning], focus: [facade]}
+  - {name: Kite Robotics,     country: NL, categories: [cleaning], focus: [facade]}
+  - {name: Verobotics,        country: IL, categories: [cleaning, inspection], focus: [facade]}
+  - {name: Serbot,            country: CH, categories: [cleaning], focus: [facade]}
+  - {name: Aerones,           country: LV, categories: [inspection, cleaning]}
+
+  # --- промышленная уборка полов ---
+  - {name: Avidbots,           country: CA, categories: [cleaning], focus: [floor]}
+  - {name: Brain Corp,         aliases: [BrainOS], country: US, categories: [cleaning, components], focus: [floor]}
+  - {name: Gausium,            aliases: [Gaussian Robotics], country: CN, categories: [cleaning], focus: [floor]}
+  - {name: Pudu Robotics,      aliases: [Pudu], country: CN, categories: [service, cleaning], focus: [floor]}
+  - {name: Tennant,            aliases: [Tennant Company], country: US, categories: [cleaning], focus: [floor]}
+  - {name: Nilfisk,            country: DK, categories: [cleaning], focus: [floor]}
+  - {name: Kärcher,            aliases: [Karcher], country: DE, categories: [cleaning], focus: [floor]}
+  - {name: LionsBot,           country: SG, categories: [cleaning], focus: [floor]}
+  - {name: Peppermint Robotics, country: IN, categories: [cleaning], focus: [floor]}
+  - {name: ICE Cobotics,       country: US, categories: [cleaning], focus: [floor]}
+  - {name: Adlatus Robotics,   country: DE, categories: [cleaning], focus: [floor]}
+  - {name: SoftBank Robotics,  country: JP, categories: [service, cleaning]}
+  - {name: Keenon Robotics,    aliases: [Keenon], country: CN, categories: [service, cleaning]}
+
+  # --- резервуары и металлоконструкции ---
+  - {name: VertiDrive,          country: NL, categories: [inspection], focus: [tank]}
+  - {name: Gecko Robotics,      country: US, categories: [inspection], focus: [tank]}
+  - {name: Square Robot,        country: US, categories: [inspection], focus: [tank]}
+  - {name: Qlayers,             country: NL, categories: [inspection], focus: [tank]}
+  - {name: HausBots,            country: GB, categories: [inspection], focus: [tank]}
+  - {name: Invert Robotics,     country: NZ, categories: [inspection], focus: [tank]}
+  - {name: Sabre Autonomous Solutions, country: AU, categories: [inspection], focus: [tank]}
+  - {name: Blastman Robotics,   country: FI, categories: [manufacturing, inspection], focus: [tank]}
+  - {name: Re-Gen Robotics,     country: GB, categories: [inspection, cleaning], focus: [tank]}
+  - {name: International Climbing Machines, aliases: [ICM], country: US, categories: [inspection], focus: [tank]}
+  - {name: Jireh Industries,    country: CA, categories: [inspection], focus: [tank]}
+  - {name: Eddyfi Technologies, aliases: [Eddyfi], country: CA, categories: [inspection]}
+  - {name: ANYbotics,           country: CH, categories: [inspection]}
+
+  # --- летающие ---
+  - {name: DJI,         country: CN, categories: [aerial]}
+  - {name: Skydio,      country: US, categories: [aerial]}
+  - {name: Zipline,     country: US, categories: [aerial, delivery]}
+  - {name: Wing,        aliases: [Wing Aviation], country: US, categories: [aerial, delivery]}
+  - {name: Flyability,  country: CH, categories: [aerial, inspection]}
+  - {name: Percepto,    country: IL, categories: [aerial, inspection]}
+  - {name: XAG,         country: CN, categories: [aerial, agro]}
+
+  # --- агро ---
+  - {name: Carbon Robotics,   country: US, categories: [agro]}
+  - {name: Monarch Tractor,   country: US, categories: [agro]}
+  - {name: Naïo Technologies, aliases: [Naio Technologies], country: FR, categories: [agro]}
+  - {name: Saga Robotics,     country: "NO", categories: [agro]}
+  - {name: FarmDroid,         country: DK, categories: [agro]}
+  - {name: Ecorobotix,        country: CH, categories: [agro]}
+  - {name: Tevel Aerobotics,  aliases: [Tevel], country: IL, categories: [agro, aerial]}
+
+  # --- подземные и горные ---
+  - {name: Exyn Technologies, aliases: [Exyn], country: US, categories: [underground, aerial]}
+  - {name: Emesent,           country: AU, categories: [underground, aerial]}
+  - {name: Sandvik,           country: SE, categories: [underground]}
+  - {name: Epiroc,            country: SE, categories: [underground]}
+  - {name: Petra,             country: US, categories: [underground]}
+  - {name: hyperTunnel,       country: GB, categories: [underground, construction]}
+  - {name: OffWorld,          country: US, categories: [underground]}
+
+  # --- склад, доставка ---
+  - {name: Locus Robotics,        country: US, categories: [logistics]}
+  - {name: Symbotic,              country: US, categories: [logistics]}
+  - {name: Geek+,                 aliases: [Geekplus], country: CN, categories: [logistics]}
+  - {name: AutoStore,             country: "NO", categories: [logistics]}
+  - {name: Exotec,                country: FR, categories: [logistics]}
+  - {name: Starship Technologies, country: US, categories: [delivery]}
+  - {name: Nuro,                  country: US, categories: [delivery]}
+
+  # --- гуманоиды ---
+  - {name: Figure AI,        aliases: [Figure], country: US, categories: [humanoid]}
+  - {name: Agility Robotics, country: US, categories: [humanoid, logistics]}
+  - {name: Apptronik,        country: US, categories: [humanoid]}
+  - {name: 1X Technologies,  aliases: [1X], country: "NO", categories: [humanoid]}
+  - {name: Unitree Robotics, aliases: [Unitree], country: CN, categories: [humanoid]}
+  - {name: UBTech,           aliases: [UBTECH Robotics], country: CN, categories: [humanoid, service]}
+  - {name: Boston Dynamics,  country: US, categories: [humanoid, inspection, logistics]}
+  - {name: Sanctuary AI,     country: CA, categories: [humanoid]}
+  - {name: AgiBot,           country: CN, categories: [humanoid]}
+
+  # --- промроботы, стройка, море ---
+  - {name: Universal Robots, country: DK, categories: [manufacturing]}
+  - {name: ABB Robotics,     country: CH, categories: [manufacturing]}
+  - {name: FANUC,            country: JP, categories: [manufacturing]}
+  - {name: KUKA,             country: DE, categories: [manufacturing]}
+  - {name: Built Robotics,   country: US, categories: [construction]}
+  - {name: Dusty Robotics,   country: US, categories: [construction]}
+  - {name: Saildrone,        country: US, categories: [marine]}
+
+  # --- Россия ---
+  - {name: Геоскан,            aliases: [Geoscan], country: RU, categories: [aerial]}
+  - {name: Cognitive Pilot,    aliases: [Когнитив Пилот], country: RU, categories: [agro, delivery]}
+  - {name: Яндекс Роботикс,    aliases: [Yandex Robotics], country: RU, categories: [delivery, logistics]}
+  - {name: Promobot,           aliases: [Промобот], country: RU, categories: [service, humanoid]}
+  - {name: Ронави Роботикс,    aliases: [Ronavi Robotics, Ронави, Ronavi], country: RU, categories: [logistics]}
+  - {name: Эйдос Робототехника, aliases: [Eidos Robotics, Эйдос Роботикс], country: RU, categories: [manufacturing]}
+  - {name: Технорэд,           aliases: [Technored], country: RU, categories: [manufacturing]}
+  - {name: Аврора Роботикс,    aliases: [Avrora Robotics], country: RU, categories: [delivery, logistics]}
+  - {name: Беспилотные системы, aliases: [Supercam, Суперкам], country: RU, categories: [aerial]}
+  - {name: Лаборатория будущего, aliases: [Канатоход], country: RU, categories: [inspection, aerial]}
+  - {name: Диаконт,            aliases: [Diakont], country: RU, categories: [inspection]}
+  - {name: Тьюбот,             aliases: [Tubot], country: RU, categories: [inspection, underground]}
+  - {name: Аэромакс,           aliases: [Aeromax], country: RU, categories: [aerial]}
+  - {name: Коптер Экспресс,    aliases: [Copter Express, COEX], country: RU, categories: [aerial]}
+  - {name: Robopro,            aliases: [Робопро, Rozum Robotics], country: RU, categories: [manufacturing]}
+  - {name: НПО Андроидная техника, aliases: [Андроидная техника, Android Technics], country: RU, categories: [humanoid]}
