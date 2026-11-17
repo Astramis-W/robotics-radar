@@ -19,6 +19,9 @@ log = logging.getLogger("radar.collect")
 
 UA = "Mozilla/5.0 (compatible; RoboticsRadar/1.0)"
 TEXT_LIMIT = 6000
+GENTLE_PAUSE = 2.0      # секунд между запросами к Google News и Telegram
+RETRY_AFTER = 10.0      # пауза перед вторым заходом по тем, кто ответил 429/503
+THROTTLED = ("HTTP 429", "HTTP 503")
 
 
 def make_client() -> httpx.Client:
@@ -200,6 +203,25 @@ def _fetch_source(client: httpx.Client, kind: str, src: dict, window: str) -> tu
         return [], clip(f"{type(exc).__name__}: {exc}", 160)
 
 
+def _fetch_gently(client: httpx.Client, jobs: list[tuple[str, dict]], window: str) -> list[tuple[list[dict], str]]:
+    """Google News и Telegram: по одному запросу с паузой, затем второй заход по отказам.
+
+    На частые запросы с одного адреса Google News отвечает 429 — выборочно, примерно на каждый
+    четвёртый даже при паузе в две секунды. Второй заход добирает почти всё; что не добралось,
+    попадёт в следующий прогон (окно поиска — несколько дней, новости не теряются)."""
+    results = {}
+    for i, (kind, src) in enumerate(jobs):
+        results[i] = _fetch_source(client, kind, src, window)
+        time.sleep(GENTLE_PAUSE)
+    again = [i for i, got in results.items() if got[1] in THROTTLED]
+    if again:
+        time.sleep(RETRY_AFTER)
+        for i in again:
+            results[i] = _fetch_source(client, jobs[i][0], jobs[i][1], window)
+            time.sleep(GENTLE_PAUSE * 1.5)
+    return [results[i] for i in range(len(jobs))]
+
+
 def source_label(kind: str, src: dict) -> str:
     if kind == "rss":
         return src["name"]
@@ -218,21 +240,19 @@ def collect(store: Store | None, sources: dict, *, dry_run: bool = False) -> dic
     kw = KeywordFilter(sources.get("keywords"))
 
     jobs = [("rss", s) for s in sources.get("rss") or []]
-    jobs += [("gnews", s) for s in sources.get("google_news") or []]
-    tg_jobs = [("telegram", s) for s in sources.get("telegram") or []]
+    slow_jobs = [("gnews", s) for s in sources.get("google_news") or []]
+    slow_jobs += [("telegram", s) for s in sources.get("telegram") or []]
 
     stats, fresh = [], []
     seen = dict(store.seen) if store else {}
     queued = {q["id"] for q in store.queue} if store else set()
 
     with make_client() as client:
-        with ThreadPoolExecutor(max_workers=8) as pool:
+        with ThreadPoolExecutor(max_workers=8) as pool:      # RSS — разные сайты, можно разом
             results = list(pool.map(lambda j: _fetch_source(client, j[0], j[1], window), jobs))
-        for job in tg_jobs:                      # Telegram — по одному и не спеша
-            results.append(_fetch_source(client, job[0], job[1], window))
-            time.sleep(0.8)
+        results += _fetch_gently(client, slow_jobs, window)
 
-        for (kind, src), (items, error) in zip(jobs + tg_jobs, results):
+        for (kind, src), (items, error) in zip(jobs + slow_jobs, results):
             new = 0
             for it in items:
                 if datetime.strptime(it["published"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=UTC) < cutoff:

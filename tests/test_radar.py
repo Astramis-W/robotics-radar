@@ -316,3 +316,20 @@ def test_enrich_profile_needs_sources(env):
     assert card["funding_total"]["usd"] == 10_000_000.0
     assert "revenue" not in card                       # цифра без источника не записывается
     assert store.products["acme--scrub-1"]["stage"] == "serial" and store.products["acme--scrub-1"]["sources"] == []
+
+
+def test_collect_retries_rate_limited_search(monkeypatch):
+    """Google News на частые запросы отвечает 429: идём по одному, потом второй заход по отказам."""
+    import radar.collect as c
+    calls, sleeps = [], []
+    def fake(client, kind, src, window):
+        calls.append(src.get("q") or src.get("name"))
+        if kind == "gnews" and calls.count(src["q"]) == 1 and src["q"] == "b":
+            return [], "HTTP 429"
+        return [], ""
+    monkeypatch.setattr(c, "_fetch_source", fake)
+    monkeypatch.setattr(c.time, "sleep", sleeps.append)
+    got = c.collect(None, {"rss": [{"name": "r", "url": "x"}],
+                           "google_news": [{"q": "a"}, {"q": "b"}, {"q": "c"}]}, dry_run=True)
+    assert calls == ["r", "a", "b", "c", "b"] and not got["errors"]       # второй заход — только по отказу
+    assert sleeps == [c.GENTLE_PAUSE] * 3 + [c.RETRY_AFTER, c.GENTLE_PAUSE * 1.5]
