@@ -210,7 +210,8 @@
   "id": "apptronik--apollo",
   "name": "Apollo",
   "sources": [
-   "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeldYUVdhYkhDZ1VmeV8xeDM2RDgxX2Y4U3h2eGI2SEt4LWRtUXFhNEhyQmVCcVYzZDR0N2Z5SWcyRk5rV3p2MWVDZXp6djQtczdrQ0lIemRSRkZubEpzUlo3Ym9GekhBTllvZVBwWDR6aEt2QnB5MlFHc3BmU3ZPdjB0NzhiNjhGYUFIYW93?oc=5"
+   "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeldYUVdhYkhDZ1VmeV8xeDM2RDgxX2Y4U3h2eGI2SEt4LWRtUXFhNEhyQmVCcVYzZDR0N2Z5SWcyRk5rV3p2MWVDZXp6djQtczdrQ0lIemRSRkZubEpzUlo3Ym9GekhBTllvZVBwWDR6aEt2QnB5MlFHc3BmU3ZPdjB0NzhiNjhGYUFIYW93?oc=5",
+   "https://news.google.com/rss/articles/CBMiggFBVV95cUxNV2p1YTN4Yi1DbDhzWVo1MmplOER3U3oyU1B4ajVrSTR6RnlETXpYbVpIX1RkWExBV09lNFBmcUdWYlFvNTBUdk1hYUtzRE1va3FRRHdsbDJ0V01nU0pKb09VMjc2UEcwNGFRTGQ3eXR5NDh5NERYekwwRmU0SC1IMzdn?oc=5"
   ],
   "stage": "pilot",
   "updated": "2026-11-17"
@@ -527,6 +528,25 @@
   "stage": "unknown",
   "updated": "2026-11-17"
  },
+ "richtech-robotics--dust-e": {
+  "categories": [
+   "cleaning",
+   "security"
+  ],
+  "company_id": "richtech-robotics",
+  "description": "Система уборки с интеграцией CCTV.",
+  "first_seen": "2026-11-17",
+  "focus": [
+   "floor"
+  ],
+  "id": "richtech-robotics--dust-e",
+  "name": "DUST-E",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVHB4Qy1XaWcwTDBtTFhkMXFldVNDTDB2ZVM4WU54aWxESEJXM3paajBCQ2NfSmlwNVM4eHRwVkpoMG1ldGJ1MlBsUXlVQUFGc2J2anI0TXBKbm9RSTBkaHNxRklfTjkzTWtYUmhqT2pMVk5aUWRJQ1RQVDZJYTd1VDloQmRFTldWU2pKc280RnR0NUxJMDlIMnhxV3hXUkRkY0FYUEROY0N0TzZMWHJCWWlxZTdPSzVmNnZoSW5icjRkXy10emQxNEJKU3FlZw?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-17"
+ },
  "richtech-robotics--intelligent-cleaning-system": {
   "categories": [
    "cleaning",
@@ -634,6 +654,38 @@
   ],
   "stage": "serial",
   "updated": "2026-11-16"
+ },
+ "rzhd--roboty-provodniki": {
+  "categories": [
+   "service"
+  ],
+  "company_id": "rzhd",
+  "description": "",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "rzhd--roboty-provodniki",
+  "name": "Роботы-проводники",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMikAFBVV95cUxNV0FJNDVudlhpX3AyZC1TU0kwZjA1d2hrai1fSkpaVHhfUmNyV2hRcFpUUEUwbzhuQlFuZVdJOXVBU1ZOa1ZZSzY2bjRLdGhhNW5DckNyVzRESkRNMmZVdVJWckhEbmlsZHVXak14VFJ3ajlKVDBFaF9sSVVIUWR0UjJSanprWkN0UlNScDVTcE4?oc=5"
+  ],
+  "stage": "concept",
+  "updated": "2026-11-17"
+ },
+ "rzhd--roboty-v-poezdah": {
+  "categories": [
+   "service"
+  ],
+  "company_id": "rzhd",
+  "description": "",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "rzhd--roboty-v-poezdah",
+  "name": "Роботы в поездах",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNd01MdjhkbWRUNHlLemFiandRZ1dwQUp6STBMU2JXeGpxTTFORG1KdkNjYVFpd2F6d3duYjlGM1ItVW8tWGFkMW1pcTdGbjg2Tmp1eE9uaGVVVGtTcVhCTF9MT0VJVHZNcTFaLTlOaGhGNF9MbkFoN0E2WkNPbWJaWGo4N0NJQW5LNy0tdXRZbUhWLXBEZmRfYm1BWFV0bkJvNHBrd2hUZklRZEE?oc=5"
+  ],
+  "stage": "concept",
+  "updated": "2026-11-17"
  },
  "saildrone--voyager": {
   "categories": [

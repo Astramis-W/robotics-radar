@@ -161,13 +161,11 @@
   "focus": [],
   "id": "agile-robots",
   "last_round": {
-   "as_of": "2026-11-16",
+   "as_of": "2026-11-17",
    "currency": "USD",
-   "investors": [
-    "SoftBank"
-   ],
-   "source": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBWSG1ldHlhbVRlNTJmdTMyWkppUXN0bjlLaVJLamFtZm8yUFlGa1Y0Q19XOThQZXltR1poS1ZUeHZseU1YRmVaRzFncUpyOS02dkZjdWp3azFicUhkWkV4OUVyaEtiYVZ1Sy1vd0lpMEVhTWgy?oc=5",
-   "type": "unknown",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNdnFCZUUxTFVMelJVZmhaZEVMOVBZMk9uOUVPSjNxRVY4Uno1aWhfZ2sxQ1k3RkhMazV3OUVvbjVDOWZkUTJFeUl1ZkpyZUVMSEI1UmRhbFNQVW1DZHlwMnUwTXh2anRxYzNnYXluZHZrb0RlRXAzd1lpM1RvWU9sWlpOLURoY2pXVVhXRmFpdU05RllZemhoMmMzUW1XOC1ZeDZHRXl6YjFMMHZYbF9oT0JaOFZJLURDNmE1WW5IS3JqeENYNThkRXRLZ3ZCOWR1VlBJSVI0ZTh1c2xrSEp3ZTRyWklSQjN5eGhoSUp2RmRfdmN4YzJjZ0JnNXdMbF9EMEVN?oc=5",
+   "type": "series_d_plus",
    "usd": 500000000.0,
    "value": 500000000.0
   },
@@ -175,9 +173,9 @@
   "origin": "news",
   "updated": "2026-11-17",
   "valuation": {
-   "as_of": "2026-11-16",
+   "as_of": "2026-11-17",
    "currency": "USD",
-   "source": "https://www.therobotreport.com/agile-robots-raises-500m-to-increase-production-capacity/",
+   "source": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNdnFCZUUxTFVMelJVZmhaZEVMOVBZMk9uOUVPSjNxRVY4Uno1aWhfZ2sxQ1k3RkhMazV3OUVvbjVDOWZkUTJFeUl1ZkpyZUVMSEI1UmRhbFNQVW1DZHlwMnUwTXh2anRxYzNnYXluZHZrb0RlRXAzd1lpM1RvWU9sWlpOLURoY2pXVVhXRmFpdU05RllZemhoMmMzUW1XOC1ZeDZHRXl6YjFMMHZYbF9oT0JaOFZJLURDNmE1WW5IS3JqeENYNThkRXRLZ3ZCOWR1VlBJSVI0ZTh1c2xrSEp3ZTRyWklSQjN5eGhoSUp2RmRfdmN4YzJjZ0JnNXdMbF9EMEVN?oc=5",
    "usd": 8500000000.0,
    "value": 8500000000.0
   }
@@ -669,6 +667,22 @@
   "origin": "seed",
   "updated": "2026-11-16"
  },
+ "ceva-logistics": {
+  "aliases": [
+   "SIT"
+  ],
+  "categories": [
+   "logistics"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "ceva-logistics",
+  "name": "CEVA Logistics",
+  "origin": "news",
+  "updated": "2026-11-17"
+ },
  "cognitive-pilot": {
   "aliases": [
    "Когнитив Пилот"
@@ -1001,6 +1015,23 @@
   "origin": "seed",
   "updated": "2026-11-16"
  },
+ "eth-zurich": {
+  "aliases": [
+   "ETH Zürich",
+   "Швейцарская высшая техническая школа Цюриха"
+  ],
+  "categories": [
+   "medical"
+  ],
+  "country": "CH",
+  "description": "",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "eth-zurich",
+  "name": "ETH Zürich",
+  "origin": "news",
+  "updated": "2026-11-17"
+ },
  "exotec": {
   "aliases": [],
   "categories": [
@@ -1118,7 +1149,7 @@
   "revenue": {
    "as_of": "2026-11-16",
    "currency": "USD",
-   "source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNl9pdDZpeGNTbFFubEE3OVFSc093LWZIQXR5ajRmSVZsdHZSMy1ZWUhCZTJsYWhHUEhGZjdDcEM2NFByUkt0ampzdE9RME1tVnpxb1QxSmFabmlEZHhyRWI2cUhMSnhPd0JBcHJhak05ZlYwSVhtQWVEUkdfenNxbzNuS2N1OXFiQ2dEek1JZnNHUUpVeV9RT0tuQm1MNnI0TGtLM09IQ0ZJcWpLWktZN2N2QVRSd053Mk5UQQ?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaGpNNDB0VnFqXzBnQXpUYndEWEtPMHVLZFd2bzY2dDY2SjcweGVTLS1KcVVha01uVWR2UV9OcVo5ZnBZRDF1U2ZaNGE2eFJPaUo0eGMyUmtvRUswQ0t6NDZIVVZkejN3VE9yQUhrTjVMN3pLZmt2SVNNNnB6ZFlBWVlXNGVaT01TRjA5U1FDTXp1Z0k?oc=5",
    "usd": 2300000.0,
    "value": 2300000.0,
    "year": null
@@ -1156,6 +1187,18 @@
   "focus": [],
   "id": "ff-robotics",
   "name": "FF Robotics",
+  "origin": "news",
+  "updated": "2026-11-17"
+ },
+ "ffai": {
+  "aliases": [],
+  "categories": [],
+  "country": "US",
+  "description": "",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "ffai",
+  "name": "FFAI",
   "origin": "news",
   "updated": "2026-11-17"
  },
@@ -1662,13 +1705,13 @@
    "logistics"
   ],
   "country": "US",
-  "description": "",
+  "description": "Поставщик систем складской автоматизации на основе мобильных роботов",
   "first_seen": "2026-11-16",
   "focus": [],
   "id": "locus-robotics",
   "name": "Locus Robotics",
   "origin": "seed",
-  "updated": "2026-11-16"
+  "updated": "2026-11-17"
  },
  "lucid-bots": {
   "aliases": [
@@ -1766,13 +1809,13 @@
   "focus": [],
   "id": "mediintech",
   "last_round": {
-   "as_of": "2026-11-16",
-   "currency": "KRW",
+   "as_of": "2026-11-17",
+   "currency": "USD",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBUeGhBUzJ0ZG9xUFcxelRlYXBHQkRiSjdUbDN5RkpCaC0zNWY0b2RtVjBxT2dBRU9OQllIUU9MNkJieU5VbmRaeXJBQzNUUDUtS2xYUC1Gc1Z1TG1SaTJIakZVamg?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBwbG5reE1zTzZwUEVpdFZmakdCOWJEMU5Gc2VCRk1UUE1qQ01rQ2x3V2Z3VGYtOUVnRzV4bzRqcy1DeHh6cEJaaF9zaThOQXFjRVJJ?oc=5",
    "type": "series_c",
-   "usd": 25309140.97,
-   "value": 33800000000.0
+   "usd": 25700000.0,
+   "value": 25700000.0
   },
   "name": "Mediintech",
   "origin": "news",
@@ -1837,17 +1880,17 @@
   "focus": [],
   "id": "mosaico",
   "last_round": {
-   "as_of": "2026-11-16",
+   "as_of": "2026-11-17",
    "currency": "EUR",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9xWDdmeC1RV2tQN3VDU0cxSXJQRG93aXAtQnJjNm9VUDFFbkNrUlhpNmlzR0YyS0xYdmJlc1JfenAwaTJfM2VZZnptZ3lOX2g2c1A4WXp5OXRMVkxFOVNqSkM0bXI2RmxoVjdYOFZITDhuZXZBV3dJZA?oc=5",
-   "type": "seed",
-   "usd": 8272457.24,
+   "source": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYWp3c2VlWm9xNDZMb25iRmpHcHZaSDJDdjBYSXN0UVdXLVM1ekU0RHZoeFFWSXJ1TmtMS1Z5OEg0Mk9nM2NmQmVPcGlISDdHaTh4NVpaUXJ1bTNLSUJ5cGw1S2tETFZBUFotQVk1bkt3T1dlbUF6VnFpVDVkcHl6eUczQQ?oc=5",
+   "type": "unknown",
+   "usd": 8254602.77,
    "value": 7500000.0
   },
   "name": "Mosaico",
   "origin": "news",
-  "updated": "2026-11-16"
+  "updated": "2026-11-17"
  },
  "naio-technologies": {
   "aliases": [
@@ -1866,6 +1909,23 @@
   "origin": "seed",
   "updated": "2026-11-17"
  },
+ "neptune-robotics": {
+  "aliases": [],
+  "categories": [
+   "marine",
+   "inspection"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-17",
+  "focus": [
+   "tank"
+  ],
+  "id": "neptune-robotics",
+  "name": "Neptune Robotics",
+  "origin": "news",
+  "updated": "2026-11-17"
+ },
  "nilfisk": {
   "aliases": [],
   "categories": [
@@ -1881,6 +1941,54 @@
   "name": "Nilfisk",
   "origin": "seed",
   "updated": "2026-11-16"
+ },
+ "nomadic": {
+  "aliases": [],
+  "categories": [
+   "aerial",
+   "inspection"
+  ],
+  "country": "",
+  "description": "Разработчик дронов для работы на действующих ЛЭП.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "nomadic",
+  "last_round": {
+   "as_of": "2026-11-17",
+   "currency": "USD",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOY0JjSUdxMkY2TVJXNFFRLXRpVER2WTN0Sm1uWTJNak9NZzhXRkJnRmRGXzdybEpGeU9OVm00MXZ6eTViWHFLa3VNNmZmbW1aSlhYc3dSS0U1WTI1ZTlQd0tuV0wwNnNYYzJIdXJxM3dISkxROFJKMGZvSXdRTUZ4RjNwaWx1VTZSbmc?oc=5",
+   "type": "unknown",
+   "usd": 6000000.0,
+   "value": 6000000.0
+  },
+  "name": "Nomadic",
+  "origin": "news",
+  "updated": "2026-11-17"
+ },
+ "nomadic-drones": {
+  "aliases": [],
+  "categories": [
+   "aerial",
+   "inspection"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "nomadic-drones",
+  "last_round": {
+   "as_of": "2026-11-17",
+   "currency": "USD",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORGtSbVc0SldNWUVLT0VweklEeE5OS2puNVE2WlR1TzNubnRyWkM5bXBVWkpobm8zVkFVQVFzOUpoenk3UHVqdVJvNW1wZm1jSGZkMTEtZThFWjNWRFlZdER2WlhoUFJCUW9qZzBpM1EyUjY4c05mRDk0R1JVRnhoT0c0Tk1LMHBKU2FnSzBrRHB1Xy04d0VtU3Zn?oc=5",
+   "type": "unknown",
+   "usd": 6000000.0,
+   "value": 6000000.0
+  },
+  "name": "Nomadic Drones",
+  "origin": "news",
+  "updated": "2026-11-17"
  },
  "nuro": {
   "aliases": [],
@@ -1909,6 +2017,18 @@
   "name": "OffWorld",
   "origin": "seed",
   "updated": "2026-11-16"
+ },
+ "openai": {
+  "aliases": [],
+  "categories": [],
+  "country": "US",
+  "description": "",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "openai",
+  "name": "OpenAI",
+  "origin": "news",
+  "updated": "2026-11-17"
  },
  "path-robotics": {
   "aliases": [],
@@ -2041,6 +2161,29 @@
   "origin": "news",
   "updated": "2026-11-17"
  },
+ "promise-robotics": {
+  "aliases": [],
+  "categories": [
+   "construction"
+  ],
+  "country": "CA",
+  "description": "Торонтская компания, автоматизирующая домостроение.",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "promise-robotics",
+  "last_round": {
+   "as_of": "2026-11-17",
+   "currency": "USD",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVXhzMXczR3hQcFZ2VTZiQVZZRmV3WklsZW5sc0F2enlHdGZveWJjLXcxeWhLOENjS0N2bl9pWGdhLU95ZmlrSjNMaG00M1ctSTUtajhVeWNaODNSMUZxdlRTSmZOcnFiX01hSno4UmZMLWhSMXhza2Q4ZkJTbEhMWTg1cTdfN05qbk9nWkVlQ2hPUllyREVDRldPVnRnSUZRZmY2NmFvc0dOY2pIZVZLTFpzWEJ0cTVwTENtV3pSeVcxRVlL?oc=5",
+   "type": "unknown",
+   "usd": 40000000.0,
+   "value": 40000000.0
+  },
+  "name": "Promise Robotics",
+  "origin": "news",
+  "updated": "2026-11-17"
+ },
  "promobot": {
   "aliases": [
    "Промобот"
@@ -2123,10 +2266,10 @@
   "focus": [],
   "id": "remedy-robotics",
   "last_round": {
-   "as_of": "2026-11-16",
+   "as_of": "2026-11-17",
    "currency": "USD",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1IZ3JXOG9kVWFjTnJEdHdpcGtyLVJzQzZVQ2pQQ0QwZVN4NG5ZZnpaTUhGWGZvWGZZMkdOV3QzX0lveWpJakZ3U09qQjIyVG9QM19xOEttR2owMnRVaGNiNWtwUzNjZEEwa0cyZ1VOWUJqeUXSAXNBVV95cUxNSGdyVzhvZFVhY05yRHR3aXBrci1Sc0M2VUNqUENEMGVTeDRuWWZ6Wk1IRlhmb1hmWTJHTld0M19Jb3lqSWpGd1NPakIyMlRvUDNfcThLbUdqMDJ0VWhjYjVrcFMzY2RBMGtHMmdVTllCanlF?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTUZ6NGNHUXdNRThjQ0xpUjROUW0tTU44NjJwYklJSUNHQjJJZVptXzN3UHNqVVZnaVRQRFNSQnllZlh1NXZhdHNwa09CT1FBN18tanFmTDlhWFdhaUNDMjBSNE1HSEpUU1ZfSzdsVGVlWE1OQm9vamhvcEk4UnlHSEdqNUFJY1RmUGdVMA?oc=5",
    "type": "unknown",
    "usd": 62000000.0,
    "value": 62000000.0
@@ -2155,12 +2298,15 @@
   ],
   "categories": [
    "cleaning",
-   "service"
+   "service",
+   "security"
   ],
   "country": "US",
   "description": "Разработчик AI-сервисных роботов из Невады.",
   "first_seen": "2026-11-17",
-  "focus": [],
+  "focus": [
+   "floor"
+  ],
   "id": "richtech-robotics",
   "name": "Richtech Robotics",
   "origin": "news",
@@ -2232,6 +2378,21 @@
   "origin": "news",
   "updated": "2026-11-17"
  },
+ "robotera": {
+  "aliases": [],
+  "categories": [
+   "humanoid",
+   "logistics"
+  ],
+  "country": "CN",
+  "description": "",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "robotera",
+  "name": "ROBOTERA",
+  "origin": "news",
+  "updated": "2026-11-17"
+ },
  "ronavi-robotiks": {
   "aliases": [
    "Ronavi Robotics",
@@ -2294,6 +2455,24 @@
   "name": "Runway",
   "origin": "news",
   "updated": "2026-11-16"
+ },
+ "rzhd": {
+  "aliases": [
+   "RZD",
+   "Российские железные дороги"
+  ],
+  "categories": [
+   "humanoid",
+   "service"
+  ],
+  "country": "RU",
+  "description": "",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "rzhd",
+  "name": "РЖД",
+  "origin": "news",
+  "updated": "2026-11-17"
  },
  "sabre-autonomous-solutions": {
   "aliases": [],
@@ -2731,7 +2910,7 @@
   "id": "ubtech",
   "name": "UBTech",
   "origin": "seed",
-  "updated": "2026-11-16"
+  "updated": "2026-11-17"
  },
  "uc-berkeley": {
   "aliases": [
@@ -2811,6 +2990,31 @@
   "name": "Universal Robots",
   "origin": "seed",
   "updated": "2026-11-16"
+ },
+ "unix-ai": {
+  "aliases": [
+   "UniX AI"
+  ],
+  "categories": [
+   "humanoid"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-17",
+  "focus": [],
+  "id": "unix-ai",
+  "last_round": {
+   "as_of": "2026-11-17",
+   "currency": "USD",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNaHNPNFduaFVsOHNpQ2NfbldNX0plMnU1ckV5SVN5TVVLdWNOU1lQb3dxR1NWWjlNQlhuR3JWRi12NjdvUHQ2QkFnUjZLM1RHdnpfeW9MOVpfZThSRmFxcEYyS1RweENWUTBuVE5RbUJvQkpIVTkwV2hjYXg1NG1tWWxCVFNscGV2alM0YUJCdEtWemd1TnRGNEtKUUlad09TYWFqYTVSUjduenJvcjE5WmJaQm80b09PRVp1cUs5UEdRMmQ5WURreXk0ck1kd2p5Y3ZjYjZB?oc=5",
+   "type": "unknown",
+   "usd": 75000000.0,
+   "value": 75000000.0
+  },
+  "name": "UniX AI",
+  "origin": "news",
+  "updated": "2026-11-17"
  },
  "verobotics": {
   "aliases": [],
