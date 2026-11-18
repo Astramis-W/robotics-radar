@@ -279,12 +279,30 @@
   "id": "boston-dynamics--atlas",
   "name": "Atlas",
   "sources": [
-   "https://habr.com/ru/articles/1105822/?utm_campaign=1105822&utm_source=habrahabr&utm_medium=rss",
-   "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOUkVfQUFaWjJjdmMtN21oOHpHLUJyMnJYRjFaZXFQNFVIMlRvMEVUYWZSWkdqdk92ZzFGU00xaTRLNnpJYVE2bHdzZkt2d1NUQXpoOGFXYl9LQ2VZc1lWMGRSWmpfZHM1eXZ4QUxKZGltSzFGMXFyTVNwV0hmOWZVcXM3Vmg3dXV3aHJRQ1dLeDR6ZkMzUEk3R3dKbU5NejVLcm9WNTdicXRqVDE0Zlk5SlU5b2ZUeF96a1ZOS3FtNXBlYVRyblg3U1VNQ19fUkdzR2ZHTmk0RmpqTVhG?oc=5",
-   "https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/"
+   "https://news.google.com/rss/articles/CBMidEFVX3lxTE1FVjNDaDBNNGNSZnBxNGhkbDJfOElicUFSdGpkdUYxUWFPaFFlOWtmRUYwTEhDMk9XTnpEaGZKY2FlXzh4ckloLWc1b1NNZWo1VnhjcG5ncEEwY2p4NklmZkFIMUZJOHU0S2g0UE5ZZm1CZ0Z0?oc=5",
+   "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTXU3M3pMbjM3WERjd1FQYjBLMG5zNjkwUlZna25TNWVMU2VyYXVLTkI3Y1M5TkV5Z0lHckxaRk83TUktSEFrcXdGS0Y5SDd1d2VMWVRIc3NSWWhuNTVTVXN2RGdpaDBwVUg0T1FwU2pTZFhGeF9IdUlybUs1WThPdGROOVVOWjZwTXJRakdWa01KNUR1S05hNmFnTlJ1VWVqRzhGeVJrQWw0TmlNZ0Q1amJUdHhXN0t3eno0bQ?oc=5",
+   "https://news.google.com/rss/articles/CBMidkFVX3lxTFBIZW9ZQ2Y4X0lGMlJrcTBpaXN0NUo5aTF2Y3RQdWx6N1FBOHREenVoamE5OWJjUUV1SGlRdENZZ1pGNU9FaGFvZVBLaF9CRFVYYjZqZ1JOX1ZCVEdTZUFKMnBBdXF0bm1lS09hV2RjNXNKRzBDbmc?oc=5",
+   "https://news.google.com/rss/articles/CBMiWEFVX3lxTE93X0RWSlh3MHZwZmdaVXg5ZlZkckpzTHVnb3pSd2pnMEtBYmZjR18zNmtEc1YweGNvODdxMThiYkViQXNJekZPOXFmai03TVd0M0lETXA3OXA?oc=5",
+   "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RUGFZaklGOS05U3JSVE53cVRDODlwMi13bHFLbC1DX3NzalRBOFR2TTNaTE1lUTFXTDlwcnVlWGdpLU5zek82RUF4Mk9reVJDcExwenRCdy1UNmlPc2YxWWQ1bTI?oc=5"
   ],
   "stage": "pilot",
-  "updated": "2026-11-17"
+  "updated": "2026-11-18"
+ },
+ "boston-dynamics--spot": {
+  "categories": [
+   "inspection"
+  ],
+  "company_id": "boston-dynamics",
+  "description": "Четвероногий робот Spot.",
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "boston-dynamics--spot",
+  "name": "Spot",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMiWEFVX3lxTE93X0RWSlh3MHZwZmdaVXg5ZlZkckpzTHVnb3pSd2pnMEtBYmZjR18zNmtEc1YweGNvODdxMThiYkViQXNJekZPOXFmai03TVd0M0lETXA3OXA?oc=5"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-18"
  },
  "brinc--brinc-liveops": {
   "categories": [
@@ -468,6 +486,23 @@
   "stage": "unknown",
   "updated": "2026-11-17"
  },
+ "generative-bionics--gene-01": {
+  "categories": [
+   "humanoid",
+   "components"
+  ],
+  "company_id": "generative-bionics",
+  "description": "Промышленный гуманоидный робот.",
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "generative-bionics--gene-01",
+  "name": "GENE.01",
+  "sources": [
+   "https://t.me/prorobots/3669"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-18"
+ },
  "genesis-ai--eno": {
   "categories": [
    "humanoid",
@@ -480,12 +515,14 @@
   "id": "genesis-ai--eno",
   "name": "Eno",
   "sources": [
-   "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQlJMSlpCWFVKaDFXTDB6M1FBSnBqLUs4U3AzNXVTdXpNOHA2Z2hVVHVFdlNzUlNSNEhaMDlQUmcyUlhCcEN6ci1WUjU1MC1OV1NfYXhTQmFRQmo4U0FZWUxPSFdqNG9ubmptX1hVeVUtMDhVVlJGWkRVaXZydnBrMkNZS3pJRjFER1hFN2c2N3ZHNi1VVFFNVDVqY1dOS3M4NXBEOTdlSW9xczVtcE95bEdWbDBhNUxZZWYw?oc=5",
    "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB1c3VtQkRvTHBNQVRCX2k2WVdOWmJHUlJCNGhUdldPMnJTN3RhenFoMWV1Z3BESFhYaEhqaXN6NEtQN3lPZ0c5Y1JOelljbVR4ck9aYms3dFpjaFRXMGc?oc=5",
-   "https://news.crunchbase.com/venture/robot-factory-workers-genesis-ai-fundraise/"
+   "https://news.crunchbase.com/venture/robot-factory-workers-genesis-ai-fundraise/",
+   "https://news.google.com/rss/articles/CBMidkFVX3lxTE42WHh3TnFfUnNNWlFkdklpbnZ3WjZ0Z1NCZ0FVVjRETDIzcy1sMEpEdVF4aHhEU3B3NWo4VnluZnU4VXNBblh6VEtaMTJENkVxTms3OExhZEd5RmI4Q3A2MG5VREJwZUdoc2M0VlBvX1JISzBvUUE?oc=5",
+   "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbTRtOEFoYjBnaV9zd0ZMLXczWHlPald4cm1MbUhITlZQbk5DUFBXRm9LeFJRM1FnOHFFbFRvWHpGNWNsT3JYTm1hNEZfY2lMNXRES0VmZkFjWGxad0JIeFV6Z2w2cHJlS0kzbnh2VDBvdC1fTXRDRkVxUktJZjVIcFV3QkhkTGJQRE9DX2dpazM?oc=5",
+   "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaEJQeHVZM0o2UGZhVy1rVjJrNjlESnhNTlFzbS1DT0R6QWVqQ3ZZdUVvTm8yYVJ2clNKS1NDQlRGSVZtMnRCYTlvMTdPT1BHOHVIQkY1Ty1VNV9oYV90QVZUUGVHV2NMVllwRGxOWWcyaVRldzZ4U3FucjVsemsyWXl1MWFsbXR5Ull0RE95N01zTG5fVURQeTZOLTlpZjhHWk03eDR3?oc=5"
   ],
   "stage": "unknown",
-  "updated": "2026-11-17"
+  "updated": "2026-11-18"
  },
  "globalfoundries--atlas": {
   "categories": [
@@ -996,6 +1033,23 @@
   ],
   "stage": "pilot",
   "updated": "2026-11-17"
+ },
+ "zipline--dostavka-dronami-zipline": {
+  "categories": [
+   "aerial",
+   "delivery"
+  ],
+  "company_id": "zipline",
+  "description": "Доставка товаров дронами по заказам Uber Eats.",
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "zipline--dostavka-dronami-zipline",
+  "name": "Доставка дронами Zipline",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU2xQWVFFOUZtQV9NSnBuRU92YVZxMlNUSTVqZUpnVWRlbWF1VXFZelFFQnoyaFB2bFdRQmF5YXltSW04MFhEbnZYWmljQU54dWdWMnpaNWRKd1RiZlBoNkpJVm5mUU5obEFpemRUaWNLYW1KZjNqamI0VUxjSWRMY1dLOGVHaWdPbnR4ZWxTY1RaQ0FfcF9mODJ5NUdCOWdURThmRzJlaTZMdTRqV2QxRzRGQnR6NFdpRXhna080OE1ZbUFIeW9IaA?oc=5"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-18"
  },
  "zipline--platform-2": {
   "categories": [

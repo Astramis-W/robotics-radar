@@ -171,7 +171,7 @@
   },
   "name": "Agile Robots",
   "origin": "news",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "valuation": {
    "as_of": "2026-11-17",
    "currency": "USD",
@@ -622,7 +622,11 @@
  },
  "boston-dynamics": {
   "aliases": [
-   "Бостон Динамикс"
+   "Бостон Динамикс",
+   "Hyundai",
+   "Atlas",
+   "GlobalFoundries",
+   "Hyundai Motor Group"
   ],
   "categories": [
    "humanoid",
@@ -637,7 +641,32 @@
   "id": "boston-dynamics",
   "name": "Boston Dynamics",
   "origin": "seed",
-  "updated": "2026-11-17"
+  "updated": "2026-11-18"
+ },
+ "botsync": {
+  "aliases": [
+   "Botsync"
+  ],
+  "categories": [],
+  "country": "SG",
+  "description": "Сингапурский робототехнический стартап.",
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "botsync",
+  "last_round": {
+   "as_of": "2026-11-18",
+   "currency": "USD",
+   "investors": [
+    "IvyCap Ventures"
+   ],
+   "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1NeXh1Zm1sdFIyZGtuaWlSblkzUTByUzFMMWdITVZhMHJIU3NYWDJHZjlkUkpTbE5kMXNWTDJYSTBoVnZfRE5BT213OGR1MnlpUWR6TnBXLVYyWlZtTGtza3VvN3NpdVlHcldRbGp5WnFOM2pnQkdGTA?oc=5",
+   "type": "unknown",
+   "usd": 11000000.0,
+   "value": 11000000.0
+  },
+  "name": "Botsync",
+  "origin": "news",
+  "updated": "2026-11-18"
  },
  "brain": {
   "aliases": [
@@ -1413,6 +1442,23 @@
   "origin": "news",
   "updated": "2026-11-17"
  },
+ "generative-bionics": {
+  "aliases": [
+   "Generative Bionics"
+  ],
+  "categories": [
+   "humanoid",
+   "components"
+  ],
+  "country": "IT",
+  "description": "Итальянская компания, разрабатывающая промышленных гуманоидных роботов GENE.01.",
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "generative-bionics",
+  "name": "Generative Bionics",
+  "origin": "news",
+  "updated": "2026-11-18"
+ },
  "genesis-ai": {
   "aliases": [
    "Genesis AI",
@@ -1435,21 +1481,21 @@
   "focus": [],
   "id": "genesis-ai",
   "last_round": {
-   "as_of": "2026-11-17",
+   "as_of": "2026-11-18",
    "currency": "USD",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTWFFQXhWNzlaWHRMZ2E5dWdTY0pIa2dVci0wa0VETFVvZXRzS2Z3Vm9uenBueTdiNFVpQmxXTHBGUm1IS04tdEJuaTJKY0hoVHhsSWVhOGNFeUcyc09LSlV3aG05bzMycGZDa29JM3hvRFp1bm1UV1ZLblBFdzBMdVdMSzh4Zlk3M1drZm8tNUIyQ00?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaEJQeHVZM0o2UGZhVy1rVjJrNjlESnhNTlFzbS1DT0R6QWVqQ3ZZdUVvTm8yYVJ2clNKS1NDQlRGSVZtMnRCYTlvMTdPT1BHOHVIQkY1Ty1VNV9oYV90QVZUUGVHV2NMVllwRGxOWWcyaVRldzZ4U3FucjVsemsyWXl1MWFsbXR5Ull0RE95N01zTG5fVURQeTZOLTlpZjhHWk03eDR3?oc=5",
    "type": "series_a",
    "usd": 500000000.0,
    "value": 500000000.0
   },
   "name": "Genesis AI",
   "origin": "news",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "valuation": {
-   "as_of": "2026-11-17",
+   "as_of": "2026-11-18",
    "currency": "USD",
-   "source": "https://news.crunchbase.com/venture/robot-factory-workers-genesis-ai-fundraise/",
+   "source": "https://news.google.com/rss/articles/CBMidkFVX3lxTE42WHh3TnFfUnNNWlFkdklpbnZ3WjZ0Z1NCZ0FVVjRETDIzcy1sMEpEdVF4aHhEU3B3NWo4VnluZnU4VXNBblh6VEtaMTJENkVxTms3OExhZEd5RmI4Q3A2MG5VREJwZUdoc2M0VlBvX1JISzBvUUE?oc=5",
    "usd": 3500000000.0,
    "value": 3500000000.0
   }
@@ -2119,6 +2165,23 @@
   "name": "Nuro",
   "origin": "seed",
   "updated": "2026-11-16"
+ },
+ "nvidia": {
+  "aliases": [
+   "Nvidia",
+   "NVIDIA"
+  ],
+  "categories": [
+   "components"
+  ],
+  "country": "US",
+  "description": "Производитель чипов и ИИ-платформ общего назначения.",
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "nvidia",
+  "name": "Nvidia",
+  "origin": "news",
+  "updated": "2026-11-18"
  },
  "offworld": {
   "aliases": [],
@@ -2844,6 +2907,22 @@
   "origin": "seed",
   "updated": "2026-11-17"
  },
+ "soligorskaya-ptitsefabrika": {
+  "aliases": [
+   "Солигорская птицефабрика"
+  ],
+  "categories": [
+   "agro"
+  ],
+  "country": "BY",
+  "description": "",
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "soligorskaya-ptitsefabrika",
+  "name": "Солигорская птицефабрика",
+  "origin": "news",
+  "updated": "2026-11-18"
+ },
  "spie-nederland": {
   "aliases": [
    "SPIE"
@@ -3340,13 +3419,13 @@
    "delivery"
   ],
   "country": "US",
-  "description": "",
+  "description": "Компания беспилотных такси (robotaxi) в США.",
   "first_seen": "2026-11-17",
   "focus": [],
   "id": "waymo",
   "name": "Waymo",
   "origin": "news",
-  "updated": "2026-11-17"
+  "updated": "2026-11-18"
  },
  "windracers": {
   "aliases": [
@@ -3511,7 +3590,8 @@
  },
  "zipline": {
   "aliases": [
-   "Zipotle"
+   "Zipotle",
+   "Uber Eats"
   ],
   "categories": [
    "aerial",
@@ -3533,7 +3613,7 @@
   },
   "name": "Zipline",
   "origin": "seed",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "valuation": {
    "as_of": "2026-11-10",
    "currency": "USD",
