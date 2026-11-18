@@ -17,7 +17,8 @@
  },
  "abb-robotics": {
   "aliases": [
-   "ABB"
+   "ABB",
+   "SoftBank-ABB"
   ],
   "categories": [
    "manufacturing",
@@ -30,7 +31,7 @@
   "id": "abb-robotics",
   "name": "ABB Robotics",
   "origin": "seed",
-  "updated": "2026-11-17"
+  "updated": "2026-11-18"
  },
  "abz-innovation": {
   "aliases": [
@@ -195,6 +196,32 @@
   "origin": "seed",
   "updated": "2026-11-16"
  },
+ "agilox": {
+  "aliases": [
+   "Rockwell Automation"
+  ],
+  "categories": [
+   "logistics"
+  ],
+  "country": "AT",
+  "description": "Австрийский разработчик автономных мобильных роботов (AMR).",
+  "employees": {
+   "as_of": "2026-11-18",
+   "source": "https://www.therobotreport.com/rockwell-automation-acquiring-mobile-robot-maker-agilox/",
+   "value": 250
+  },
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "agilox",
+  "name": "AGILOX",
+  "origin": "news",
+  "robots_deployed": {
+   "as_of": "2026-11-18",
+   "source": "https://www.therobotreport.com/rockwell-automation-acquiring-mobile-robot-maker-agilox/",
+   "value": 2500
+  },
+  "updated": "2026-11-18"
+ },
  "agri-spray": {
   "aliases": [
    "Agri Spray"
@@ -280,7 +307,7 @@
   "id": "amazon",
   "name": "Amazon",
   "origin": "news",
-  "updated": "2026-11-17"
+  "updated": "2026-11-18"
  },
  "amicro": {
   "aliases": [],
@@ -461,6 +488,22 @@
   "origin": "seed",
   "updated": "2026-11-16"
  },
+ "auvsi": {
+  "aliases": [
+   "Association for Uncrewed Vehicle Systems International"
+  ],
+  "categories": [
+   "aerial"
+  ],
+  "country": "US",
+  "description": "Ассоциация разработчиков и пользователей беспилотных систем.",
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "auvsi",
+  "name": "AUVSI",
+  "origin": "news",
+  "updated": "2026-11-18"
+ },
  "avidbots": {
   "aliases": [],
   "categories": [
@@ -626,7 +669,8 @@
    "Hyundai",
    "Atlas",
    "GlobalFoundries",
-   "Hyundai Motor Group"
+   "Hyundai Motor Group",
+   "Hyundai Atlas"
   ],
   "categories": [
    "humanoid",
@@ -656,10 +700,8 @@
   "last_round": {
    "as_of": "2026-11-18",
    "currency": "USD",
-   "investors": [
-    "IvyCap Ventures"
-   ],
-   "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1NeXh1Zm1sdFIyZGtuaWlSblkzUTByUzFMMWdITVZhMHJIU3NYWDJHZjlkUkpTbE5kMXNWTDJYSTBoVnZfRE5BT213OGR1MnlpUWR6TnBXLVYyWlZtTGtza3VvN3NpdVlHcldRbGp5WnFOM2pnQkdGTA?oc=5",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPei1aNFZxbGhsQmpJN1hCeG0wN3o0UFlqclNjMV9kWWpqcHV4bTJjZkhJSElQaGp3YllpdlhEbVRHZGxWNkE1V2RxaE1HdFM1QXlYN2phZnhpUmhUNHN4c1NxVTRJVzNmSUJ0Q1pUcU1aN2tFNlJzWTE1TmlORVlYbDYzYzMzQXJIVlFnZDRFYlRLSXc?oc=5",
    "type": "unknown",
    "usd": 11000000.0,
    "value": 11000000.0
@@ -744,6 +786,20 @@
   "name": "CEVA Logistics",
   "origin": "news",
   "updated": "2026-11-17"
+ },
+ "clearspace": {
+  "aliases": [
+   "ClearSpace"
+  ],
+  "categories": [],
+  "country": "CH",
+  "description": "Разработчик технологий удаления космического мусора и роботизированного захвата на орбите.",
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "clearspace",
+  "name": "ClearSpace",
+  "origin": "news",
+  "updated": "2026-11-18"
  },
  "cognitive-pilot": {
   "aliases": [
@@ -969,6 +1025,23 @@
   "origin": "news",
   "updated": "2026-11-17"
  },
+ "east-texas-a-m-university": {
+  "aliases": [
+   "ETAMU"
+  ],
+  "categories": [
+   "aerial",
+   "components"
+  ],
+  "country": "US",
+  "description": "",
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "east-texas-a-m-university",
+  "name": "East Texas A&M University",
+  "origin": "news",
+  "updated": "2026-11-18"
+ },
  "ecorobotix": {
   "aliases": [],
   "categories": [
@@ -1048,6 +1121,23 @@
   "origin": "news",
   "updated": "2026-11-17"
  },
+ "elroy-air": {
+  "aliases": [
+   "Elroy Air"
+  ],
+  "categories": [
+   "aerial",
+   "logistics"
+  ],
+  "country": "US",
+  "description": "Американская компания, разрабатывающая гибридно-электрические грузовые беспилотники VTOL.",
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "elroy-air",
+  "name": "Elroy Air",
+  "origin": "news",
+  "updated": "2026-11-18"
+ },
  "emesent": {
   "aliases": [],
   "categories": [
@@ -1062,6 +1152,27 @@
   "name": "Emesent",
   "origin": "seed",
   "updated": "2026-11-16"
+ },
+ "engineai": {
+  "aliases": [
+   "EngineAI"
+  ],
+  "categories": [
+   "humanoid"
+  ],
+  "country": "CN",
+  "description": "",
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "engineai",
+  "name": "EngineAI",
+  "origin": "news",
+  "robots_deployed": {
+   "as_of": "2026-11-18",
+   "source": "https://www.kommersant.ru/doc/9112620",
+   "value": 151
+  },
+  "updated": "2026-11-18"
  },
  "epiroc": {
   "aliases": [],
@@ -1267,7 +1378,10 @@
   "updated": "2026-11-17"
  },
  "ffai": {
-  "aliases": [],
+  "aliases": [
+   "FF EAI",
+   "FF EAI Robotics Ecosystem"
+  ],
   "categories": [],
   "country": "US",
   "description": "",
@@ -1276,7 +1390,15 @@
   "id": "ffai",
   "name": "FFAI",
   "origin": "news",
-  "updated": "2026-11-17"
+  "revenue": {
+   "as_of": "2026-11-16",
+   "currency": "USD",
+   "source": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUDFLZGZTYzhTcmhxaGJXdlRfUnpXRjBmbDVlMHBjZngxOHBLWUdldGhpNW85SHF4N2FhZktvQ1RZX05hNF9rVTNqc1lnSlhDNDU4V3prOUEzLVlrY1JZVWdKd1I2eEExelhCSHVYVzJieWExV3lNS3pocmdpZGxFUl96YXd3RjR0SFJLaVJZdG5ubXE1bXRfRHVYLWw3WmtvdmF6dFZReDJLZk55SFp1TkgxVm9FQkYtMW9RVnJzVVRPZmRxUXRDSUNaMA?oc=5",
+   "usd": 4470.0,
+   "value": 4470.0,
+   "year": 2026
+  },
+  "updated": "2026-11-18"
  },
  "figure-ai": {
   "aliases": [
@@ -1308,6 +1430,23 @@
   "name": "Flyability",
   "origin": "seed",
   "updated": "2026-11-16"
+ },
+ "flytbase": {
+  "aliases": [
+   "FlytBase"
+  ],
+  "categories": [
+   "aerial",
+   "inspection"
+  ],
+  "country": "",
+  "description": "Компания, разрабатывающая платформу управления дронами для корпоративных программ.",
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "flytbase",
+  "name": "FlytBase",
+  "origin": "news",
+  "updated": "2026-11-18"
  },
  "fort-robotics": {
   "aliases": [
@@ -1442,6 +1581,22 @@
   "origin": "news",
   "updated": "2026-11-17"
  },
+ "general-motors": {
+  "aliases": [
+   "GM"
+  ],
+  "categories": [
+   "manufacturing"
+  ],
+  "country": "US",
+  "description": "",
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "general-motors",
+  "name": "General Motors",
+  "origin": "news",
+  "updated": "2026-11-18"
+ },
  "generative-bionics": {
   "aliases": [
    "Generative Bionics"
@@ -1484,8 +1639,8 @@
    "as_of": "2026-11-18",
    "currency": "USD",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaEJQeHVZM0o2UGZhVy1rVjJrNjlESnhNTlFzbS1DT0R6QWVqQ3ZZdUVvTm8yYVJ2clNKS1NDQlRGSVZtMnRCYTlvMTdPT1BHOHVIQkY1Ty1VNV9oYV90QVZUUGVHV2NMVllwRGxOWWcyaVRldzZ4U3FucjVsemsyWXl1MWFsbXR5Ull0RE95N01zTG5fVURQeTZOLTlpZjhHWk03eDR3?oc=5",
-   "type": "series_a",
+   "source": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcG9wVlBzWUNGbm5ibWpaVVI0dWpqOU1wZFJHd25ZX2ctOHh3cTRGMVF4MDdfbjg1TEtfYTBYTENnMXI0ZWpxUFdEUi1SNzQ5R0JGOG54ZlNpX21vUFNSUzlELTRHVEd5blpXRS1CWTlXcGhmbmlZcm44endXQWZmcDJ5cXFPYTRKQ3JKNkljX2JFMW52MlRLajJvY29ZOGJHMWZpbEtFZ1ZEazZHMjBGSjNZQmxrdHVCYUt3UTRqLXlzWWdIV1d2ZG5Scnc?oc=5",
+   "type": "unknown",
    "usd": 500000000.0,
    "value": 500000000.0
   },
@@ -1495,7 +1650,7 @@
   "valuation": {
    "as_of": "2026-11-18",
    "currency": "USD",
-   "source": "https://news.google.com/rss/articles/CBMidkFVX3lxTE42WHh3TnFfUnNNWlFkdklpbnZ3WjZ0Z1NCZ0FVVjRETDIzcy1sMEpEdVF4aHhEU3B3NWo4VnluZnU4VXNBblh6VEtaMTJENkVxTms3OExhZEd5RmI4Q3A2MG5VREJwZUdoc2M0VlBvX1JISzBvUUE?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcG9wVlBzWUNGbm5ibWpaVVI0dWpqOU1wZFJHd25ZX2ctOHh3cTRGMVF4MDdfbjg1TEtfYTBYTENnMXI0ZWpxUFdEUi1SNzQ5R0JGOG54ZlNpX21vUFNSUzlELTRHVEd5blpXRS1CWTlXcGhmbmlZcm44endXQWZmcDJ5cXFPYTRKQ3JKNkljX2JFMW52MlRLajJvY29ZOGJHMWZpbEtFZ1ZEazZHMjBGSjNZQmxrdHVCYUt3UTRqLXlzWWdIV1d2ZG5Scnc?oc=5",
    "usd": 3500000000.0,
    "value": 3500000000.0
   }
@@ -1508,13 +1663,13 @@
    "aerial"
   ],
   "country": "RU",
-  "description": "",
+  "description": "Российский разработчик беспилотных авиационных систем.",
   "first_seen": "2026-11-16",
   "focus": [],
   "id": "geoskan",
   "name": "Геоскан",
   "origin": "seed",
-  "updated": "2026-11-16"
+  "updated": "2026-11-18"
  },
  "globalfoundries": {
   "aliases": [],
@@ -1529,6 +1684,22 @@
   "name": "GlobalFoundries",
   "origin": "news",
   "updated": "2026-11-17"
+ },
+ "glonass": {
+  "aliases": [
+   "АО «ГЛОНАСС»"
+  ],
+  "categories": [
+   "construction"
+  ],
+  "country": "RU",
+  "description": "",
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "glonass",
+  "name": "ГЛОНАСС",
+  "origin": "news",
+  "updated": "2026-11-18"
  },
  "google-deepmind": {
   "aliases": [],
@@ -1575,6 +1746,65 @@
   "name": "HHLA Sky",
   "origin": "news",
   "updated": "2026-11-17"
+ },
+ "humble-robotics": {
+  "aliases": [],
+  "categories": [
+   "delivery"
+  ],
+  "country": "",
+  "description": "Разработчик автономного электрического грузовика.",
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "humble-robotics",
+  "last_round": {
+   "as_of": "2026-11-18",
+   "currency": "USD",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQ3NQSEJSZGltZm1aT0UtcElDeFNQTEhGdnhxTmg0YTl5VXk1N3JnSkVTZTZOaS04aXBOUnBsc0ZQTlRocllpb05lODdXb3hnRU5sTzRnUHM1UzhOaEkydVlnSF9RRFA3VTRuQ1ZxVG1SUWljV2V0SHBvYTZLTzhyMnlFNDRzYUV4ZWFTS1dGelVqeWFNM1RxN05TLWRLRVlyZzlTeGE2QlpINTJ5bjRrMnZVM2szaV9ta3cyc1BOZ295TGc?oc=5",
+   "type": "series_a",
+   "usd": 51000000.0,
+   "value": 51000000.0
+  },
+  "name": "Humble Robotics",
+  "origin": "news",
+  "updated": "2026-11-18"
+ },
+ "humyn-labs": {
+  "aliases": [
+   "Humyn"
+  ],
+  "categories": [
+   "components"
+  ],
+  "country": "IN",
+  "description": "Поставщик обучающих данных для робототехнического ИИ",
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "humyn-labs",
+  "last_round": {
+   "as_of": "2026-11-18",
+   "currency": "USD",
+   "investors": [
+    "Accel",
+    "Prosus Ventures"
+   ],
+   "source": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdlpWaHp2emQzQXpHUnZSbjFoSlQ5YlhpclpCMEdyRm1sNUxuSkQ1MklQS3Zrd0Y1Q2pzRUlqblc4R0ltU3BvNk1kWUlqd3NHejF3YnpINnc2aXFkZGtsUk56QUEwZXRTSHFxRmd0ZU5LVHA1R0xRRmVGd1dyeTJQUHdIXzVGd3JkNUFPUU9DdXphaUYzbS1yX00wV0xrY054cGRTdFlvOU5HSmM1WG42RjJ3?oc=5",
+   "type": "series_a",
+   "usd": 47000000.0,
+   "value": 47000000.0
+  },
+  "name": "Humyn Labs",
+  "origin": "news",
+  "revenue": {
+   "as_of": "2026-11-18",
+   "currency": "USD",
+   "source": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+   "usd": 10000000.0,
+   "value": 10000000.0,
+   "year": null
+  },
+  "updated": "2026-11-18"
  },
  "hypertunnel": {
   "aliases": [],
@@ -2387,10 +2617,16 @@
   ],
   "categories": [
    "service",
-   "cleaning"
+   "cleaning",
+   "humanoid"
   ],
   "country": "CN",
-  "description": "",
+  "description": "Китайский производитель коммерческих сервисных роботов.",
+  "employees": {
+   "as_of": "2026-11-04",
+   "source": "https://roboticsandautomationnews.com/2026/11/18/pudu-robotics-rides-the-tidal-wave-of-chinas-ai-revolution/107193/",
+   "value": 1600
+  },
   "first_seen": "2026-11-16",
   "focus": [
    "floor"
@@ -2398,7 +2634,7 @@
   "id": "pudu-robotics",
   "name": "Pudu Robotics",
   "origin": "seed",
-  "updated": "2026-11-16"
+  "updated": "2026-11-18"
  },
  "qlayers": {
   "aliases": [],
@@ -2808,6 +3044,22 @@
   },
   "updated": "2026-11-17"
  },
+ "shenzhen": {
+  "aliases": [
+   "Shenzhen"
+  ],
+  "categories": [
+   "humanoid"
+  ],
+  "country": "CN",
+  "description": "",
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "shenzhen",
+  "name": "Shenzhen",
+  "origin": "news",
+  "updated": "2026-11-18"
+ },
  "skydio": {
   "aliases": [],
   "categories": [
@@ -2840,6 +3092,22 @@
    "usd": 5200000000.0,
    "value": 5200000000.0
   }
+ },
+ "skydrive": {
+  "aliases": [
+   "SkyDrive Inc."
+  ],
+  "categories": [
+   "aerial"
+  ],
+  "country": "JP",
+  "description": "",
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "skydrive",
+  "name": "SkyDrive",
+  "origin": "news",
+  "updated": "2026-11-18"
  },
  "skyline-robotics": {
   "aliases": [],
@@ -3018,6 +3286,25 @@
   "origin": "seed",
   "updated": "2026-11-16"
  },
+ "t1": {
+  "aliases": [
+   "ИТ-холдинг Т1"
+  ],
+  "categories": [
+   "manufacturing",
+   "logistics",
+   "service",
+   "components"
+  ],
+  "country": "RU",
+  "description": "ИТ-холдинг.",
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "t1",
+  "name": "Т1",
+  "origin": "news",
+  "updated": "2026-11-18"
+ },
  "taisei": {
   "aliases": [],
   "categories": [
@@ -3128,6 +3415,39 @@
   "name": "Tevel Aerobotics",
   "origin": "seed",
   "updated": "2026-11-16"
+ },
+ "thg-fulfil": {
+  "aliases": [
+   "THG Fulfil",
+   "THG"
+  ],
+  "categories": [
+   "logistics"
+  ],
+  "country": "GB",
+  "description": "Дистрибьютор систем автоматизированного хранения AutoStore и операционный провайдер для e-commerce.",
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "thg-fulfil",
+  "name": "THG Fulfil",
+  "origin": "news",
+  "updated": "2026-11-18"
+ },
+ "tu-delft": {
+  "aliases": [
+   "Delft University of Technology"
+  ],
+  "categories": [
+   "aerial"
+  ],
+  "country": "NL",
+  "description": "",
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "tu-delft",
+  "name": "TU Delft",
+  "origin": "news",
+  "updated": "2026-11-18"
  },
  "tutor-intelligence": {
   "aliases": [],
@@ -3460,6 +3780,22 @@
   "origin": "seed",
   "updated": "2026-11-17"
  },
+ "witron": {
+  "aliases": [
+   "Witron"
+  ],
+  "categories": [
+   "logistics"
+  ],
+  "country": "DE",
+  "description": "Поставщик систем автоматизации складов.",
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "witron",
+  "name": "Witron",
+  "origin": "news",
+  "updated": "2026-11-18"
+ },
  "world-labs": {
   "aliases": [
    "AMD"
@@ -3591,7 +3927,8 @@
  "zipline": {
   "aliases": [
    "Zipotle",
-   "Uber Eats"
+   "Uber Eats",
+   "Zipline Aero"
   ],
   "categories": [
    "aerial",

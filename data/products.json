@@ -177,10 +177,28 @@
   "sources": [
    "https://dronexl.co/2026/11/16/amazon-nampa-drone-permit-conditions-no-noise-altitude-limit/",
    "https://dronexl.co/2026/11/15/amazon-baton-rouge-drone-routes-changed-30-an-hour/",
-   "https://dronexl.co/2026/11/17/amazon-nampa-drone-complaint-contact-not-public-wrong-number/"
+   "https://dronexl.co/2026/11/17/amazon-nampa-drone-complaint-contact-not-public-wrong-number/",
+   "https://dronexl.co/2026/11/18/amazon-nampa-drone-flight-data-79-flights-a-day-cherry-creek/",
+   "https://dronexl.co/2026/11/18/amazon-bondurant-iowa-drone-hub-sound-study-condition/"
   ],
   "stage": "serial",
-  "updated": "2026-11-17"
+  "updated": "2026-11-18"
+ },
+ "amazon--prime-air-mk30": {
+  "categories": [
+   "aerial"
+  ],
+  "company_id": "amazon",
+  "description": "Дрон для доставки посылок Amazon Prime Air.",
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "amazon--prime-air-mk30",
+  "name": "Prime Air MK30",
+  "sources": [
+   "https://dronexl.co/2026/11/18/amazon-prime-air-atlanta-gwinnett-drone-delivery-launch/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-18"
  },
  "andromeda-robotics--abi": {
   "categories": [
@@ -270,7 +288,8 @@
  "boston-dynamics--atlas": {
   "categories": [
    "humanoid",
-   "manufacturing"
+   "manufacturing",
+   "inspection"
   ],
   "company_id": "boston-dynamics",
   "description": "Гуманоидный робот Atlas в колёсной конфигурации.",
@@ -279,11 +298,11 @@
   "id": "boston-dynamics--atlas",
   "name": "Atlas",
   "sources": [
-   "https://news.google.com/rss/articles/CBMidEFVX3lxTE1FVjNDaDBNNGNSZnBxNGhkbDJfOElicUFSdGpkdUYxUWFPaFFlOWtmRUYwTEhDMk9XTnpEaGZKY2FlXzh4ckloLWc1b1NNZWo1VnhjcG5ncEEwY2p4NklmZkFIMUZJOHU0S2g0UE5ZZm1CZ0Z0?oc=5",
-   "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTXU3M3pMbjM3WERjd1FQYjBLMG5zNjkwUlZna25TNWVMU2VyYXVLTkI3Y1M5TkV5Z0lHckxaRk83TUktSEFrcXdGS0Y5SDd1d2VMWVRIc3NSWWhuNTVTVXN2RGdpaDBwVUg0T1FwU2pTZFhGeF9IdUlybUs1WThPdGROOVVOWjZwTXJRakdWa01KNUR1S05hNmFnTlJ1VWVqRzhGeVJrQWw0TmlNZ0Q1amJUdHhXN0t3eno0bQ?oc=5",
    "https://news.google.com/rss/articles/CBMidkFVX3lxTFBIZW9ZQ2Y4X0lGMlJrcTBpaXN0NUo5aTF2Y3RQdWx6N1FBOHREenVoamE5OWJjUUV1SGlRdENZZ1pGNU9FaGFvZVBLaF9CRFVYYjZqZ1JOX1ZCVEdTZUFKMnBBdXF0bm1lS09hV2RjNXNKRzBDbmc?oc=5",
    "https://news.google.com/rss/articles/CBMiWEFVX3lxTE93X0RWSlh3MHZwZmdaVXg5ZlZkckpzTHVnb3pSd2pnMEtBYmZjR18zNmtEc1YweGNvODdxMThiYkViQXNJekZPOXFmai03TVd0M0lETXA3OXA?oc=5",
-   "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RUGFZaklGOS05U3JSVE53cVRDODlwMi13bHFLbC1DX3NzalRBOFR2TTNaTE1lUTFXTDlwcnVlWGdpLU5zek82RUF4Mk9reVJDcExwenRCdy1UNmlPc2YxWWQ1bTI?oc=5"
+   "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RUGFZaklGOS05U3JSVE53cVRDODlwMi13bHFLbC1DX3NzalRBOFR2TTNaTE1lUTFXTDlwcnVlWGdpLU5zek82RUF4Mk9reVJDcExwenRCdy1UNmlPc2YxWWQ1bTI?oc=5",
+   "https://3dnews.ru/1151457",
+   "https://news.google.com/rss/articles/CBMicEFVX3lxTE5rTTQzLVM2cFhRY2FMVzhZellGUV9EZENSRUNkM013T3JPQlA5T1hGaHp4TVY3WDBBbUEwYUNJX1ZPRmRYS0xCaEZiYUE0MzR0X19NQmhrVFJBcFNIT2NXeDZqUFlZVlhHMkdKd2tKREw?oc=5"
   ],
   "stage": "pilot",
   "updated": "2026-11-18"
@@ -299,7 +318,8 @@
   "id": "boston-dynamics--spot",
   "name": "Spot",
   "sources": [
-   "https://news.google.com/rss/articles/CBMiWEFVX3lxTE93X0RWSlh3MHZwZmdaVXg5ZlZkckpzTHVnb3pSd2pnMEtBYmZjR18zNmtEc1YweGNvODdxMThiYkViQXNJekZPOXFmai03TVd0M0lETXA3OXA?oc=5"
+   "https://news.google.com/rss/articles/CBMiWEFVX3lxTE93X0RWSlh3MHZwZmdaVXg5ZlZkckpzTHVnb3pSd2pnMEtBYmZjR18zNmtEc1YweGNvODdxMThiYkViQXNJekZPOXFmai03TVd0M0lETXA3OXA?oc=5",
+   "https://roboticsandautomationnews.com/2026/11/18/boston-dynamics-and-globalfoundries-expand-spot-operations-and-prepare-to-test-atlas-humanoid/107266/"
   ],
   "stage": "serial",
   "updated": "2026-11-18"
@@ -438,6 +458,40 @@
   "stage": "unknown",
   "updated": "2026-11-17"
  },
+ "elroy-air--chaparral": {
+  "categories": [
+   "aerial",
+   "logistics"
+  ],
+  "company_id": "elroy-air",
+  "description": "Гибридно-электрический грузовой VTOL-дрон до 500 фунтов груза на расстояние до 450 миль.",
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "elroy-air--chaparral",
+  "name": "Chaparral",
+  "sources": [
+   "https://dronedj.com/2026/11/18/elroy-air-drone-abu-dhabi/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-18"
+ },
+ "engineai--t800": {
+  "categories": [
+   "humanoid"
+  ],
+  "company_id": "engineai",
+  "description": "Человекоподобный робот высотой 1,73 м и весом около 75 кг, предназначенный для разных отраслей.",
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "engineai--t800",
+  "name": "T800",
+  "sources": [
+   "https://3dnews.ru/1151476",
+   "https://www.kommersant.ru/doc/9112620"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-18"
+ },
  "faresin--eramix": {
   "categories": [
    "agro"
@@ -453,6 +507,23 @@
   ],
   "stage": "prototype",
   "updated": "2026-11-17"
+ },
+ "flytbase--octane": {
+  "categories": [
+   "aerial",
+   "inspection"
+  ],
+  "company_id": "flytbase",
+  "description": "Платформа для корпоративных программ дронов в нефтегазовой отрасли.",
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "flytbase--octane",
+  "name": "Octane",
+  "sources": [
+   "https://www.suasnews.com/2026/11/flytbase-launches-octane-as-autonomous-drones-become-everyday-infrastructure-for-oil-and-gas/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-18"
  },
  "galileo--galileo-c1-w": {
   "categories": [
@@ -506,7 +577,9 @@
  "genesis-ai--eno": {
   "categories": [
    "humanoid",
-   "components"
+   "components",
+   "manufacturing",
+   "logistics"
   ],
   "company_id": "genesis-ai",
   "description": "Робот, который первоначально нацелен на производство, логистику и лаборатории.",
@@ -515,11 +588,27 @@
   "id": "genesis-ai--eno",
   "name": "Eno",
   "sources": [
-   "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB1c3VtQkRvTHBNQVRCX2k2WVdOWmJHUlJCNGhUdldPMnJTN3RhenFoMWV1Z3BESFhYaEhqaXN6NEtQN3lPZ0c5Y1JOelljbVR4ck9aYms3dFpjaFRXMGc?oc=5",
    "https://news.crunchbase.com/venture/robot-factory-workers-genesis-ai-fundraise/",
    "https://news.google.com/rss/articles/CBMidkFVX3lxTE42WHh3TnFfUnNNWlFkdklpbnZ3WjZ0Z1NCZ0FVVjRETDIzcy1sMEpEdVF4aHhEU3B3NWo4VnluZnU4VXNBblh6VEtaMTJENkVxTms3OExhZEd5RmI4Q3A2MG5VREJwZUdoc2M0VlBvX1JISzBvUUE?oc=5",
    "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbTRtOEFoYjBnaV9zd0ZMLXczWHlPald4cm1MbUhITlZQbk5DUFBXRm9LeFJRM1FnOHFFbFRvWHpGNWNsT3JYTm1hNEZfY2lMNXRES0VmZkFjWGxad0JIeFV6Z2w2cHJlS0kzbnh2VDBvdC1fTXRDRkVxUktJZjVIcFV3QkhkTGJQRE9DX2dpazM?oc=5",
-   "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaEJQeHVZM0o2UGZhVy1rVjJrNjlESnhNTlFzbS1DT0R6QWVqQ3ZZdUVvTm8yYVJ2clNKS1NDQlRGSVZtMnRCYTlvMTdPT1BHOHVIQkY1Ty1VNV9oYV90QVZUUGVHV2NMVllwRGxOWWcyaVRldzZ4U3FucjVsemsyWXl1MWFsbXR5Ull0RE95N01zTG5fVURQeTZOLTlpZjhHWk03eDR3?oc=5"
+   "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaEJQeHVZM0o2UGZhVy1rVjJrNjlESnhNTlFzbS1DT0R6QWVqQ3ZZdUVvTm8yYVJ2clNKS1NDQlRGSVZtMnRCYTlvMTdPT1BHOHVIQkY1Ty1VNV9oYV90QVZUUGVHV2NMVllwRGxOWWcyaVRldzZ4U3FucjVsemsyWXl1MWFsbXR5Ull0RE95N01zTG5fVURQeTZOLTlpZjhHWk03eDR3?oc=5",
+   "https://techfundingnews.com/nvidia-backed-genesis-ai-raises-500m-series-a-at-3-5b-valuation-to-build-general-purpose-robots/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-18"
+ },
+ "geoskan--geoskan-401-geofizika": {
+  "categories": [
+   "aerial"
+  ],
+  "company_id": "geoskan",
+  "description": "Аэрогеофизический комплекс на базе квадрокоптера «Геоскан 401» и квантового магнитометра Geoshark для геологоразведки.",
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "geoskan--geoskan-401-geofizika",
+  "name": "Геоскан 401 Геофизика",
+  "sources": [
+   "https://www.cnews.ru/news/line/2026-11-18_bespilotnyj_kompleks_dlya"
   ],
   "stage": "unknown",
   "updated": "2026-11-18"
@@ -950,6 +1039,22 @@
   "stage": "serial",
   "updated": "2026-11-17"
  },
+ "thg-fulfil--autostore": {
+  "categories": [
+   "logistics"
+  ],
+  "company_id": "thg-fulfil",
+  "description": "Система роботизированного автоматизированного хранения и поиска товаров.",
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "thg-fulfil--autostore",
+  "name": "AutoStore",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/18/thg-fulfil-doubles-autostore-capacity-at-warrington-warehouse/107261/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-18"
+ },
  "uc-berkeley--robosimstudio": {
   "categories": [
    "manufacturing",
@@ -998,6 +1103,22 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-16"
+ },
+ "waymo--robotaksi-waymo": {
+  "categories": [
+   "delivery"
+  ],
+  "company_id": "waymo",
+  "description": "Беспилотные автомобили для коммерческих поездок",
+  "first_seen": "2026-11-18",
+  "focus": [],
+  "id": "waymo--robotaksi-waymo",
+  "name": "Роботакси Waymo",
+  "sources": [
+   "https://habr.com/ru/articles/1109256/?utm_campaign=1109256&utm_source=habrahabr&utm_medium=rss"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-18"
  },
  "windracers--windracers-ultra": {
   "categories": [
