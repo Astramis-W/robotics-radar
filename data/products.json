@@ -285,6 +285,22 @@
   "stage": "unknown",
   "updated": "2026-11-17"
  },
+ "bolt--ai-driver": {
+  "categories": [
+   "delivery"
+  ],
+  "company_id": "bolt",
+  "description": "",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "bolt--ai-driver",
+  "name": "AI Driver",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/19/wayve-and-stellantis-partner-to-advance-autonomous-driving-in-france/107345/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-19"
+ },
  "boston-dynamics--atlas": {
   "categories": [
    "humanoid",
@@ -309,7 +325,8 @@
  },
  "boston-dynamics--spot": {
   "categories": [
-   "inspection"
+   "inspection",
+   "humanoid"
   ],
   "company_id": "boston-dynamics",
   "description": "Четвероногий робот Spot.",
@@ -320,7 +337,8 @@
   "sources": [
    "https://news.google.com/rss/articles/CBMiWEFVX3lxTE93X0RWSlh3MHZwZmdaVXg5ZlZkckpzTHVnb3pSd2pnMEtBYmZjR18zNmtEc1YweGNvODdxMThiYkViQXNJekZPOXFmai03TVd0M0lETXA3OXA?oc=5",
    "https://roboticsandautomationnews.com/2026/11/18/boston-dynamics-and-globalfoundries-expand-spot-operations-and-prepare-to-test-atlas-humanoid/107266/",
-   "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSTlSc0doVTQ5eDh0bnEydUJfZEx5OVp5aHp6aGRZbFNDMnhxY1FGQU9IdVlzaHpSaGRudE5vY3hJY1NMLS1XeWRLNkF5TXNMczlQOUlrMkFmOGlhNVRQNHVDd25aS1pNVjhNTTZVbkYtOGpCNTgxWGE2Qmw5MlhZMVJEMjN1N3pKV2NGdVFkOEctU1B0SF9JNnljRmVoc1lZMEFWcHlfOTF4aDJtYUJhTUdR?oc=5"
+   "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSTlSc0doVTQ5eDh0bnEydUJfZEx5OVp5aHp6aGRZbFNDMnhxY1FGQU9IdVlzaHpSaGRudE5vY3hJY1NMLS1XeWRLNkF5TXNMczlQOUlrMkFmOGlhNVRQNHVDd25aS1pNVjhNTTZVbkYtOGpCNTgxWGE2Qmw5MlhZMVJEMjN1N3pKV2NGdVFkOEctU1B0SF9JNnljRmVoc1lZMEFWcHlfOTF4aDJtYUJhTUdR?oc=5",
+   "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBRMldDdkZCVnJmWlJQTDNpekZfcVdKaTR4TmhLTzM5QjNGMHdEWkhFc3FQRjJ5cVROai1tRlpRemNYak1tQ2w5NUV0SXVvSmxXX0U5MU1sUQ?oc=5"
   ],
   "stage": "serial",
   "updated": "2026-11-19"
@@ -336,7 +354,8 @@
   "id": "boston-dynamics--stretch-gen-2",
   "name": "Stretch Gen 2",
   "sources": [
-   "https://t.me/prorobots/3670"
+   "https://t.me/prorobots/3670",
+   "https://roboticsandautomationnews.com/2026/11/19/boston-dynamics-launches-next-generation-stretch-robot-with-major-reliability-upgrades/107354/"
   ],
   "stage": "serial",
   "updated": "2026-11-19"
@@ -811,6 +830,46 @@
   "stage": "prototype",
   "updated": "2026-11-16"
  },
+ "nvidia--gen-7-robotaxi": {
+  "categories": [
+   "delivery"
+  ],
+  "company_id": "nvidia",
+  "description": "Беспилотное такси седьмого поколения с несколькими сенсорами и резервными системами",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "nvidia--gen-7-robotaxi",
+  "name": "Gen-7 robotaxi",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/19/indrive-and-pony-ai-plan-robotaxi-services-in-kazakhstan/107342/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-19"
+ },
+ "realbotix--series-1-tabletop": {
+  "categories": [
+   "humanoid",
+   "service"
+  ],
+  "company_id": "realbotix",
+  "description": "Настольный гуманоидный робот с 17 степенями свободы для образования и wellness",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "realbotix--series-1-tabletop",
+  "name": "Series 1 Tabletop",
+  "price": {
+   "as_of": "2026-11-19",
+   "currency": "USD",
+   "source": "https://roboticsandautomationnews.com/2026/11/19/realbotix-launches-echo-humanoid-robots-for-education-wellness-and-companionship/107339/",
+   "usd": 11950.0,
+   "value": 11950.0
+  },
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/19/realbotix-launches-echo-humanoid-robots-for-education-wellness-and-companionship/107339/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-19"
+ },
  "remedy-robotics--remedy-n1": {
   "categories": [
    "medical"
@@ -826,6 +885,22 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-17"
+ },
+ "remedy-robotics--robot-dlya-udalennoy-hirurgii-insulta": {
+  "categories": [
+   "medical"
+  ],
+  "company_id": "remedy-robotics",
+  "description": "Робот для удалённой хирургии инсульта.",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "remedy-robotics--robot-dlya-udalennoy-hirurgii-insulta",
+  "name": "Робот для удалённой хирургии инсульта",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNk53dWVBbGZyLWJLN1h2UG1VSWZPa0JUTjR1YTBRTDBOUHhzd1RPTUNYNnAxSWU0b0h6VUYwVHVOdkdqU1NRXzhSMndmYnUydzdWb3p2UExnb3NQWTFla3Q2YlBHckVLV2VCal9SeHY5c2xKR2t2WjBteGlvZkZHdVJYU3ZIajFjXy1kRzJxQ0U4YWY5VVoxQl9kM294VXlz?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-19"
  },
  "richtech-robotics--dust-e": {
   "categories": [
@@ -1021,6 +1096,22 @@
   "stage": "serial",
   "updated": "2026-11-17"
  },
+ "saturn-dynamics--arc": {
+  "categories": [
+   "components"
+  ],
+  "company_id": "saturn-dynamics",
+  "description": "Модель мира для симуляции поведения объектов при манипуляциях роботов.",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "saturn-dynamics--arc",
+  "name": "Arc",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/19/saturn-dynamics-develops-physics-based-world-model-to-improve-robot-training/107351/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-19"
+ },
  "serve-robotics--av-delivery-developer-portal": {
   "categories": [
    "delivery",
@@ -1038,6 +1129,23 @@
   ],
   "stage": "serial",
   "updated": "2026-11-17"
+ },
+ "serve-robotics--serve-physical-ai-services": {
+  "categories": [
+   "delivery",
+   "components"
+  ],
+  "company_id": "serve-robotics",
+  "description": "Набор сервисов для подключения роботов к ИИ, курации данных и каталога данных для моделей.",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "serve-robotics--serve-physical-ai-services",
+  "name": "Serve Physical AI Services",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/19/serve-robotics-opens-its-physical-ai-technology-to-other-robot-companies/107358/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-19"
  },
  "skydio--controller-2": {
   "categories": [
@@ -1070,6 +1178,23 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-16"
+ },
+ "skydio--skydio-x10": {
+  "categories": [
+   "aerial",
+   "security"
+  ],
+  "company_id": "skydio",
+  "description": "Дроны для полицейских вызовов с дистанционным пилотированием за пределами прямой видимости",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "skydio--skydio-x10",
+  "name": "Skydio X10",
+  "sources": [
+   "https://dronexl.co/2026/11/19/knoxville-police-skydio-dfr-drones-launch-public-flight-log/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-19"
  },
  "skypsi--operator": {
   "categories": [
@@ -1106,6 +1231,22 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-17"
+ },
+ "surskaya-mebel--promyshlennyy-robot-estun": {
+  "categories": [
+   "manufacturing"
+  ],
+  "company_id": "surskaya-mebel",
+  "description": "Промышленный робот для укладки готовой продукции.",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "surskaya-mebel--promyshlennyy-robot-estun",
+  "name": "Промышленный робот ESTUN",
+  "sources": [
+   "https://t.me/banksta/105752"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-19"
  },
  "tennant--p1-vac": {
   "categories": [

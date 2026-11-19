@@ -162,17 +162,17 @@
   "focus": [],
   "id": "agile-robots",
   "last_round": {
-   "as_of": "2026-11-17",
+   "as_of": "2026-11-19",
    "currency": "USD",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNdnFCZUUxTFVMelJVZmhaZEVMOVBZMk9uOUVPSjNxRVY4Uno1aWhfZ2sxQ1k3RkhMazV3OUVvbjVDOWZkUTJFeUl1ZkpyZUVMSEI1UmRhbFNQVW1DZHlwMnUwTXh2anRxYzNnYXluZHZrb0RlRXAzd1lpM1RvWU9sWlpOLURoY2pXVVhXRmFpdU05RllZemhoMmMzUW1XOC1ZeDZHRXl6YjFMMHZYbF9oT0JaOFZJLURDNmE1WW5IS3JqeENYNThkRXRLZ3ZCOWR1VlBJSVI0ZTh1c2xrSEp3ZTRyWklSQjN5eGhoSUp2RmRfdmN4YzJjZ0JnNXdMbF9EMEVN?oc=5",
-   "type": "series_d_plus",
+   "source": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSXM0U2NHTDBqdHN3dDVDUFM2dDdtdDVrWlZjTEJOam1fTjMwaVF3aEV4ajV6X0VScC1VVnJYSEpUZ1NxNFVXQjdMOXN0Z0VHM1RISnA1NFU1cWdCSExsc3FEMjFWUlRSQ3Q5d2pxWjZESXFHeVdaWHE3djlRcENTXzFQclp2cjBXTHh5QXU1NVEyYkZPWlg3MVpJMGxfelpSZVMzUlNLMWRlVU1JYUtaMlB4dGpCZw?oc=5",
+   "type": "unknown",
    "usd": 500000000.0,
    "value": 500000000.0
   },
   "name": "Agile Robots",
   "origin": "news",
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "valuation": {
    "as_of": "2026-11-17",
    "currency": "USD",
@@ -182,19 +182,21 @@
   }
  },
  "agility-robotics": {
-  "aliases": [],
+  "aliases": [
+   "Agility"
+  ],
   "categories": [
    "humanoid",
    "logistics"
   ],
   "country": "US",
-  "description": "",
+  "description": "Компания, разрабатывающая роботов.",
   "first_seen": "2026-11-16",
   "focus": [],
   "id": "agility-robotics",
   "name": "Agility Robotics",
   "origin": "seed",
-  "updated": "2026-11-16"
+  "updated": "2026-11-19"
  },
  "agilox": {
   "aliases": [
@@ -679,6 +681,24 @@
   "origin": "seed",
   "updated": "2026-11-16"
  },
+ "bolt": {
+  "aliases": [
+   "Stellantis",
+   "Wayve",
+   "Nvidia"
+  ],
+  "categories": [
+   "delivery"
+  ],
+  "country": "EE",
+  "description": "Разработчик ИИ-водителя для автономных автомобилей",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "bolt",
+  "name": "Bolt",
+  "origin": "news",
+  "updated": "2026-11-19"
+ },
  "boston-dynamics": {
   "aliases": [
    "Бостон Динамикс",
@@ -818,6 +838,20 @@
   "name": "CEVA Logistics",
   "origin": "news",
   "updated": "2026-11-17"
+ },
+ "circus-se": {
+  "aliases": [],
+  "categories": [
+   "service"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "circus-se",
+  "name": "Circus SE",
+  "origin": "news",
+  "updated": "2026-11-19"
  },
  "clearspace": {
   "aliases": [
@@ -1716,8 +1750,12 @@
   "last_round": {
    "as_of": "2026-11-19",
    "currency": "USD",
-   "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVlpvdTVpLVltYTBiRlJWZUd5SDhCTi0xb2Y5Q0dFYWVFWEs2UFF0WDliSElpeHF5RURLWjRweE0zdno3Q1hBNWJjUkZxVkhxTXV3M1pqdFJTeWt0eXlBMHJTd1ktSGhyZ3NiVGZMOERocGtackRvT19qTFptd2x2T0VxMXNJaXFpZTZGWE5EX1BqbHV2dmExNXhRYTFCbWs0XzJvWA?oc=5",
+   "investors": [
+    "Premji",
+    "Khosla",
+    "Schmidt"
+   ],
+   "source": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOUlHSU9ETnZWTHF5WE5ESXNnaGQ5Z09PemhpejJkZFp6ZXVYYk1DbUxHMjJEdHYzUkhubmhVTEFCb3p2MWRZMXdkMWh1TWFXWjAzc1N6b3JCOVhtMVlUWmRLbzFzelpsUGJBUUlwaldHZFY2THhxQi1vX2hXR2U4WEp0V1BNRXhwOHU1ajhEX2hZSnJLdm01bHN0RndvVmpoVXR2NtIBsgFBVV95cUxQczA0dGhzbTRSM2xYaFZvY1N1eVFncDBmcjF6YkVGRTVmUnVEUk5YX2V5Vi1nZm5wTmM3QzVaTGNlVTFNLUZiMS12ZjRYbWwxUldoWFNCZ1dKeGgyVmxaTEZVMV9IbF9MdUJFYTVlbnJaNTFZa2xuOUpWYXBVY0NtTDRVc3BtQjVwYlhvWG9SR1VDYXlTbTdyLWJIMU9pemctRUtIZ09HajNPR0dTd25HbDRB?oc=5",
    "type": "unknown",
    "usd": 500000000.0,
    "value": 500000000.0
@@ -1728,7 +1766,7 @@
   "valuation": {
    "as_of": "2026-11-19",
    "currency": "USD",
-   "source": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVlpvdTVpLVltYTBiRlJWZUd5SDhCTi0xb2Y5Q0dFYWVFWEs2UFF0WDliSElpeHF5RURLWjRweE0zdno3Q1hBNWJjUkZxVkhxTXV3M1pqdFJTeWt0eXlBMHJTd1ktSGhyZ3NiVGZMOERocGtackRvT19qTFptd2x2T0VxMXNJaXFpZTZGWE5EX1BqbHV2dmExNXhRYTFCbWs0XzJvWA?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVUFrVW15YnZwV0c3dV9OWGlQZjhmOW45ZVFraXgzMFpnQ1E1d2U0NDQ5dThYaXowV1U1Q2d2U2JyeGRWV1RTOGlvcUI0aHZaUWVJbEF2SUNaeXFEUzJWemo1aGxCOXJFMjFvWktORTB2NGk0Y1VMaXBmR1JOdTRBODExbWhKNERyZTNYaFVmOGljakpuX0xrWndxQUwtdWVsbHNSYXNIMENYLUh0YUMwVnpyXzF2cE12Ymc4d3RvUlpXa1VP?oc=5",
    "usd": 3500000000.0,
    "value": 3500000000.0
   }
@@ -1894,8 +1932,8 @@
    "as_of": "2026-11-19",
    "currency": "USD",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5oU3htTy1tZG5yQUVVSTZlcHVTQklLeUdqVzVwSWhvdzd3eGNXTC1nSTdodFF2RklGb2g3YXNBRGNVb0tMZEF3LU9rUVFPU0tfUUFr?oc=5",
-   "type": "series_a",
+   "source": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxON0R3UnlwcTA5VXpZU2dwSWVMRzd2aUoyNzh2aTBxU2o1YkVWdnE0SlhmN0ZMeklvd08yWDY2Q0hTQnp6NlpCS284V3pFMWJqRjhreU4xQjFSMVhWQjlmRDhVUFZBeF90aW5LOG51WEpteExBQTFoRzFIejlhcWdRR1JzODE0N2FjZUVhbkc0b01NVmZvTnl2QkpJa3ZTX0doMEJFT0VuckpzZG1jU2JCV3h3amZ3bDBKejFBeEg4YjJrS3YxdHBCb0tBRzNDeFZveHZV0gHTAUFVX3lxTE43RHdSeXBxMDlVellTZ3BJZUxHN3ZpSjI3OHZpMHFTajViRVZ2cTRKWGY3Rkx6SW93TzJYNjZDSFNCeno2WkJLbzhXekUxYmpGOGt5TjFCMVIxWFZCOWZEOFVQVkF4X3Rpbks4bnVYSm14TEFBMWhHMUh6OWFxZ1FHUnM4MTQ3YWNlRWFuRzRvTU1WZm9OeXZCSklrdlNfR2gwQkVPRW5ySnNkbWNTYkJXeHdqZndsMEp6MUF4SDhiMmtLdjF0cEJvS0FHM0N4Vm94dlU?oc=5",
+   "type": "unknown",
    "usd": 47000000.0,
    "value": 47000000.0
   },
@@ -2524,23 +2562,23 @@
    "aerial",
    "inspection"
   ],
-  "country": "",
+  "country": "DE",
   "description": "Разработчик дронов для работы на действующих ЛЭП.",
   "first_seen": "2026-11-17",
   "focus": [],
   "id": "nomadic",
   "last_round": {
-   "as_of": "2026-11-17",
+   "as_of": "2026-11-19",
    "currency": "USD",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOY0JjSUdxMkY2TVJXNFFRLXRpVER2WTN0Sm1uWTJNak9NZzhXRkJnRmRGXzdybEpGeU9OVm00MXZ6eTViWHFLa3VNNmZmbW1aSlhYc3dSS0U1WTI1ZTlQd0tuV0wwNnNYYzJIdXJxM3dISkxROFJKMGZvSXdRTUZ4RjNwaWx1VTZSbmc?oc=5",
-   "type": "unknown",
+   "source": "https://dronelife.com/2026/11/19/nomadic-power-line-drones-grid-monitoring/",
+   "type": "seed",
    "usd": 6000000.0,
    "value": 6000000.0
   },
   "name": "Nomadic",
   "origin": "news",
-  "updated": "2026-11-17"
+  "updated": "2026-11-19"
  },
  "nomadic-drones": {
   "aliases": [],
@@ -2583,10 +2621,13 @@
  "nvidia": {
   "aliases": [
    "Nvidia",
-   "NVIDIA"
+   "NVIDIA",
+   "Pony.ai",
+   "inDrive"
   ],
   "categories": [
-   "components"
+   "components",
+   "delivery"
   ],
   "country": "US",
   "description": "Производитель чипов и ИИ-платформ общего назначения.",
@@ -2595,7 +2636,7 @@
   "id": "nvidia",
   "name": "Nvidia",
   "origin": "news",
-  "updated": "2026-11-18"
+  "updated": "2026-11-19"
  },
  "offworld": {
   "aliases": [],
@@ -2780,17 +2821,17 @@
   "focus": [],
   "id": "promise-robotics",
   "last_round": {
-   "as_of": "2026-11-17",
-   "currency": "CAD",
+   "as_of": "2026-11-18",
+   "currency": "USD",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOc1k0UkhBRlZlSkRSaUJFN0tjanpJRmx2am1SdEp5XzVaS1RJcnNWeElyUUZlUzJDeTdDMUd4THVGcEF0OERGTVNvSjRVZng2TlFrdW9LN3NKN1RvS3dTbVZjUDBJYnlYRXBkWmtIRU5RREIxc2JNaUxHeHZ0S0Z2ZnYxZWtrd1V1UUxFdUUwMEJfVGZCZHRBSUZRdjZXRDcxMU03VnB0V2ItVC1aYnVsR0R5d3ZjWmlqQ0V4NXRPUjhGOXRNYnRIWlRVTUxiakFZRFNONnFGb21oWHJvVHNDTVE0eU9OTzdsbVBXNVo4eEdLcllCQmNN?oc=5",
-   "type": "series_b",
-   "usd": 27984356.74,
+   "source": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQ1VWSEs0dm9GWVFpNV93Z1FIdEVqX1QyQ1hlNmxOWHQ4OVpQeEN2Y3lmTXVhOGRQdzVsU1liZTBtSDIwVWttenBxMFpwblEtUkh1S2ZsN1hIMEljT1ZodHhnbTZFUU1MS1c5LWhkLXFvOXZuNWhmcUdjUHd5YkZCR2ZYYXFPV0dvSHdLa2lmbV9Oa3ZBMzhOanBWM2JLZFZHLW5zYTBaYnAwSWZUTjFHSlZ2SQ?oc=5",
+   "type": "unknown",
+   "usd": 40000000.0,
    "value": 40000000.0
   },
   "name": "Promise Robotics",
   "origin": "news",
-  "updated": "2026-11-17"
+  "updated": "2026-11-19"
  },
  "promobot": {
   "aliases": [
@@ -2856,6 +2897,25 @@
   "origin": "seed",
   "updated": "2026-11-16"
  },
+ "qysea": {
+  "aliases": [
+   "Qysea"
+  ],
+  "categories": [
+   "marine",
+   "inspection"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-19",
+  "focus": [
+   "tank"
+  ],
+  "id": "qysea",
+  "name": "QYSEA",
+  "origin": "news",
+  "updated": "2026-11-19"
+ },
  "raise": {
   "aliases": [],
   "categories": [],
@@ -2896,6 +2956,23 @@
   "origin": "seed",
   "updated": "2026-11-16"
  },
+ "realbotix": {
+  "aliases": [
+   "Realbotix Series 1"
+  ],
+  "categories": [
+   "humanoid",
+   "service"
+  ],
+  "country": "US",
+  "description": "Производитель гуманоидных роботов с силиконовой кожей",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "realbotix",
+  "name": "Realbotix",
+  "origin": "news",
+  "updated": "2026-11-19"
+ },
  "remedy-robotics": {
   "aliases": [
    "Remedy"
@@ -2909,17 +2986,17 @@
   "focus": [],
   "id": "remedy-robotics",
   "last_round": {
-   "as_of": "2026-11-17",
+   "as_of": "2026-11-18",
    "currency": "USD",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTUZ6NGNHUXdNRThjQ0xpUjROUW0tTU44NjJwYklJSUNHQjJJZVptXzN3UHNqVVZnaVRQRFNSQnllZlh1NXZhdHNwa09CT1FBN18tanFmTDlhWFdhaUNDMjBSNE1HSEpUU1ZfSzdsVGVlWE1OQm9vamhvcEk4UnlHSEdqNUFJY1RmUGdVMA?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNk53dWVBbGZyLWJLN1h2UG1VSWZPa0JUTjR1YTBRTDBOUHhzd1RPTUNYNnAxSWU0b0h6VUYwVHVOdkdqU1NRXzhSMndmYnUydzdWb3p2UExnb3NQWTFla3Q2YlBHckVLV2VCal9SeHY5c2xKR2t2WjBteGlvZkZHdVJYU3ZIajFjXy1kRzJxQ0U4YWY5VVoxQl9kM294VXlz?oc=5",
    "type": "unknown",
    "usd": 62000000.0,
    "value": 62000000.0
   },
   "name": "Remedy Robotics",
   "origin": "news",
-  "updated": "2026-11-17"
+  "updated": "2026-11-19"
  },
  "rhoda-ai": {
   "aliases": [],
@@ -3227,6 +3304,34 @@
   "origin": "seed",
   "updated": "2026-11-16"
  },
+ "saturn-dynamics": {
+  "aliases": [],
+  "categories": [
+   "components"
+  ],
+  "country": "GB",
+  "description": "Физический ИИ-стартап из Лондона, основан в 2025 году.",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "saturn-dynamics",
+  "last_round": {
+   "as_of": "2026-11-19",
+   "currency": "USD",
+   "investors": [
+    "Twin Path Ventures",
+    "Vento",
+    "Sequel",
+    "Portfolio Ventures"
+   ],
+   "source": "https://roboticsandautomationnews.com/2026/11/19/saturn-dynamics-develops-physics-based-world-model-to-improve-robot-training/107351/",
+   "type": "unknown",
+   "usd": 4300000.0,
+   "value": 4300000.0
+  },
+  "name": "Saturn Dynamics",
+  "origin": "news",
+  "updated": "2026-11-19"
+ },
  "sber": {
   "aliases": [
    "Sber",
@@ -3260,11 +3365,13 @@
  },
  "serve-robotics": {
   "aliases": [
-   "Serve"
+   "Serve",
+   "Serve Robotic"
   ],
   "categories": [
    "delivery",
-   "service"
+   "service",
+   "components"
   ],
   "country": "US",
   "description": "Физический ИИ-компания, специализирующаяся на роботах-доставщиках.",
@@ -3274,11 +3381,11 @@
   "name": "Serve Robotics",
   "origin": "news",
   "robots_deployed": {
-   "as_of": "2026-11-11",
-   "source": "https://www.therobotreport.com/serve-robotics-opens-robot-delivery-network-for-others-to-build-on/",
+   "as_of": "2026-11-19",
+   "source": "https://roboticsandautomationnews.com/2026/11/19/serve-robotics-opens-its-physical-ai-technology-to-other-robot-companies/107358/",
    "value": 2000
   },
-  "updated": "2026-11-17"
+  "updated": "2026-11-19"
  },
  "shenzhen": {
   "aliases": [
@@ -3297,7 +3404,10 @@
   "updated": "2026-11-18"
  },
  "skydio": {
-  "aliases": [],
+  "aliases": [
+   "Knoxville Police Department",
+   "KPD"
+  ],
   "categories": [
    "aerial",
    "security"
@@ -3320,7 +3430,7 @@
   },
   "name": "Skydio",
   "origin": "seed",
-  "updated": "2026-11-17",
+  "updated": "2026-11-19",
   "valuation": {
    "as_of": "2026-11-14",
    "currency": "USD",
@@ -3490,6 +3600,22 @@
   "name": "Stingray Robotix",
   "origin": "news",
   "updated": "2026-11-17"
+ },
+ "surskaya-mebel": {
+  "aliases": [
+   "Сурская мебель"
+  ],
+  "categories": [
+   "manufacturing"
+  ],
+  "country": "RU",
+  "description": "",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "surskaya-mebel",
+  "name": "Сурская мебель",
+  "origin": "news",
+  "updated": "2026-11-19"
  },
  "swescan": {
   "aliases": [
@@ -3824,6 +3950,21 @@
   "origin": "news",
   "updated": "2026-11-17"
  },
+ "uc-san-diego": {
+  "aliases": [
+   "Калифорнийский университет в Сан‑Диего",
+   "Калифорнийский университет в Сан-Диего"
+  ],
+  "categories": [],
+  "country": "US",
+  "description": "Университет, где в Инженерной школе Джейкобса разработан мягкий робот",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "uc-san-diego",
+  "name": "UC San Diego",
+  "origin": "news",
+  "updated": "2026-11-19"
+ },
  "uforce": {
   "aliases": [],
   "categories": [
@@ -4078,7 +4219,7 @@
   "id": "witron",
   "name": "Witron",
   "origin": "news",
-  "updated": "2026-11-18"
+  "updated": "2026-11-19"
  },
  "world-labs": {
   "aliases": [
@@ -4236,11 +4377,11 @@
   "origin": "seed",
   "updated": "2026-11-19",
   "valuation": {
-   "as_of": "2026-11-10",
+   "as_of": "2026-11-19",
    "currency": "USD",
-   "source": "https://dronedj.com/2026/11/09/zipline-drone-delivery-funding-valuation/",
-   "usd": 21500000000.0,
-   "value": 21500000000.0
+   "source": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOd2pQZThTUkFLYzJ5NENOd2VwVTZXMWpPUkNxQ3NuUmVtazFpVVp1NzZnQktmLWtwUHJpZVVZVm1OVUlIVTNFUnliTEdTMDQ4aktqRlRFZHNxRDdoZk5zXzFXVzlpTnFZd0JkNUFDRDBjSHU4M0N1Y1lxQTNTRGpIVDZVT1NPNTY1QWZ0c2ZoRmRHMlB4ZWlVNmdQZi1vZkJQN0VLZzNMYUcyVjE3Z1E2TzlEWWw5dWdFVmpEc0h1TmxwX28?oc=5",
+   "usd": 21000000000.0,
+   "value": 21000000000.0
   }
  },
  "zoox": {
