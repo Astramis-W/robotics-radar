@@ -718,7 +718,8 @@
    "Botsync"
   ],
   "categories": [
-   "logistics"
+   "logistics",
+   "components"
   ],
   "country": "SG",
   "description": "Сингапурский робототехнический стартап.",
@@ -728,10 +729,8 @@
   "last_round": {
    "as_of": "2026-11-18",
    "currency": "USD",
-   "investors": [
-    "IvyCap Ventures"
-   ],
-   "source": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQU3pXWlpmWXF5Z1hiME8xd0xCMmRzTzQ4TTBYNXZQX2NUd0g1OWk4eDhCZjZJRnpnYl9IU09HZ2M3UWVDaU1qT2MtNzhhNnJTdzU1aVdpNHc2U3JKcGRFODBvTEdIRlktZUhQa3pnR2h3M1poSW9YYnRPRXZXS1M2c21ncFIyZGQzbEhGdDBicl9rTW0zNDJEQ252VmZtdkpFV0J1VzRBVXA5UHB1WjVzZHp5MEpkWVJsWi1mejR3R1pCclJQWDVHSHV2enVOdEFkUlE?oc=5",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVllzQ0EwbVNmbkdPVU00NGNIQzRZaEVJeFA5T29kZTlrY2FxQl85OEZ5VnNOeDhaa2NCbzhkUklDTWFIYnJNZEx6aUF6QzY3cWhYbzBrXzJNcGowbC03MjdhbEJLcURaUHVQRjdQNkdOWnp6LVltU1dqU0FzZlZDMXlocWJYZ21Ja0cwd29jUU11blBRR1VXRw?oc=5",
    "type": "unknown",
    "usd": 11000000.0,
    "value": 11000000.0
@@ -1367,7 +1366,7 @@
   "id": "faresin",
   "name": "Faresin",
   "origin": "news",
-  "updated": "2026-11-17"
+  "updated": "2026-11-19"
  },
  "farmdroid": {
   "aliases": [],
@@ -1597,6 +1596,23 @@
   "origin": "seed",
   "updated": "2026-11-16"
  },
+ "ge-vernova": {
+  "aliases": [
+   "ARC"
+  ],
+  "categories": [
+   "inspection",
+   "aerial"
+  ],
+  "country": "US",
+  "description": "",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "ge-vernova",
+  "name": "GE Vernova",
+  "origin": "news",
+  "updated": "2026-11-19"
+ },
  "gecko-robotics": {
   "aliases": [],
   "categories": [
@@ -1698,10 +1714,10 @@
   "focus": [],
   "id": "genesis-ai",
   "last_round": {
-   "as_of": "2026-11-18",
+   "as_of": "2026-11-19",
    "currency": "USD",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQklEaVo1M2VhVjlwa1hjMnRRb1lCT0tCVmo5TUZYMlhXMDZmU0dOVHRKMjd2SlFlU2pxVWl2UlI1a0puaEhsM0Zzdk52RDRYRzNqeExUV0U2RWM0R2k4SEI3WldrcHFJYjBwZ1YzdWhfM2IwaTN5UzQxbG5iQnlhb0l3S2dBeVdtZGszVDJDakZ4YTVNZ2I0ZGRZQ0J3dVBlV19hSm1PTHg0NHhYUWNkcHRyUW1UTnNkc0FWbmhGVFdtT2xrNU1j?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVlpvdTVpLVltYTBiRlJWZUd5SDhCTi0xb2Y5Q0dFYWVFWEs2UFF0WDliSElpeHF5RURLWjRweE0zdno3Q1hBNWJjUkZxVkhxTXV3M1pqdFJTeWt0eXlBMHJTd1ktSGhyZ3NiVGZMOERocGtackRvT19qTFptd2x2T0VxMXNJaXFpZTZGWE5EX1BqbHV2dmExNXhRYTFCbWs0XzJvWA?oc=5",
    "type": "unknown",
    "usd": 500000000.0,
    "value": 500000000.0
@@ -1710,9 +1726,9 @@
   "origin": "news",
   "updated": "2026-11-19",
   "valuation": {
-   "as_of": "2026-11-18",
+   "as_of": "2026-11-19",
    "currency": "USD",
-   "source": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcG9wVlBzWUNGbm5ibWpaVVI0dWpqOU1wZFJHd25ZX2ctOHh3cTRGMVF4MDdfbjg1TEtfYTBYTENnMXI0ZWpxUFdEUi1SNzQ5R0JGOG54ZlNpX21vUFNSUzlELTRHVEd5blpXRS1CWTlXcGhmbmlZcm44endXQWZmcDJ5cXFPYTRKQ3JKNkljX2JFMW52MlRLajJvY29ZOGJHMWZpbEtFZ1ZEazZHMjBGSjNZQmxrdHVCYUt3UTRqLXlzWWdIV1d2ZG5Scnc?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVlpvdTVpLVltYTBiRlJWZUd5SDhCTi0xb2Y5Q0dFYWVFWEs2UFF0WDliSElpeHF5RURLWjRweE0zdno3Q1hBNWJjUkZxVkhxTXV3M1pqdFJTeWt0eXlBMHJTd1ktSGhyZ3NiVGZMOERocGtackRvT19qTFptd2x2T0VxMXNJaXFpZTZGWE5EX1BqbHV2dmExNXhRYTFCbWs0XzJvWA?oc=5",
    "usd": 3500000000.0,
    "value": 3500000000.0
   }
@@ -1823,6 +1839,22 @@
   "origin": "news",
   "updated": "2026-11-19"
  },
+ "humanoid": {
+  "aliases": [
+   "Humanoid Robot"
+  ],
+  "categories": [
+   "humanoid"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "humanoid",
+  "name": "Humanoid",
+  "origin": "news",
+  "updated": "2026-11-19"
+ },
  "humble-robotics": {
   "aliases": [],
   "categories": [
@@ -1859,10 +1891,10 @@
   "focus": [],
   "id": "humyn-labs",
   "last_round": {
-   "as_of": "2026-11-18",
+   "as_of": "2026-11-19",
    "currency": "USD",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPeHU3dDY1UE1Lb0s5ZEoxcDJJVmtGc3d5bHpOVFBRSVF5MEJ5MnI4eElORURWbnFZSFdFM2hLTXNRZ3hLY1NxS1BCQVdzNjZtTndXTkNJWVBQX2NLZUpHdnlPcU9oVVR2dXV5dnFWMnJDMHZvbXN2RHl4cWFBOFpxRWFRaFhLRFF5MWtGSExFcEJtN0xOQ3NEQlpfQzlKOERIbkZXNHFOWXd4MXF4VTFDQ3Z2T3o0UVRxVWlaZnNOdklsT1lUX1hxZkdSaEZXUzZmdDczM3R6ZGs?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5oU3htTy1tZG5yQUVVSTZlcHVTQklLeUdqVzVwSWhvdzd3eGNXTC1nSTdodFF2RklGb2g3YXNBRGNVb0tMZEF3LU9rUVFPU0tfUUFr?oc=5",
    "type": "series_a",
    "usd": 47000000.0,
    "value": 47000000.0
@@ -2211,6 +2243,38 @@
   "origin": "seed",
   "updated": "2026-11-17"
  },
+ "logistics-reply": {
+  "aliases": [
+   "Reply"
+  ],
+  "categories": [
+   "logistics"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "logistics-reply",
+  "name": "Logistics Reply",
+  "origin": "news",
+  "updated": "2026-11-19"
+ },
+ "logistix": {
+  "aliases": [
+   "LogistiX"
+  ],
+  "categories": [
+   "logistics"
+  ],
+  "country": "",
+  "description": "Разработчик системы управления складом Lead WMS.",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "logistix",
+  "name": "LogistiX",
+  "origin": "news",
+  "updated": "2026-11-19"
+ },
  "lucid-bots": {
   "aliases": [
    "Lucid Drone Technologies"
@@ -2439,6 +2503,20 @@
   "name": "Nilfisk",
   "origin": "seed",
   "updated": "2026-11-16"
+ },
+ "noitom-robotics": {
+  "aliases": [
+   "Noitom"
+  ],
+  "categories": [],
+  "country": "CN",
+  "description": "Робототехническая компания",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "noitom-robotics",
+  "name": "Noitom Robotics",
+  "origin": "news",
+  "updated": "2026-11-19"
  },
  "nomadic": {
   "aliases": [],
@@ -3069,7 +3147,7 @@
   "id": "rzhd",
   "name": "РЖД",
   "origin": "news",
-  "updated": "2026-11-17"
+  "updated": "2026-11-19"
  },
  "sabre-autonomous-solutions": {
   "aliases": [],
@@ -3461,6 +3539,23 @@
   "focus": [],
   "id": "t1",
   "name": "Т1",
+  "origin": "news",
+  "updated": "2026-11-19"
+ },
+ "tactilia": {
+  "aliases": [
+   "Schunk Tactilia"
+  ],
+  "categories": [
+   "components",
+   "humanoid"
+  ],
+  "country": "",
+  "description": "Спинофф Schunk, работающий над тактильными технологиями для роботов.",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "tactilia",
+  "name": "Tactilia",
   "origin": "news",
   "updated": "2026-11-19"
  },
@@ -3923,6 +4018,18 @@
   "name": "Waymo",
   "origin": "news",
   "updated": "2026-11-18"
+ },
+ "wheelies": {
+  "aliases": [],
+  "categories": [],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "wheelies",
+  "name": "Wheelies",
+  "origin": "news",
+  "updated": "2026-11-19"
  },
  "windracers": {
   "aliases": [

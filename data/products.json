@@ -298,11 +298,11 @@
   "id": "boston-dynamics--atlas",
   "name": "Atlas",
   "sources": [
-   "https://3dnews.ru/1151457",
-   "https://news.google.com/rss/articles/CBMicEFVX3lxTE5rTTQzLVM2cFhRY2FMVzhZellGUV9EZENSRUNkM013T3JPQlA5T1hGaHp4TVY3WDBBbUEwYUNJX1ZPRmRYS0xCaEZiYUE0MzR0X19NQmhrVFJBcFNIT2NXeDZqUFlZVlhHMkdKd2tKREw?oc=5",
    "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRGNjbF9rTUllVmQzbk1FY2o5Tzd3dE8tTUljTk4xRUx4LWo4eDl1MkhNekhJZ0JXejNuUWpjU2JOR0lPZ3NZTFByRzRqQ3Z6ejhDZXozNzJYYkNWRWtrWl92UEdMb1pOdW9qTk41bC1fZnpSUmFSY1RoX0RpUVhpTWFPem5zdXpxbW01eTluQVNhaE9lQ25TdWRrZ19sb1FwYzExYzZ0ZjJxbndsNXYyRnp0SGk2alcxblHSAboBQVVfeXFMTURjY2xfa01JZVZkM25NRWNqOU83d3RPLU1JY05OMUVMeC1qOHg5dTJITXpISWdCV3ozblFqY1NiTkdJT2dzWUxQckc0akN2eno4Q2V6MzcyWGJDVkVra1pfdlBHTG9aTnVvak5ONWwtX2Z6UlJhUmNUaF9EaVFYaU1hT3puc3V6cW1tNXk5bkFTYWhPZUNuU3Vka2dfbG9RcGMxMWM2dGYycW53bDV2MkZ6dEhpNmpXMW5R?oc=5",
    "https://3dnews.ru/1151499",
-   "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPc1h0dmNLRGpWQURUQXB3MzVvbWZIUTJwSEUzZG0tYlBubi1lTG5rYmJzc1hfRy1Id1lQNFFYaDNRdUVnZjNCRnFtWDJmM2dxN3dmd19tbmxKVFg1aUhyR0s0OUhITTliVHNiZHRtbVFJZTNWR2M2c3pTNU1YM2pCU0NBSEV5a1g5Vkh6MXhFTmVteHd3TlRCbm9JbEZqcHBxOHVxb3hsVFI5YzEzVDVwenVVd25FZFNN?oc=5"
+   "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPc1h0dmNLRGpWQURUQXB3MzVvbWZIUTJwSEUzZG0tYlBubi1lTG5rYmJzc1hfRy1Id1lQNFFYaDNRdUVnZjNCRnFtWDJmM2dxN3dmd19tbmxKVFg1aUhyR0s0OUhITTliVHNiZHRtbVFJZTNWR2M2c3pTNU1YM2pCU0NBSEV5a1g5Vkh6MXhFTmVteHd3TlRCbm9JbEZqcHBxOHVxb3hsVFI5YzEzVDVwenVVd25FZFNN?oc=5",
+   "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNa2wxakczU1NUSkNscHEwU1E3bHdYeFAxZDNtcUMyS0pKQ0tlV2lGV0pXbi1jR3FLR3cyQ1NIWE96Ujk5eS15U2pyLWpzbVNUc1poYnhNLVB2QTkwMThUQk15ODBWN3BKdnZ2ZmlmZFZJOXJlMlRqWFJNSF8tWlByOU44TXRzb1BmWVkwenJFQkRGN0Vqa25rdHBLcFdGTHQ4TFZ6b0NkR3JyUXhwR0oyT1UwZmRLZEhBWl9xX29sNW5sdzBKQ0tib2Z2Tnd0LWhrZEE?oc=5",
+   "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcVJ5VDIyemE3bHhoWmE2czlDb203RzZSSnlwTzFYNjBYT0gyZ1hUS3dBQURPVGN5bnNXb3I5VkNSZGJERmJQX2k5d0ZaeG4zU05MMll5ZkpZZ01HZmpKZVJyY1ptZzFHMERxd00yd3kwcGhMVUJaVXdEUy12UTNONy1tRFNseTJf?oc=5"
   ],
   "stage": "pilot",
   "updated": "2026-11-19"
@@ -319,10 +319,27 @@
   "name": "Spot",
   "sources": [
    "https://news.google.com/rss/articles/CBMiWEFVX3lxTE93X0RWSlh3MHZwZmdaVXg5ZlZkckpzTHVnb3pSd2pnMEtBYmZjR18zNmtEc1YweGNvODdxMThiYkViQXNJekZPOXFmai03TVd0M0lETXA3OXA?oc=5",
-   "https://roboticsandautomationnews.com/2026/11/18/boston-dynamics-and-globalfoundries-expand-spot-operations-and-prepare-to-test-atlas-humanoid/107266/"
+   "https://roboticsandautomationnews.com/2026/11/18/boston-dynamics-and-globalfoundries-expand-spot-operations-and-prepare-to-test-atlas-humanoid/107266/",
+   "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSTlSc0doVTQ5eDh0bnEydUJfZEx5OVp5aHp6aGRZbFNDMnhxY1FGQU9IdVlzaHpSaGRudE5vY3hJY1NMLS1XeWRLNkF5TXNMczlQOUlrMkFmOGlhNVRQNHVDd25aS1pNVjhNTTZVbkYtOGpCNTgxWGE2Qmw5MlhZMVJEMjN1N3pKV2NGdVFkOEctU1B0SF9JNnljRmVoc1lZMEFWcHlfOTF4aDJtYUJhTUdR?oc=5"
   ],
   "stage": "serial",
-  "updated": "2026-11-18"
+  "updated": "2026-11-19"
+ },
+ "boston-dynamics--stretch-gen-2": {
+  "categories": [
+   "logistics"
+  ],
+  "company_id": "boston-dynamics",
+  "description": "Автономный мобильный робот для разгрузки трейлеров с предобученным машинным зрением и мультизахватом.",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "boston-dynamics--stretch-gen-2",
+  "name": "Stretch Gen 2",
+  "sources": [
+   "https://t.me/prorobots/3670"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-19"
  },
  "brinc--brinc-liveops": {
   "categories": [
@@ -520,10 +537,11 @@
   "id": "faresin--eramix",
   "name": "Eramix",
   "sources": [
-   "https://www.futurefarming.com/smart-farming/faresin-unveils-electric-eramix-feeding-robot-at-eima/"
+   "https://www.futurefarming.com/smart-farming/faresin-unveils-electric-eramix-feeding-robot-at-eima/",
+   "https://www.futurefarming.com/machinery/in-pictures-eima-focuses-on-batteries-autonomy-and-robotics/"
   ],
   "stage": "prototype",
-  "updated": "2026-11-17"
+  "updated": "2026-11-19"
  },
  "flytbase--octane": {
   "categories": [
@@ -710,6 +728,22 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-16"
+ },
+ "logistix--lead-wms": {
+  "categories": [
+   "logistics"
+  ],
+  "company_id": "logistix",
+  "description": "Система управления складом с единым управлением людьми и мобильными роботами.",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "logistix--lead-wms",
+  "name": "Lead WMS",
+  "sources": [
+   "https://www.cnews.ru/news/line/2026-11-19_logistix_uravnyala_robotov_i_lyudej"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-19"
  },
  "matternet--m3": {
   "categories": [
