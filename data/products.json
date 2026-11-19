@@ -175,14 +175,14 @@
   "id": "amazon--prime-air",
   "name": "Prime Air",
   "sources": [
-   "https://dronexl.co/2026/11/16/amazon-nampa-drone-permit-conditions-no-noise-altitude-limit/",
    "https://dronexl.co/2026/11/15/amazon-baton-rouge-drone-routes-changed-30-an-hour/",
    "https://dronexl.co/2026/11/17/amazon-nampa-drone-complaint-contact-not-public-wrong-number/",
    "https://dronexl.co/2026/11/18/amazon-nampa-drone-flight-data-79-flights-a-day-cherry-creek/",
-   "https://dronexl.co/2026/11/18/amazon-bondurant-iowa-drone-hub-sound-study-condition/"
+   "https://dronexl.co/2026/11/18/amazon-bondurant-iowa-drone-hub-sound-study-condition/",
+   "https://dronexl.co/2026/11/18/amazon-westborough-drone-nyt-would-probably-not-happen-withdrew/"
   ],
   "stage": "serial",
-  "updated": "2026-11-18"
+  "updated": "2026-11-19"
  },
  "amazon--prime-air-mk30": {
   "categories": [
@@ -298,14 +298,14 @@
   "id": "boston-dynamics--atlas",
   "name": "Atlas",
   "sources": [
-   "https://news.google.com/rss/articles/CBMidkFVX3lxTFBIZW9ZQ2Y4X0lGMlJrcTBpaXN0NUo5aTF2Y3RQdWx6N1FBOHREenVoamE5OWJjUUV1SGlRdENZZ1pGNU9FaGFvZVBLaF9CRFVYYjZqZ1JOX1ZCVEdTZUFKMnBBdXF0bm1lS09hV2RjNXNKRzBDbmc?oc=5",
-   "https://news.google.com/rss/articles/CBMiWEFVX3lxTE93X0RWSlh3MHZwZmdaVXg5ZlZkckpzTHVnb3pSd2pnMEtBYmZjR18zNmtEc1YweGNvODdxMThiYkViQXNJekZPOXFmai03TVd0M0lETXA3OXA?oc=5",
-   "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RUGFZaklGOS05U3JSVE53cVRDODlwMi13bHFLbC1DX3NzalRBOFR2TTNaTE1lUTFXTDlwcnVlWGdpLU5zek82RUF4Mk9reVJDcExwenRCdy1UNmlPc2YxWWQ1bTI?oc=5",
    "https://3dnews.ru/1151457",
-   "https://news.google.com/rss/articles/CBMicEFVX3lxTE5rTTQzLVM2cFhRY2FMVzhZellGUV9EZENSRUNkM013T3JPQlA5T1hGaHp4TVY3WDBBbUEwYUNJX1ZPRmRYS0xCaEZiYUE0MzR0X19NQmhrVFJBcFNIT2NXeDZqUFlZVlhHMkdKd2tKREw?oc=5"
+   "https://news.google.com/rss/articles/CBMicEFVX3lxTE5rTTQzLVM2cFhRY2FMVzhZellGUV9EZENSRUNkM013T3JPQlA5T1hGaHp4TVY3WDBBbUEwYUNJX1ZPRmRYS0xCaEZiYUE0MzR0X19NQmhrVFJBcFNIT2NXeDZqUFlZVlhHMkdKd2tKREw?oc=5",
+   "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRGNjbF9rTUllVmQzbk1FY2o5Tzd3dE8tTUljTk4xRUx4LWo4eDl1MkhNekhJZ0JXejNuUWpjU2JOR0lPZ3NZTFByRzRqQ3Z6ejhDZXozNzJYYkNWRWtrWl92UEdMb1pOdW9qTk41bC1fZnpSUmFSY1RoX0RpUVhpTWFPem5zdXpxbW01eTluQVNhaE9lQ25TdWRrZ19sb1FwYzExYzZ0ZjJxbndsNXYyRnp0SGk2alcxblHSAboBQVVfeXFMTURjY2xfa01JZVZkM25NRWNqOU83d3RPLU1JY05OMUVMeC1qOHg5dTJITXpISWdCV3ozblFqY1NiTkdJT2dzWUxQckc0akN2eno4Q2V6MzcyWGJDVkVra1pfdlBHTG9aTnVvak5ONWwtX2Z6UlJhUmNUaF9EaVFYaU1hT3puc3V6cW1tNXk5bkFTYWhPZUNuU3Vka2dfbG9RcGMxMWM2dGYycW53bDV2MkZ6dEhpNmpXMW5R?oc=5",
+   "https://3dnews.ru/1151499",
+   "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPc1h0dmNLRGpWQURUQXB3MzVvbWZIUTJwSEUzZG0tYlBubi1lTG5rYmJzc1hfRy1Id1lQNFFYaDNRdUVnZjNCRnFtWDJmM2dxN3dmd19tbmxKVFg1aUhyR0s0OUhITTliVHNiZHRtbVFJZTNWR2M2c3pTNU1YM2pCU0NBSEV5a1g5Vkh6MXhFTmVteHd3TlRCbm9JbEZqcHBxOHVxb3hsVFI5YzEzVDVwenVVd25FZFNN?oc=5"
   ],
   "stage": "pilot",
-  "updated": "2026-11-18"
+  "updated": "2026-11-19"
  },
  "boston-dynamics--spot": {
   "categories": [
@@ -341,6 +341,23 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-17"
+ },
+ "brinc--brinc-liveops-ios-app": {
+  "categories": [
+   "aerial",
+   "security"
+  ],
+  "company_id": "brinc",
+  "description": "Мобильное приложение для просмотра живого видео с дронов и данных операций для первых responders.",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "brinc--brinc-liveops-ios-app",
+  "name": "BRINC LiveOps iOS app",
+  "sources": [
+   "https://www.suasnews.com/2026/11/brinc-drones-launches-new-ios-app-to-improve-first-responder-situational-awareness/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-19"
  },
  "custom-electronics--vtol-sail-wing": {
   "categories": [
@@ -645,6 +662,39 @@
   "stage": "serial",
   "updated": "2026-11-16"
  },
+ "hidonix--hido-ii": {
+  "categories": [
+   "other"
+  ],
+  "company_id": "hidonix",
+  "description": "Автономный ровер с роботизированной рукой для сбора геомагнитных и пространственных данных внутри помещений.",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "hidonix--hido-ii",
+  "name": "Hido II",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/18/hidonix-launches-hido-ii-autonomous-rover-for-indoor-mapping/107313/"
+  ],
+  "stage": "pilot",
+  "updated": "2026-11-19"
+ },
+ "kawasaki-robotics--f-series-controller-s-type": {
+  "categories": [
+   "manufacturing",
+   "components"
+  ],
+  "company_id": "kawasaki-robotics",
+  "description": "Контроллер промышленных роботов с интегрированной безопасностью и кибербезопасностью.",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "kawasaki-robotics--f-series-controller-s-type",
+  "name": "F Series Controller S-type",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/18/kawasaki-robotics-launches-f-series-s-type-controller-with-integrated-safety-and-cybersecurity/107319/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-19"
+ },
  "kret--dmr-2854": {
   "categories": [
    "components"
@@ -837,6 +887,24 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-17"
+ },
+ "rosiwit--titan-810": {
+  "categories": [
+   "cleaning"
+  ],
+  "company_id": "rosiwit",
+  "description": "Промышленный робот для уборки.",
+  "first_seen": "2026-11-19",
+  "focus": [
+   "floor"
+  ],
+  "id": "rosiwit--titan-810",
+  "name": "Titan 810",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU0ljRGN6VnhkZzJDOExiOUc3RHVzWTZITHdTZkw2bXdVdTNWam9CTW1renU5S0Y3QXBOSk03bXFybGNrMmlfOEk4VTNiSHlGdnZ0X011Ym5CTlBRRnd6LXVsYnR0YWFfWk1KcXFDRFZkYkU5ckw5R3Z5OFFkd2RKSW5STkhmUW9aTnFlZjRjLVVjV3cwd0lTR0JaSU4tR1dUVmx6Vm5OcVFadGNDWEdBYkZwMnplWFF2cDNGTXRJRURSVGw1MDdqMA?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-19"
  },
  "rosteh--depesha": {
   "categories": [
@@ -1054,6 +1122,24 @@
   ],
   "stage": "serial",
   "updated": "2026-11-18"
+ },
+ "uav-navigation--hes01": {
+  "categories": [
+   "aerial",
+   "marine",
+   "components"
+  ],
+  "company_id": "uav-navigation",
+  "description": "Модуль оценки курса для дронов с RTK-поправками для посадки на судно.",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "uav-navigation--hes01",
+  "name": "HES01",
+  "sources": [
+   "https://dronexl.co/2026/11/18/uav-navigation-hes01-ship-deck-drone-landing-gps-jamming/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-19"
  },
  "uc-berkeley--robosimstudio": {
   "categories": [

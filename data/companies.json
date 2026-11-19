@@ -220,7 +220,7 @@
    "source": "https://www.therobotreport.com/rockwell-automation-acquiring-mobile-robot-maker-agilox/",
    "value": 2500
   },
-  "updated": "2026-11-18"
+  "updated": "2026-11-19"
  },
  "agri-spray": {
   "aliases": [
@@ -307,7 +307,7 @@
   "id": "amazon",
   "name": "Amazon",
   "origin": "news",
-  "updated": "2026-11-18"
+  "updated": "2026-11-19"
  },
  "amicro": {
   "aliases": [],
@@ -473,6 +473,22 @@
   "name": "ATOMS",
   "origin": "news",
   "updated": "2026-11-17"
+ },
+ "aura-network-systems": {
+  "aliases": [
+   "AURA"
+  ],
+  "categories": [
+   "aerial"
+  ],
+  "country": "US",
+  "description": "Сетевой оператор, запрашивающий лицензии 450 МГц для связи с дронами.",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "aura-network-systems",
+  "name": "AURA Network Systems",
+  "origin": "news",
+  "updated": "2026-11-19"
  },
  "autostore": {
   "aliases": [],
@@ -670,7 +686,9 @@
    "Atlas",
    "GlobalFoundries",
    "Hyundai Motor Group",
-   "Hyundai Atlas"
+   "Hyundai Atlas",
+   "Хёндай",
+   "Бостон Дайнамикс"
   ],
   "categories": [
    "humanoid",
@@ -685,13 +703,23 @@
   "id": "boston-dynamics",
   "name": "Boston Dynamics",
   "origin": "seed",
-  "updated": "2026-11-18"
+  "revenue": {
+   "as_of": "2026-11-18",
+   "currency": "KRW",
+   "source": "https://3dnews.ru/1151499",
+   "usd": 102085486.54,
+   "value": 136000000000.0,
+   "year": 2026
+  },
+  "updated": "2026-11-19"
  },
  "botsync": {
   "aliases": [
    "Botsync"
   ],
-  "categories": [],
+  "categories": [
+   "logistics"
+  ],
   "country": "SG",
   "description": "Сингапурский робототехнический стартап.",
   "first_seen": "2026-11-18",
@@ -700,15 +728,17 @@
   "last_round": {
    "as_of": "2026-11-18",
    "currency": "USD",
-   "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPei1aNFZxbGhsQmpJN1hCeG0wN3o0UFlqclNjMV9kWWpqcHV4bTJjZkhJSElQaGp3YllpdlhEbVRHZGxWNkE1V2RxaE1HdFM1QXlYN2phZnhpUmhUNHN4c1NxVTRJVzNmSUJ0Q1pUcU1aN2tFNlJzWTE1TmlORVlYbDYzYzMzQXJIVlFnZDRFYlRLSXc?oc=5",
+   "investors": [
+    "IvyCap Ventures"
+   ],
+   "source": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQU3pXWlpmWXF5Z1hiME8xd0xCMmRzTzQ4TTBYNXZQX2NUd0g1OWk4eDhCZjZJRnpnYl9IU09HZ2M3UWVDaU1qT2MtNzhhNnJTdzU1aVdpNHc2U3JKcGRFODBvTEdIRlktZUhQa3pnR2h3M1poSW9YYnRPRXZXS1M2c21ncFIyZGQzbEhGdDBicl9rTW0zNDJEQ252VmZtdkpFV0J1VzRBVXA5UHB1WjVzZHp5MEpkWVJsWi1mejR3R1pCclJQWDVHSHV2enVOdEFkUlE?oc=5",
    "type": "unknown",
    "usd": 11000000.0,
    "value": 11000000.0
   },
   "name": "Botsync",
   "origin": "news",
-  "updated": "2026-11-18"
+  "updated": "2026-11-19"
  },
  "brain": {
   "aliases": [
@@ -730,9 +760,12 @@
   "updated": "2026-11-16"
  },
  "brinc": {
-  "aliases": [],
+  "aliases": [
+   "BRINC Drones"
+  ],
   "categories": [
-   "aerial"
+   "aerial",
+   "security"
   ],
   "country": "US",
   "description": "Разработчик дронов для служб общественной безопасности и реагирования на экстренные вызовы.",
@@ -741,7 +774,7 @@
   "id": "brinc",
   "name": "BRINC",
   "origin": "news",
-  "updated": "2026-11-17"
+  "updated": "2026-11-19"
  },
  "built-robotics": {
   "aliases": [],
@@ -1071,6 +1104,35 @@
   "name": "Eddyfi Technologies",
   "origin": "seed",
   "updated": "2026-11-16"
+ },
+ "einride": {
+  "aliases": [
+   "Einride AB"
+  ],
+  "categories": [
+   "delivery"
+  ],
+  "country": "SE",
+  "description": "Шведская компания автономных электрических грузовиков.",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "einride",
+  "name": "Einride",
+  "origin": "news",
+  "revenue": {
+   "as_of": "2026-11-18",
+   "currency": "USD",
+   "source": "https://roboticsandautomationnews.com/2026/11/18/einride-reports-76-percent-growth-in-contracted-revenue-as-autonomous-freight-operations-expand/107308/",
+   "usd": 18300000.0,
+   "value": 18300000.0,
+   "year": 2026
+  },
+  "robots_deployed": {
+   "as_of": "2026-11-18",
+   "source": "https://roboticsandautomationnews.com/2026/11/18/einride-reports-76-percent-growth-in-contracted-revenue-as-autonomous-freight-operations-expand/107308/",
+   "value": 4
+  },
+  "updated": "2026-11-19"
  },
  "eka-robotics": {
   "aliases": [
@@ -1639,14 +1701,14 @@
    "as_of": "2026-11-18",
    "currency": "USD",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcG9wVlBzWUNGbm5ibWpaVVI0dWpqOU1wZFJHd25ZX2ctOHh3cTRGMVF4MDdfbjg1TEtfYTBYTENnMXI0ZWpxUFdEUi1SNzQ5R0JGOG54ZlNpX21vUFNSUzlELTRHVEd5blpXRS1CWTlXcGhmbmlZcm44endXQWZmcDJ5cXFPYTRKQ3JKNkljX2JFMW52MlRLajJvY29ZOGJHMWZpbEtFZ1ZEazZHMjBGSjNZQmxrdHVCYUt3UTRqLXlzWWdIV1d2ZG5Scnc?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQklEaVo1M2VhVjlwa1hjMnRRb1lCT0tCVmo5TUZYMlhXMDZmU0dOVHRKMjd2SlFlU2pxVWl2UlI1a0puaEhsM0Zzdk52RDRYRzNqeExUV0U2RWM0R2k4SEI3WldrcHFJYjBwZ1YzdWhfM2IwaTN5UzQxbG5iQnlhb0l3S2dBeVdtZGszVDJDakZ4YTVNZ2I0ZGRZQ0J3dVBlV19hSm1PTHg0NHhYUWNkcHRyUW1UTnNkc0FWbmhGVFdtT2xrNU1j?oc=5",
    "type": "unknown",
    "usd": 500000000.0,
    "value": 500000000.0
   },
   "name": "Genesis AI",
   "origin": "news",
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "valuation": {
    "as_of": "2026-11-18",
    "currency": "USD",
@@ -1747,6 +1809,20 @@
   "origin": "news",
   "updated": "2026-11-17"
  },
+ "hidonix": {
+  "aliases": [
+   "Hidonix Industries"
+  ],
+  "categories": [],
+  "country": "US",
+  "description": "Разработчик пространственного интеллекта и робототехнических систем, в основном для оборонных задач.",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "hidonix",
+  "name": "Hidonix",
+  "origin": "news",
+  "updated": "2026-11-19"
+ },
  "humble-robotics": {
   "aliases": [],
   "categories": [
@@ -1785,11 +1861,8 @@
   "last_round": {
    "as_of": "2026-11-18",
    "currency": "USD",
-   "investors": [
-    "Accel",
-    "Prosus Ventures"
-   ],
-   "source": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdlpWaHp2emQzQXpHUnZSbjFoSlQ5YlhpclpCMEdyRm1sNUxuSkQ1MklQS3Zrd0Y1Q2pzRUlqblc4R0ltU3BvNk1kWUlqd3NHejF3YnpINnc2aXFkZGtsUk56QUEwZXRTSHFxRmd0ZU5LVHA1R0xRRmVGd1dyeTJQUHdIXzVGd3JkNUFPUU9DdXphaUYzbS1yX00wV0xrY054cGRTdFlvOU5HSmM1WG42RjJ3?oc=5",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPeHU3dDY1UE1Lb0s5ZEoxcDJJVmtGc3d5bHpOVFBRSVF5MEJ5MnI4eElORURWbnFZSFdFM2hLTXNRZ3hLY1NxS1BCQVdzNjZtTndXTkNJWVBQX2NLZUpHdnlPcU9oVVR2dXV5dnFWMnJDMHZvbXN2RHl4cWFBOFpxRWFRaFhLRFF5MWtGSExFcEJtN0xOQ3NEQlpfQzlKOERIbkZXNHFOWXd4MXF4VTFDQ3Z2T3o0UVRxVWlaZnNOdklsT1lUX1hxZkdSaEZXUzZmdDczM3R6ZGs?oc=5",
    "type": "series_a",
    "usd": 47000000.0,
    "value": 47000000.0
@@ -1799,12 +1872,12 @@
   "revenue": {
    "as_of": "2026-11-18",
    "currency": "USD",
-   "source": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
-   "usd": 10000000.0,
-   "value": 10000000.0,
+   "source": "https://www.therobotreport.com/humyn-labs-raises-47m-to-collect-real-world-data-for-robotics/",
+   "usd": 50000000.0,
+   "value": 50000000.0,
    "year": null
   },
-  "updated": "2026-11-18"
+  "updated": "2026-11-19"
  },
  "hypertunnel": {
   "aliases": [],
@@ -1836,6 +1909,22 @@
   "name": "ICE Cobotics",
   "origin": "seed",
   "updated": "2026-11-16"
+ },
+ "imagry": {
+  "aliases": [
+   "Endera"
+  ],
+  "categories": [
+   "delivery"
+  ],
+  "country": "IL",
+  "description": "Поставщик технологий автономного общественного транспорта.",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "imagry",
+  "name": "Imagry",
+  "origin": "news",
+  "updated": "2026-11-19"
  },
  "intel": {
   "aliases": [
@@ -1922,6 +2011,23 @@
   "name": "Kärcher",
   "origin": "seed",
   "updated": "2026-11-16"
+ },
+ "kawasaki-robotics": {
+  "aliases": [
+   "Kawasaki"
+  ],
+  "categories": [
+   "manufacturing",
+   "components"
+  ],
+  "country": "JP",
+  "description": "Подразделение Kawasaki, производитель промышленных роботов.",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "kawasaki-robotics",
+  "name": "Kawasaki Robotics",
+  "origin": "news",
+  "updated": "2026-11-19"
  },
  "keenon-robotics": {
   "aliases": [
@@ -2553,6 +2659,20 @@
   "origin": "news",
   "updated": "2026-11-16"
  },
+ "pix-moving": {
+  "aliases": [],
+  "categories": [
+   "delivery"
+  ],
+  "country": "",
+  "description": "Компания городской автономной мобильности.",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "pix-moving",
+  "name": "PIX Moving",
+  "origin": "news",
+  "updated": "2026-11-19"
+ },
  "polight": {
   "aliases": [
    "poLight ASA",
@@ -2618,7 +2738,8 @@
   "categories": [
    "service",
    "cleaning",
-   "humanoid"
+   "humanoid",
+   "logistics"
   ],
   "country": "CN",
   "description": "Китайский производитель коммерческих сервисных роботов.",
@@ -2634,7 +2755,12 @@
   "id": "pudu-robotics",
   "name": "Pudu Robotics",
   "origin": "seed",
-  "updated": "2026-11-18"
+  "robots_deployed": {
+   "as_of": "2026-11-04",
+   "source": "https://www.therobotreport.com/from-commercial-scale-to-embodied-intelligence-the-next-challenge-for-robotics/",
+   "value": 130000
+  },
+  "updated": "2026-11-19"
  },
  "qlayers": {
   "aliases": [],
@@ -2786,6 +2912,22 @@
   "origin": "news",
   "updated": "2026-11-17"
  },
+ "robco": {
+  "aliases": [
+   "РобКо"
+  ],
+  "categories": [
+   "manufacturing"
+  ],
+  "country": "DE",
+  "description": "Производитель модульных роботизированных систем и платформ для промышленной автоматизации.",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "robco",
+  "name": "RobCo",
+  "origin": "news",
+  "updated": "2026-11-19"
+ },
  "robopro": {
   "aliases": [
    "Робопро",
@@ -2849,6 +2991,22 @@
   "name": "Ронави Роботикс",
   "origin": "seed",
   "updated": "2026-11-16"
+ },
+ "rosiwit": {
+  "aliases": [],
+  "categories": [
+   "cleaning"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-19",
+  "focus": [
+   "floor"
+  ],
+  "id": "rosiwit",
+  "name": "Rosiwit",
+  "origin": "news",
+  "updated": "2026-11-19"
  },
  "rosteh": {
   "aliases": [
@@ -3288,7 +3446,8 @@
  },
  "t1": {
   "aliases": [
-   "ИТ-холдинг Т1"
+   "ИТ-холдинг Т1",
+   "T1"
   ],
   "categories": [
    "manufacturing",
@@ -3303,7 +3462,7 @@
   "id": "t1",
   "name": "Т1",
   "origin": "news",
-  "updated": "2026-11-18"
+  "updated": "2026-11-19"
  },
  "taisei": {
   "aliases": [],
@@ -3516,6 +3675,24 @@
   "name": "UAV DACH",
   "origin": "news",
   "updated": "2026-11-17"
+ },
+ "uav-navigation": {
+  "aliases": [
+   "UAV Navigation-Grupo Oesía"
+  ],
+  "categories": [
+   "aerial",
+   "marine",
+   "components"
+  ],
+  "country": "ES",
+  "description": "Мадридская дочерняя компания Grupo Oesía, производящая авионику для дронов.",
+  "first_seen": "2026-11-19",
+  "focus": [],
+  "id": "uav-navigation",
+  "name": "UAV Navigation",
+  "origin": "news",
+  "updated": "2026-11-19"
  },
  "ubtech": {
   "aliases": [
@@ -3778,7 +3955,7 @@
   "id": "wing",
   "name": "Wing",
   "origin": "seed",
-  "updated": "2026-11-17"
+  "updated": "2026-11-19"
  },
  "witron": {
   "aliases": [
@@ -3950,7 +4127,7 @@
   },
   "name": "Zipline",
   "origin": "seed",
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "valuation": {
    "as_of": "2026-11-10",
    "currency": "USD",
