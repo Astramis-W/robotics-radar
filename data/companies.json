@@ -222,7 +222,7 @@
    "source": "https://www.therobotreport.com/rockwell-automation-acquiring-mobile-robot-maker-agilox/",
    "value": 2500
   },
-  "updated": "2026-11-19"
+  "updated": "2026-11-20"
  },
  "agri-spray": {
   "aliases": [
@@ -309,7 +309,7 @@
   "id": "amazon",
   "name": "Amazon",
   "origin": "news",
-  "updated": "2026-11-19"
+  "updated": "2026-11-20"
  },
  "amicro": {
   "aliases": [],
@@ -324,6 +324,20 @@
   "name": "Amicro",
   "origin": "news",
   "updated": "2026-11-17"
+ },
+ "amrita-vishwa-vidyapeetham": {
+  "aliases": [],
+  "categories": [
+   "agro"
+  ],
+  "country": "IN",
+  "description": "",
+  "first_seen": "2026-11-20",
+  "focus": [],
+  "id": "amrita-vishwa-vidyapeetham",
+  "name": "Amrita Vishwa Vidyapeetham",
+  "origin": "news",
+  "updated": "2026-11-20"
  },
  "androidnaya-tehnika": {
   "aliases": [
@@ -700,6 +714,20 @@
   "origin": "news",
   "updated": "2026-11-20"
  },
+ "booster-robotics": {
+  "aliases": [],
+  "categories": [
+   "humanoid"
+  ],
+  "country": "CN",
+  "description": "",
+  "first_seen": "2026-11-20",
+  "focus": [],
+  "id": "booster-robotics",
+  "name": "Booster Robotics",
+  "origin": "news",
+  "updated": "2026-11-20"
+ },
  "boston-dynamics": {
   "aliases": [
    "Бостон Динамикс",
@@ -732,7 +760,7 @@
    "value": 136000000000.0,
    "year": 2026
   },
-  "updated": "2026-11-19"
+  "updated": "2026-11-20"
  },
  "botsync": {
   "aliases": [
@@ -751,14 +779,14 @@
    "as_of": "2026-11-18",
    "currency": "USD",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVllzQ0EwbVNmbkdPVU00NGNIQzRZaEVJeFA5T29kZTlrY2FxQl85OEZ5VnNOeDhaa2NCbzhkUklDTWFIYnJNZEx6aUF6QzY3cWhYbzBrXzJNcGowbC03MjdhbEJLcURaUHVQRjdQNkdOWnp6LVltU1dqU0FzZlZDMXlocWJYZ21Ja0cwd29jUU11blBRR1VXRw?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Oc1J6YnhwdjVXUG9abGs3LWtCTUFqcVRaMHN1QmVWdVhGNjlZRFNFSFc1T05BaWw3T3JpR2NzRTBJM0FjZERlSW5DbzMxVm5aTTZXZXhJZlQ?oc=5",
    "type": "unknown",
    "usd": 11000000.0,
    "value": 11000000.0
   },
   "name": "Botsync",
   "origin": "news",
-  "updated": "2026-11-19"
+  "updated": "2026-11-20"
  },
  "brain": {
   "aliases": [
@@ -778,6 +806,33 @@
   "name": "Brain Corp",
   "origin": "seed",
   "updated": "2026-11-16"
+ },
+ "brightai": {
+  "aliases": [
+   "Bright AI"
+  ],
+  "categories": [
+   "inspection"
+  ],
+  "country": "",
+  "description": "Компания физического ИИ для инфраструктуры",
+  "first_seen": "2026-11-20",
+  "focus": [
+   "tank"
+  ],
+  "id": "brightai",
+  "last_round": {
+   "as_of": "2026-11-19",
+   "currency": "USD",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1rLUNMVWFQUG5sVDRLeG82R2ppUW1ub3VSeG1QSkktdEs5d09PRXBJZzR1cUw1MWZ0dEJpMGdFWHliRnN1VFJBYzc3eDMwRWxWbGZj?oc=5",
+   "type": "unknown",
+   "usd": 97000000.0,
+   "value": 97000000.0
+  },
+  "name": "BrightAI",
+  "origin": "news",
+  "updated": "2026-11-20"
  },
  "brinc": {
   "aliases": [
@@ -1258,7 +1313,7 @@
    "humanoid"
   ],
   "country": "CN",
-  "description": "",
+  "description": "Китайская компания-разработчик гуманоидных роботов.",
   "first_seen": "2026-11-18",
   "focus": [],
   "id": "engineai",
@@ -1269,7 +1324,7 @@
    "source": "https://www.kommersant.ru/doc/9112620",
    "value": 151
   },
-  "updated": "2026-11-18"
+  "updated": "2026-11-20"
  },
  "epiroc": {
   "aliases": [],
@@ -1561,7 +1616,8 @@
  },
  "foundation": {
   "aliases": [
-   "Foundation Future Industries"
+   "Foundation Future Industries",
+   "Foundation Robotics"
   ],
   "categories": [
    "humanoid"
@@ -1571,9 +1627,20 @@
   "first_seen": "2026-11-17",
   "focus": [],
   "id": "foundation",
+  "last_round": {
+   "as_of": "2026-11-19",
+   "currency": "USD",
+   "investors": [
+    "Южнокорейская фирма"
+   ],
+   "source": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLVpOWGhjcGpMXy12ekpKS0FfRDM1Q0dYZVdKTllPX1M1bEc0SjBFVm93UFh5MU9qVnFBN0RIT0dBdmtuV01NR3AxNGxERWRHVGcwU0pnOVFKdVp2anNEWU1EUlgwQXdKMm5ZZC0wQVUyNUZxWVdGdEpHVnc1TnFnckFEaml0NnZ0WG00d0Z2eEJ0YkFtaDFZc3QtZlFzeXZac3ZzU1VNYS1LSktQbWJNLUNB?oc=5",
+   "type": "unknown",
+   "usd": 150000000.0,
+   "value": 150000000.0
+  },
   "name": "Foundation",
   "origin": "news",
-  "updated": "2026-11-17"
+  "updated": "2026-11-20"
  },
  "foundry-robotics": {
   "aliases": [
@@ -1764,7 +1831,7 @@
   },
   "name": "Genesis AI",
   "origin": "news",
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "valuation": {
    "as_of": "2026-11-19",
    "currency": "USD",
@@ -1934,8 +2001,8 @@
    "as_of": "2026-11-19",
    "currency": "USD",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxON0R3UnlwcTA5VXpZU2dwSWVMRzd2aUoyNzh2aTBxU2o1YkVWdnE0SlhmN0ZMeklvd08yWDY2Q0hTQnp6NlpCS284V3pFMWJqRjhreU4xQjFSMVhWQjlmRDhVUFZBeF90aW5LOG51WEpteExBQTFoRzFIejlhcWdRR1JzODE0N2FjZUVhbkc0b01NVmZvTnl2QkpJa3ZTX0doMEJFT0VuckpzZG1jU2JCV3h3amZ3bDBKejFBeEg4YjJrS3YxdHBCb0tBRzNDeFZveHZV0gHTAUFVX3lxTE43RHdSeXBxMDlVellTZ3BJZUxHN3ZpSjI3OHZpMHFTajViRVZ2cTRKWGY3Rkx6SW93TzJYNjZDSFNCeno2WkJLbzhXekUxYmpGOGt5TjFCMVIxWFZCOWZEOFVQVkF4X3Rpbks4bnVYSm14TEFBMWhHMUh6OWFxZ1FHUnM4MTQ3YWNlRWFuRzRvTU1WZm9OeXZCSklrdlNfR2gwQkVPRW5ySnNkbWNTYkJXeHdqZndsMEp6MUF4SDhiMmtLdjF0cEJvS0FHM0N4Vm94dlU?oc=5",
-   "type": "unknown",
+   "source": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRTNnYnVTenhZTFRnWjNWQnRZWUhKRlp6emZMNDByelhIMVR2aUoyd3BJS0ZIOVRsME1WdWE4TUowU3V3aHlIdm1ickJ6VDBVSmJ3ZU9UTDJqSFNRaWdRQ09fTDZfaFUyVXdKUldPUk9ZN0tFdnU0MmdIcVduZmRtSFdwZ1ZRb3Fpc0lqUmxkV2g?oc=5",
+   "type": "series_a",
    "usd": 47000000.0,
    "value": 47000000.0
   },
@@ -1949,7 +2016,7 @@
    "value": 50000000.0,
    "year": null
   },
-  "updated": "2026-11-19"
+  "updated": "2026-11-20"
  },
  "hypertunnel": {
   "aliases": [],
@@ -2154,6 +2221,22 @@
   "name": "Kodama",
   "origin": "news",
   "updated": "2026-11-16"
+ },
+ "komos-grupp": {
+  "aliases": [
+   "КОМОС"
+  ],
+  "categories": [
+   "manufacturing"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-20",
+  "focus": [],
+  "id": "komos-grupp",
+  "name": "КОМОС Групп",
+  "origin": "news",
+  "updated": "2026-11-20"
  },
  "kopter-ekspress": {
   "aliases": [
@@ -2439,6 +2522,22 @@
   "origin": "news",
   "updated": "2026-11-17"
  },
+ "microwatt": {
+  "aliases": [
+   "MicroWatt"
+  ],
+  "categories": [
+   "inspection"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-20",
+  "focus": [],
+  "id": "microwatt",
+  "name": "MicroWatt",
+  "origin": "news",
+  "updated": "2026-11-20"
+ },
  "mobilicom": {
   "aliases": [
    "Mobilicom Limited",
@@ -2570,17 +2669,17 @@
   "focus": [],
   "id": "nomadic",
   "last_round": {
-   "as_of": "2026-11-19",
+   "as_of": "2026-11-20",
    "currency": "USD",
    "investors": [],
-   "source": "https://dronelife.com/2026/11/19/nomadic-power-line-drones-grid-monitoring/",
+   "source": "https://www.dronewatch.eu/german-startup-raises-6-million-for-drones-that-recharge-themselves-on-power-lines/?utm_source=rss&utm_medium=rss&utm_campaign=german-startup-raises-6-million-for-drones-that-recharge-themselves-on-power-lines",
    "type": "seed",
    "usd": 6000000.0,
    "value": 6000000.0
   },
   "name": "Nomadic",
   "origin": "news",
-  "updated": "2026-11-19"
+  "updated": "2026-11-20"
  },
  "nomadic-drones": {
   "aliases": [],
@@ -2665,6 +2764,22 @@
   "name": "OpenAI",
   "origin": "news",
   "updated": "2026-11-17"
+ },
+ "orchard-robotics": {
+  "aliases": [
+   "Orchard AI"
+  ],
+  "categories": [
+   "agro"
+  ],
+  "country": "US",
+  "description": "Компания из Сан-Франциско, разрабатывающая решения crop intelligence для производителей высокоценных культур.",
+  "first_seen": "2026-11-20",
+  "focus": [],
+  "id": "orchard-robotics",
+  "name": "Orchard Robotics",
+  "origin": "news",
+  "updated": "2026-11-20"
  },
  "path-robotics": {
   "aliases": [],
@@ -2811,6 +2926,20 @@
   "origin": "news",
   "updated": "2026-11-17"
  },
+ "prikladnaya-robototehnika": {
+  "aliases": [
+   "ГТЛК"
+  ],
+  "categories": [],
+  "country": "RU",
+  "description": "",
+  "first_seen": "2026-11-20",
+  "focus": [],
+  "id": "prikladnaya-robototehnika",
+  "name": "Прикладная робототехника",
+  "origin": "news",
+  "updated": "2026-11-20"
+ },
  "promise-robotics": {
   "aliases": [],
   "categories": [
@@ -2833,7 +2962,7 @@
   },
   "name": "Promise Robotics",
   "origin": "news",
-  "updated": "2026-11-19"
+  "updated": "2026-11-20"
  },
  "promobot": {
   "aliases": [
@@ -3387,7 +3516,7 @@
    "source": "https://roboticsandautomationnews.com/2026/11/19/serve-robotics-opens-its-physical-ai-technology-to-other-robot-companies/107358/",
    "value": 2000
   },
-  "updated": "2026-11-19"
+  "updated": "2026-11-20"
  },
  "shenzhen": {
   "aliases": [
@@ -3408,7 +3537,8 @@
  "skydio": {
   "aliases": [
    "Knoxville Police Department",
-   "KPD"
+   "KPD",
+   "Skydio X10"
   ],
   "categories": [
    "aerial",
@@ -3432,7 +3562,12 @@
   },
   "name": "Skydio",
   "origin": "seed",
-  "updated": "2026-11-19",
+  "robots_deployed": {
+   "as_of": "2026-11-20",
+   "source": "https://dronexl.co/2026/11/20/ucla-police-skydio-x10-drones-la28-olympic-village-regents/",
+   "value": 5
+  },
+  "updated": "2026-11-20",
   "valuation": {
    "as_of": "2026-11-14",
    "currency": "USD",
@@ -3758,7 +3893,7 @@
   "id": "tennant",
   "name": "Tennant",
   "origin": "seed",
-  "updated": "2026-11-17"
+  "updated": "2026-11-20"
  },
  "tesla": {
   "aliases": [
@@ -3797,6 +3932,20 @@
   "name": "Tevel Aerobotics",
   "origin": "seed",
   "updated": "2026-11-16"
+ },
+ "theseus-robotics": {
+  "aliases": [],
+  "categories": [
+   "service"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-20",
+  "focus": [],
+  "id": "theseus-robotics",
+  "name": "Theseus Robotics",
+  "origin": "news",
+  "updated": "2026-11-20"
  },
  "thg-fulfil": {
   "aliases": [
@@ -4091,6 +4240,31 @@
   "origin": "seed",
   "updated": "2026-11-16"
  },
+ "vetaion": {
+  "aliases": [
+   "Vetaion"
+  ],
+  "categories": [
+   "manufacturing"
+  ],
+  "country": "DE",
+  "description": "Мюнхенский стартап, автоматизирующий производство шкафов управления с помощью ИИ и робототехники.",
+  "first_seen": "2026-11-20",
+  "focus": [],
+  "id": "vetaion",
+  "last_round": {
+   "as_of": "2026-11-19",
+   "currency": "EUR",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWlBDbVdFdjllRHRtRkEweE5nUmN0bXVnSmN6V2JsMFBGelJMU0ZIVFQwUXRySU9SdjhmQUd4MjgxelJQdFh3Zy1jd0pLZWkxaGY2aE1uYlNZN0JLZjg3UFpXQ05ZZlBzYTJOc2NCd2ZneGFULWd1eDdKeE04cjg2T0pabU5VdGZ6cWVqZ1ZJYmNmRkhnelcwX1A0SG5XU21rYi1Dc0dSMmNrYXRSQ1R4MnplU2RHeldRcWFBZTFSVm9MekdOSzFnbWg3SU05QkI5Z1AzMmQ1Yw?oc=5",
+   "type": "unknown",
+   "usd": 6258584.97,
+   "value": 5700000.0
+  },
+  "name": "Vetaion",
+  "origin": "news",
+  "updated": "2026-11-20"
+ },
  "viam": {
   "aliases": [],
   "categories": [
@@ -4297,20 +4471,21 @@
   "aliases": [
    "Yandex Robotics",
    "Яндекс",
-   "Yandex"
+   "Yandex",
+   "Магнит"
   ],
   "categories": [
    "delivery",
    "logistics"
   ],
   "country": "RU",
-  "description": "",
+  "description": "Технологическая компания, развивающая беспилотные автомобили и технологии автономных перевозок.",
   "first_seen": "2026-11-16",
   "focus": [],
   "id": "yandeks-robotiks",
   "name": "Яндекс Роботикс",
   "origin": "seed",
-  "updated": "2026-11-17"
+  "updated": "2026-11-20"
  },
  "zacua-ventures": {
   "aliases": [

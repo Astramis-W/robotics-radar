@@ -175,14 +175,14 @@
   "id": "amazon--prime-air",
   "name": "Prime Air",
   "sources": [
-   "https://dronexl.co/2026/11/15/amazon-baton-rouge-drone-routes-changed-30-an-hour/",
    "https://dronexl.co/2026/11/17/amazon-nampa-drone-complaint-contact-not-public-wrong-number/",
    "https://dronexl.co/2026/11/18/amazon-nampa-drone-flight-data-79-flights-a-day-cherry-creek/",
    "https://dronexl.co/2026/11/18/amazon-bondurant-iowa-drone-hub-sound-study-condition/",
-   "https://dronexl.co/2026/11/18/amazon-westborough-drone-nyt-would-probably-not-happen-withdrew/"
+   "https://dronexl.co/2026/11/18/amazon-westborough-drone-nyt-would-probably-not-happen-withdrew/",
+   "https://dronexl.co/2026/11/20/amazon-jacksonville-drone-pad-setback-500-feet-29-planning-commission/"
   ],
   "stage": "serial",
-  "updated": "2026-11-19"
+  "updated": "2026-11-20"
  },
  "amazon--prime-air-mk30": {
   "categories": [
@@ -199,6 +199,22 @@
   ],
   "stage": "serial",
   "updated": "2026-11-18"
+ },
+ "amrita-vishwa-vidyapeetham--amaran": {
+  "categories": [
+   "agro"
+  ],
+  "company_id": "amrita-vishwa-vidyapeetham",
+  "description": "Робот, который взбирается на кокосовые пальмы для сбора кокосов.",
+  "first_seen": "2026-11-20",
+  "focus": [],
+  "id": "amrita-vishwa-vidyapeetham--amaran",
+  "name": "Amaran",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPdTlHM1g2NU1oWEtUT2ZhX0NVZjN4YkxfT092Y1V0bE1xdERHRW8yRzN1MS10ekIwM0RfZmRXamZKNG5ZT1l1dTA5QXV0cXpEa2hZYWcxN0h3QTZQNVJ5QTl3X0Z0T3NtQ3k4WlNVSmNFSVlIbU9KSDVVeC1iSU1QYUlLTGNsZDdSUVExT2RyM2xXMWFON2g5M3haZmVhZWtSZDVrTmZxQlcwT1kxOUJoNGJ3aUhxMmVoWGVnRFVHT3hNSFBRODFMREV5Sy1TT01ST1d0bUxOaFk4TVB2Z2xZS2wxSjRub1ItN0xjaUhSZkFFZ3BJOE1Z?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-20"
  },
  "andromeda-robotics--abi": {
   "categories": [
@@ -314,14 +330,14 @@
   "id": "boston-dynamics--atlas",
   "name": "Atlas",
   "sources": [
-   "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRGNjbF9rTUllVmQzbk1FY2o5Tzd3dE8tTUljTk4xRUx4LWo4eDl1MkhNekhJZ0JXejNuUWpjU2JOR0lPZ3NZTFByRzRqQ3Z6ejhDZXozNzJYYkNWRWtrWl92UEdMb1pOdW9qTk41bC1fZnpSUmFSY1RoX0RpUVhpTWFPem5zdXpxbW01eTluQVNhaE9lQ25TdWRrZ19sb1FwYzExYzZ0ZjJxbndsNXYyRnp0SGk2alcxblHSAboBQVVfeXFMTURjY2xfa01JZVZkM25NRWNqOU83d3RPLU1JY05OMUVMeC1qOHg5dTJITXpISWdCV3ozblFqY1NiTkdJT2dzWUxQckc0akN2eno4Q2V6MzcyWGJDVkVra1pfdlBHTG9aTnVvak5ONWwtX2Z6UlJhUmNUaF9EaVFYaU1hT3puc3V6cW1tNXk5bkFTYWhPZUNuU3Vka2dfbG9RcGMxMWM2dGYycW53bDV2MkZ6dEhpNmpXMW5R?oc=5",
    "https://3dnews.ru/1151499",
    "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPc1h0dmNLRGpWQURUQXB3MzVvbWZIUTJwSEUzZG0tYlBubi1lTG5rYmJzc1hfRy1Id1lQNFFYaDNRdUVnZjNCRnFtWDJmM2dxN3dmd19tbmxKVFg1aUhyR0s0OUhITTliVHNiZHRtbVFJZTNWR2M2c3pTNU1YM2pCU0NBSEV5a1g5Vkh6MXhFTmVteHd3TlRCbm9JbEZqcHBxOHVxb3hsVFI5YzEzVDVwenVVd25FZFNN?oc=5",
    "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNa2wxakczU1NUSkNscHEwU1E3bHdYeFAxZDNtcUMyS0pKQ0tlV2lGV0pXbi1jR3FLR3cyQ1NIWE96Ujk5eS15U2pyLWpzbVNUc1poYnhNLVB2QTkwMThUQk15ODBWN3BKdnZ2ZmlmZFZJOXJlMlRqWFJNSF8tWlByOU44TXRzb1BmWVkwenJFQkRGN0Vqa25rdHBLcFdGTHQ4TFZ6b0NkR3JyUXhwR0oyT1UwZmRLZEhBWl9xX29sNW5sdzBKQ0tib2Z2Tnd0LWhrZEE?oc=5",
-   "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcVJ5VDIyemE3bHhoWmE2czlDb203RzZSSnlwTzFYNjBYT0gyZ1hUS3dBQURPVGN5bnNXb3I5VkNSZGJERmJQX2k5d0ZaeG4zU05MMll5ZkpZZ01HZmpKZVJyY1ptZzFHMERxd00yd3kwcGhMVUJaVXdEUy12UTNONy1tRFNseTJf?oc=5"
+   "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcVJ5VDIyemE3bHhoWmE2czlDb203RzZSSnlwTzFYNjBYT0gyZ1hUS3dBQURPVGN5bnNXb3I5VkNSZGJERmJQX2k5d0ZaeG4zU05MMll5ZkpZZ01HZmpKZVJyY1ptZzFHMERxd00yd3kwcGhMVUJaVXdEUy12UTNONy1tRFNseTJf?oc=5",
+   "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNV2UwbVJGdGQ3LXUzY3JIMWxqd05IWDIzRzRmeGpyMElySVYtdVNBeGo1RVlvLWhsRHpBbzlkRFQ3Ulhua1N3al9Wcy04MERXUjIzMWNQQWJ6Q2JjQlAydEhxbE1aaTJZcE1XdFFGUUx1ODVKWVgwdElfZmp1MzhRSnhmS1hzVGkwY1ItOURBLVNVMllXZkZHUUREWENaS09lYjRTZXJwY1dwZw?oc=5"
   ],
   "stage": "pilot",
-  "updated": "2026-11-19"
+  "updated": "2026-11-20"
  },
  "boston-dynamics--spot": {
   "categories": [
@@ -1146,6 +1162,23 @@
   "stage": "serial",
   "updated": "2026-11-17"
  },
+ "serve-robotics--physical-ai-services": {
+  "categories": [
+   "delivery",
+   "components"
+  ],
+  "company_id": "serve-robotics",
+  "description": "Набор технологий и каталогов данных для обучения ИИ, продаваемый другим разработчикам роботов.",
+  "first_seen": "2026-11-20",
+  "focus": [],
+  "id": "serve-robotics--physical-ai-services",
+  "name": "Physical AI Services",
+  "sources": [
+   "https://t.me/prorobots/3671"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-20"
+ },
  "serve-robotics--serve-physical-ai-services": {
   "categories": [
    "delivery",
@@ -1207,10 +1240,12 @@
   "id": "skydio--skydio-x10",
   "name": "Skydio X10",
   "sources": [
-   "https://dronexl.co/2026/11/19/knoxville-police-skydio-dfr-drones-launch-public-flight-log/"
+   "https://dronexl.co/2026/11/19/knoxville-police-skydio-dfr-drones-launch-public-flight-log/",
+   "https://dronexl.co/2026/11/20/nashville-police-skydio-dfr-trial-98-percent-overtime-ran-low/",
+   "https://dronexl.co/2026/11/20/ucla-police-skydio-x10-drones-la28-olympic-village-regents/"
   ],
-  "stage": "unknown",
-  "updated": "2026-11-19"
+  "stage": "serial",
+  "updated": "2026-11-20"
  },
  "skypsi--operator": {
   "categories": [
@@ -1277,10 +1312,11 @@
   "id": "tennant--p1-vac",
   "name": "P1 VAC",
   "sources": [
-   "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZFgxV2NnS0YwaVk0SEtVd19leFVVSGdDNzhNVWtZRWZ6Mk9DUjctbjVHOEdiQmdya00xNDQ5QVc2Nkw4TG4yQXJCR2FJck1CLUVOcHdPRU5tYVFmMFlrYWhLRm9UcEdxenVsV3g5a1ZXOXR4NUE5Sk5oWVloMEZQZzlfaURKanpEMFlpRWJlTVBNMlZTMy1TMF8yWVVUUlRiZzRjZFVnY200Z2VVUklELXpvcVBGOXlLWU9rVjF4WTZUVmJCVlVsOWp3?oc=5"
+   "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZFgxV2NnS0YwaVk0SEtVd19leFVVSGdDNzhNVWtZRWZ6Mk9DUjctbjVHOEdiQmdya00xNDQ5QVc2Nkw4TG4yQXJCR2FJck1CLUVOcHdPRU5tYVFmMFlrYWhLRm9UcEdxenVsV3g5a1ZXOXR4NUE5Sk5oWVloMEZQZzlfaURKanpEMFlpRWJlTVBNMlZTMy1TMF8yWVVUUlRiZzRjZFVnY200Z2VVUklELXpvcVBGOXlLWU9rVjF4WTZUVmJCVlVsOWp3?oc=5",
+   "https://news.google.com/rss/articles/CBMigAJBVV95cUxONnpIbmp1WHFGMFpKbUNFY1JWTURfMlQyY0FadjBfd293N1lvR25NTmt4WGJ0ZWU0WVFrQkh0WS14VWFkeFZQQkM1SDg1WTVZZVVkeUUwVGtmRmNqaUd1TEtnaUU0aE85WXQzTVRrWU1sbW1JazcyaVRxMXZvLTZHUTlyc3l2eXl1bXctY1VWaUpud2pPUWFIMEp5dkY3MWJQUFFBYXU5cGVuR2ttYndZSW9TQzNGLU5wLTBhanFjSTdTNzE3UnJCUWgzdi0wOVNmcnVwQkx1MXRPc21wZHN2QzVVZDliMG15cVdScm5ucU1hRHBlckpvWVYtLS13aEtm?oc=5"
   ],
   "stage": "unknown",
-  "updated": "2026-11-17"
+  "updated": "2026-11-20"
  },
  "tesla--cybercab": {
   "categories": [
