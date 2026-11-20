@@ -685,7 +685,8 @@
   "aliases": [
    "Stellantis",
    "Wayve",
-   "Nvidia"
+   "Nvidia",
+   "Эн-Вайди"
   ],
   "categories": [
    "delivery"
@@ -697,7 +698,7 @@
   "id": "bolt",
   "name": "Bolt",
   "origin": "news",
-  "updated": "2026-11-19"
+  "updated": "2026-11-20"
  },
  "boston-dynamics": {
   "aliases": [
@@ -969,7 +970,8 @@
   "aliases": [
    "SZ DJI Technology Co., Ltd.",
    "DJI Technology",
-   "ДЖИ"
+   "ДЖИ",
+   "Da-Jiang Innovations"
   ],
   "categories": [
    "aerial",
@@ -982,7 +984,7 @@
   "id": "dji",
   "name": "DJI",
   "origin": "seed",
-  "updated": "2026-11-17"
+  "updated": "2026-11-20"
  },
  "doomdoom": {
   "aliases": [],

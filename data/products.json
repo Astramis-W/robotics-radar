@@ -445,6 +445,22 @@
   "stage": "unknown",
   "updated": "2026-11-17"
  },
+ "dji--dji-neo-3": {
+  "categories": [
+   "aerial"
+  ],
+  "company_id": "dji",
+  "description": "Потребительский дрон с защитными рамками и гимбальной камерой; официально не анонсирован.",
+  "first_seen": "2026-11-20",
+  "focus": [],
+  "id": "dji--dji-neo-3",
+  "name": "DJI Neo 3",
+  "sources": [
+   "https://dronexl.co/2026/11/19/dji-neo-3-second-retail-box-no-rc-mini-controller/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-20"
+ },
  "dronamics--black-swan": {
   "categories": [
    "aerial",
