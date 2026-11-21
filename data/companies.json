@@ -222,7 +222,7 @@
    "source": "https://www.therobotreport.com/rockwell-automation-acquiring-mobile-robot-maker-agilox/",
    "value": 2500
   },
-  "updated": "2026-11-20"
+  "updated": "2026-11-21"
  },
  "agri-spray": {
   "aliases": [
@@ -768,7 +768,8 @@
   ],
   "categories": [
    "logistics",
-   "components"
+   "components",
+   "manufacturing"
   ],
   "country": "SG",
   "description": "Сингапурский робототехнический стартап.",
@@ -776,17 +777,17 @@
   "focus": [],
   "id": "botsync",
   "last_round": {
-   "as_of": "2026-11-18",
+   "as_of": "2026-11-21",
    "currency": "USD",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Oc1J6YnhwdjVXUG9abGs3LWtCTUFqcVRaMHN1QmVWdVhGNjlZRFNFSFc1T05BaWw3T3JpR2NzRTBJM0FjZERlSW5DbzMxVm5aTTZXZXhJZlQ?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNSnUxdW42Vy1VVnozTGY2czdObTJXT1ZOYklyT0hJbHUxNURIcG1iSE9PSmhvYXo4WEFUajdBTDhHOENnemNHNGlzN1Y1ckI1aXQwRVpacU41azZ3d0JBRmNneUFpOWExM3p2Nndnd0swQ2hnZnlxWm5zdkdaZFJrbU9pQWY0NlFidmFYdDAzSkwzWlZobXFfSC1BekxfSjJtTlpGcDVDZ25iMVp0dWxBS01wOXV2QXFXcG5yMjdaSGl1Z2c3ZWhDcklCQ19rWExiSFBWVWpPZkszQXZBYmxMdUZLSklmNDZ2UjV0Vml1cXY5TnpWakduSzgzbUpZSXZZeURwREtMYjdyaUJsY21FRw?oc=5",
    "type": "unknown",
    "usd": 11000000.0,
    "value": 11000000.0
   },
   "name": "Botsync",
   "origin": "news",
-  "updated": "2026-11-20"
+  "updated": "2026-11-21"
  },
  "brain": {
   "aliases": [
@@ -1357,6 +1358,22 @@
   "name": "ETH Zürich",
   "origin": "news",
   "updated": "2026-11-17"
+ },
+ "eurocontrol": {
+  "aliases": [
+   "Eurocontrol"
+  ],
+  "categories": [
+   "aerial"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-21",
+  "focus": [],
+  "id": "eurocontrol",
+  "name": "EUROCONTROL",
+  "origin": "news",
+  "updated": "2026-11-21"
  },
  "exotec": {
   "aliases": [],
@@ -1991,7 +2008,8 @@
  },
  "humyn-labs": {
   "aliases": [
-   "Humyn"
+   "Humyn",
+   "Humyn of Bangalore"
   ],
   "categories": [
    "components"
@@ -2487,6 +2505,20 @@
   "origin": "news",
   "updated": "2026-11-21"
  },
+ "mastec": {
+  "aliases": [],
+  "categories": [
+   "construction"
+  ],
+  "country": "US",
+  "description": "",
+  "first_seen": "2026-11-21",
+  "focus": [],
+  "id": "mastec",
+  "name": "MasTec",
+  "origin": "news",
+  "updated": "2026-11-21"
+ },
  "matternet": {
   "aliases": [],
   "categories": [
@@ -2718,6 +2750,27 @@
   "name": "Neptune Robotics",
   "origin": "news",
   "updated": "2026-11-17"
+ },
+ "new-castle-county-division-of-police": {
+  "aliases": [
+   "Полиция округа Нью-Касл"
+  ],
+  "categories": [
+   "security"
+  ],
+  "country": "US",
+  "description": "",
+  "first_seen": "2026-11-21",
+  "focus": [],
+  "id": "new-castle-county-division-of-police",
+  "name": "New Castle County Division of Police",
+  "origin": "news",
+  "robots_deployed": {
+   "as_of": "2026-11-18",
+   "source": "https://dronexl.co/2026/11/21/new-castle-county-police-drones-first-on-scene-dashboard-skydio-x10/",
+   "value": 9
+  },
+  "updated": "2026-11-21"
  },
  "nilfisk": {
   "aliases": [],
@@ -3750,6 +3803,22 @@
   "origin": "news",
   "updated": "2026-11-17"
  },
+ "slmpd": {
+  "aliases": [
+   "St. Louis Metropolitan Police Department"
+  ],
+  "categories": [
+   "security"
+  ],
+  "country": "US",
+  "description": "",
+  "first_seen": "2026-11-21",
+  "focus": [],
+  "id": "slmpd",
+  "name": "SLMPD",
+  "origin": "news",
+  "updated": "2026-11-21"
+ },
  "softbank-robotics": {
   "aliases": [
    "SoftBank",
@@ -3882,18 +3951,20 @@
   "updated": "2026-11-17"
  },
  "symbotic": {
-  "aliases": [],
+  "aliases": [
+   "SYM"
+  ],
   "categories": [
    "logistics"
   ],
   "country": "US",
-  "description": "",
+  "description": "Разработчик автоматизированных складских роботизированных систем.",
   "first_seen": "2026-11-16",
   "focus": [],
   "id": "symbotic",
   "name": "Symbotic",
   "origin": "seed",
-  "updated": "2026-11-16"
+  "updated": "2026-11-21"
  },
  "t1": {
   "aliases": [
@@ -3913,7 +3984,7 @@
   "id": "t1",
   "name": "Т1",
   "origin": "news",
-  "updated": "2026-11-19"
+  "updated": "2026-11-21"
  },
  "tactilia": {
   "aliases": [
