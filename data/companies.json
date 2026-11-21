@@ -200,7 +200,8 @@
  },
  "agilox": {
   "aliases": [
-   "Rockwell Automation"
+   "Rockwell Automation",
+   "Rockwell"
   ],
   "categories": [
    "logistics"
@@ -760,6 +761,20 @@
    "value": 136000000000.0,
    "year": 2026
   },
+  "updated": "2026-11-21"
+ },
+ "bot-auto": {
+  "aliases": [],
+  "categories": [
+   "delivery"
+  ],
+  "country": "US",
+  "description": "Компания из Хьюстона, развивающая беспилотные грузовики.",
+  "first_seen": "2026-11-21",
+  "focus": [],
+  "id": "bot-auto",
+  "name": "Bot Auto",
+  "origin": "news",
   "updated": "2026-11-21"
  },
  "botsync": {
@@ -1533,7 +1548,7 @@
    "value": 2300000.0,
    "year": null
   },
-  "updated": "2026-11-17"
+  "updated": "2026-11-21"
  },
  "ff-robotics": {
   "aliases": [],
@@ -1658,7 +1673,7 @@
   },
   "name": "Foundation",
   "origin": "news",
-  "updated": "2026-11-20"
+  "updated": "2026-11-21"
  },
  "foundry-robotics": {
   "aliases": [
@@ -2023,7 +2038,7 @@
    "as_of": "2026-11-20",
    "currency": "USD",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUDMzdldvc09pSlpVTno2VGZabzVpSGx4ZlZZV2d0ckRBOG5CSGc5X1RrTkhuaXZwWGJRM1R0ZVp1OHJwalh1MUZrdEpzNHJGZUg4ci01QXJ2SkxTZnBxT01VTThfSUNiMU9tcmxjT2szWU5FZGs5X0xPVXJEam1ySzN2MFd4X0J1SGlnX0lFOXkweFNScEJ4R2tMeVpsUlVRdmVDVDNDM2pWVmNxM3VtQ2p2ZkN2V0U?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWjdVNVgtOVNhRXRLeGU4YWdGcmZneUxtLVF1cWs3aURzSUNIZHRsU2pKN1BnWHk0R18zWER2YnZ1a19hTkpnNjAtVEJhMk9zRGZucGhLWmN2aHd4U0c1eW54bW15TTNhbFNYVXBtWmdOVm52LUZTZUlQZVh5Y0hPWg?oc=5",
    "type": "unknown",
    "usd": 47000000.0,
    "value": 47000000.0
@@ -2104,6 +2119,29 @@
   "name": "Intel",
   "origin": "news",
   "updated": "2026-11-17"
+ },
+ "intelliprove": {
+  "aliases": [],
+  "categories": [
+   "medical"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-21",
+  "focus": [],
+  "id": "intelliprove",
+  "last_round": {
+   "as_of": "2026-11-18",
+   "currency": "EUR",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORWNWRnhXaTAxNVlLXzZZRVRlazNQc2JvbzZFelpYbWQ5MGF5bHp6Y1VrWThQVWhpcW42akJvT3c3ZnJWMEdzR1FCS1M5S2ItQnNVZEUzLTk4dTVSNVJZRVdYbWd4cVA1QXVpYWVKRUtielkwS1lwWnljaDNZTTRoa0FjWlNna2pCd2xJMkdLblZYWjJBVExyamtmSzdHR3d6MnlKTQ?oc=5",
+   "type": "unknown",
+   "usd": 2964592.88,
+   "value": 2700000.0
+  },
+  "name": "IntelliProve",
+  "origin": "news",
+  "updated": "2026-11-21"
  },
  "international-climbing-machines": {
   "aliases": [
@@ -2213,16 +2251,19 @@
   ],
   "categories": [
    "service",
-   "cleaning"
+   "cleaning",
+   "humanoid"
   ],
   "country": "CN",
-  "description": "",
+  "description": "Производитель сервисных и уборочных роботов для коммерческих помещений.",
   "first_seen": "2026-11-16",
-  "focus": [],
+  "focus": [
+   "floor"
+  ],
   "id": "keenon-robotics",
   "name": "Keenon Robotics",
   "origin": "seed",
-  "updated": "2026-11-16"
+  "updated": "2026-11-21"
  },
  "kite-robotics": {
   "aliases": [],
@@ -2591,10 +2632,12 @@
  },
  "megarobo": {
   "aliases": [
-   "MegaRobo"
+   "MegaRobo",
+   "MegaRobo Raises"
   ],
   "categories": [
-   "medical"
+   "medical",
+   "logistics"
   ],
   "country": "CN",
   "description": "ИИ-робототехника и биотехнологии для научных открытий.",
@@ -2602,10 +2645,12 @@
   "focus": [],
   "id": "megarobo",
   "last_round": {
-   "as_of": "2026-11-19",
+   "as_of": "2026-11-20",
    "currency": "USD",
-   "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORzBnUTNnS3dRU0oxeUFNMU5KczIyanZsODV6WDlHWUdDTGVNOVVkcTdCakRDYVhKUkdTMkVzOTJMX1RsTF95cThJc3A2WXpDaWtDVG1acGwzdzRtVHlqbVN4MjZPR2FtNGlmY18yWjVRX3hLRmNzay1KY3lNMFlKX1NyUkhNdUN5SGhMdHR4Y0NscEExZDNvS3I2OFBfVjl4WWlIYUdNZ2FPbjFZd3RrSzM4Q3ZVV3JuQ1dhdFBwRW5SQV85ejRIZw?oc=5",
+   "investors": [
+    "Oman wealth fund"
+   ],
+   "source": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcnQwb0VBbGRSREFOSE9XRHN3eTJZWnRkcE9qSUdoUlJ4eWJnVnNNQkdEM01WNDk4SFFDUkdkVkJIdzZRUFFoUzFKUV8teDdSRUJGT0lFR2xkSTlNNjYxMEhTUHg5cHVSUjljU0tISUVsRjd1dlNNUEp1LVo3MlRGd2J3MkMzdF9BUVhham1sQUVJZ3BZ?oc=5",
    "type": "unknown",
    "usd": 200000000.0,
    "value": 200000000.0
@@ -2972,20 +3017,17 @@
   ],
   "id": "peppermint-robotics",
   "last_round": {
-   "as_of": "2026-11-04",
+   "as_of": "2026-11-06",
    "currency": "INR",
-   "investors": [
-    "pi Ventures",
-    "Crane Venture Partners"
-   ],
-   "source": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPOWRfdFV6TDBNM2I4aFpmZjZKenNjeDNTX3pqclc4UExxMzZiLXFPRXh3eUtaR3ppbGFvdm9XZmdRQjNHaTRnOEhLdFd2LXVQOENvMG9Ic3c0cHMxbEZzbU02am1xNDVIZFExdy1mWktmNHFfUU55ekgtT3RnalU3cVFEZkpkNkF1eDhOYVhMdFNzZHUtaXJpOE9jaEhCZjdBNXZJU1d0NGQxV0R4Q3NSMEROZVJkaFVtSW1fQ3lzRXFVNXZ2Q2xmTzkzNW5CdlppY2w2dng2VzdHRUU4bGVXdThRUW5tU0tnV0hZdlc3VGVURi04dnBKWmVQYUI2UdIBgwJBVV95cUxNdDFib09fS3FQWnhWZ283UUxyWEFXUUpJNW9rZmpyRTAyZlcycXlaZmJQTUJKeXF4emd6bjlmV2NwR1VYUTV3V1M1eldNUkN5elJnWGwxWHNLc2xwQlg5emtsd1FIaE9hM1pDWHJNcDFMUjhUM1gxaENEVFQtV1FNUkR4RnNwX3R2akp3QmlwNE5vb2Fnd3NfNEF4SC1ITU1EeTFxR0VQYTktd2RsR1l3aFd0S3V3aktWemh2Yll4UTVZc3dldXVyYS1MOTRoRWMxb1VLN0JhQTdMZlVaSVBrd0pXNWFiX1M3ZlZ0X193QVBxNmpwbGs5Ri1xbW40SVNEdU5n?oc=5",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNLWhyWnFOTTByZV90X0RFZTR0cjVicHFrV1ZDRTdrYzAtOFJsSWJwNzRaTG81NjdSWFg4REpZTGdLQjV2eTV0QXJQQktGOG5CMDZqUFFCYzJObU9wbkhhQWJ4cnY0ek1pbVNxUDRfckFQcHFjY1g5TG83bThqbDRpUWc3YWZ5ajdhRHhfS0hBN25PbTN0NWhXU2V2WVZzNHpyVEZ6U0MtRUJlZDFCWnhETTVHNE1QLU9UNFpoRHYtVGxsSU5BNGRWLTFod1dXOThNTnNHS3JR?oc=5",
    "type": "unknown",
-   "usd": 10642843.16,
+   "usd": 10709763.21,
    "value": 1000000000.0
   },
   "name": "Peppermint Robotics",
   "origin": "seed",
-  "updated": "2026-11-17"
+  "updated": "2026-11-21"
  },
  "percepto": {
   "aliases": [],
@@ -3308,7 +3350,7 @@
   "id": "richtech-robotics",
   "name": "Richtech Robotics",
   "origin": "news",
-  "updated": "2026-11-17"
+  "updated": "2026-11-21"
  },
  "ring": {
   "aliases": [
@@ -4081,7 +4123,9 @@
    "Тесла"
   ],
   "categories": [
-   "delivery"
+   "delivery",
+   "humanoid",
+   "service"
   ],
   "country": "US",
   "description": "Производитель электромобилей, разрабатывающий беспилотное такси Cybercab.",
@@ -4095,7 +4139,7 @@
    "source": "https://www.cnews.ru/news/top/2026-11-17_ilon_mask_sobiraetsya_cherez",
    "value": 573
   },
-  "updated": "2026-11-17"
+  "updated": "2026-11-21"
  },
  "tevel-aerobotics": {
   "aliases": [

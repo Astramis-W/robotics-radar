@@ -376,6 +376,22 @@
   "stage": "serial",
   "updated": "2026-11-19"
  },
+ "bot-auto--capacity-grid": {
+  "categories": [
+   "delivery"
+  ],
+  "company_id": "bot-auto",
+  "description": "Сетевая платформа для бронирования беспилотных грузовых перевозок.",
+  "first_seen": "2026-11-21",
+  "focus": [],
+  "id": "bot-auto--capacity-grid",
+  "name": "Capacity Grid",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/21/bot-auto-launches-capacity-grid-with-agreements-for-200-million-miles-of-driverless-trucking/107423/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-21"
+ },
  "brinc--brinc-liveops": {
   "categories": [
    "aerial"
@@ -644,6 +660,22 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-18"
+ },
+ "foundation--phantom-mkii": {
+  "categories": [
+   "humanoid"
+  ],
+  "company_id": "foundation",
+  "description": "",
+  "first_seen": "2026-11-21",
+  "focus": [],
+  "id": "foundation--phantom-mkii",
+  "name": "Phantom MKII",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9tNy1LY2U3X1FSN0RTWWtqQ041T3YtNVBYcnpHem1VMGZ2TlVKaE80SGVkVVd1dEZPaDFaNFRjUXFLM1dmay1oMGt2eGpxamdHeFkyRHNwcUQzVkl2NzBSRDhaV0VqeC1l?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-21"
  },
  "galileo--galileo-c1-w": {
   "categories": [
@@ -1069,6 +1101,22 @@
   "stage": "unknown",
   "updated": "2026-11-17"
  },
+ "richtech-robotics--intelligent-cleaning-system-with-camera-integration": {
+  "categories": [
+   "cleaning"
+  ],
+  "company_id": "richtech-robotics",
+  "description": "",
+  "first_seen": "2026-11-21",
+  "focus": [],
+  "id": "richtech-robotics--intelligent-cleaning-system-with-camera-integration",
+  "name": "Intelligent Cleaning System with Camera Integration",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMikwJBVV95cUxPNG9oaUl6Mnh2QXRUMHF4NXR5enNlVkpNV2dKcS1la1hXaWszVnkzU2h0aUpBcGJqQ0tzOTF6a0ZDNXZwckJZWXVtZ1BsWm1KZ0MtTTFseUt0djUwNEtHa1piOGZPaF9vaXRqN25OdXBDWFhhYXpfRXlHV0JLaGV2U0FRcnVtczdCVFBZdF9YaFB2b1hsVXB4Q2Z4aVJzUUhyLTFRdXFraUVXUzYzSjExNWlqSHRVNnRhQ2dnT1Q3T2JIbG5DOFAyblFHMmQ1Mzc2bmFKeDNWTlFKZ1FiT2l2bVlnV04wQkkwM191dFJjbU1saTVRODNVNzNOcVV2U2J4ZUlTQWN6SzVXbThWd2FqQmZnONIBmAJBVV95cUxOX0VTOWNfNllTQWhRRWp4cTRkZmN2aEU4eFNfZUw2WDhxbEFJTkpDM1JqUFRHRWxwQ0daanpEY1pkby1aQ2wxMTE3bmR1ZldDWnROQXVoUHJoV1ZMSF8zZ3MxaXFNSFA0MnVrWFcyS1BJZUFiYThWdzdfTEZ6ckFRSnF1M3QwTnJBVy1qSFkwZXBIUENkNTRLdjFrTkZoZk5iOWlua281MEhYUEdNcXhzR1pBWXljQ2VNeTlQWnZkZDZ5Qk54Y0huSUF4QVBkaDVKZmpYUFhvZDJmTUxkQXFlMHlFMjNXNENPWEhMWTFwSWkxc1UzUENRNjdTSE1tUW9JSGVLaDJOTzcxWm1yZkUzUjFSalVIZDZj?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-21"
+ },
  "ring--ring-drone-cam": {
   "categories": [
    "aerial",
@@ -1450,6 +1498,24 @@
   ],
   "stage": "serial",
   "updated": "2026-11-17"
+ },
+ "tesla--optimus": {
+  "categories": [
+   "humanoid",
+   "service"
+  ],
+  "company_id": "tesla",
+  "description": "Человекоподобный робот для домашних дел",
+  "first_seen": "2026-11-21",
+  "focus": [],
+  "id": "tesla--optimus",
+  "name": "Optimus",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMivwFBVV95cUxORm94Ui10aEYyeG5fWVNpYmdFUDNFUDlWaHN2ekFfZEVWSE4teHRKRjRrN3k0RzI5WHdRbVVNdmh4Z2EzU0JTUlJ5V3R0cXcwR21FMmlDM0RJRmNxdWxTaHc4dDg1dmZ2cVNuYlR2V0FwT19yS3dYbkVCclFTT1J4YlJsZ1ZpVUI5Y3RIU0ZNVzJLQ0FHUDlfRGc5NWo4LWxROEhDcFIxSTNqSnhidnRmbHl1UVJMc1JSeVNwQlpha9IBvwFBVV95cUxORm94Ui10aEYyeG5fWVNpYmdFUDNFUDlWaHN2ekFfZEVWSE4teHRKRjRrN3k0RzI5WHdRbVVNdmh4Z2EzU0JTUlJ5V3R0cXcwR21FMmlDM0RJRmNxdWxTaHc4dDg1dmZ2cVNuYlR2V0FwT19yS3dYbkVCclFTT1J4YlJsZ1ZpVUI5Y3RIU0ZNVzJLQ0FHUDlfRGc5NWo4LWxROEhDcFIxSTNqSnhidnRmbHl1UVJMc1JSeVNwQlphaw?oc=5",
+   "https://news.google.com/rss/articles/CBMixwFBVV95cUxPV3NpQ2FzOHgyanZlMGhQeHJCUUtVRXY2SXdqQnR0OEZESmdvUVNxa0N0YXQzSEtnV205d2lrR2djekRlVUdOQnhqdWlDeDFNX29UbjF4bXNvdlFDZkE5dHMzZGxSYk1qd1hlb1AydThrbHc5R0JYSVNac3F5U29lWVowTnZqNzZnNWtfZlNvX2xLVEVZbU1LWTJRbEtubzBiTkpucnBYa1haZTBTWk9UWlZrNTBDZXJFd05BdWRxYnpBWWdrZGVJ0gHMAUFVX3lxTE50V3h1V0hNbnVmbWdUVXVJTHgxd0hxOEY5c3dkQjhPZWRmeEJBTktkdy1hQzdrZEZUMHRQZXJrNXNsR28wWlZjdUNPcFcwMF9XVlNKUV9lMnFDd19zVVhmbnJtWV9QS3F6VVZ2U0JqcHZwek9qajlEZmVFRWQ2NDhPVU5UQUxnR1E1d3VadmtNTk5oNGtBei1vU2dGeDZQTUk3Z0JqazRYWmRQWmRybzBsM0F3ekdZZUtpUHZHVkZwbXNrYU9DYll0OEFNTg?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-21"
  },
  "thg-fulfil--autostore": {
   "categories": [
