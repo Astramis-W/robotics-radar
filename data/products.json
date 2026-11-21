@@ -330,14 +330,14 @@
   "id": "boston-dynamics--atlas",
   "name": "Atlas",
   "sources": [
-   "https://3dnews.ru/1151499",
    "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPc1h0dmNLRGpWQURUQXB3MzVvbWZIUTJwSEUzZG0tYlBubi1lTG5rYmJzc1hfRy1Id1lQNFFYaDNRdUVnZjNCRnFtWDJmM2dxN3dmd19tbmxKVFg1aUhyR0s0OUhITTliVHNiZHRtbVFJZTNWR2M2c3pTNU1YM2pCU0NBSEV5a1g5Vkh6MXhFTmVteHd3TlRCbm9JbEZqcHBxOHVxb3hsVFI5YzEzVDVwenVVd25FZFNN?oc=5",
    "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNa2wxakczU1NUSkNscHEwU1E3bHdYeFAxZDNtcUMyS0pKQ0tlV2lGV0pXbi1jR3FLR3cyQ1NIWE96Ujk5eS15U2pyLWpzbVNUc1poYnhNLVB2QTkwMThUQk15ODBWN3BKdnZ2ZmlmZFZJOXJlMlRqWFJNSF8tWlByOU44TXRzb1BmWVkwenJFQkRGN0Vqa25rdHBLcFdGTHQ4TFZ6b0NkR3JyUXhwR0oyT1UwZmRLZEhBWl9xX29sNW5sdzBKQ0tib2Z2Tnd0LWhrZEE?oc=5",
    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcVJ5VDIyemE3bHhoWmE2czlDb203RzZSSnlwTzFYNjBYT0gyZ1hUS3dBQURPVGN5bnNXb3I5VkNSZGJERmJQX2k5d0ZaeG4zU05MMll5ZkpZZ01HZmpKZVJyY1ptZzFHMERxd00yd3kwcGhMVUJaVXdEUy12UTNONy1tRFNseTJf?oc=5",
-   "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNV2UwbVJGdGQ3LXUzY3JIMWxqd05IWDIzRzRmeGpyMElySVYtdVNBeGo1RVlvLWhsRHpBbzlkRFQ3Ulhua1N3al9Wcy04MERXUjIzMWNQQWJ6Q2JjQlAydEhxbE1aaTJZcE1XdFFGUUx1ODVKWVgwdElfZmp1MzhRSnhmS1hzVGkwY1ItOURBLVNVMllXZkZHUUREWENaS09lYjRTZXJwY1dwZw?oc=5"
+   "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNV2UwbVJGdGQ3LXUzY3JIMWxqd05IWDIzRzRmeGpyMElySVYtdVNBeGo1RVlvLWhsRHpBbzlkRFQ3Ulhua1N3al9Wcy04MERXUjIzMWNQQWJ6Q2JjQlAydEhxbE1aaTJZcE1XdFFGUUx1ODVKWVgwdElfZmp1MzhRSnhmS1hzVGkwY1ItOURBLVNVMllXZkZHUUREWENaS09lYjRTZXJwY1dwZw?oc=5",
+   "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeWNGeVkzMFpURXRzMmRIdnIydmZPblFybHRVZEh2bl9tLXA4azl4UDdIQmoyanFNcVJybVA3TnBZNkxTMlZab2w3eURsSWpvSlF3TEpMSTZyQVVqRnNTSWZHVGhfS0l1UnNBS0hsR1hsWGYxSTRncTJYV1NpMkc2dkZUR2lRQUlMT0lBcVdRcTFPTF9kTFlEV0JZbDB1R1BGWnRtclRZRVZkSXRsaEFmQ2E3Ymt0RTJXSHhRakR5SE8yQQ?oc=5"
   ],
   "stage": "pilot",
-  "updated": "2026-11-20"
+  "updated": "2026-11-21"
  },
  "boston-dynamics--spot": {
   "categories": [
@@ -410,6 +410,40 @@
   ],
   "stage": "serial",
   "updated": "2026-11-19"
+ },
+ "brinc--brinc-responder": {
+  "categories": [
+   "aerial",
+   "security"
+  ],
+  "company_id": "brinc",
+  "description": "Дрон первого реагирования с автономной док-станцией для полицейских программ.",
+  "first_seen": "2026-11-21",
+  "focus": [],
+  "id": "brinc--brinc-responder",
+  "name": "BRINC Responder",
+  "sources": [
+   "https://dronexl.co/2026/11/20/pinehurst-police-brinc-drone-trial-motorola-799990/"
+  ],
+  "stage": "pilot",
+  "updated": "2026-11-21"
+ },
+ "brinc--liveops": {
+  "categories": [
+   "aerial",
+   "security"
+  ],
+  "company_id": "brinc",
+  "description": "iOS-приложение для мониторинга дронов, карт, логов полётов и теплового видео",
+  "first_seen": "2026-11-21",
+  "focus": [],
+  "id": "brinc--liveops",
+  "name": "LiveOps",
+  "sources": [
+   "https://dronexl.co/2026/11/20/dji-asks-court-force-fcc-ruling-brinc-liveops-iphone-skyebrowse-realistic-3d/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-21"
  },
  "custom-electronics--vtol-sail-wing": {
   "categories": [
@@ -747,6 +781,22 @@
   "stage": "pilot",
   "updated": "2026-11-19"
  },
+ "intramotev--tugvolt": {
+  "categories": [
+   "logistics"
+  ],
+  "company_id": "intramotev",
+  "description": "Автономная система для маневрирования грузовых вагонов на промышленных объектах.",
+  "first_seen": "2026-11-21",
+  "focus": [],
+  "id": "intramotev--tugvolt",
+  "name": "TugVolt",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/20/watco-expands-intramotev-autonomous-railcar-operations-to-texas/107409/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-21"
+ },
  "kawasaki-robotics--f-series-controller-s-type": {
   "categories": [
    "manufacturing",
@@ -813,6 +863,38 @@
   "stage": "unknown",
   "updated": "2026-11-17"
  },
+ "medtronic--hugo": {
+  "categories": [
+   "medical"
+  ],
+  "company_id": "medtronic",
+  "description": "Модульная хирургическая роботизированная система на тележке для операций в брюшной полости.",
+  "first_seen": "2026-11-21",
+  "focus": [],
+  "id": "medtronic--hugo",
+  "name": "Hugo",
+  "sources": [
+   "https://www.therobotreport.com/medtronics-hugo-surgical-robot-ready-for-bigger-operation/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-21"
+ },
+ "meteomatics--meteodrone": {
+  "categories": [
+   "aerial"
+  ],
+  "company_id": "meteomatics",
+  "description": "Метеодрон, летающий от 50 футов до почти 20 000 футов для сбора данных о ветре, температуре и влажности.",
+  "first_seen": "2026-11-21",
+  "focus": [],
+  "id": "meteomatics--meteodrone",
+  "name": "Meteodrone",
+  "sources": [
+   "https://www.suasnews.com/2026/11/meteomatics-drones-close-weather-blind-spot-for-southern-power-markets/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-21"
+ },
  "mobilicom--swarmix": {
   "categories": [
    "aerial",
@@ -877,6 +959,23 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-19"
+ },
+ "orchard-robotics--fruitscope": {
+  "categories": [
+   "agro",
+   "components"
+  ],
+  "company_id": "orchard-robotics",
+  "description": "Платформа для анализа состояния посадок по данным с камер",
+  "first_seen": "2026-11-21",
+  "focus": [],
+  "id": "orchard-robotics--fruitscope",
+  "name": "FruitScope",
+  "sources": [
+   "https://agfundernews.com/john-deere-orchard-robotics-deal-signals-growing-value-of-actionable-farm-data-says-ag-robotics-og"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-21"
  },
  "realbotix--series-1-tabletop": {
   "categories": [
@@ -1242,10 +1341,28 @@
   "sources": [
    "https://dronexl.co/2026/11/19/knoxville-police-skydio-dfr-drones-launch-public-flight-log/",
    "https://dronexl.co/2026/11/20/nashville-police-skydio-dfr-trial-98-percent-overtime-ran-low/",
-   "https://dronexl.co/2026/11/20/ucla-police-skydio-x10-drones-la28-olympic-village-regents/"
+   "https://dronexl.co/2026/11/20/ucla-police-skydio-x10-drones-la28-olympic-village-regents/",
+   "https://dronexl.co/2026/11/20/grapevine-police-skydio-x10-dfr-axon-one-year-state-grant/"
   ],
   "stage": "serial",
-  "updated": "2026-11-20"
+  "updated": "2026-11-21"
+ },
+ "skyebrowse--realistic-3d": {
+  "categories": [
+   "aerial"
+  ],
+  "company_id": "skyebrowse",
+  "description": "Облачный движок, строящий 3D-модели по видео с дрона, смартфона или 360-камеры, с фотореалистичным режимом",
+  "first_seen": "2026-11-21",
+  "focus": [],
+  "id": "skyebrowse--realistic-3d",
+  "name": "Realistic 3D",
+  "sources": [
+   "https://dronedj.com/2026/11/20/drone-3d-model-skyebrowse-realistic/",
+   "https://dronexl.co/2026/11/20/dji-asks-court-force-fcc-ruling-brinc-liveops-iphone-skyebrowse-realistic-3d/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-21"
  },
  "skypsi--operator": {
   "categories": [
@@ -1497,10 +1614,11 @@
   "id": "zipline--platform-2",
   "name": "Platform 2",
   "sources": [
-   "https://dronedj.com/2026/11/12/chipotle-pga-zipline-drone-delivery/"
+   "https://dronedj.com/2026/11/12/chipotle-pga-zipline-drone-delivery/",
+   "https://dronexl.co/2026/11/20/zipline-faa-arizona-draft-ea-130000-deliveries-phoenix-tucson/"
   ],
   "stage": "unknown",
-  "updated": "2026-11-17"
+  "updated": "2026-11-21"
  },
  "zoox--robotaksi-zoox": {
   "categories": [
