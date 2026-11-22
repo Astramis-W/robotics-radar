@@ -4,7 +4,8 @@
    "1X"
   ],
   "categories": [
-   "humanoid"
+   "humanoid",
+   "service"
   ],
   "country": "NO",
   "description": "",
@@ -13,12 +14,13 @@
   "id": "1x-technologies",
   "name": "1X Technologies",
   "origin": "seed",
-  "updated": "2026-11-16"
+  "updated": "2026-11-22"
  },
  "abb-robotics": {
   "aliases": [
    "ABB",
-   "SoftBank-ABB"
+   "SoftBank-ABB",
+   "АББ"
   ],
   "categories": [
    "manufacturing",
@@ -31,7 +33,7 @@
   "id": "abb-robotics",
   "name": "ABB Robotics",
   "origin": "seed",
-  "updated": "2026-11-18"
+  "updated": "2026-11-22"
  },
  "abz-innovation": {
   "aliases": [
@@ -358,28 +360,30 @@
   "updated": "2026-11-16"
  },
  "andromeda-robotics": {
-  "aliases": [],
+  "aliases": [
+   "Andromeda"
+  ],
   "categories": [
    "medical",
    "service"
   ],
-  "country": "",
+  "country": "AU",
   "description": "Разработчик робота Abi для ухода",
   "first_seen": "2026-11-16",
   "focus": [],
   "id": "andromeda-robotics",
   "last_round": {
-   "as_of": "2026-11-16",
+   "as_of": "2026-11-22",
    "currency": "USD",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUjdaeGxONWd2U29MX2lXWmJpRFVUVWNjMlhRT3MzQy1DWDF3SnR0TTVYRzZxRmdZVWJEalpMX1FDb2pqcGpYRXNNbnZsemt3U3loZ1hzaVBGVlpuZFpNeUtpQTdUbWZSMU0xSDBjWUFtUTd4R0pZRWJOZFlUU3NtLTVpMW5BVmVMZ1ZWMTMtM0Y5eVU?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaVlsdHoyS0x4UnNZcnpQblV1MndXbzYyZVFuclRfT2ozbmNPdWtZdExRR19HUDRLYlV3Y1otRUctT3FYMi1rc1JwTzlyemFTR2ZNU3VsQjhMdWdxQzNZQWllUDJwNmtmUWw2R05pLTRlM3JQVkRocmxpLVlmNHF5azAyazJ6UmF0dzBvNmZCRzdEUDhRQnVUbmtWbFBlNmxNT2xPZEh5azctRU9tamF3bVZR?oc=5",
    "type": "unknown",
    "usd": 30000000.0,
    "value": 30000000.0
   },
   "name": "Andromeda Robotics",
   "origin": "news",
-  "updated": "2026-11-16"
+  "updated": "2026-11-22"
  },
  "anybotics": {
   "aliases": [],
@@ -761,7 +765,7 @@
    "value": 136000000000.0,
    "year": 2026
   },
-  "updated": "2026-11-21"
+  "updated": "2026-11-22"
  },
  "bot-auto": {
   "aliases": [],
@@ -1796,7 +1800,7 @@
   "id": "general-autonomy",
   "name": "General Autonomy",
   "origin": "news",
-  "updated": "2026-11-17"
+  "updated": "2026-11-22"
  },
  "general-motors": {
   "aliases": [
@@ -2123,7 +2127,9 @@
  "intelliprove": {
   "aliases": [],
   "categories": [
-   "medical"
+   "medical",
+   "humanoid",
+   "components"
   ],
   "country": "",
   "description": "",
@@ -2131,17 +2137,17 @@
   "focus": [],
   "id": "intelliprove",
   "last_round": {
-   "as_of": "2026-11-18",
+   "as_of": "2026-11-19",
    "currency": "EUR",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORWNWRnhXaTAxNVlLXzZZRVRlazNQc2JvbzZFelpYbWQ5MGF5bHp6Y1VrWThQVWhpcW42akJvT3c3ZnJWMEdzR1FCS1M5S2ItQnNVZEUzLTk4dTVSNVJZRVdYbWd4cVA1QXVpYWVKRUtielkwS1lwWnljaDNZTTRoa0FjWlNna2pCd2xJMkdLblZYWjJBVExyamtmSzdHR3d6MnlKTQ?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbndnbkdXOFk1WUVtY3czUnhTZHh5cjhENHhtTGVPZXVCbFA2MjRvVkRkdWVRMWtYeExwVWNxbFRNLTdITHprNjVsVFhSNnZpbkNEb2RmcFhYMXlxczZ6cDVaaGgzc1A2MTgwNGJfdWtteXVmQmRfN0pZYVhfRDZ5VFFTLU5JWVpLbnFnRlpIbEFUblJHTzV4VVVqenFFOWh1eUoxaHBwaVpVdHJHZFVLMDJNUHNxNTRU?oc=5",
    "type": "unknown",
-   "usd": 2964592.88,
+   "usd": 2962943.45,
    "value": 2700000.0
   },
   "name": "IntelliProve",
   "origin": "news",
-  "updated": "2026-11-21"
+  "updated": "2026-11-22"
  },
  "international-climbing-machines": {
   "aliases": [
@@ -2816,6 +2822,21 @@
    "value": 9
   },
   "updated": "2026-11-21"
+ },
+ "nexcom": {
+  "aliases": [
+   "NEXCOM",
+   "RoboWIZ"
+  ],
+  "categories": [],
+  "country": "TW",
+  "description": "",
+  "first_seen": "2026-11-22",
+  "focus": [],
+  "id": "nexcom",
+  "name": "NEXCOM",
+  "origin": "news",
+  "updated": "2026-11-22"
  },
  "nilfisk": {
   "aliases": [],
@@ -4300,13 +4321,13 @@
    "service"
   ],
   "country": "CN",
-  "description": "",
+  "description": "Китайская компания, разрабатывающая гуманоидных и сервисных роботов",
   "first_seen": "2026-11-16",
   "focus": [],
   "id": "ubtech",
   "name": "UBTech",
   "origin": "seed",
-  "updated": "2026-11-17"
+  "updated": "2026-11-22"
  },
  "uc-berkeley": {
   "aliases": [

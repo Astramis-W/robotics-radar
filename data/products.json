@@ -1,4 +1,28 @@
 {
+ "1x-technologies--neo": {
+  "categories": [
+   "humanoid",
+   "service"
+  ],
+  "company_id": "1x-technologies",
+  "description": "Домашний гуманоидный робот.",
+  "first_seen": "2026-11-22",
+  "focus": [],
+  "id": "1x-technologies--neo",
+  "name": "NEO",
+  "price": {
+   "as_of": "2026-11-21",
+   "currency": "USD",
+   "source": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQX1Y3YXA4SHRHemlNaGs2dXFOQlI5M1g1Y3RhSXJLdzFqM09ZQ2RUekxCMUc1UHBwMURzMmlYVkRxc1BjV0RkM25QbGxXNTlOczg0azh0RlY0SXVsNVhqSk9OVkhjdW9OSnNuWks2S2gweUsyNjlWblpoaDdDMC1XSDVn?oc=5",
+   "usd": 20000.0,
+   "value": 20000.0
+  },
+  "sources": [
+   "https://news.google.com/rss/articles/CBMiggFBVV95cUxQX1Y3YXA4SHRHemlNaGs2dXFOQlI5M1g1Y3RhSXJLdzFqM09ZQ2RUekxCMUc1UHBwMURzMmlYVkRxc1BjV0RkM25QbGxXNTlOczg0azh0RlY0SXVsNVhqSk9OVkhjdW9OSnNuWks2S2gweUsyNjlWblpoaDdDMC1XSDVn?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-22"
+ },
  "abz-innovation--c30": {
   "categories": [
    "aerial",
@@ -228,10 +252,11 @@
   "id": "andromeda-robotics--abi",
   "name": "Abi",
   "sources": [
-   "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUjdaeGxONWd2U29MX2lXWmJpRFVUVWNjMlhRT3MzQy1DWDF3SnR0TTVYRzZxRmdZVWJEalpMX1FDb2pqcGpYRXNNbnZsemt3U3loZ1hzaVBGVlpuZFpNeUtpQTdUbWZSMU0xSDBjWUFtUTd4R0pZRWJOZFlUU3NtLTVpMW5BVmVMZ1ZWMTMtM0Y5eVU?oc=5"
+   "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUjdaeGxONWd2U29MX2lXWmJpRFVUVWNjMlhRT3MzQy1DWDF3SnR0TTVYRzZxRmdZVWJEalpMX1FDb2pqcGpYRXNNbnZsemt3U3loZ1hzaVBGVlpuZFpNeUtpQTdUbWZSMU0xSDBjWUFtUTd4R0pZRWJOZFlUU3NtLTVpMW5BVmVMZ1ZWMTMtM0Y5eVU?oc=5",
+   "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaVlsdHoyS0x4UnNZcnpQblV1MndXbzYyZVFuclRfT2ozbmNPdWtZdExRR19HUDRLYlV3Y1otRUctT3FYMi1rc1JwTzlyemFTR2ZNU3VsQjhMdWdxQzNZQWllUDJwNmtmUWw2R05pLTRlM3JQVkRocmxpLVlmNHF5azAyazJ6UmF0dzBvNmZCRzdEUDhRQnVUbmtWbFBlNmxNT2xPZEh5azctRU9tamF3bVZR?oc=5"
   ],
   "stage": "unknown",
-  "updated": "2026-11-16"
+  "updated": "2026-11-22"
  },
  "apptronik--apollo": {
   "categories": [
@@ -330,14 +355,14 @@
   "id": "boston-dynamics--atlas",
   "name": "Atlas",
   "sources": [
-   "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPc1h0dmNLRGpWQURUQXB3MzVvbWZIUTJwSEUzZG0tYlBubi1lTG5rYmJzc1hfRy1Id1lQNFFYaDNRdUVnZjNCRnFtWDJmM2dxN3dmd19tbmxKVFg1aUhyR0s0OUhITTliVHNiZHRtbVFJZTNWR2M2c3pTNU1YM2pCU0NBSEV5a1g5Vkh6MXhFTmVteHd3TlRCbm9JbEZqcHBxOHVxb3hsVFI5YzEzVDVwenVVd25FZFNN?oc=5",
    "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNa2wxakczU1NUSkNscHEwU1E3bHdYeFAxZDNtcUMyS0pKQ0tlV2lGV0pXbi1jR3FLR3cyQ1NIWE96Ujk5eS15U2pyLWpzbVNUc1poYnhNLVB2QTkwMThUQk15ODBWN3BKdnZ2ZmlmZFZJOXJlMlRqWFJNSF8tWlByOU44TXRzb1BmWVkwenJFQkRGN0Vqa25rdHBLcFdGTHQ4TFZ6b0NkR3JyUXhwR0oyT1UwZmRLZEhBWl9xX29sNW5sdzBKQ0tib2Z2Tnd0LWhrZEE?oc=5",
    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcVJ5VDIyemE3bHhoWmE2czlDb203RzZSSnlwTzFYNjBYT0gyZ1hUS3dBQURPVGN5bnNXb3I5VkNSZGJERmJQX2k5d0ZaeG4zU05MMll5ZkpZZ01HZmpKZVJyY1ptZzFHMERxd00yd3kwcGhMVUJaVXdEUy12UTNONy1tRFNseTJf?oc=5",
    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNV2UwbVJGdGQ3LXUzY3JIMWxqd05IWDIzRzRmeGpyMElySVYtdVNBeGo1RVlvLWhsRHpBbzlkRFQ3Ulhua1N3al9Wcy04MERXUjIzMWNQQWJ6Q2JjQlAydEhxbE1aaTJZcE1XdFFGUUx1ODVKWVgwdElfZmp1MzhRSnhmS1hzVGkwY1ItOURBLVNVMllXZkZHUUREWENaS09lYjRTZXJwY1dwZw?oc=5",
-   "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeWNGeVkzMFpURXRzMmRIdnIydmZPblFybHRVZEh2bl9tLXA4azl4UDdIQmoyanFNcVJybVA3TnBZNkxTMlZab2w3eURsSWpvSlF3TEpMSTZyQVVqRnNTSWZHVGhfS0l1UnNBS0hsR1hsWGYxSTRncTJYV1NpMkc2dkZUR2lRQUlMT0lBcVdRcTFPTF9kTFlEV0JZbDB1R1BGWnRtclRZRVZkSXRsaEFmQ2E3Ymt0RTJXSHhRakR5SE8yQQ?oc=5"
+   "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeWNGeVkzMFpURXRzMmRIdnIydmZPblFybHRVZEh2bl9tLXA4azl4UDdIQmoyanFNcVJybVA3TnBZNkxTMlZab2w3eURsSWpvSlF3TEpMSTZyQVVqRnNTSWZHVGhfS0l1UnNBS0hsR1hsWGYxSTRncTJYV1NpMkc2dkZUR2lRQUlMT0lBcVdRcTFPTF9kTFlEV0JZbDB1R1BGWnRtclRZRVZkSXRsaEFmQ2E3Ymt0RTJXSHhRakR5SE8yQQ?oc=5",
+   "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYWFwWmp5ODVqaWxObS1WVnJMR1JBaFI3dFVpUjAyRy1iVFZOUU9DRTYwY0lmMF9ETnRnc1lCYmlfRTFjUC00ZzBwUTVqQ1YwMi1KcHpwVklvQ1hyMkl3VGNQNVVoVERHM0ZnODN5VkJKcFpSRWZJRV9UMzN6SUp3VVo3UQ?oc=5"
   ],
   "stage": "pilot",
-  "updated": "2026-11-21"
+  "updated": "2026-11-22"
  },
  "boston-dynamics--spot": {
   "categories": [
@@ -693,6 +718,22 @@
   "stage": "serial",
   "updated": "2026-11-17"
  },
+ "general-autonomy--param": {
+  "categories": [
+   "other"
+  ],
+  "company_id": "general-autonomy",
+  "description": "Четвероногий робот",
+  "first_seen": "2026-11-22",
+  "focus": [],
+  "id": "general-autonomy--param",
+  "name": "PARAM",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVVR2bU81OWVhZnpJUVpOSjBvXzBCNkpzMUJObVF3NXI5d2s0MjF6cXlBSFQxVlBsSEVrb0Y2TGw5ck5URkJwWG5yR290NHJmbGM4QzZmd3JLZzlBNE55MU1nRi1RLWE1dDVkSEo5cWJkSVlrWDEzNm51VGxFYlhWaHg5dnFWd2RoNWlYdUtGdEFXemVnWkkzaFVKS2ZPSGZrRWVFM1R1T1pmTURHamE2ZzJQeHZ2MGRkbXZ5NmtrcHZDbDNXTmQ4?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-22"
+ },
  "general-autonomy--taara": {
   "categories": [
    "humanoid"
@@ -975,6 +1016,22 @@
   ],
   "stage": "prototype",
   "updated": "2026-11-16"
+ },
+ "nexcom--robowiz": {
+  "categories": [
+   "other"
+  ],
+  "company_id": "nexcom",
+  "description": "",
+  "first_seen": "2026-11-22",
+  "focus": [],
+  "id": "nexcom--robowiz",
+  "name": "RoboWIZ",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMidkFVX3lxTE52bkZialRvcFFJNC1zQlZ4dmxpWEtySFpYdFU3Z0U3SVNUWW1ScEVCbkF4aGpvVlN2OE9vYUtzY1otQmdYbFFlSGgxVm00QXdwZlNBY0NFNG9BYURFbGhCUHR6VFBXeVR1SWJobWJpNVFHaU5hZHc?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-22"
  },
  "nvidia--gen-7-robotaxi": {
   "categories": [
