@@ -75,7 +75,8 @@
  "agibot--g2": {
   "categories": [
    "humanoid",
-   "service"
+   "service",
+   "manufacturing"
   ],
   "company_id": "agibot",
   "description": "Колёсный гуманоидный робот",
@@ -84,10 +85,11 @@
   "id": "agibot--g2",
   "name": "G2",
   "sources": [
-   "https://www.therobotreport.com/six-agibot-g2-robots-complete-1730-tasks-in-24-hour-shanghai-convenience-store-trial/"
+   "https://www.therobotreport.com/six-agibot-g2-robots-complete-1730-tasks-in-24-hour-shanghai-convenience-store-trial/",
+   "https://news.google.com/rss/articles/CBMie0FVX3lxTE5jUC0yN3lyR1RIYUhHeFJGUzZPcWFDcEhNQVVJYWNBNm1ScjhFMFNqbkVvSE8tdzFQOUw3b3lmaVRhenZmNHF4THBiX01RYTRLTVl0azJoclJhMVlmVkQtNGZHU3FuZkwtOTVlTmNVMzd2V3I5YmdUYlVfRQ?oc=5"
   ],
   "stage": "pilot",
-  "updated": "2026-11-16"
+  "updated": "2026-11-22"
  },
  "agxeed--agbot-t2-series-7": {
   "categories": [
@@ -326,6 +328,22 @@
   "stage": "unknown",
   "updated": "2026-11-17"
  },
+ "bluebotics--ant": {
+  "categories": [
+   "logistics"
+  ],
+  "company_id": "bluebotics",
+  "description": "Система локации и серверное ПО для управления парком погрузчиков и мобильных роботов.",
+  "first_seen": "2026-11-22",
+  "focus": [],
+  "id": "bluebotics--ant",
+  "name": "ANT",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/22/bluebotics-unifies-fleet-management-for-manual-forklifts-and-mobile-robots/107455/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-22"
+ },
  "bolt--ai-driver": {
   "categories": [
    "delivery"
@@ -355,13 +373,13 @@
   "id": "boston-dynamics--atlas",
   "name": "Atlas",
   "sources": [
-   "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNa2wxakczU1NUSkNscHEwU1E3bHdYeFAxZDNtcUMyS0pKQ0tlV2lGV0pXbi1jR3FLR3cyQ1NIWE96Ujk5eS15U2pyLWpzbVNUc1poYnhNLVB2QTkwMThUQk15ODBWN3BKdnZ2ZmlmZFZJOXJlMlRqWFJNSF8tWlByOU44TXRzb1BmWVkwenJFQkRGN0Vqa25rdHBLcFdGTHQ4TFZ6b0NkR3JyUXhwR0oyT1UwZmRLZEhBWl9xX29sNW5sdzBKQ0tib2Z2Tnd0LWhrZEE?oc=5",
    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcVJ5VDIyemE3bHhoWmE2czlDb203RzZSSnlwTzFYNjBYT0gyZ1hUS3dBQURPVGN5bnNXb3I5VkNSZGJERmJQX2k5d0ZaeG4zU05MMll5ZkpZZ01HZmpKZVJyY1ptZzFHMERxd00yd3kwcGhMVUJaVXdEUy12UTNONy1tRFNseTJf?oc=5",
    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNV2UwbVJGdGQ3LXUzY3JIMWxqd05IWDIzRzRmeGpyMElySVYtdVNBeGo1RVlvLWhsRHpBbzlkRFQ3Ulhua1N3al9Wcy04MERXUjIzMWNQQWJ6Q2JjQlAydEhxbE1aaTJZcE1XdFFGUUx1ODVKWVgwdElfZmp1MzhRSnhmS1hzVGkwY1ItOURBLVNVMllXZkZHUUREWENaS09lYjRTZXJwY1dwZw?oc=5",
    "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeWNGeVkzMFpURXRzMmRIdnIydmZPblFybHRVZEh2bl9tLXA4azl4UDdIQmoyanFNcVJybVA3TnBZNkxTMlZab2w3eURsSWpvSlF3TEpMSTZyQVVqRnNTSWZHVGhfS0l1UnNBS0hsR1hsWGYxSTRncTJYV1NpMkc2dkZUR2lRQUlMT0lBcVdRcTFPTF9kTFlEV0JZbDB1R1BGWnRtclRZRVZkSXRsaEFmQ2E3Ymt0RTJXSHhRakR5SE8yQQ?oc=5",
-   "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYWFwWmp5ODVqaWxObS1WVnJMR1JBaFI3dFVpUjAyRy1iVFZOUU9DRTYwY0lmMF9ETnRnc1lCYmlfRTFjUC00ZzBwUTVqQ1YwMi1KcHpwVklvQ1hyMkl3VGNQNVVoVERHM0ZnODN5VkJKcFpSRWZJRV9UMzN6SUp3VVo3UQ?oc=5"
+   "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYWFwWmp5ODVqaWxObS1WVnJMR1JBaFI3dFVpUjAyRy1iVFZOUU9DRTYwY0lmMF9ETnRnc1lCYmlfRTFjUC00ZzBwUTVqQ1YwMi1KcHpwVklvQ1hyMkl3VGNQNVVoVERHM0ZnODN5VkJKcFpSRWZJRV9UMzN6SUp3VVo3UQ?oc=5",
+   "https://roboticsandautomationnews.com/2026/11/22/boston-dynamics-gives-atlas-wheels-to-test-new-reinforcement-learning-capabilities/107438/"
   ],
-  "stage": "pilot",
+  "stage": "prototype",
   "updated": "2026-11-22"
  },
  "boston-dynamics--spot": {
@@ -822,6 +840,22 @@
   "stage": "pilot",
   "updated": "2026-11-17"
  },
+ "gobano-robotics--gobano-station": {
+  "categories": [
+   "manufacturing"
+  ],
+  "company_id": "gobano-robotics",
+  "description": "Автономная система складывания и контроля полотенец на базе обучения с подкреплением.",
+  "first_seen": "2026-11-22",
+  "focus": [],
+  "id": "gobano-robotics--gobano-station",
+  "name": "Gobano Station",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/22/gobano-robotics-reports-99-5-percent-success-rate-for-autonomous-laundry-robot/107447/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-22"
+ },
  "google-deepmind--gemini-robotics-25": {
   "categories": [
    "components"
@@ -918,6 +952,22 @@
   ],
   "stage": "serial",
   "updated": "2026-11-19"
+ },
+ "machina-labs--machina-rebellis": {
+  "categories": [
+   "manufacturing"
+  ],
+  "company_id": "machina-labs",
+  "description": "Автомобильный бренд для быстрого и экономичного производства кастомизированных металлических кузовных панелей с помощью роботов и ИИ.",
+  "first_seen": "2026-11-22",
+  "focus": [],
+  "id": "machina-labs--machina-rebellis",
+  "name": "Machina Rebellis",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/22/machina-labs-launches-rebellis-automotive-brand-to-bring-vehicle-customization-to-scale/107433/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-22"
  },
  "matternet--m3": {
   "categories": [
@@ -1089,6 +1139,22 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-19"
+ },
+ "remedy-robotics--n1-system": {
+  "categories": [
+   "medical"
+  ],
+  "company_id": "remedy-robotics",
+  "description": "ИИ-система для эндоваскулярных процедур на сердце и сосудах.",
+  "first_seen": "2026-11-22",
+  "focus": [],
+  "id": "remedy-robotics--n1-system",
+  "name": "N1 System",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/22/remedy-robotics-raises-62-million-to-advance-ai-powered-cardiovascular-surgery-robot/107450/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-22"
  },
  "remedy-robotics--remedy-n1": {
   "categories": [
@@ -1278,10 +1344,11 @@
   "id": "runway--praxis-1",
   "name": "Praxis-1",
   "sources": [
-   "https://www.therobotreport.com/runways-praxis-1-world-action-model-for-robotics-is-now-available/"
+   "https://www.therobotreport.com/runways-praxis-1-world-action-model-for-robotics-is-now-available/",
+   "https://roboticsandautomationnews.com/2026/11/22/runway-releases-praxis-1-open-weight-world-action-model-for-robotics/107430/"
   ],
   "stage": "serial",
-  "updated": "2026-11-16"
+  "updated": "2026-11-22"
  },
  "rzhd--roboty-provodniki": {
   "categories": [
@@ -1569,10 +1636,11 @@
   "name": "Optimus",
   "sources": [
    "https://news.google.com/rss/articles/CBMivwFBVV95cUxORm94Ui10aEYyeG5fWVNpYmdFUDNFUDlWaHN2ekFfZEVWSE4teHRKRjRrN3k0RzI5WHdRbVVNdmh4Z2EzU0JTUlJ5V3R0cXcwR21FMmlDM0RJRmNxdWxTaHc4dDg1dmZ2cVNuYlR2V0FwT19yS3dYbkVCclFTT1J4YlJsZ1ZpVUI5Y3RIU0ZNVzJLQ0FHUDlfRGc5NWo4LWxROEhDcFIxSTNqSnhidnRmbHl1UVJMc1JSeVNwQlpha9IBvwFBVV95cUxORm94Ui10aEYyeG5fWVNpYmdFUDNFUDlWaHN2ekFfZEVWSE4teHRKRjRrN3k0RzI5WHdRbVVNdmh4Z2EzU0JTUlJ5V3R0cXcwR21FMmlDM0RJRmNxdWxTaHc4dDg1dmZ2cVNuYlR2V0FwT19yS3dYbkVCclFTT1J4YlJsZ1ZpVUI5Y3RIU0ZNVzJLQ0FHUDlfRGc5NWo4LWxROEhDcFIxSTNqSnhidnRmbHl1UVJMc1JSeVNwQlphaw?oc=5",
-   "https://news.google.com/rss/articles/CBMixwFBVV95cUxPV3NpQ2FzOHgyanZlMGhQeHJCUUtVRXY2SXdqQnR0OEZESmdvUVNxa0N0YXQzSEtnV205d2lrR2djekRlVUdOQnhqdWlDeDFNX29UbjF4bXNvdlFDZkE5dHMzZGxSYk1qd1hlb1AydThrbHc5R0JYSVNac3F5U29lWVowTnZqNzZnNWtfZlNvX2xLVEVZbU1LWTJRbEtubzBiTkpucnBYa1haZTBTWk9UWlZrNTBDZXJFd05BdWRxYnpBWWdrZGVJ0gHMAUFVX3lxTE50V3h1V0hNbnVmbWdUVXVJTHgxd0hxOEY5c3dkQjhPZWRmeEJBTktkdy1hQzdrZEZUMHRQZXJrNXNsR28wWlZjdUNPcFcwMF9XVlNKUV9lMnFDd19zVVhmbnJtWV9QS3F6VVZ2U0JqcHZwek9qajlEZmVFRWQ2NDhPVU5UQUxnR1E1d3VadmtNTk5oNGtBei1vU2dGeDZQTUk3Z0JqazRYWmRQWmRybzBsM0F3ekdZZUtpUHZHVkZwbXNrYU9DYll0OEFNTg?oc=5"
+   "https://news.google.com/rss/articles/CBMixwFBVV95cUxPV3NpQ2FzOHgyanZlMGhQeHJCUUtVRXY2SXdqQnR0OEZESmdvUVNxa0N0YXQzSEtnV205d2lrR2djekRlVUdOQnhqdWlDeDFNX29UbjF4bXNvdlFDZkE5dHMzZGxSYk1qd1hlb1AydThrbHc5R0JYSVNac3F5U29lWVowTnZqNzZnNWtfZlNvX2xLVEVZbU1LWTJRbEtubzBiTkpucnBYa1haZTBTWk9UWlZrNTBDZXJFd05BdWRxYnpBWWdrZGVJ0gHMAUFVX3lxTE50V3h1V0hNbnVmbWdUVXVJTHgxd0hxOEY5c3dkQjhPZWRmeEJBTktkdy1hQzdrZEZUMHRQZXJrNXNsR28wWlZjdUNPcFcwMF9XVlNKUV9lMnFDd19zVVhmbnJtWV9QS3F6VVZ2U0JqcHZwek9qajlEZmVFRWQ2NDhPVU5UQUxnR1E1d3VadmtNTk5oNGtBei1vU2dGeDZQTUk3Z0JqazRYWmRQWmRybzBsM0F3ekdZZUtpUHZHVkZwbXNrYU9DYll0OEFNTg?oc=5",
+   "https://news.google.com/rss/articles/CBMigwJBVV95cUxPdUdEbU5ZNVJxcERfb1pYajJUanhnTzB2NGNrMkxiczFjaEc1TDJqZkVkNWNYOHdMdV9QVjRKN05KWTV2NzZhQUZ3V1JCUWVKN0d6cUtkWXJXQXU0VDNIOUlkV1lzVWRZei04cGw4UFZoWTZPSWozUDBwcTA3dHQzYm9nckU5N0YzOFZjck9CY3Y1WUtocEtUYXd5UVE1Mkd4SENyX0Z2V1pxRGYtZTh6dUloNjAtdENfUmNOVmxSeExOUi11ZS1JRVNuYnhIMm96Si1EcWE2OHh5WWZpNTVfVVMxTHQ5VndGcGVlRUdYU0Z5NmRhTzNzSldSN09IOGpRSGlN0gGIAkFVX3lxTFBJdi0yT1FrSHlkN19VZ0ZGbTN6QlpYMWVROTZvMW85SDM1Mjg5RS1TanlZWWF2a1pINjVHUTFJcmdZNWJXYlZ3eTJ0X2VIMFFycEFwTUZnamJTa1VnTEVTcndEWlo5RDZrcWtqRG9kbFM2QXBZUlpaUWV5RC1tMHEtekZST1hLVnhybzJMS2RhajlidWNMLV9tVER3RWtLMEhMYjZON1gtb2RFMEJqZURxTkZQZjhncWZwRVI4UWxEY3VJTVFXcVUzRHhtdEVkOUp0TG9NWW5DNUFBOEF2SWZtcGFxa1hQaGk1eEpHSzVEWGp6SG9wQUdUaTRUTjlkcnpMUVFpcHh4Uw?oc=5"
   ],
   "stage": "unknown",
-  "updated": "2026-11-21"
+  "updated": "2026-11-22"
  },
  "thg-fulfil--autostore": {
   "categories": [
@@ -1640,6 +1708,22 @@
   ],
   "stage": "serial",
   "updated": "2026-11-17"
+ },
+ "vectigo--vectigo-platform": {
+  "categories": [
+   "other"
+  ],
+  "company_id": "vectigo",
+  "description": "Дорожная платформа безопасности на основе солнечных датчиков PODs, встроенных в покрытие дороги.",
+  "first_seen": "2026-11-22",
+  "focus": [],
+  "id": "vectigo--vectigo-platform",
+  "name": "Vectigo Platform",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/22/vectigo-launches-road-embedded-safety-system-for-autonomous-vehicles-in-colorado/107426/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-22"
  },
  "viam--launchpad": {
   "categories": [

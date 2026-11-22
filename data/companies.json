@@ -133,10 +133,13 @@
   "updated": "2026-11-16"
  },
  "agibot": {
-  "aliases": [],
+  "aliases": [
+   "Lens Technology"
+  ],
   "categories": [
    "humanoid",
-   "service"
+   "service",
+   "manufacturing"
   ],
   "country": "CN",
   "description": "",
@@ -145,7 +148,7 @@
   "id": "agibot",
   "name": "AgiBot",
   "origin": "seed",
-  "updated": "2026-11-16"
+  "updated": "2026-11-22"
  },
  "agile-robots": {
   "aliases": [
@@ -225,7 +228,7 @@
    "source": "https://www.therobotreport.com/rockwell-automation-acquiring-mobile-robot-maker-agilox/",
    "value": 2500
   },
-  "updated": "2026-11-21"
+  "updated": "2026-11-22"
  },
  "agri-spray": {
   "aliases": [
@@ -700,6 +703,22 @@
   "origin": "seed",
   "updated": "2026-11-16"
  },
+ "bluebotics": {
+  "aliases": [
+   "BlueBotics SA"
+  ],
+  "categories": [
+   "logistics"
+  ],
+  "country": "CH",
+  "description": "Швейцарский разработчик технологий автономной навигации и управления парком машин.",
+  "first_seen": "2026-11-22",
+  "focus": [],
+  "id": "bluebotics",
+  "name": "BlueBotics",
+  "origin": "news",
+  "updated": "2026-11-22"
+ },
  "bolt": {
   "aliases": [
    "Stellantis",
@@ -731,7 +750,7 @@
   "id": "booster-robotics",
   "name": "Booster Robotics",
   "origin": "news",
-  "updated": "2026-11-20"
+  "updated": "2026-11-22"
  },
  "boston-dynamics": {
   "aliases": [
@@ -1552,7 +1571,7 @@
    "value": 2300000.0,
    "year": null
   },
-  "updated": "2026-11-21"
+  "updated": "2026-11-22"
  },
  "ff-robotics": {
   "aliases": [],
@@ -1857,25 +1876,21 @@
   "focus": [],
   "id": "genesis-ai",
   "last_round": {
-   "as_of": "2026-11-19",
+   "as_of": "2026-11-22",
    "currency": "USD",
-   "investors": [
-    "Premji",
-    "Khosla",
-    "Schmidt"
-   ],
-   "source": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOUlHSU9ETnZWTHF5WE5ESXNnaGQ5Z09PemhpejJkZFp6ZXVYYk1DbUxHMjJEdHYzUkhubmhVTEFCb3p2MWRZMXdkMWh1TWFXWjAzc1N6b3JCOVhtMVlUWmRLbzFzelpsUGJBUUlwaldHZFY2THhxQi1vX2hXR2U4WEp0V1BNRXhwOHU1ajhEX2hZSnJLdm01bHN0RndvVmpoVXR2NtIBsgFBVV95cUxQczA0dGhzbTRSM2xYaFZvY1N1eVFncDBmcjF6YkVGRTVmUnVEUk5YX2V5Vi1nZm5wTmM3QzVaTGNlVTFNLUZiMS12ZjRYbWwxUldoWFNCZ1dKeGgyVmxaTEZVMV9IbF9MdUJFYTVlbnJaNTFZa2xuOUpWYXBVY0NtTDRVc3BtQjVwYlhvWG9SR1VDYXlTbTdyLWJIMU9pemctRUtIZ09HajNPR0dTd25HbDRB?oc=5",
-   "type": "unknown",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBabDF2bTZjdUFoNHpqQ2ZLS1lEVUFsSlZRcGFNa1VFN3VXcGhjWktwcGJMNG4wU3Z1ZHpGQlFBM0dnZkN2UUFvM2pfQWhFeWNpcDZlRGhrNkxmR0d3b3lEVjFQUklYSDZDQkhhQlE4RUl5T2ZSRG5LWTlITjJ3QQ?oc=5",
+   "type": "series_a",
    "usd": 500000000.0,
    "value": 500000000.0
   },
   "name": "Genesis AI",
   "origin": "news",
-  "updated": "2026-11-20",
+  "updated": "2026-11-22",
   "valuation": {
-   "as_of": "2026-11-19",
+   "as_of": "2026-11-22",
    "currency": "USD",
-   "source": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVUFrVW15YnZwV0c3dV9OWGlQZjhmOW45ZVFraXgzMFpnQ1E1d2U0NDQ5dThYaXowV1U1Q2d2U2JyeGRWV1RTOGlvcUI0aHZaUWVJbEF2SUNaeXFEUzJWemo1aGxCOXJFMjFvWktORTB2NGk0Y1VMaXBmR1JOdTRBODExbWhKNERyZTNYaFVmOGljakpuX0xrWndxQUwtdWVsbHNSYXNIMENYLUh0YUMwVnpyXzF2cE12Ymc4d3RvUlpXa1VP?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBabDF2bTZjdUFoNHpqQ2ZLS1lEVUFsSlZRcGFNa1VFN3VXcGhjWktwcGJMNG4wU3Z1ZHpGQlFBM0dnZkN2UUFvM2pfQWhFeWNpcDZlRGhrNkxmR0d3b3lEVjFQUklYSDZDQkhhQlE4RUl5T2ZSRG5LWTlITjJ3QQ?oc=5",
    "usd": 3500000000.0,
    "value": 3500000000.0
   }
@@ -1925,6 +1940,22 @@
   "name": "ГЛОНАСС",
   "origin": "news",
   "updated": "2026-11-18"
+ },
+ "gobano-robotics": {
+  "aliases": [
+   "Gobano"
+  ],
+  "categories": [
+   "manufacturing"
+  ],
+  "country": "FR",
+  "description": "Французский стартап физического ИИ для автономных манипуляторов.",
+  "first_seen": "2026-11-22",
+  "focus": [],
+  "id": "gobano-robotics",
+  "name": "Gobano Robotics",
+  "origin": "news",
+  "updated": "2026-11-22"
  },
  "google-deepmind": {
   "aliases": [],
@@ -2057,7 +2088,7 @@
    "value": 50000000.0,
    "year": null
   },
-  "updated": "2026-11-21"
+  "updated": "2026-11-22"
  },
  "hypertunnel": {
   "aliases": [],
@@ -2215,6 +2246,22 @@
   "name": "Jireh Industries",
   "origin": "seed",
   "updated": "2026-11-16"
+ },
+ "kakao-mobility": {
+  "aliases": [
+   "카카오모빌리티"
+  ],
+  "categories": [
+   "delivery"
+  ],
+  "country": "KR",
+  "description": "Южнокорейская платформа мобильности.",
+  "first_seen": "2026-11-22",
+  "focus": [],
+  "id": "kakao-mobility",
+  "name": "Kakao Mobility",
+  "origin": "news",
+  "updated": "2026-11-22"
  },
  "karcher": {
   "aliases": [
@@ -2519,6 +2566,23 @@
   "name": "MūL Technologies",
   "origin": "news",
   "updated": "2026-11-17"
+ },
+ "machina-labs": {
+  "aliases": [
+   "Machina Labs",
+   "Machina Rebellis"
+  ],
+  "categories": [
+   "manufacturing"
+  ],
+  "country": "US",
+  "description": "Компания, специализирующаяся на роботизированном производстве с использованием ИИ.",
+  "first_seen": "2026-11-22",
+  "focus": [],
+  "id": "machina-labs",
+  "name": "Machina Labs",
+  "origin": "news",
+  "updated": "2026-11-22"
  },
  "magnit": {
   "aliases": [
@@ -2950,6 +3014,20 @@
   "origin": "news",
   "updated": "2026-11-19"
  },
+ "oez-moskvy": {
+  "aliases": [],
+  "categories": [
+   "manufacturing"
+  ],
+  "country": "RU",
+  "description": "",
+  "first_seen": "2026-11-22",
+  "focus": [],
+  "id": "oez-moskvy",
+  "name": "ОЭЗ Москвы",
+  "origin": "news",
+  "updated": "2026-11-22"
+ },
  "offworld": {
   "aliases": [],
   "categories": [
@@ -3327,17 +3405,17 @@
   "focus": [],
   "id": "remedy-robotics",
   "last_round": {
-   "as_of": "2026-11-18",
+   "as_of": "2026-11-22",
    "currency": "USD",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNk53dWVBbGZyLWJLN1h2UG1VSWZPa0JUTjR1YTBRTDBOUHhzd1RPTUNYNnAxSWU0b0h6VUYwVHVOdkdqU1NRXzhSMndmYnUydzdWb3p2UExnb3NQWTFla3Q2YlBHckVLV2VCal9SeHY5c2xKR2t2WjBteGlvZkZHdVJYU3ZIajFjXy1kRzJxQ0U4YWY5VVoxQl9kM294VXlz?oc=5",
-   "type": "unknown",
+   "source": "https://roboticsandautomationnews.com/2026/11/22/remedy-robotics-raises-62-million-to-advance-ai-powered-cardiovascular-surgery-robot/107450/",
+   "type": "series_b",
    "usd": 62000000.0,
    "value": 62000000.0
   },
   "name": "Remedy Robotics",
   "origin": "news",
-  "updated": "2026-11-19"
+  "updated": "2026-11-22"
  },
  "rhoda-ai": {
   "aliases": [],
@@ -3541,13 +3619,13 @@
    "components"
   ],
   "country": "US",
-  "description": "",
+  "description": "Компания, известная ИИ-моделями для генерации видео, которая развивает модели для робототехники.",
   "first_seen": "2026-11-16",
   "focus": [],
   "id": "runway",
   "name": "Runway",
   "origin": "news",
-  "updated": "2026-11-16"
+  "updated": "2026-11-22"
  },
  "rzhd": {
   "aliases": [
@@ -4121,6 +4199,18 @@
   "origin": "seed",
   "updated": "2026-11-16"
  },
+ "telekinesis": {
+  "aliases": [],
+  "categories": [],
+  "country": "DE",
+  "description": "",
+  "first_seen": "2026-11-22",
+  "focus": [],
+  "id": "telekinesis",
+  "name": "Telekinesis",
+  "origin": "news",
+  "updated": "2026-11-22"
+ },
  "tennant": {
   "aliases": [
    "Tennant Company"
@@ -4141,7 +4231,8 @@
  },
  "tesla": {
   "aliases": [
-   "Тесла"
+   "Тесла",
+   "Tesla Optimus"
   ],
   "categories": [
    "delivery",
@@ -4160,7 +4251,7 @@
    "source": "https://www.cnews.ru/news/top/2026-11-17_ilon_mask_sobiraetsya_cherez",
    "value": 573
   },
-  "updated": "2026-11-21"
+  "updated": "2026-11-22"
  },
  "tevel-aerobotics": {
   "aliases": [
@@ -4453,6 +4544,20 @@
   "origin": "news",
   "updated": "2026-11-17"
  },
+ "vectigo": {
+  "aliases": [
+   "Vectigo Group"
+  ],
+  "categories": [],
+  "country": "IE",
+  "description": "Компания из Ирландии с американским подразделением в Колорадо, разрабатывающая дорожные системы безопасности.",
+  "first_seen": "2026-11-22",
+  "focus": [],
+  "id": "vectigo",
+  "name": "Vectigo",
+  "origin": "news",
+  "updated": "2026-11-22"
+ },
  "verobotics": {
   "aliases": [],
   "categories": [
@@ -4540,6 +4645,24 @@
   "name": "VicOne",
   "origin": "news",
   "updated": "2026-11-17"
+ },
+ "viggo": {
+  "aliases": [
+   "VIGGO"
+  ],
+  "categories": [
+   "cleaning"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-22",
+  "focus": [
+   "floor"
+  ],
+  "id": "viggo",
+  "name": "VIGGO",
+  "origin": "news",
+  "updated": "2026-11-22"
  },
  "volatus-aerospace": {
   "aliases": [
