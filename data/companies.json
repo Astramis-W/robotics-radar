@@ -727,7 +727,9 @@
    "Эн-Вайди"
   ],
   "categories": [
-   "delivery"
+   "delivery",
+   "humanoid",
+   "components"
   ],
   "country": "EE",
   "description": "Разработчик ИИ-водителя для автономных автомобилей",
@@ -736,7 +738,7 @@
   "id": "bolt",
   "name": "Bolt",
   "origin": "news",
-  "updated": "2026-11-20"
+  "updated": "2026-11-22"
  },
  "booster-robotics": {
   "aliases": [],
@@ -1673,7 +1675,8 @@
  "foundation": {
   "aliases": [
    "Foundation Future Industries",
-   "Foundation Robotics"
+   "Foundation Robotics",
+   "Foundation Robot"
   ],
   "categories": [
    "humanoid"
@@ -1696,7 +1699,7 @@
   },
   "name": "Foundation",
   "origin": "news",
-  "updated": "2026-11-21"
+  "updated": "2026-11-22"
  },
  "foundry-robotics": {
   "aliases": [
@@ -1878,8 +1881,21 @@
   "last_round": {
    "as_of": "2026-11-22",
    "currency": "USD",
-   "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBabDF2bTZjdUFoNHpqQ2ZLS1lEVUFsSlZRcGFNa1VFN3VXcGhjWktwcGJMNG4wU3Z1ZHpGQlFBM0dnZkN2UUFvM2pfQWhFeWNpcDZlRGhrNkxmR0d3b3lEVjFQUklYSDZDQkhhQlE4RUl5T2ZSRG5LWTlITjJ3QQ?oc=5",
+   "investors": [
+    "Premji Invest",
+    "Khosla Ventures",
+    "Eclipse",
+    "Durable Capital Partners",
+    "T. Rowe Price Associates",
+    "Bpifrance",
+    "HSG",
+    "Nvidia",
+    "AMD Ventures",
+    "Zoom",
+    "Samsung Next",
+    "Ericsson"
+   ],
+   "source": "https://roboticsandautomationnews.com/2026/11/22/genesis-ai-raises-500-million-to-scale-general-purpose-robotics/107458/",
    "type": "series_a",
    "usd": 500000000.0,
    "value": 500000000.0
@@ -1890,7 +1906,7 @@
   "valuation": {
    "as_of": "2026-11-22",
    "currency": "USD",
-   "source": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBabDF2bTZjdUFoNHpqQ2ZLS1lEVUFsSlZRcGFNa1VFN3VXcGhjWktwcGJMNG4wU3Z1ZHpGQlFBM0dnZkN2UUFvM2pfQWhFeWNpcDZlRGhrNkxmR0d3b3lEVjFQUklYSDZDQkhhQlE4RUl5T2ZSRG5LWTlITjJ3QQ?oc=5",
+   "source": "https://roboticsandautomationnews.com/2026/11/22/genesis-ai-raises-500-million-to-scale-general-purpose-robotics/107458/",
    "usd": 3500000000.0,
    "value": 3500000000.0
   }
@@ -2032,6 +2048,22 @@
   "name": "Humanoid",
   "origin": "news",
   "updated": "2026-11-19"
+ },
+ "humanoid-fighting-championship": {
+  "aliases": [
+   "HFC"
+  ],
+  "categories": [
+   "humanoid"
+  ],
+  "country": "AU",
+  "description": "Австралийская организация, проводящая соревнования гуманоидных роботов.",
+  "first_seen": "2026-11-22",
+  "focus": [],
+  "id": "humanoid-fighting-championship",
+  "name": "Humanoid Fighting Championship",
+  "origin": "news",
+  "updated": "2026-11-22"
  },
  "humble-robotics": {
   "aliases": [],
@@ -2831,6 +2863,23 @@
   "name": "Mosaico",
   "origin": "news",
   "updated": "2026-11-17"
+ },
+ "multiway-robotics": {
+  "aliases": [
+   "Multiway"
+  ],
+  "categories": [
+   "humanoid",
+   "logistics"
+  ],
+  "country": "CN",
+  "description": "Разработчик автономных решений для промышленного материального обращения.",
+  "first_seen": "2026-11-22",
+  "focus": [],
+  "id": "multiway-robotics",
+  "name": "Multiway Robotics",
+  "origin": "news",
+  "updated": "2026-11-22"
  },
  "naio-technologies": {
   "aliases": [
@@ -4129,20 +4178,23 @@
  },
  "tactilia": {
   "aliases": [
-   "Schunk Tactilia"
+   "Schunk Tactilia",
+   "Tactilia Robotics",
+   "Schunk Humanoid Robotics GmbH"
   ],
   "categories": [
    "components",
-   "humanoid"
+   "humanoid",
+   "manufacturing"
   ],
-  "country": "",
+  "country": "DE",
   "description": "Спинофф Schunk, работающий над тактильными технологиями для роботов.",
   "first_seen": "2026-11-19",
   "focus": [],
   "id": "tactilia",
   "name": "Tactilia",
   "origin": "news",
-  "updated": "2026-11-19"
+  "updated": "2026-11-22"
  },
  "taisei": {
   "aliases": [],

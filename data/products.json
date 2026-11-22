@@ -360,6 +360,23 @@
   "stage": "unknown",
   "updated": "2026-11-19"
  },
+ "bolt--isaac": {
+  "categories": [
+   "humanoid",
+   "components"
+  ],
+  "company_id": "bolt",
+  "description": "Платформа для разработки роботов: симуляция, обучение ИИ, датасеты и референсный гуманоид.",
+  "first_seen": "2026-11-22",
+  "focus": [],
+  "id": "bolt--isaac",
+  "name": "Isaac",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/22/nvidia-expands-isaac-robotics-platform-with-new-humanoid-and-ai-development-tools/107472/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-22"
+ },
  "boston-dynamics--atlas": {
   "categories": [
    "humanoid",
@@ -799,14 +816,14 @@
   "id": "genesis-ai--eno",
   "name": "Eno",
   "sources": [
-   "https://news.crunchbase.com/venture/robot-factory-workers-genesis-ai-fundraise/",
    "https://news.google.com/rss/articles/CBMidkFVX3lxTE42WHh3TnFfUnNNWlFkdklpbnZ3WjZ0Z1NCZ0FVVjRETDIzcy1sMEpEdVF4aHhEU3B3NWo4VnluZnU4VXNBblh6VEtaMTJENkVxTms3OExhZEd5RmI4Q3A2MG5VREJwZUdoc2M0VlBvX1JISzBvUUE?oc=5",
    "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbTRtOEFoYjBnaV9zd0ZMLXczWHlPald4cm1MbUhITlZQbk5DUFBXRm9LeFJRM1FnOHFFbFRvWHpGNWNsT3JYTm1hNEZfY2lMNXRES0VmZkFjWGxad0JIeFV6Z2w2cHJlS0kzbnh2VDBvdC1fTXRDRkVxUktJZjVIcFV3QkhkTGJQRE9DX2dpazM?oc=5",
    "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaEJQeHVZM0o2UGZhVy1rVjJrNjlESnhNTlFzbS1DT0R6QWVqQ3ZZdUVvTm8yYVJ2clNKS1NDQlRGSVZtMnRCYTlvMTdPT1BHOHVIQkY1Ty1VNV9oYV90QVZUUGVHV2NMVllwRGxOWWcyaVRldzZ4U3FucjVsemsyWXl1MWFsbXR5Ull0RE95N01zTG5fVURQeTZOLTlpZjhHWk03eDR3?oc=5",
-   "https://techfundingnews.com/nvidia-backed-genesis-ai-raises-500m-series-a-at-3-5b-valuation-to-build-general-purpose-robots/"
+   "https://techfundingnews.com/nvidia-backed-genesis-ai-raises-500m-series-a-at-3-5b-valuation-to-build-general-purpose-robots/",
+   "https://roboticsandautomationnews.com/2026/11/22/genesis-ai-raises-500-million-to-scale-general-purpose-robotics/107458/"
   ],
-  "stage": "unknown",
-  "updated": "2026-11-18"
+  "stage": "serial",
+  "updated": "2026-11-22"
  },
  "geoskan--geoskan-401-geofizika": {
   "categories": [
@@ -1034,6 +1051,23 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-17"
+ },
+ "multiway-robotics--h01": {
+  "categories": [
+   "humanoid",
+   "logistics"
+  ],
+  "company_id": "multiway-robotics",
+  "description": "Колёсный гуманоидный робот для гибких промышленных операций.",
+  "first_seen": "2026-11-22",
+  "focus": [],
+  "id": "multiway-robotics--h01",
+  "name": "H01",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/22/multiway-robotics-showcases-wheeled-humanoid-and-autonomous-forklifts-at-cemat-asia-2026/107492/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-22"
  },
  "naio-technologies--oz": {
   "categories": [
