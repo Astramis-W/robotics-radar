@@ -299,6 +299,22 @@
   "origin": "news",
   "updated": "2026-11-17"
  },
+ "altayhleb": {
+  "aliases": [
+   "Алтайхлеб"
+  ],
+  "categories": [
+   "manufacturing"
+  ],
+  "country": "RU",
+  "description": "",
+  "first_seen": "2026-11-23",
+  "focus": [],
+  "id": "altayhleb",
+  "name": "Алтайхлеб",
+  "origin": "news",
+  "updated": "2026-11-23"
+ },
  "amazon": {
   "aliases": [
    "Prime Air",
@@ -738,7 +754,7 @@
   "id": "bolt",
   "name": "Bolt",
   "origin": "news",
-  "updated": "2026-11-22"
+  "updated": "2026-11-23"
  },
  "booster-robotics": {
   "aliases": [],
@@ -817,17 +833,17 @@
   "focus": [],
   "id": "botsync",
   "last_round": {
-   "as_of": "2026-11-21",
+   "as_of": "2026-11-23",
    "currency": "USD",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNSnUxdW42Vy1VVnozTGY2czdObTJXT1ZOYklyT0hJbHUxNURIcG1iSE9PSmhvYXo4WEFUajdBTDhHOENnemNHNGlzN1Y1ckI1aXQwRVpacU41azZ3d0JBRmNneUFpOWExM3p2Nndnd0swQ2hnZnlxWm5zdkdaZFJrbU9pQWY0NlFidmFYdDAzSkwzWlZobXFfSC1BekxfSjJtTlpGcDVDZ25iMVp0dWxBS01wOXV2QXFXcG5yMjdaSGl1Z2c3ZWhDcklCQ19rWExiSFBWVWpPZkszQXZBYmxMdUZLSklmNDZ2UjV0Vml1cXY5TnpWakduSzgzbUpZSXZZeURwREtMYjdyaUJsY21FRw?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdzlBa1RFSm1pbEs0Tm45bXc4U0dNaWl2MUZhS3ZKVGRzZUVzRjNzbmZtb1BmQnVMcUx0NktORDAzWDVVcUluc0x6bXJ1THRVeHM0dGo4d0l4SVprdFZqZFNnQ1d4UUNjRk9NbW82cm9aVzl3Wl9DcWpYb2Jwd2pnUVRwMjd2TXZVVWlmNXBpX0ttbUdFZzJrREJpN195VFhGU0xOZWJYRUdQR0NMdzlVUFpwUzI3VTdmM2VYZmwweFBVeDRf?oc=5",
    "type": "unknown",
    "usd": 11000000.0,
    "value": 11000000.0
   },
   "name": "Botsync",
   "origin": "news",
-  "updated": "2026-11-21"
+  "updated": "2026-11-23"
  },
  "brain": {
   "aliases": [
@@ -921,6 +937,22 @@
   "origin": "seed",
   "updated": "2026-11-16"
  },
+ "cepri": {
+  "aliases": [
+   "China Electric Power Research Institute"
+  ],
+  "categories": [
+   "inspection"
+  ],
+  "country": "CN",
+  "description": "",
+  "first_seen": "2026-11-23",
+  "focus": [],
+  "id": "cepri",
+  "name": "CEPRI",
+  "origin": "news",
+  "updated": "2026-11-23"
+ },
  "ceva-logistics": {
   "aliases": [
    "SIT"
@@ -964,6 +996,23 @@
   "name": "ClearSpace",
   "origin": "news",
   "updated": "2026-11-18"
+ },
+ "cmr-surgical": {
+  "aliases": [
+   "CMR Surgical",
+   "Stryker"
+  ],
+  "categories": [
+   "medical"
+  ],
+  "country": "GB",
+  "description": "Британский производитель модульных робот-ассистированных хирургических комплексов.",
+  "first_seen": "2026-11-23",
+  "focus": [],
+  "id": "cmr-surgical",
+  "name": "CMR Surgical",
+  "origin": "news",
+  "updated": "2026-11-23"
  },
  "cognitive-pilot": {
   "aliases": [
@@ -1159,6 +1208,26 @@
   "name": "Dronetag",
   "origin": "news",
   "updated": "2026-11-17"
+ },
+ "dronewash": {
+  "aliases": [
+   "DroneWash+",
+   "DRONEWASH+"
+  ],
+  "categories": [
+   "cleaning",
+   "aerial"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "facade"
+  ],
+  "id": "dronewash",
+  "name": "DRONEWASH+",
+  "origin": "news",
+  "updated": "2026-11-23"
  },
  "dusty-robotics": {
   "aliases": [],
@@ -1573,7 +1642,7 @@
    "value": 2300000.0,
    "year": null
   },
-  "updated": "2026-11-22"
+  "updated": "2026-11-23"
  },
  "ff-robotics": {
   "aliases": [],
@@ -1699,7 +1768,7 @@
   },
   "name": "Foundation",
   "origin": "news",
-  "updated": "2026-11-22"
+  "updated": "2026-11-23"
  },
  "foundry-robotics": {
   "aliases": [
@@ -2747,19 +2816,17 @@
   "focus": [],
   "id": "megarobo",
   "last_round": {
-   "as_of": "2026-11-20",
+   "as_of": "2026-11-23",
    "currency": "USD",
-   "investors": [
-    "Oman wealth fund"
-   ],
-   "source": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcnQwb0VBbGRSREFOSE9XRHN3eTJZWnRkcE9qSUdoUlJ4eWJnVnNNQkdEM01WNDk4SFFDUkdkVkJIdzZRUFFoUzFKUV8teDdSRUJGT0lFR2xkSTlNNjYxMEhTUHg5cHVSUjljU0tISUVsRjd1dlNNUEp1LVo3MlRGd2J3MkMzdF9BUVhham1sQUVJZ3BZ?oc=5",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9Qa2ZFVWVUZHVyeUhqQUxsdjRlRV82R2llN1ozalFXZTZudmNRdHB5Y05yRlFPdkRFOEVBTUg1WWw0VHBUMk5hTDFRM0gyRmpmcHBKUEtRRWdHa2owRTJ5UmpVQTZpMVRUS3ZKelg5MDFSMmc?oc=5",
    "type": "unknown",
    "usd": 200000000.0,
    "value": 200000000.0
   },
   "name": "MegaRobo",
   "origin": "news",
-  "updated": "2026-11-21"
+  "updated": "2026-11-23"
  },
  "memories-ai": {
   "aliases": [
@@ -2993,17 +3060,17 @@
   "focus": [],
   "id": "nomadic",
   "last_round": {
-   "as_of": "2026-11-20",
+   "as_of": "2026-11-23",
    "currency": "USD",
    "investors": [],
-   "source": "https://www.dronewatch.eu/german-startup-raises-6-million-for-drones-that-recharge-themselves-on-power-lines/?utm_source=rss&utm_medium=rss&utm_campaign=german-startup-raises-6-million-for-drones-that-recharge-themselves-on-power-lines",
-   "type": "seed",
+   "source": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORXJ3bkpWdDVOU0VoUHlWakwyQmZGWXo0VmtwZ25jVUtyeHc5Q09fVW5US182OWhPTldvbVgyRE9WWGRnUmoxU3gxcHJhY25WblQ5VVJqQmhLcmJ4Vy1GNDNKRHZwNTBWcGRhb1huOHhqREFzd0F6TjJMeHcyMjhQYWNzTVY4OHEyeXl6RTNwR3EyRXpmMFBZOA?oc=5",
+   "type": "unknown",
    "usd": 6000000.0,
    "value": 6000000.0
   },
   "name": "Nomadic",
   "origin": "news",
-  "updated": "2026-11-20"
+  "updated": "2026-11-23"
  },
  "nomadic-drones": {
   "aliases": [],
@@ -3077,6 +3144,20 @@
   "origin": "news",
   "updated": "2026-11-22"
  },
+ "oez-tehnopolis-moskva": {
+  "aliases": [
+   "Технополис Москва"
+  ],
+  "categories": [],
+  "country": "RU",
+  "description": "",
+  "first_seen": "2026-11-23",
+  "focus": [],
+  "id": "oez-tehnopolis-moskva",
+  "name": "ОЭЗ «Технополис Москва»",
+  "origin": "news",
+  "updated": "2026-11-23"
+ },
  "offworld": {
   "aliases": [],
   "categories": [
@@ -3120,6 +3201,22 @@
   "name": "Orchard Robotics",
   "origin": "news",
   "updated": "2026-11-21"
+ },
+ "oyy-technology": {
+  "aliases": [
+   "Oyy Technology"
+  ],
+  "categories": [
+   "components"
+  ],
+  "country": "CN",
+  "description": "",
+  "first_seen": "2026-11-23",
+  "focus": [],
+  "id": "oyy-technology",
+  "name": "Oyy Technology",
+  "origin": "news",
+  "updated": "2026-11-23"
  },
  "path-robotics": {
   "aliases": [],
@@ -3175,7 +3272,7 @@
   },
   "name": "Peppermint Robotics",
   "origin": "seed",
-  "updated": "2026-11-21"
+  "updated": "2026-11-23"
  },
  "percepto": {
   "aliases": [],
@@ -3597,6 +3694,23 @@
   "origin": "news",
   "updated": "2026-11-17"
  },
+ "robotis": {
+  "aliases": [
+   "Robotis",
+   "로보티즈"
+  ],
+  "categories": [
+   "components"
+  ],
+  "country": "KR",
+  "description": "Южнокорейский производитель приводов и компонентов для роботов.",
+  "first_seen": "2026-11-23",
+  "focus": [],
+  "id": "robotis",
+  "name": "Robotis",
+  "origin": "news",
+  "updated": "2026-11-23"
+ },
  "ronavi-robotiks": {
   "aliases": [
    "Ronavi Robotics",
@@ -3870,6 +3984,34 @@
   "name": "Shenzhen",
   "origin": "news",
   "updated": "2026-11-18"
+ },
+ "simplexity-robotics": {
+  "aliases": [
+   "Simplexity Robotics",
+   "Simplexity"
+  ],
+  "categories": [
+   "humanoid"
+  ],
+  "country": "CN",
+  "description": "Китайская робототехническая компания.",
+  "first_seen": "2026-11-23",
+  "focus": [],
+  "id": "simplexity-robotics",
+  "last_round": {
+   "as_of": "2026-11-23",
+   "currency": "USD",
+   "investors": [
+    "Ant Group"
+   ],
+   "source": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQY3F4R2dpUzB1Sk5xQ2dXaFJoM2kxak42VkVaRGZxX3ItVENUN0lFTjBKVFN4YjRtQnZ0bXNISkl1UF9KYlhsWjlHa2swQkg0Z2ZiR2lJTkRfcFdxNHZVdnRRbmRWMkNJZkFVSEVBVVgxXy1jMi1odnRFcnoyZ05MaVF2aTRRdWNBcWZDUm83MmVoSUg3SHc?oc=5",
+   "type": "unknown",
+   "usd": 100000000.0,
+   "value": 100000000.0
+  },
+  "name": "Simplexity Robotics",
+  "origin": "news",
+  "updated": "2026-11-23"
  },
  "skydio": {
   "aliases": [
@@ -4284,7 +4426,8 @@
  "tesla": {
   "aliases": [
    "Тесла",
-   "Tesla Optimus"
+   "Tesla Optimus",
+   "Илон Маск"
   ],
   "categories": [
    "delivery",
@@ -4303,7 +4446,7 @@
    "source": "https://www.cnews.ru/news/top/2026-11-17_ilon_mask_sobiraetsya_cherez",
    "value": 573
   },
-  "updated": "2026-11-22"
+  "updated": "2026-11-23"
  },
  "tevel-aerobotics": {
   "aliases": [
@@ -4550,7 +4693,7 @@
   "id": "unitree-robotics",
   "name": "Unitree Robotics",
   "origin": "seed",
-  "updated": "2026-11-17"
+  "updated": "2026-11-23"
  },
  "universal-robots": {
   "aliases": [

@@ -521,6 +521,22 @@
   "stage": "serial",
   "updated": "2026-11-21"
  },
+ "cmr-surgical--versius": {
+  "categories": [
+   "medical"
+  ],
+  "company_id": "cmr-surgical",
+  "description": "Модульная робот-ассистированная хирургическая платформа.",
+  "first_seen": "2026-11-23",
+  "focus": [],
+  "id": "cmr-surgical--versius",
+  "name": "Versius",
+  "sources": [
+   "https://t.me/prorobots/3672"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-23"
+ },
  "custom-electronics--vtol-sail-wing": {
   "categories": [
    "aerial",
