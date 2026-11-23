@@ -16,6 +16,20 @@
   "origin": "seed",
   "updated": "2026-11-22"
  },
+ "3logic": {
+  "aliases": [],
+  "categories": [
+   "cleaning"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-23",
+  "focus": [],
+  "id": "3logic",
+  "name": "3Logic Group",
+  "origin": "news",
+  "updated": "2026-11-23"
+ },
  "abb-robotics": {
   "aliases": [
    "ABB",
@@ -331,7 +345,7 @@
   "id": "amazon",
   "name": "Amazon",
   "origin": "news",
-  "updated": "2026-11-20"
+  "updated": "2026-11-23"
  },
  "amicro": {
   "aliases": [],
@@ -452,6 +466,29 @@
   "name": "Apptronik",
   "origin": "seed",
   "updated": "2026-11-17"
+ },
+ "apricity": {
+  "aliases": [],
+  "categories": [
+   "medical"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-23",
+  "focus": [],
+  "id": "apricity",
+  "last_round": {
+   "as_of": "2026-11-23",
+   "currency": "USD",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOd3lDZTluOFRrM0Y0MVlQSTNTd3UyTXFTVU4yTDJ3MUZlM291UDJTaXZneWsybmp0Nk5wMlFFaXpoV0ZDaVhZUk5EUDM2SGllTmgtOFM0amVxT2dFcHl3Q0l2RklJTWtCdHAyNm9rMmcwSm1nTDJRRE9HeUhNSVNGdmVxOUZyNS1JSWdLSHBoajdvaUxxdHpDX0NyaWV0aXFBc2JzWU9VY2N2RFBSanp1TnByN0lOVFdfYjQ5S0NKMkg2dDFiYm5La0dQYk1USm5Ud0d6Y2cxaU43TmZ6dzV4djlJdHBWUlZfRVNiX0JLOENIbjQ?oc=5",
+   "type": "series_a",
+   "usd": 16100000.0,
+   "value": 16100000.0
+  },
+  "name": "Apricity",
+  "origin": "news",
+  "updated": "2026-11-23"
  },
  "aquiline-drones": {
   "aliases": [
@@ -802,7 +839,7 @@
    "value": 136000000000.0,
    "year": 2026
   },
-  "updated": "2026-11-22"
+  "updated": "2026-11-23"
  },
  "bot-auto": {
   "aliases": [],
@@ -981,19 +1018,21 @@
  },
  "ceva-logistics": {
   "aliases": [
-   "SIT"
+   "SIT",
+   "CEVA",
+   "Singapore Institute of Technology"
   ],
   "categories": [
    "logistics"
   ],
   "country": "",
-  "description": "",
+  "description": "Международный логистический оператор.",
   "first_seen": "2026-11-17",
   "focus": [],
   "id": "ceva-logistics",
   "name": "CEVA Logistics",
   "origin": "news",
-  "updated": "2026-11-17"
+  "updated": "2026-11-23"
  },
  "circus-se": {
   "aliases": [],
@@ -1057,6 +1096,46 @@
   "origin": "seed",
   "updated": "2026-11-16"
  },
+ "coprod": {
+  "aliases": [],
+  "categories": [
+   "components"
+  ],
+  "country": "CH",
+  "description": "Швейцарский стартап, создающий совместимые компоненты и ПО для сборки роботов.",
+  "first_seen": "2026-11-23",
+  "focus": [],
+  "id": "coprod",
+  "last_round": {
+   "as_of": "2026-11-23",
+   "currency": "USD",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbnJJemtIWHlray00LXVwSzZ6UkctQnBNdF96VExydjNqbTFQQUhaTXhnem9MYXlfeE9oZzNRZjhudUlZZ21nc2JfSUJ4NDhNNXVTS1lyMENVOWhKTHJuTXIzaDd4VUxDWnBxU1NNbndySEZJN3ZKVlYyZWlQenlJVkdsWWRPcjEydGFxbTNTckMwMHBOeXFlQXRQazVCMEgtZW12bG1hMC1lME11YzdxQVUyWUtwZw?oc=5",
+   "type": "unknown",
+   "usd": 6000000.0,
+   "value": 6000000.0
+  },
+  "name": "coprod",
+  "origin": "news",
+  "updated": "2026-11-23"
+ },
+ "cosys-robots": {
+  "aliases": [
+   "Cosys"
+  ],
+  "categories": [
+   "logistics",
+   "service"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-23",
+  "focus": [],
+  "id": "cosys-robots",
+  "name": "Cosys Robots",
+  "origin": "news",
+  "updated": "2026-11-23"
+ },
  "custom-electronics": {
   "aliases": [
    "CEI",
@@ -1091,6 +1170,23 @@
   "name": "Cyberhawk",
   "origin": "news",
   "updated": "2026-11-17"
+ },
+ "deep-robotics": {
+  "aliases": [
+   "Deep Robotics"
+  ],
+  "categories": [
+   "agro",
+   "inspection"
+  ],
+  "country": "CN",
+  "description": "Разработчик четвероногих робототехнических платформ.",
+  "first_seen": "2026-11-23",
+  "focus": [],
+  "id": "deep-robotics",
+  "name": "DEEP Robotics",
+  "origin": "news",
+  "updated": "2026-11-23"
  },
  "dhl-supply-chain": {
   "aliases": [],
@@ -1439,6 +1535,33 @@
   "origin": "news",
   "updated": "2026-11-18"
  },
+ "embo": {
+  "aliases": [
+   "Embo"
+  ],
+  "categories": [
+   "components"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-23",
+  "focus": [],
+  "id": "embo",
+  "last_round": {
+   "as_of": "2026-11-23",
+   "currency": "USD",
+   "investors": [
+    "A16z"
+   ],
+   "source": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeGpLRW1JY3pWTWNMRHVnQk1lMDFCRG96TWlqNV9XYzdEX3FPMi1mWWFWVEt3dFFJZlNFbWo2MmhFTjcwbHBZMGd6emlia1JSUm1oR0dfeTVzTFViZ3kwXzB1Z1pCTnd3QVJkS2NZbWtJWFFyRFZnVlBOMVlGbHlRemdfTmZGSDY5ZFB0cg?oc=5",
+   "type": "seed",
+   "usd": 110000000.0,
+   "value": 110000000.0
+  },
+  "name": "Embo",
+  "origin": "news",
+  "updated": "2026-11-23"
+ },
  "emesent": {
   "aliases": [],
   "categories": [
@@ -1666,7 +1789,7 @@
   ],
   "categories": [],
   "country": "",
-  "description": "",
+  "description": "Экосистема в области робототехники и физического ИИ.",
   "first_seen": "2026-11-17",
   "focus": [],
   "id": "ff-eai-robotics-ecosystem",
@@ -2402,6 +2525,23 @@
   "origin": "news",
   "updated": "2026-11-22"
  },
+ "kamaz": {
+  "aliases": [
+   "Камаз",
+   "KAMAZ"
+  ],
+  "categories": [
+   "delivery"
+  ],
+  "country": "RU",
+  "description": "",
+  "first_seen": "2026-11-23",
+  "focus": [],
+  "id": "kamaz",
+  "name": "КАМАЗ",
+  "origin": "news",
+  "updated": "2026-11-23"
+ },
  "karcher": {
   "aliases": [
    "Karcher"
@@ -2525,6 +2665,23 @@
   "name": "Kodama",
   "origin": "news",
   "updated": "2026-11-16"
+ },
+ "kolskaya-gmk": {
+  "aliases": [
+   "Kola GMK"
+  ],
+  "categories": [
+   "underground",
+   "inspection"
+  ],
+  "country": "RU",
+  "description": "Горно-металлургический комбинат на Кольском полуострове.",
+  "first_seen": "2026-11-23",
+  "focus": [],
+  "id": "kolskaya-gmk",
+  "name": "Кольская ГМК",
+  "origin": "news",
+  "updated": "2026-11-23"
  },
  "komos-grupp": {
   "aliases": [
@@ -2720,6 +2877,27 @@
   "name": "Lucid Bots",
   "origin": "seed",
   "updated": "2026-11-16"
+ },
+ "lupa-robotics": {
+  "aliases": [],
+  "categories": [],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-23",
+  "focus": [],
+  "id": "lupa-robotics",
+  "last_round": {
+   "as_of": "2026-11-23",
+   "currency": "USD",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBROThJOG41MDVLeEU1RC1kNVpNY0FSY25Ick1BZzJqWUtxZkYxRkRQcU83dGVWYzA3aUZpYzZPYlVxNElhS08zbDU4VmFzRUZsdjZBdTBuZkZsUG5CN01LNnB4Y3ZfQUxKWTduU3hkT1VwemtpM2lZYUdyUQ?oc=5",
+   "type": "seed",
+   "usd": 1670000.0,
+   "value": 1670000.0
+  },
+  "name": "Lupa Robotics",
+  "origin": "news",
+  "updated": "2026-11-23"
  },
  "m-l-technologies": {
   "aliases": [
@@ -3035,6 +3213,22 @@
   "origin": "seed",
   "updated": "2026-11-17"
  },
+ "nauticus-robotics": {
+  "aliases": [
+   "Nauticus"
+  ],
+  "categories": [
+   "marine"
+  ],
+  "country": "US",
+  "description": "Разработчик морских роботов",
+  "first_seen": "2026-11-23",
+  "focus": [],
+  "id": "nauticus-robotics",
+  "name": "Nauticus Robotics",
+  "origin": "news",
+  "updated": "2026-11-23"
+ },
  "neptune-robotics": {
   "aliases": [],
   "categories": [
@@ -3162,7 +3356,7 @@
    "as_of": "2026-11-23",
    "currency": "USD",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORXJ3bkpWdDVOU0VoUHlWakwyQmZGWXo0VmtwZ25jVUtyeHc5Q09fVW5US182OWhPTldvbVgyRE9WWGRnUmoxU3gxcHJhY25WblQ5VVJqQmhLcmJ4Vy1GNDNKRHZwNTBWcGRhb1huOHhqREFzd0F6TjJMeHcyMjhQYWNzTVY4OHEyeXl6RTNwR3EyRXpmMFBZOA?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XRW5SMXEyczlZYldISjRMdDVzYnhrN2RMaG1iYjU1ZzljQkQ5N1FkNzFwS1R4MjhNYjd2blVFZDE5RU9KQ1VzaEZUa3E0cmVybF9qcjhnUTRwWkswY0gteVBBMHhjRzNXNGc?oc=5",
    "type": "unknown",
    "usd": 6000000.0,
    "value": 6000000.0
@@ -4146,6 +4340,32 @@
   "origin": "news",
   "updated": "2026-11-17"
  },
+ "se3": {
+  "aliases": [
+   "SE3"
+  ],
+  "categories": [
+   "aerial",
+   "components"
+  ],
+  "country": "",
+  "description": "Разработчик пространственного интеллекта для парков дронов.",
+  "first_seen": "2026-11-23",
+  "focus": [],
+  "id": "se3",
+  "last_round": {
+   "as_of": "2026-11-23",
+   "currency": "USD",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5RSUU2VXRlM2NBSjl3MlRMNWxvb1NKdHZERHB6RmlTMzFnVjQwZEt0Mm5LMkQtY1FYeG9XNExGNWg1VlBITlRZQnozWVdEb1JDZ21MVHRXV0Z0aVdCaVpJWmd1ZVNlZFg2TmUwVUllYkQtVms?oc=5",
+   "type": "unknown",
+   "usd": 30000000.0,
+   "value": 30000000.0
+  },
+  "name": "SE3",
+  "origin": "news",
+  "updated": "2026-11-23"
+ },
  "serbot": {
   "aliases": [],
   "categories": [
@@ -4221,14 +4441,21 @@
    "investors": [
     "Ant Group"
    ],
-   "source": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQY3F4R2dpUzB1Sk5xQ2dXaFJoM2kxak42VkVaRGZxX3ItVENUN0lFTjBKVFN4YjRtQnZ0bXNISkl1UF9KYlhsWjlHa2swQkg0Z2ZiR2lJTkRfcFdxNHZVdnRRbmRWMkNJZkFVSEVBVVgxXy1jMi1odnRFcnoyZ05MaVF2aTRRdWNBcWZDUm83MmVoSUg3SHc?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYU85b2lqdVh1cENJUlZVRzk3RmRaNWVLQnhKRDFuMlFXQVlkREM5dGZTRzdmSTNzUUVuTHdlZUQ1dlBYb3pFWUJ5T3ZnUS1jWVRzcE13YmsxM3U5RWNJMVlzVkFEdHFQTTFBaUtUN1BDbENhUERyTkZ3N3RyOTVvYUtBMmxPbktQLVl6dHp1VllSM21vTWVRc3VBSUd3TU51dWx6WUxTemRxUQ?oc=5",
    "type": "unknown",
    "usd": 100000000.0,
    "value": 100000000.0
   },
   "name": "Simplexity Robotics",
   "origin": "news",
-  "updated": "2026-11-23"
+  "updated": "2026-11-23",
+  "valuation": {
+   "as_of": "2026-11-23",
+   "currency": "USD",
+   "source": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQR05WTW80SzNVWE9CdXFKSS1lSC1vRHZPR2s3QjhsNHRyNWhnRllBTl9jdndLZHh2NTFIUklrMWF1VkdUVGhPbnFLM3BaVVVnUlFpbFhaOFBUN3RYbEtGYWdrNWJaOVVNZUQ0c0ZiVzNrRG12NjdOTnNlTGZDUXpXR3ZYZnA1T0tpOFZqbWg0VHBGM1RHNVhFa2gxOFNaVW9CSnJjNUJSRUJkSU1tUWc?oc=5",
+   "usd": 1600000000.0,
+   "value": 1600000000.0
+  }
  },
  "skydio": {
   "aliases": [
@@ -4471,6 +4698,20 @@
   "status": "active",
   "updated": "2026-11-23",
   "website": "https://www.stingrayrobotix.com/"
+ },
+ "sunscout": {
+  "aliases": [
+   "BestMow"
+  ],
+  "categories": [],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-23",
+  "focus": [],
+  "id": "sunscout",
+  "name": "SunScout",
+  "origin": "news",
+  "updated": "2026-11-23"
  },
  "surskaya-mebel": {
   "aliases": [
@@ -4725,9 +4966,18 @@
   "first_seen": "2026-11-20",
   "focus": [],
   "id": "theseus-robotics",
+  "last_round": {
+   "as_of": "2026-11-23",
+   "currency": "EUR",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQLTZUaGpsSnF1d0lVZjZ4ankwc2lRSU5hU1NtM0RaSDVYVmNMdHJoVlJyM29Ubi00bldPNHk3UFljSGRfdER5NS02Y2xSdFYxNktmVWxkTG9pNEtrVk9QRkFiSG1YYzNhRFh4TkdFQWNueDJOWUxlV0x3LThxMEpLQl9wZ3NjSHV1YUd0NHBxMFNnOG45dDJNYmdXdW9xeDFuZTdGdnNNQ1hEN0FWZFhRNFhFbkQySU9jMXZObzJTTUgyUU5w?oc=5",
+   "type": "unknown",
+   "usd": 499377.7,
+   "value": 455000.0
+  },
   "name": "Theseus Robotics",
   "origin": "news",
-  "updated": "2026-11-20"
+  "updated": "2026-11-23"
  },
  "thg-fulfil": {
   "aliases": [
@@ -5161,7 +5411,8 @@
  },
  "waymo": {
   "aliases": [
-   "Waymo"
+   "Waymo",
+   "Serve Robotics"
   ],
   "categories": [
    "delivery"
@@ -5173,7 +5424,7 @@
   "id": "waymo",
   "name": "Waymo",
   "origin": "news",
-  "updated": "2026-11-18"
+  "updated": "2026-11-23"
  },
  "wheelies": {
   "aliases": [],
@@ -5218,7 +5469,7 @@
   "id": "wing",
   "name": "Wing",
   "origin": "seed",
-  "updated": "2026-11-19"
+  "updated": "2026-11-23"
  },
  "witron": {
   "aliases": [
@@ -5289,6 +5540,38 @@
   "name": "Xilect",
   "origin": "news",
   "updated": "2026-11-16"
+ },
+ "xpeng": {
+  "aliases": [
+   "小鹏"
+  ],
+  "categories": [
+   "humanoid"
+  ],
+  "country": "CN",
+  "description": "",
+  "first_seen": "2026-11-23",
+  "focus": [],
+  "id": "xpeng",
+  "last_round": {
+   "as_of": "2026-11-23",
+   "currency": "USD",
+   "investors": [],
+   "source": "https://roboticsandautomationnews.com/2026/11/23/xpeng-to-showcase-humanoid-robot-and-physical-ai-advances-at-ai-day-2026/107497/",
+   "type": "unknown",
+   "usd": 900000000.0,
+   "value": 900000000.0
+  },
+  "name": "XPeng",
+  "origin": "news",
+  "updated": "2026-11-23",
+  "valuation": {
+   "as_of": "2026-11-23",
+   "currency": "USD",
+   "source": "https://roboticsandautomationnews.com/2026/11/23/xpeng-to-showcase-humanoid-robot-and-physical-ai-advances-at-ai-day-2026/107497/",
+   "usd": 6300000000.0,
+   "value": 6300000000.0
+  }
  },
  "xtend-ai-robotics": {
   "aliases": [
@@ -5391,7 +5674,7 @@
   },
   "name": "Zipline",
   "origin": "seed",
-  "updated": "2026-11-21",
+  "updated": "2026-11-23",
   "valuation": {
    "as_of": "2026-11-19",
    "currency": "USD",

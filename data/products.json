@@ -23,6 +23,22 @@
   "stage": "unknown",
   "updated": "2026-11-22"
  },
+ "3logic--robort": {
+  "categories": [
+   "cleaning"
+  ],
+  "company_id": "3logic",
+  "description": "",
+  "first_seen": "2026-11-23",
+  "focus": [],
+  "id": "3logic--robort",
+  "name": "Robort",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNW1RQzRoNjhGM3A4NW1kSlhJSmZFdXlmMGVVRUlveVhveHFvcTBNb2dqUXBLUVFydS1rSDl3ajA5SWVLZlQtMDFYU01CdmRqYWdoYU1ITUNRdmQzODZrX2pyNUdpekZ6NkQxMngwUlByS0s3ZEcwVzJIeF9zSE9fTG1lb1lrVkQxUzJLUGFZM3Q5Mlh1aGNrY0ZDbXd5RTBOSW5LQUtuOA?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-23"
+ },
  "abz-innovation--c30": {
   "categories": [
    "aerial",
@@ -201,14 +217,14 @@
   "id": "amazon--prime-air",
   "name": "Prime Air",
   "sources": [
-   "https://dronexl.co/2026/11/17/amazon-nampa-drone-complaint-contact-not-public-wrong-number/",
-   "https://dronexl.co/2026/11/18/amazon-nampa-drone-flight-data-79-flights-a-day-cherry-creek/",
-   "https://dronexl.co/2026/11/18/amazon-bondurant-iowa-drone-hub-sound-study-condition/",
-   "https://dronexl.co/2026/11/18/amazon-westborough-drone-nyt-would-probably-not-happen-withdrew/",
-   "https://dronexl.co/2026/11/20/amazon-jacksonville-drone-pad-setback-500-feet-29-planning-commission/"
+   "https://dronexl.co/2026/11/20/amazon-jacksonville-drone-pad-setback-500-feet-29-planning-commission/",
+   "https://dronexl.co/2026/11/23/amazon-prime-air-toledo-rossford-ohio-drone-delivery-launch/",
+   "https://dronexl.co/2026/11/23/amazon-drones-nyt-wsj-the-times-coverage-public-debate/",
+   "https://dronexl.co/2026/11/23/amazon-prime-air-tallahassee-jacksonville-coming-months-ruskin-tampa/",
+   "https://dronexl.co/2026/11/23/amazon-prime-air-drones-mt-juliet-tennessee-nashville-coming-soon/"
   ],
-  "stage": "serial",
-  "updated": "2026-11-20"
+  "stage": "pilot",
+  "updated": "2026-11-23"
  },
  "amazon--prime-air-mk30": {
   "categories": [
@@ -605,6 +621,39 @@
   "name": "Versius",
   "sources": [
    "https://t.me/prorobots/3672"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-23"
+ },
+ "coprod--system": {
+  "categories": [
+   "components"
+  ],
+  "company_id": "coprod",
+  "description": "Программный слой с единым API для связывания модулей робота на базе EtherCAT.",
+  "first_seen": "2026-11-23",
+  "focus": [],
+  "id": "coprod--system",
+  "name": "co:system",
+  "sources": [
+   "https://techfundingnews.com/coprod-raises-6m-robot-integration-hell/"
+  ],
+  "stage": "prototype",
+  "updated": "2026-11-23"
+ },
+ "cosys-robots--cosys-robot-software-for-automotive-workshops": {
+  "categories": [
+   "logistics",
+   "service"
+  ],
+  "company_id": "cosys-robots",
+  "description": "Автономные складские роботы до 100 кг и ПО для управления доставкой запчастей в автомастерских.",
+  "first_seen": "2026-11-23",
+  "focus": [],
+  "id": "cosys-robots--cosys-robot-software-for-automotive-workshops",
+  "name": "Cosys Robot Software for Automotive Workshops",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/23/cosys-warehouse-robots-automate-spare-parts-delivery-in-automotive-workshops/107526/"
   ],
   "stage": "unknown",
   "updated": "2026-11-23"
@@ -1365,6 +1414,25 @@
   "stage": "prototype",
   "updated": "2026-11-16"
  },
+ "nauticus-robotics--wam-v": {
+  "categories": [
+   "marine"
+  ],
+  "company_id": "nauticus-robotics",
+  "description": "",
+  "first_seen": "2026-11-23",
+  "focus": [],
+  "id": "nauticus-robotics--wam-v",
+  "name": "WAM-V",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWEhPbmFMcnFpM1AwOWlobE50TDhHMTVoTmZjX21xZzRqN25FVnFOMmhsbnFiWE1vZF9pYjY1MndIc2xuck5ZX3cza2E2aE1GVVQ4YkRUZURNSlJ2ZmJIQWZLNTVNWTk5dFVoaURqS1pPTGVxNENYTWdodFJOOExmZEgwVGl0bUN1eGFLS3BEOUhuR2g2Z1FXaC1MTG8yNWNuWFQ5V0VRZGxoVXk3dnhmT0xJei1JYllHQlljX25ZV0dVXzZWS2phdlZYZm9XLUZ4S2c?oc=5",
+   "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNko5RTJEaTBsRnpNUWJ2Zjg2NmtTUGhnYjl4RnR0MnZQN0tsSGlxLVBFR296QWlSRzNPSlo3aUdKSTN5T3VEbm15NXc3Rnh4UjlhLVhCNkRfUmp3UE93cDBtR3hSY0VkOFp1ZDFLTTVVRXZsUnJGaUtGZkpzR2RZeHdfQ2NTdTd2VFItaVdDMC10Y29pX3l2LU5wcWQ1WnA3bXhwcmRYRWZSUE5NaUlDdzZNbFh2Z0xVcHc?oc=5",
+   "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNanFtX05HY3JnZXRFNHhYUmM3cTFrMWhqUDhiUWF2T3pwN2gyS2pHZWpDcXVnRmVMS295Y0lVZnlNckpuV1Q4cU5yV2V1dTlUWjlZbTI2dDJQcUN2TmZHTFNZTFhZdUozMHAwUllkdkxYSzF4LTZ5bGxVdk1DR3NWTmcyaWpxanlH?oc=5",
+   "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOM1diU2l1TXpaZDZhREFBTXhqeU1FWGdoVHlGa2h6Qkpqc3daZXFsbTdvZXZjWVZtakJld2hMUFVkbkV3cU1rVDFrTWRaLWRaUjgwUDhhMmFFRzFJZHpWMnBqdWFPZ2c5eHVIUklsSnBQV3l4VVdhenZSakkzSWQtOXF4VWJSZklaMTYyRVNGemhWeU9XVTlvMW9sV1luZkw4em1KZVhrVXNOQTU2MEVLVnNEdU5yRXJaeV85aEU4cVBUNkNDc3dhM2FZSS1xS0hWNGwyRUtvbDRXOGZjMGVlSTRXOG52Z2ZqcWc?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-23"
+ },
  "neptune-robotics--neptune-annual-care-usluga": {
   "categories": [
    "marine",
@@ -1437,6 +1505,23 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-22"
+ },
+ "nomadic--nomad": {
+  "categories": [
+   "inspection",
+   "aerial"
+  ],
+  "company_id": "nomadic",
+  "description": "Дрон, подзаряжающийся от линий электропередачи для мониторинга сети.",
+  "first_seen": "2026-11-23",
+  "focus": [],
+  "id": "nomadic--nomad",
+  "name": "NOMAD",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XRW5SMXEyczlZYldISjRMdDVzYnhrN2RMaG1iYjU1ZzljQkQ5N1FkNzFwS1R4MjhNYjd2blVFZDE5RU9KQ1VzaEZUa3E0cmVybF9qcjhnUTRwWkswY0gteVBBMHhjRzNXNGc?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-23"
  },
  "nvidia--gen-7-robotaxi": {
   "categories": [
@@ -2946,6 +3031,22 @@
   ],
   "stage": "pilot",
   "updated": "2026-11-17"
+ },
+ "xpeng--iron": {
+  "categories": [
+   "humanoid"
+  ],
+  "company_id": "xpeng",
+  "description": "Универсальный гуманоидный робот XPeng ростом около 170 см",
+  "first_seen": "2026-11-23",
+  "focus": [],
+  "id": "xpeng--iron",
+  "name": "Iron",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/23/xpeng-to-showcase-humanoid-robot-and-physical-ai-advances-at-ai-day-2026/107497/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
  },
  "zipline--dostavka-dronami-zipline": {
   "categories": [
