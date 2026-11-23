@@ -452,6 +452,78 @@
   "stage": "serial",
   "updated": "2026-11-21"
  },
+ "brightai--ai-copilot": {
+  "categories": [
+   "inspection"
+  ],
+  "company_id": "brightai",
+  "description": "Носимый ИИ-помощник для полевых бригад. Стадия не уточнена.",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "tank"
+  ],
+  "id": "brightai--ai-copilot",
+  "name": "AI Copilot",
+  "sources": [
+   "https://fortune.com/2026/11/18/brightai-alex-hawkinson-physical-ai-unicorn-roman-infrastructure-inspections/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-23"
+ },
+ "brightai--autonomous-inspection-roboty-i-drony": {
+  "categories": [
+   "inspection"
+  ],
+  "company_id": "brightai",
+  "description": "Автономные роботы и дроны для инспекции. Компания заявляет производительность выше ручного осмотра более чем в 5 раз. Модели не названы. Работает у клиентов, например Azuria Water Solutions использует роботов со Stateful OS для осмотра водопроводов.",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "tank"
+  ],
+  "id": "brightai--autonomous-inspection-roboty-i-drony",
+  "name": "Autonomous Inspection (роботы и дроны)",
+  "sources": [
+   "https://yespress.io/brightai"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "brightai--edge-ai-datchiki-peel-and-stick": {
+  "categories": [
+   "inspection"
+  ],
+  "company_id": "brightai",
+  "description": "Edge AI-датчики, устанавливаемые без инструментов. Сверхдешёвые датчики-стикеры пока в дорожной карте.",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "tank"
+  ],
+  "id": "brightai--edge-ai-datchiki-peel-and-stick",
+  "name": "Edge AI-датчики (peel-and-stick)",
+  "sources": [
+   "https://sacra.com/c/brightai/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "brightai--stateful-stateful-os": {
+  "categories": [
+   "inspection"
+  ],
+  "company_id": "brightai",
+  "description": "Сквозная платформа, объединяющая датчики, edge-ИИ, облако и рабочие приложения. Серийная эксплуатация у клиентов.",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "tank"
+  ],
+  "id": "brightai--stateful-stateful-os",
+  "name": "Stateful / Stateful OS",
+  "sources": [
+   "https://sacra.com/c/brightai/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
  "brinc--brinc-liveops": {
   "categories": [
    "aerial"
@@ -652,6 +724,82 @@
   ],
   "stage": "serial",
   "updated": "2026-11-17"
+ },
+ "dronewash--franshiza": {
+  "categories": [
+   "cleaning",
+   "aerial"
+  ],
+  "company_id": "dronewash",
+  "description": "Включает обучение, консультации по оборудованию, маркетинг и поддержку. Стоимость не найдена.",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "facade"
+  ],
+  "id": "dronewash--franshiza",
+  "name": "Франшиза",
+  "sources": [
+   "https://www.trydronewash.com/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "dronewash--moyka-fasadov-i-krysh-chistka-solnechnyh-paneley": {
+  "categories": [
+   "cleaning",
+   "aerial"
+  ],
+  "company_id": "dronewash",
+  "description": "Услуги перечислены на сайте компании. Заявлены как действующие, цены не раскрыты.",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "facade"
+  ],
+  "id": "dronewash--moyka-fasadov-i-krysh-chistka-solnechnyh-paneley",
+  "name": "Мойка фасадов и крыш, чистка солнечных панелей",
+  "sources": [
+   "https://www.trydronewash.com/our-services"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "dronewash--moyka-okon-dronami": {
+  "categories": [
+   "cleaning",
+   "aerial"
+  ],
+  "company_id": "dronewash",
+  "description": "Мойка окон на тяжёлых дронах, высота до 400 футов. Модель дрона не названа.",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "facade"
+  ],
+  "id": "dronewash--moyka-okon-dronami",
+  "name": "Мойка окон дронами",
+  "sources": [
+   "https://www.trydronewash.com/locations/philadelphia"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "dronewash--moyuschee-sredstvo-foamstream-i-sistemy-podogreva-vody": {
+  "categories": [
+   "cleaning",
+   "aerial"
+  ],
+  "company_id": "dronewash",
+  "description": "Названы собственным решением компании.",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "facade"
+  ],
+  "id": "dronewash--moyuschee-sredstvo-foamstream-i-sistemy-podogreva-vody",
+  "name": "Моющее средство FoamStream и системы подогрева воды",
+  "sources": [
+   "https://www.trydronewash.com/case-studies"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
  },
  "dynamic-creatures--hugo": {
   "categories": [
@@ -954,6 +1102,106 @@
   "stage": "serial",
   "updated": "2026-11-19"
  },
+ "keenon-robotics--butlerbot-w3": {
+  "categories": [
+   "service",
+   "cleaning",
+   "humanoid"
+  ],
+  "company_id": "keenon-robotics",
+  "description": "Роботы для отелей, многоэтажная доставка",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "keenon-robotics--butlerbot-w3",
+  "name": "BUTLERBOT W3",
+  "sources": [
+   "https://droidage.com/company/keenon/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "keenon-robotics--dinerbot-t3-t8-t9-t10-t11": {
+  "categories": [
+   "service",
+   "cleaning",
+   "humanoid"
+  ],
+  "company_id": "keenon-robotics",
+  "description": "Роботы для ресторанов, доставки и маркетинга",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "keenon-robotics--dinerbot-t3-t8-t9-t10-t11",
+  "name": "DINERBOT (T3, T8, T9, T10, T11)",
+  "sources": [
+   "https://droidage.com/company/keenon/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "keenon-robotics--kleenbot-c20-c30-c40-c55": {
+  "categories": [
+   "service",
+   "cleaning",
+   "humanoid"
+  ],
+  "company_id": "keenon-robotics",
+  "description": "Роботы для коммерческой уборки",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "keenon-robotics--kleenbot-c20-c30-c40-c55",
+  "name": "KLEENBOT (C20, C30, C40, C55)",
+  "sources": [
+   "https://droidage.com/company/keenon/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "keenon-robotics--s100-s300": {
+  "categories": [
+   "service",
+   "cleaning",
+   "humanoid"
+  ],
+  "company_id": "keenon-robotics",
+  "description": "Роботы для тяжёлой доставки",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "keenon-robotics--s100-s300",
+  "name": "S100 / S300",
+  "sources": [
+   "https://droidage.com/company/keenon/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "keenon-robotics--xman-r1": {
+  "categories": [
+   "service",
+   "cleaning",
+   "humanoid"
+  ],
+  "company_id": "keenon-robotics",
+  "description": "Гуманоидный робот, представлен в марте 2025 года; пилотное тестирование, серийных продаж не найдено",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "keenon-robotics--xman-r1",
+  "name": "XMAN-R1",
+  "sources": [
+   "http://www.chinatoday.com.cn/ctenglish/2018/et/202601/t20260126_800428887.html"
+  ],
+  "stage": "pilot",
+  "updated": "2026-11-23"
+ },
  "kret--dmr-2854": {
   "categories": [
    "components"
@@ -1117,6 +1365,63 @@
   "stage": "prototype",
   "updated": "2026-11-16"
  },
+ "neptune-robotics--neptune-annual-care-usluga": {
+  "categories": [
+   "marine",
+   "inspection"
+  ],
+  "company_id": "neptune-robotics",
+  "description": "Программа годового обслуживания корпуса. Цены не найдены.",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "tank"
+  ],
+  "id": "neptune-robotics--neptune-annual-care-usluga",
+  "name": "Neptune Annual Care (услуга)",
+  "sources": [
+   "https://neptune-robotics.com/services/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "neptune-robotics--robot-n1": {
+  "categories": [
+   "marine",
+   "inspection"
+  ],
+  "company_id": "neptune-robotics",
+  "description": "Подводный полуавтономный дистанционно управляемый робот, используется в серийных услугах очистки корпуса судов (по данным кейса на сайте компании, примерно 2024 год).",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "tank"
+  ],
+  "id": "neptune-robotics--robot-n1",
+  "name": "Robot N1",
+  "sources": [
+   "https://neptune-robotics.com/case-studies-robotic-hull-cleaning/robotic-hull-clean-cases/neptune-robotic-hull-cleaning-restoring-hulls-to-their-original-glory/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "neptune-robotics--robotizirovannaya-ochistka-i-inspektsiya-korpusa-usluga": {
+  "categories": [
+   "marine",
+   "inspection"
+  ],
+  "company_id": "neptune-robotics",
+  "description": "Услуга роботизированной очистки корпуса, инспекции корпуса, полировки винта и очистки труднодоступных зон. Цены не найдены.",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "tank"
+  ],
+  "id": "neptune-robotics--robotizirovannaya-ochistka-i-inspektsiya-korpusa-usluga",
+  "name": "Роботизированная очистка и инспекция корпуса (услуга)",
+  "sources": [
+   "https://neptune-robotics.com/services/robotic-hull-cleaning/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
  "nexcom--robowiz": {
   "categories": [
    "other"
@@ -1165,6 +1470,397 @@
   ],
   "stage": "serial",
   "updated": "2026-11-21"
+ },
+ "peppermint-robotics--lineyka-cr-chistye-pomescheniya": {
+  "categories": [
+   "cleaning"
+  ],
+  "company_id": "peppermint-robotics",
+  "description": "Скруббер-сушилка прошла квалификационные испытания в чистой комнате EU GMP Grade C. Следующее поколение в разработке. Коммерческие поставки не подтверждены.",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "peppermint-robotics--lineyka-cr-chistye-pomescheniya",
+  "name": "Линейка CR (чистые помещения)",
+  "sources": [
+   "https://inc42.com/buzz/peppermint-robotics-bags-%E2%82%B9100-cr-to-scale-its-industrial-robotics-bet/"
+  ],
+  "stage": "prototype",
+  "updated": "2026-11-23"
+ },
+ "peppermint-robotics--lineyka-napolnyh-robotov-skrubbery-sushilki-pylesosy-mopy-dok-stantsii": {
+  "categories": [
+   "cleaning"
+  ],
+  "company_id": "peppermint-robotics",
+  "description": "Серийные роботы для коммерческой уборки и автоматические док-станции. Цена в Индии около 20 лакхов, в США от 35000 до 40000 долл. - средняя цена, названная основателем.",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "peppermint-robotics--lineyka-napolnyh-robotov-skrubbery-sushilki-pylesosy-mopy-dok-stantsii",
+  "name": "Линейка напольных роботов: скрубберы-сушилки, пылесосы, мопы, док-станции",
+  "price": {
+   "as_of": "2026-11-23",
+   "currency": "INR",
+   "source": "https://inc42.com/buzz/peppermint-robotics-bags-%E2%82%B9100-cr-to-scale-its-industrial-robotics-bet/",
+   "usd": 21562.53,
+   "value": 2000000.0
+  },
+  "sources": [
+   "https://inc42.com/buzz/peppermint-robotics-bags-%E2%82%B9100-cr-to-scale-its-industrial-robotics-bet/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "peppermint-robotics--peppermint-pro": {
+  "categories": [
+   "cleaning"
+  ],
+  "company_id": "peppermint-robotics",
+  "description": "Модель, упомянутая как один из напольных роботов компании в давнем интервью. Актуальность не проверена.",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "peppermint-robotics--peppermint-pro",
+  "name": "Peppermint Pro",
+  "sources": [
+   "https://circuitdigest.com/interview/runal-dahiwade-founder-of-peppermint-robots-talks-about-various-aspects-of-their-autonomous-floor-cleaning-robots"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-23"
+ },
+ "peppermint-robotics--roboty-dlya-transportirovki-materialov-3-modeli": {
+  "categories": [
+   "cleaning"
+  ],
+  "company_id": "peppermint-robotics",
+  "description": "Три модели для транспортировки материалов. Названия и цены не найдены.",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "peppermint-robotics--roboty-dlya-transportirovki-materialov-3-modeli",
+  "name": "Роботы для транспортировки материалов (3 модели)",
+  "sources": [
+   "https://inc42.com/buzz/peppermint-robotics-bags-%E2%82%B9100-cr-to-scale-its-industrial-robotics-bet/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-23"
+ },
+ "pudu-robotics--bellabot": {
+  "categories": [
+   "service",
+   "cleaning",
+   "humanoid",
+   "logistics"
+  ],
+  "company_id": "pudu-robotics",
+  "description": "Доставка в ресторанах",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "pudu-robotics--bellabot",
+  "name": "BellaBot",
+  "price": {
+   "as_of": "2026-11-23",
+   "currency": "USD",
+   "source": "https://www.robotlab.com/store/?brand=pudu",
+   "usd": 14500.0,
+   "value": 14500.0
+  },
+  "sources": [
+   "https://www.robotlab.com/store/?brand=pudu"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "pudu-robotics--cc1": {
+  "categories": [
+   "service",
+   "cleaning",
+   "humanoid",
+   "logistics"
+  ],
+  "company_id": "pudu-robotics",
+  "description": "Уборка",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "pudu-robotics--cc1",
+  "name": "CC1",
+  "price": {
+   "as_of": "2026-11-23",
+   "currency": "USD",
+   "source": "https://www.robotlab.com/store/?brand=pudu",
+   "usd": 22000.0,
+   "value": 22000.0
+  },
+  "sources": [
+   "https://www.robotlab.com/store/?brand=pudu"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "pudu-robotics--cc1-pro": {
+  "categories": [
+   "service",
+   "cleaning",
+   "humanoid",
+   "logistics"
+  ],
+  "company_id": "pudu-robotics",
+  "description": "Уборка",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "pudu-robotics--cc1-pro",
+  "name": "CC1 Pro",
+  "price": {
+   "as_of": "2026-11-23",
+   "currency": "USD",
+   "source": "https://www.robotlab.com/store/?brand=pudu",
+   "usd": 24000.0,
+   "value": 24000.0
+  },
+  "sources": [
+   "https://www.robotlab.com/store/?brand=pudu"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "pudu-robotics--d5": {
+  "categories": [
+   "service",
+   "cleaning",
+   "humanoid",
+   "logistics"
+  ],
+  "company_id": "pudu-robotics",
+  "description": "Четвероногий робот; стадия не найдена",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "pudu-robotics--d5",
+  "name": "D5",
+  "sources": [],
+  "stage": "unknown",
+  "updated": "2026-11-23"
+ },
+ "pudu-robotics--d7": {
+  "categories": [
+   "service",
+   "cleaning",
+   "humanoid",
+   "logistics"
+  ],
+  "company_id": "pudu-robotics",
+  "description": "Полугуманоид с колёсной базой; стадия не подтверждена; цена по запросу",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "pudu-robotics--d7",
+  "name": "D7",
+  "sources": [
+   "https://coral-lab.org/brands/pudu-robotics"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-23"
+ },
+ "pudu-robotics--d9": {
+  "categories": [
+   "service",
+   "cleaning",
+   "humanoid",
+   "logistics"
+  ],
+  "company_id": "pudu-robotics",
+  "description": "Гуманоид; стадия не подтверждена",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "pudu-robotics--d9",
+  "name": "D9",
+  "price": {
+   "as_of": "2026-11-23",
+   "currency": "USD",
+   "source": "https://robotixmarket.com/collections/pudu-robotics?shpxid=6364d9b9-77ae-48c5-b23e-39126597e180",
+   "usd": 60000.0,
+   "value": 60000.0
+  },
+  "sources": [
+   "https://robotixmarket.com/collections/pudu-robotics?shpxid=6364d9b9-77ae-48c5-b23e-39126597e180"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-23"
+ },
+ "pudu-robotics--flashbot-flashbot-max": {
+  "categories": [
+   "service",
+   "cleaning",
+   "humanoid",
+   "logistics"
+  ],
+  "company_id": "pudu-robotics",
+  "description": "Доставка в зданиях",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "pudu-robotics--flashbot-flashbot-max",
+  "name": "FlashBot / FlashBot Max",
+  "price": {
+   "as_of": "2026-11-23",
+   "currency": "USD",
+   "source": "https://www.robotshop.com/collections/pudu-robotics",
+   "usd": 20560.0,
+   "value": 20560.0
+  },
+  "sources": [
+   "https://www.robotshop.com/collections/pudu-robotics"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "pudu-robotics--t300-t600": {
+  "categories": [
+   "service",
+   "cleaning",
+   "humanoid",
+   "logistics"
+  ],
+  "company_id": "pudu-robotics",
+  "description": "Промышленная доставка; заявлено более 4 000 отгруженных единиц за год",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "pudu-robotics--t300-t600",
+  "name": "T300 / T600",
+  "sources": [
+   "https://m.thewire.in/article/ptiprnews/pudu-robotics-raises-nearly-usd-150-million-exceeds-usd-1-5-billion-valuation/amp"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "qysea--fifish-e-go": {
+  "categories": [
+   "marine",
+   "inspection"
+  ],
+  "company_id": "qysea",
+  "description": "Профессиональный ROV. Цена с НДС, ирландский дилер.",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "tank"
+  ],
+  "id": "qysea--fifish-e-go",
+  "name": "FIFISH E-GO",
+  "sources": [],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "qysea--fifish-e-master": {
+  "categories": [
+   "marine",
+   "inspection"
+  ],
+  "company_id": "qysea",
+  "description": "Промышленный ИИ-ROV для инспекции и съёмки. Цена Standard; есть варианты Plus ($10 928) и E200 Navi ($17 728).",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "tank"
+  ],
+  "id": "qysea--fifish-e-master",
+  "name": "FIFISH E-MASTER",
+  "sources": [],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "qysea--fifish-pro-v6-plus": {
+  "categories": [
+   "marine",
+   "inspection"
+  ],
+  "company_id": "qysea",
+  "description": "Снят с производства (дилер указывает DISCONTINUED).",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "tank"
+  ],
+  "id": "qysea--fifish-pro-v6-plus",
+  "name": "FIFISH PRO V6 PLUS",
+  "sources": [],
+  "stage": "discontinued",
+  "updated": "2026-11-23"
+ },
+ "qysea--fifish-pro-w6-w6-navi": {
+  "categories": [
+   "marine",
+   "inspection"
+  ],
+  "company_id": "qysea",
+  "description": "Цена не раскрыта, у дилера «Contact Us».",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "tank"
+  ],
+  "id": "qysea--fifish-pro-w6-w6-navi",
+  "name": "FIFISH PRO W6 / W6 Navi",
+  "sources": [],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "qysea--fifish-v-evo": {
+  "categories": [
+   "marine",
+   "inspection"
+  ],
+  "company_id": "qysea",
+  "description": "Потребительский ROV, 4K. Стандарт; вариант с манипулятором.",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "tank"
+  ],
+  "id": "qysea--fifish-v-evo",
+  "name": "FIFISH V-EVO",
+  "price": {
+   "as_of": "2026-11-23",
+   "currency": "USD",
+   "source": "https://store.qysea.com",
+   "usd": 1399.0,
+   "value": 1399.0
+  },
+  "sources": [
+   "https://store.qysea.com"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "qysea--v6-expert": {
+  "categories": [
+   "marine",
+   "inspection"
+  ],
+  "company_id": "qysea",
+  "description": "Линейка V6, в продаже у дилера.",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "tank"
+  ],
+  "id": "qysea--v6-expert",
+  "name": "V6 EXPERT",
+  "sources": [],
+  "stage": "serial",
+  "updated": "2026-11-23"
  },
  "realbotix--series-1-tabletop": {
   "categories": [
@@ -1238,13 +1934,58 @@
   "stage": "unknown",
   "updated": "2026-11-19"
  },
+ "richtech-robotics--adam": {
+  "categories": [
+   "cleaning",
+   "service",
+   "security"
+  ],
+  "company_id": "richtech-robotics",
+  "description": "Двурукий робот-бариста и бармен, развёрнут в Лос-Анджелесе, Нью-Йорке, Лас-Вегасе",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "richtech-robotics--adam",
+  "name": "ADAM",
+  "price": {
+   "as_of": "2026-11-23",
+   "currency": "USD",
+   "source": "https://finance.yahoo.com/news/richtech-robotics-lululemon-highlighted-zacks-074300820.html",
+   "usd": 25000.0,
+   "value": 25000.0
+  },
+  "sources": [
+   "https://finance.yahoo.com/news/richtech-robotics-lululemon-highlighted-zacks-074300820.html"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "richtech-robotics--dex": {
+  "categories": [
+   "cleaning",
+   "service",
+   "security"
+  ],
+  "company_id": "richtech-robotics",
+  "description": "Мобильный промышленный гуманоид на колёсной базе, показ на CES 2026, заявлены промышленные внедрения в 2026 г.",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "richtech-robotics--dex",
+  "name": "Dex",
+  "sources": [],
+  "stage": "unknown",
+  "updated": "2026-11-23"
+ },
  "richtech-robotics--dust-e": {
   "categories": [
    "cleaning",
    "security"
   ],
   "company_id": "richtech-robotics",
-  "description": "Система уборки с интеграцией CCTV.",
+  "description": "Автономная уборка, показ на HITEC 2026",
   "first_seen": "2026-11-17",
   "focus": [
    "floor"
@@ -1254,8 +1995,8 @@
   "sources": [
    "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVHB4Qy1XaWcwTDBtTFhkMXFldVNDTDB2ZVM4WU54aWxESEJXM3paajBCQ2NfSmlwNVM4eHRwVkpoMG1ldGJ1MlBsUXlVQUFGc2J2anI0TXBKbm9RSTBkaHNxRklfTjkzTWtYUmhqT2pMVk5aUWRJQ1RQVDZJYTd1VDloQmRFTldWU2pKc280RnR0NUxJMDlIMnhxV3hXUkRkY0FYUEROY0N0TzZMWHJCWWlxZTdPSzVmNnZoSW5icjRkXy10emQxNEJKU3FlZw?oc=5"
   ],
-  "stage": "unknown",
-  "updated": "2026-11-17"
+  "stage": "serial",
+  "updated": "2026-11-23"
  },
  "richtech-robotics--intelligent-cleaning-system": {
   "categories": [
@@ -1263,7 +2004,7 @@
    "service"
   ],
   "company_id": "richtech-robotics",
-  "description": "Система, объединяющая автономных уборочных роботов, камерный мониторинг и централизованные операционные данные.",
+  "description": "Роботы-уборщики плюс камеры и общий мониторинг, показ на ISSA Show 17-19.11.2026",
   "first_seen": "2026-11-17",
   "focus": [],
   "id": "richtech-robotics--intelligent-cleaning-system",
@@ -1272,7 +2013,7 @@
    "https://roboticsandautomationnews.com/2026/11/16/richtech-robotics-to-unveil-ai-powered-cleaning-system-at-issa-show-2026/107210/"
   ],
   "stage": "unknown",
-  "updated": "2026-11-17"
+  "updated": "2026-11-23"
  },
  "richtech-robotics--intelligent-cleaning-system-with-camera-integration": {
   "categories": [
@@ -1289,6 +2030,60 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-21"
+ },
+ "richtech-robotics--matradee": {
+  "categories": [
+   "cleaning",
+   "service",
+   "security"
+  ],
+  "company_id": "richtech-robotics",
+  "description": "Ресторанный робот для доставки блюд, работает в ресторанах, отелях, казино, домах престарелых и на заводах",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "richtech-robotics--matradee",
+  "name": "Matradee",
+  "sources": [],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "richtech-robotics--scorpion": {
+  "categories": [
+   "cleaning",
+   "service",
+   "security"
+  ],
+  "company_id": "richtech-robotics",
+  "description": "Однорукий робот для напитков, представлен 19.09.2024. Цены противоречат друг другу: около $18 000 по Zacks, $59 000 по сайту дистрибьютора; цена не записана",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "richtech-robotics--scorpion",
+  "name": "Scorpion",
+  "sources": [],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "richtech-robotics--titan": {
+  "categories": [
+   "cleaning",
+   "service",
+   "security"
+  ],
+  "company_id": "richtech-robotics",
+  "description": "Тяжёлые автономные мобильные платформы для доставки",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "richtech-robotics--titan",
+  "name": "Titan",
+  "sources": [],
+  "stage": "unknown",
+  "updated": "2026-11-23"
  },
  "ring--ring-drone-cam": {
   "categories": [
@@ -1349,12 +2144,102 @@
   "stage": "unknown",
   "updated": "2026-11-17"
  },
+ "rosiwit--pilot-one": {
+  "categories": [
+   "cleaning"
+  ],
+  "company_id": "rosiwit",
+  "description": "Ручная машина для локальной уборки (manual scrubber), не робот",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "rosiwit--pilot-one",
+  "name": "Pilot One",
+  "sources": [
+   "https://www.rosiwit.com/industrial-manufacture/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-23"
+ },
+ "rosiwit--rosiwit-365": {
+  "categories": [
+   "cleaning"
+  ],
+  "company_id": "rosiwit",
+  "description": "Облачная платформа: задачи, отчёты, мониторинг уборки. В эксплуатации",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "rosiwit--rosiwit-365",
+  "name": "Rosiwit 365",
+  "sources": [
+   "https://www.rosiwit.com/solutions/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "rosiwit--skywalker-40": {
+  "categories": [
+   "cleaning"
+  ],
+  "company_id": "rosiwit",
+  "description": "Упомянут на CMS Berlin 2023, актуальный статус не найден",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "rosiwit--skywalker-40",
+  "name": "Skywalker 40",
+  "sources": [
+   "https://www.rosiwit.com/news/rosiwit-presents-total-solutions-for-cleaning-cobotics-at-cms-berlin-2023/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-23"
+ },
+ "rosiwit--skywalker-50": {
+  "categories": [
+   "cleaning"
+  ],
+  "company_id": "rosiwit",
+  "description": "Компактный поломоечный робот для коммерческих объектов. Внедрения 2024–2025",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "rosiwit--skywalker-50",
+  "name": "Skywalker 50",
+  "sources": [
+   "https://www.rosiwit.com/case-studies/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "rosiwit--skywalker-gt": {
+  "categories": [
+   "cleaning"
+  ],
+  "company_id": "rosiwit",
+  "description": "Флагманский коммерческий уборочный робот для помещений. Представлен на CMS Berlin 2025, получил Red Dot Award 2026",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "rosiwit--skywalker-gt",
+  "name": "Skywalker GT",
+  "sources": [
+   "https://www.rosiwit.com/news/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
  "rosiwit--titan-810": {
   "categories": [
    "cleaning"
   ],
   "company_id": "rosiwit",
-  "description": "Промышленный робот для уборки.",
+  "description": "Промышленная поломоечная машина для складов и логистики. Продажи в Северной и Южной Америке начаты, есть сертификация FCC",
   "first_seen": "2026-11-19",
   "focus": [
    "floor"
@@ -1362,10 +2247,29 @@
   "id": "rosiwit--titan-810",
   "name": "Titan 810",
   "sources": [
-   "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU0ljRGN6VnhkZzJDOExiOUc3RHVzWTZITHdTZkw2bXdVdTNWam9CTW1renU5S0Y3QXBOSk03bXFybGNrMmlfOEk4VTNiSHlGdnZ0X011Ym5CTlBRRnd6LXVsYnR0YWFfWk1KcXFDRFZkYkU5ckw5R3Z5OFFkd2RKSW5STkhmUW9aTnFlZjRjLVVjV3cwd0lTR0JaSU4tR1dUVmx6Vm5OcVFadGNDWEdBYkZwMnplWFF2cDNGTXRJRURSVGw1MDdqMA?oc=5"
+   "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU0ljRGN6VnhkZzJDOExiOUc3RHVzWTZITHdTZkw2bXdVdTNWam9CTW1renU5S0Y3QXBOSk03bXFybGNrMmlfOEk4VTNiSHlGdnZ0X011Ym5CTlBRRnd6LXVsYnR0YWFfWk1KcXFDRFZkYkU5ckw5R3Z5OFFkd2RKSW5STkhmUW9aTnFlZjRjLVVjV3cwd0lTR0JaSU4tR1dUVmx6Vm5OcVFadGNDWEdBYkZwMnplWFF2cDNGTXRJRURSVGw1MDdqMA?oc=5",
+   "https://www.prnewswire.com/news-releases/rosiwit-showcases-titan-810-industrial-cleaning-robot-at-issa-show-north-america-2026-302943683.html"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "rosiwit--x-rolling": {
+  "categories": [
+   "cleaning"
+  ],
+  "company_id": "rosiwit",
+  "description": "Уличный робот-подметальщик для уборки и патрулирования. Статус не уточнён",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "rosiwit--x-rolling",
+  "name": "X-Rolling",
+  "sources": [
+   "https://www.rosiwit.com/"
   ],
   "stage": "unknown",
-  "updated": "2026-11-19"
+  "updated": "2026-11-23"
  },
  "rosteh--depesha": {
   "categories": [
@@ -1622,6 +2526,42 @@
   "stage": "unknown",
   "updated": "2026-11-17"
  },
+ "stingray-robotix--hull-crawler": {
+  "categories": [
+   "marine"
+  ],
+  "company_id": "stingray-robotix",
+  "description": "ROV с магнитными гусеницами и кавитационными струями для очистки и осмотра подводной части судов, глубина до 200 м. Известны испытания прототипа, данных о серийном выпуске нет.",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "tank"
+  ],
+  "id": "stingray-robotix--hull-crawler",
+  "name": "Hull Crawler",
+  "sources": [
+   "https://x.com/stingrayrobotix/status/2112097881587118503"
+  ],
+  "stage": "prototype",
+  "updated": "2026-11-23"
+ },
+ "stingray-robotix--hydrosim": {
+  "categories": [
+   "marine"
+  ],
+  "company_id": "stingray-robotix",
+  "description": "Подводный симулятор на Unreal Engine 5. Стадия разработки не раскрыта.",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "tank"
+  ],
+  "id": "stingray-robotix--hydrosim",
+  "name": "HydroSim",
+  "sources": [
+   "https://startuppedia.in/tech-innovation/delhi-based-stingray-robotix-develops-underwater-robot-to-clean-ship-hulls-using-magnetic-tracks-and-cavitation-jets-12801512"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-23"
+ },
  "surskaya-mebel--promyshlennyy-robot-estun": {
   "categories": [
    "manufacturing"
@@ -1656,6 +2596,92 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-20"
+ },
+ "tennant--t380amr": {
+  "categories": [
+   "cleaning"
+  ],
+  "company_id": "tennant",
+  "description": "Компактный автономный робот для магазинов, больниц и школ. Серийный выпуск с 2020 г.",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "tennant--t380amr",
+  "name": "T380AMR",
+  "sources": [
+   "https://www.automatedwarehouseonline.com/schnucks-deploys-tennant-t380amr-robotic-floor-scrubbers/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "tennant--t7amr": {
+  "categories": [
+   "cleaning"
+  ],
+  "company_id": "tennant",
+  "description": "Упомянут в кейсе Albert (2022 г.). Отдельной карточки продукта не найдено.",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "tennant--t7amr",
+  "name": "T7AMR",
+  "sources": [
+   "https://www.braincorp.com/resources/case-study-robotic-scrubbers-help-albert-automate-its-floor-cleaning-196b0-c35b4"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-23"
+ },
+ "tennant--x2-rovr-scrub": {
+  "categories": [
+   "cleaning"
+  ],
+  "company_id": "tennant",
+  "description": "Самая маленькая модель, проходит в проходах шириной от 29 дюймов (74 см). Заказ открыт с конца мая 2026 г.",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "tennant--x2-rovr-scrub",
+  "name": "X2 ROVR SCRUB",
+  "sources": [
+   "https://lasvegassun.com/news/2026/may/11/tennant-company-introduces-x2-rovr-scrub-for-auton/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-23"
+ },
+ "tennant--x4-rovr": {
+  "categories": [
+   "cleaning"
+  ],
+  "company_id": "tennant",
+  "description": "Автономный робот для малых и средних помещений. Дата запуска не найдена.",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "tennant--x4-rovr",
+  "name": "X4 ROVR",
+  "sources": [],
+  "stage": "unknown",
+  "updated": "2026-11-23"
+ },
+ "tennant--x6-rovr": {
+  "categories": [
+   "cleaning"
+  ],
+  "company_id": "tennant",
+  "description": "Автономный робот для крупных и сложных объектов. Дата запуска не найдена.",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "tennant--x6-rovr",
+  "name": "X6 ROVR",
+  "sources": [],
+  "stage": "unknown",
+  "updated": "2026-11-23"
  },
  "tesla--cybercab": {
   "categories": [
@@ -1790,6 +2816,85 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-16"
+ },
+ "viggo--mix1-mix1pro": {
+  "categories": [
+   "cleaning"
+  ],
+  "company_id": "viggo",
+  "description": "Коммерческие подметально-моющие роботы; Mix1Pro представлен в ноябре 2026 года",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "viggo--mix1-mix1pro",
+  "name": "Mix1 / Mix1Pro",
+  "sources": [
+   "https://www.prnewswire.com/news-releases/viggo-launches-mix1pro-commercial-cleaning-robot-at-issa-show-north-america-2026-302946803.html"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "viggo--s100-n": {
+  "categories": [
+   "cleaning"
+  ],
+  "company_id": "viggo",
+  "description": "Наружная уборка, подметание",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "viggo--s100-n",
+  "name": "S100-N",
+  "sources": [
+   "https://www.viggorobot.com/autonomous-cleaning-machines/viggo-s100-n.html"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "viggo--sc50-sc50-plus-sc50proplus": {
+  "categories": [
+   "cleaning"
+  ],
+  "company_id": "viggo",
+  "description": "Для крупных ТЦ, аэропортов, складов; уборка до 1800 м²/ч",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "viggo--sc50-sc50-plus-sc50proplus",
+  "name": "SC50 / SC50 Plus / SC50ProPlus",
+  "sources": [
+   "https://xn--80abvf7ap.xn--p1ai/news/robot-polomoyshchik-viggo-sc50-plus/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
+ },
+ "viggo--sc80-sc80pro": {
+  "categories": [
+   "cleaning"
+  ],
+  "company_id": "viggo",
+  "description": "Для крупных помещений; конфигурации от 3 300 000 руб. у российского дилера, цена дилерская",
+  "first_seen": "2026-11-23",
+  "focus": [
+   "floor"
+  ],
+  "id": "viggo--sc80-sc80pro",
+  "name": "SC80 / SC80Pro",
+  "price": {
+   "as_of": "2026-11-23",
+   "currency": "RUB",
+   "source": "https://www.umserv.ru/catalog/roboty/roboty-dlya-uborki/polomoechnaya-mashina-viggo-sc80/",
+   "usd": 40249.62,
+   "value": 3300000.0
+  },
+  "sources": [
+   "https://www.umserv.ru/catalog/roboty/roboty-dlya-uborki/polomoechnaya-mashina-viggo-sc80/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-23"
  },
  "waymo--robotaksi-waymo": {
   "categories": [

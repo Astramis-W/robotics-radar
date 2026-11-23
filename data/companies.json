@@ -866,17 +866,35 @@
  },
  "brightai": {
   "aliases": [
-   "Bright AI"
+   "Bright AI",
+   "BrightAI Corp",
+   "BrightAI Corporation"
   ],
   "categories": [
    "inspection"
   ],
   "country": "",
-  "description": "Компания физического ИИ для инфраструктуры",
+  "description": "Платформа физического ИИ Stateful: edge-датчики на опорах, трубопроводах, компрессорах и баках, объединённые с автономными роботами, дронами и носимыми ИИ-помощниками для полевых бригад. Роботы и дроны являются частью платформы, а не отдельным продуктом. Клиенты: операторы энергетики, воды, газа и…",
+  "employees": {
+   "as_of": "2026-11-23",
+   "source": "https://tracxn.com/d/companies/brightai/__so0lT6x2ulYnFtw5LQRIYCliUKsNEjvwqz-fX2t38Bo",
+   "value": 159
+  },
+  "enrich_note": "Сумма 184 млн и оценка 750 млн основаны на анонимном источнике или данных компании, оценку компания официально не раскрывала. Сотрудники: источники расходятся (112 в марте 2026 по reveliolabs, 122 по PitchBook, 159 в сентябре 2026 по Tracxn); компания сообщила, что headcount удвоился в 2025 году. Ш…",
+  "enriched_at": "2026-11-23",
   "first_seen": "2026-11-20",
   "focus": [
    "tank"
   ],
+  "founded": 2019,
+  "funding_total": {
+   "as_of": "2026-11-23",
+   "currency": "USD",
+   "source": "https://fortune.com/2026/11/18/brightai-alex-hawkinson-physical-ai-unicorn-roman-infrastructure-inspections/",
+   "usd": 184000000.0,
+   "value": 184000000.0
+  },
+  "hq_city": "Palo Alto",
   "id": "brightai",
   "last_round": {
    "as_of": "2026-11-19",
@@ -889,7 +907,15 @@
   },
   "name": "BrightAI",
   "origin": "news",
-  "updated": "2026-11-20"
+  "status": "active",
+  "updated": "2026-11-23",
+  "valuation": {
+   "as_of": "2026-11-18",
+   "currency": "USD",
+   "source": "https://fortune.com/2026/11/18/brightai-alex-hawkinson-physical-ai-unicorn-roman-infrastructure-inspections/",
+   "usd": 750000000.0,
+   "value": 750000000.0
+  }
  },
  "brinc": {
   "aliases": [
@@ -1212,22 +1238,34 @@
  "dronewash": {
   "aliases": [
    "DroneWash+",
-   "DRONEWASH+"
+   "DRONEWASH+",
+   "Drone Wash, LLC"
   ],
   "categories": [
    "cleaning",
    "aerial"
   ],
   "country": "",
-  "description": "",
+  "description": "Сервисная компания и франшиза по коммерческой мойке окон, фасадов, крыш и солнечных панелей с помощью дронов. Собственных роботов не производит, дроны используются в работе. Клиенты: коммерческие здания, больницы, стадионы.",
+  "employees": {
+   "as_of": "2026-11-23",
+   "source": "https://rocketreach.co/drone-wash-profile_b730f594c412965d",
+   "value": 5
+  },
+  "enrich_note": "Год основания 2021 по сайту компании (страница about-drone-wash, 2025 г.); RocketReach указывает 2023, идея датируется 2020. Штаб-квартира и офис: 1635 W 13th Ave, Denver, CO 80204 (источник: https://www.trydronewash.com/post/colorado-first-drone-cleaning-company). Статус active по ©2026 на сайте,…",
+  "enriched_at": "2026-11-23",
   "first_seen": "2026-11-23",
   "focus": [
    "facade"
   ],
+  "founded": 2021,
+  "hq_city": "Денвер",
   "id": "dronewash",
   "name": "DRONEWASH+",
   "origin": "news",
-  "updated": "2026-11-23"
+  "status": "active",
+  "updated": "2026-11-23",
+  "website": "https://www.trydronewash.com/"
  },
  "dusty-robotics": {
   "aliases": [],
@@ -2401,7 +2439,9 @@
  },
  "keenon-robotics": {
   "aliases": [
-   "Keenon"
+   "Keenon",
+   "擎朗智能",
+   "Keenon Robotic Co. Ltd."
   ],
   "categories": [
    "service",
@@ -2409,15 +2449,45 @@
    "humanoid"
   ],
   "country": "CN",
-  "description": "Производитель сервисных и уборочных роботов для коммерческих помещений.",
+  "description": "Китайский производитель коммерческих сервисных роботов (доставка, уборка, гостиничные и промышленные роботы) для ресторанов, отелей, больниц и торговых центров. Основана в 2010 году, штаб-квартира в Шанхае, частная компания. В январе 2026 года СМИ сообщали о планах листинга в Гонконге.",
+  "employees": {
+   "as_of": "2026-11-23",
+   "source": "https://pitchbook.com/profiles/company/266056-39",
+   "value": 300
+  },
+  "enrich_note": "Выручка не записана: Getlatka 139 млн USD оценивается как низкокачественный источник, ZoomInfo 797 млн USD считается недостоверным. Сумма привлечённых средств расходится: CB Insights 228,79 млн, Multiples 229 млн, Tracxn и Getlatka 28,7 млн и 200 млн; записана цифра Multiples. Оценка 1 млрд USD от…",
+  "enriched_at": "2026-11-23",
   "first_seen": "2026-11-16",
   "focus": [
    "floor"
   ],
+  "founded": 2010,
+  "funding_total": {
+   "as_of": "2026-11-23",
+   "currency": "USD",
+   "source": "https://multiples.vc/private-comps/keenon-robotics",
+   "usd": 229000000.0,
+   "value": 229000000.0
+  },
+  "hq_city": "Шанхай",
   "id": "keenon-robotics",
   "name": "Keenon Robotics",
   "origin": "seed",
-  "updated": "2026-11-21"
+  "robots_deployed": {
+   "as_of": "2026-11-23",
+   "source": "https://craft.co/keenon-robotics",
+   "value": 35000
+  },
+  "status": "active",
+  "updated": "2026-11-23",
+  "valuation": {
+   "as_of": "2022-01-08",
+   "currency": "USD",
+   "source": "https://tracxn.com/d/companies/keenon-robotics/__z4b-z-cmoAaWrQaqWdQ_cmLIsMw4QinHicyggKkB1nc",
+   "usd": 1000000000.0,
+   "value": 1000000000.0
+  },
+  "website": "https://keenon.com.cn/en"
  },
  "kite-robotics": {
   "aliases": [],
@@ -2972,15 +3042,44 @@
    "inspection"
   ],
   "country": "",
-  "description": "",
+  "description": "Робототехническая компания, оказывает услуги роботизированной очистки и инспекции корпусов судов по модели Robotics-as-a-Service для судовладельцев, фрахтователей и судоуправляющих компаний.",
+  "employees": {
+   "as_of": "2026-11-23",
+   "source": "https://tracxn.com/d/companies/neptune-robotics/__MCnLFrUd757s3qyLUv8QrRKiU1aWOSVT93ug58cwdoI",
+   "value": 66
+  },
+  "enrich_note": "Год основания не определён однозначно: The Digital Ship дает 2019, CB Insights и Pitchbook дают 2018, поэтому поле 0. Штаб-квартира по Pitchbook: Сингапур. Юрлицо по Tracxn: Neptune Robotics Pte. Ltd., UEN 202421439K, дата регистрации 28.05.2024; не проверено, что это первое юрлицо, ИНН не российск…",
+  "enriched_at": "2026-11-23",
   "first_seen": "2026-11-17",
   "focus": [
    "tank"
   ],
+  "funding_total": {
+   "as_of": "2026-11-23",
+   "currency": "USD",
+   "source": "https://www.cbinsights.com/company/nept/financials",
+   "usd": 69250000.0,
+   "value": 69250000.0
+  },
+  "hq_city": "Сингапур",
   "id": "neptune-robotics",
+  "last_round": {
+   "as_of": "2025-09-29",
+   "currency": "USD",
+   "investors": [
+    "Granite Asia",
+    "NYK Line"
+   ],
+   "source": "https://neptune-robotics.com/company/neptune-robotics-raises-52m-series-b-led-by-granite-asia/",
+   "type": "Series B",
+   "usd": 52000000.0,
+   "value": 52000000.0
+  },
   "name": "Neptune Robotics",
   "origin": "news",
-  "updated": "2026-11-17"
+  "status": "active",
+  "updated": "2026-11-23",
+  "website": "https://neptune-robotics.com"
  },
  "new-castle-county-division-of-police": {
   "aliases": [
@@ -3250,16 +3349,27 @@
   }
  },
  "peppermint-robotics": {
-  "aliases": [],
+  "aliases": [
+   "Aubotz Labs Private Limited"
+  ],
   "categories": [
    "cleaning"
   ],
   "country": "IN",
-  "description": "Производитель роботов для уборки, выходец из IIT Bombay.",
+  "description": "Компания проектирует, производит и внедряет автономных роботов для коммерческой уборки полов и транспортировки материалов. Вышла из инкубатора IIT Bombay. Роботы работают на заводах, в больницах, аэропортах, торговых центрах, складах, отелях и университетах. Основные покупатели - компании по управл…",
+  "employees": {
+   "as_of": "2026-11-23",
+   "source": "https://tracxn.com/d/companies/peppermint-robotics/__-EkU4WYBomM8W_kDDCBNEBCdQqOdW9nhMxu-JXOjE3Q",
+   "value": 130
+  },
+  "enrich_note": "Сумма всего привлечённого расходится: около 150 крор по расчёту startupfeed, 5,6 млн долл. до последнего раунда, 5,55 млн долл. по CB Insights, 14,1 млн долл. по Tracxn; официальной цифры нет, поэтому funding_total=0. Последний раунд Pre-Series B: 100 крор INR, часть - вторичные сделки. Предыдущий…",
+  "enriched_at": "2026-11-23",
   "first_seen": "2026-11-16",
   "focus": [
    "floor"
   ],
+  "founded": 2019,
+  "hq_city": "Пуна",
   "id": "peppermint-robotics",
   "last_round": {
    "as_of": "2026-11-06",
@@ -3272,6 +3382,15 @@
   },
   "name": "Peppermint Robotics",
   "origin": "seed",
+  "revenue": {
+   "as_of": "2026-11-23",
+   "currency": "INR",
+   "source": "https://ascendants.in/business-stories/peppermint-robotics-raises-100-crore-funding-industrial-automation/",
+   "usd": 2264065.73,
+   "value": 210000000.0,
+   "year": 2025
+  },
+  "status": "active",
   "updated": "2026-11-23"
  },
  "percepto": {
@@ -3417,7 +3536,8 @@
  },
  "pudu-robotics": {
   "aliases": [
-   "Pudu"
+   "Pudu",
+   "Shenzhen Pudu Technology Co., Ltd."
   ],
   "categories": [
    "service",
@@ -3426,17 +3546,44 @@
    "logistics"
   ],
   "country": "CN",
-  "description": "Китайский производитель коммерческих сервисных роботов.",
+  "description": "Китайский производитель коммерческих сервисных роботов: сервисная доставка, коммерческая уборка, промышленная доставка и embodied AI",
   "employees": {
    "as_of": "2026-11-04",
    "source": "https://roboticsandautomationnews.com/2026/11/18/pudu-robotics-rides-the-tidal-wave-of-chinas-ai-revolution/107193/",
    "value": 1600
   },
+  "enrich_note": "Выручка за 2025 год в абсолютном выражении не найдена; известно лишь, что рост более 100% к 2024 году. Раунд апреля 2026 года: почти $150 млн, тип не назван. Цифры по общей сумме инвестиций расходятся (более $300 млн по данным компании, более 2 млрд юаней по Gasgoo, $220,71 млн по CB Insights за 20…",
+  "enriched_at": "2026-11-23",
   "first_seen": "2026-11-16",
   "focus": [
    "floor"
   ],
+  "founded": 2016,
+  "funding_total": {
+   "as_of": "2026-11-23",
+   "currency": "USD",
+   "source": "https://m.thewire.in/article/ptiprnews/pudu-robotics-raises-nearly-usd-150-million-exceeds-usd-1-5-billion-valuation/amp",
+   "usd": 300000000.0,
+   "value": 300000000.0
+  },
+  "hq_city": "Шэньчжэнь",
   "id": "pudu-robotics",
+  "last_round": {
+   "as_of": "2026-04-23",
+   "currency": "USD",
+   "investors": [
+    "Longgang Financial Holding",
+    "Ya Capital",
+    "BAIC Industrial Investment",
+    "Lens Technology",
+    "Highlight Capital",
+    "государственные фонды дельт Жемчужной и Янцзы"
+   ],
+   "source": "https://m.thewire.in/article/ptiprnews/pudu-robotics-raises-nearly-usd-150-million-exceeds-usd-1-5-billion-valuation/amp",
+   "type": "",
+   "usd": 150000000.0,
+   "value": 150000000.0
+  },
   "name": "Pudu Robotics",
   "origin": "seed",
   "robots_deployed": {
@@ -3444,7 +3591,16 @@
    "source": "https://www.therobotreport.com/from-commercial-scale-to-embodied-intelligence-the-next-challenge-for-robotics/",
    "value": 130000
   },
-  "updated": "2026-11-19"
+  "status": "active",
+  "updated": "2026-11-23",
+  "valuation": {
+   "as_of": "2026-04",
+   "currency": "USD",
+   "source": "https://autonews.gasgoo.com/articles/icv/seeds-pudu-robotics-closes-nearly-1-billion-yuan-funding-round-valuation-exceeds-10-billion-yuan-2047305274711334912",
+   "usd": 1500000000.0,
+   "value": 1500000000.0
+  },
+  "website": "https://www.pudurobotics.com"
  },
  "qlayers": {
   "aliases": [],
@@ -3464,22 +3620,32 @@
  },
  "qysea": {
   "aliases": [
-   "Qysea"
+   "Qysea",
+   "FiFish",
+   "Shenzhen QYSEA / Fifish Technology Co., Ltd.",
+   "深圳鳍源科技有限公司"
   ],
   "categories": [
    "marine",
    "inspection"
   ],
   "country": "",
-  "description": "",
+  "description": "Разрабатывает и производит подводные телеуправляемые аппараты (ROV) под брендом FIFISH для промышленных задач (нефть и газ, ветроэнергетика, судоходство, аквакультура) и для потребителей и создателей видео.",
+  "enrich_note": "Справка на 23.11.2026. Компания найдена и идентифицирована однозначно (не однофамилец). Сумма последнего раунда B2 расходится: 36kr говорит о более 50 млн юаней, пресс-релиз компании о 10 млн юаней, поэтому сумма не записана. Предыдущий раунд B1 (сентябрь 2021, десятки млн юаней, Xiaomi Group и Shu…",
+  "enriched_at": "2026-11-23",
   "first_seen": "2026-11-19",
   "focus": [
    "tank"
   ],
+  "founded": 2016,
+  "hq_city": "Шэньчжэнь",
   "id": "qysea",
+  "inn": "91440300MA5DG…",
   "name": "QYSEA",
   "origin": "news",
-  "updated": "2026-11-19"
+  "status": "active",
+  "updated": "2026-11-23",
+  "website": "http://www.qysea.com"
  },
  "raise": {
   "aliases": [],
@@ -3579,7 +3745,8 @@
  },
  "richtech-robotics": {
   "aliases": [
-   "Richtech"
+   "Richtech",
+   "Richtech Creative Displays LLC"
   ],
   "categories": [
    "cleaning",
@@ -3587,15 +3754,50 @@
    "security"
   ],
   "country": "US",
-  "description": "Разработчик AI-сервисных роботов из Невады.",
+  "description": "Разработчик сервисных и промышленных роботов из Невады: роботы для ресторанов, отелей, домов престарелых, казино, фабрик и кинотеатров. Публичная компания, тикер RR на Nasdaq, IPO 17.11.2023.",
+  "employees": {
+   "as_of": "2026-11-23",
+   "source": "https://in.tradingview.com/symbols/NASDAQ-RR",
+   "value": 55
+  },
+  "enrich_note": "Сайт заявляет 500+ роботов, но дата не указана; сторонний сайт пишет 450+, этому источнику доверять меньше. Сотрудники: PitchBook дает 75 без даты, официальное число стоит брать из 10-K. Чистый убыток FY2025: 15,754 млн USD в первичном 10-K и 49,1 млн USD после пересмотра (10-K/A, переоценка варран…",
+  "enriched_at": "2026-11-23",
   "first_seen": "2026-11-17",
   "focus": [
    "floor"
   ],
+  "founded": 2016,
+  "hq_city": "Лас-Вегас",
   "id": "richtech-robotics",
+  "last_round": {
+   "as_of": "2026-01-29",
+   "currency": "USD",
+   "investors": [
+    "один институциональный инвестор (имя не раскрыто)"
+   ],
+   "source": "https://www.stocktitan.net/sec-filings/RR/8-k-richtech-robotics-inc-reports-material-event-72a0d28b558f.html",
+   "type": "приватное размещение (PIPE)",
+   "usd": 38675000.0,
+   "value": 38675000.0
+  },
   "name": "Richtech Robotics",
   "origin": "news",
-  "updated": "2026-11-21"
+  "revenue": {
+   "as_of": "2026-11-23",
+   "currency": "USD",
+   "source": "https://www.sec.gov/Archives/edgar/data/1963685/000121390026005343/ea0272362-10k_richtech.htm",
+   "usd": 5045000.0,
+   "value": 5045000.0,
+   "year": 2025
+  },
+  "robots_deployed": {
+   "as_of": "FY2024 (10",
+   "source": "https://www.sec.gov/Archives/edgar/data/1963685/000121390025003458/ea0226831-10k_richtech.htm",
+   "value": 300
+  },
+  "status": "active",
+  "updated": "2026-11-23",
+  "website": "https://www.richtechrobotics.com/"
  },
  "ring": {
   "aliases": [
@@ -3730,20 +3932,35 @@
   "updated": "2026-11-16"
  },
  "rosiwit": {
-  "aliases": [],
+  "aliases": [
+   "Xiazhi Technology",
+   "霞智科技",
+   "Rosiwit Cobotics"
+  ],
   "categories": [
    "cleaning"
   ],
   "country": "",
-  "description": "",
+  "description": "Китайская частная робототехническая компания. Выпускает роботов-уборщиков с ИИ и роботизированные поломоечные машины для торговых центров, заводов и складов. Клиенты: B2B, коммерческие и промышленные объекты. Юрлицо: ROSIWIT TECHNOLOGY CO., LTD.",
+  "employees": {
+   "as_of": "2026-11-23",
+   "source": "https://pitchbook.com/profiles/company/538289-38",
+   "value": 100
+  },
+  "enrich_note": "Компания относится к робототехнике, найдена и подтверждена. Год основания: 2021 по CB Insights, Crunchbase и китайской прессе, Tracxn указывает 2022. Сумма привлечения надёжно не подтверждена: PitchBook пишет $10M без разбивки, поэтому поле оставлено 0. Pre-A от 19.10.2023 без точной суммы (несколь…",
+  "enriched_at": "2026-11-23",
   "first_seen": "2026-11-19",
   "focus": [
    "floor"
   ],
+  "founded": 2021,
+  "hq_city": "Нанкин",
   "id": "rosiwit",
   "name": "Rosiwit",
   "origin": "news",
-  "updated": "2026-11-19"
+  "status": "active",
+  "updated": "2026-11-23",
+  "website": "https://www.rosiwit.com/"
  },
  "rosteh": {
   "aliases": [
@@ -4233,21 +4450,27 @@
  },
  "stingray-robotix": {
   "aliases": [
-   "Stingray Robotix"
+   "Stingray Robotix",
+   "Stingray Robotix Private Limited"
   ],
   "categories": [
    "marine"
   ],
   "country": "IN",
-  "description": "",
+  "description": "Индийская компания Stingray Robotix (Stingray Robotix Private Limited) разрабатывает автономного подводного ROV Hull Crawler для очистки и осмотра подводной части коммерческих судов без выхода из воды, а также симулятор HydroSim на Unreal Engine 5.",
+  "enrich_note": "Юрлицо зарегистрировано в Индии 02.05.2024, CIN U46593UP2024PTC202057 (ИНН не применим). Зарегистрированный адрес по данным MCA: Saharanpur, Uttar Pradesh, 247001. В СМИ компания называется Delhi-based, но фактическое расположение штаб-квартиры не подтверждено, поэтому hq_city пустой. Основатели: M…",
+  "enriched_at": "2026-11-23",
   "first_seen": "2026-11-17",
   "focus": [
    "tank"
   ],
+  "founded": 2024,
   "id": "stingray-robotix",
   "name": "Stingray Robotix",
   "origin": "news",
-  "updated": "2026-11-17"
+  "status": "active",
+  "updated": "2026-11-23",
+  "website": "https://www.stingrayrobotix.com/"
  },
  "surskaya-mebel": {
   "aliases": [
@@ -4407,21 +4630,48 @@
  },
  "tennant": {
   "aliases": [
-   "Tennant Company"
+   "Tennant Company",
+   "TNC"
   ],
   "categories": [
    "cleaning"
   ],
   "country": "US",
-  "description": "Производитель оборудования для профессиональной уборки полов",
+  "description": "Публичный производитель оборудования для уборки полов (поломоечные и подметальные машины). Робототехника (Tennant Company Robotics) — одно из направлений компании. Автономность роботов обеспечивает ПО Brain Corp (BrainOS).",
+  "employees": {
+   "as_of": "2026-11-23",
+   "source": "https://www.businesswire.com/news/home/20260223955763/en/Tennant-Company-Reports-2025-Fourth-Quarter-and-Full-Year-Results",
+   "value": 4500
+  },
+  "enrich_note": "Компания публичная, венчурных раундов не найдено; рыночная капитализация $1,13 млрд указана как оценка рынка, а не раунд. Цель 10 новых роботизированных продуктов за два года и выручка робототехники $250 млн к 2028 г. — это план, а не факт. Цифра более 5 400 роботов относится к совместной статистик…",
+  "enriched_at": "2026-11-23",
   "first_seen": "2026-11-16",
   "focus": [
    "floor"
   ],
+  "founded": 1870,
+  "hq_city": "Eden Prairie",
   "id": "tennant",
   "name": "Tennant",
   "origin": "seed",
-  "updated": "2026-11-20"
+  "revenue": {
+   "as_of": "2026-11-23",
+   "currency": "USD",
+   "source": "https://www.businesswire.com/news/home/20260223955763/en/Tennant-Company-Reports-2025-Fourth-Quarter-and-Full-Year-Results",
+   "usd": 1203500000.0,
+   "value": 1203500000.0,
+   "year": 2025
+  },
+  "status": "active",
+  "updated": "2026-11-23",
+  "valuation": {
+   "as_of": "2026-10-14",
+   "currency": "USD",
+   "source": "https://stockanalysis.com/stocks/tnc/market-cap/",
+   "usd": 1130000000.0,
+   "value": 1130000000.0
+  },
+  "website": "https://www.tennantco.com"
  },
  "tesla": {
   "aliases": [
@@ -4843,21 +5093,46 @@
  },
  "viggo": {
   "aliases": [
-   "VIGGO"
+   "VIGGO",
+   "Idriverplus",
+   "北京智行者科技股份有限公司",
+   "Beijing IDRIVERPLUS Technology Co., Ltd."
   ],
   "categories": [
    "cleaning"
   ],
   "country": "",
-  "description": "",
+  "description": "VIGGO — бренд роботов-уборщиков китайской компании Idriverplus (北京智行者科技股份有限公ница). Бренд выпускает автономные поломоечные и подметальные роботы для торговых центров, аэропортов, складов, заводов, паркингов и улиц.",
+  "employees": {
+   "as_of": "2026-11-23",
+   "source": "https://www.smartautoclub.com/p/30212/",
+   "value": 400
+  },
+  "enrich_note": "Год основания и штаб-квартира по Baidu Baike (北京智行者科技股份有限公司, 6 мая 2015 года, Пекин, Yizhuang); отдельного поля для источника в схеме нет. Сайт viggorobot.com — официальный сайт бренда; юрлицо Beijing Velobotics на нём указано, связь с Idriverplus не проверена. Всего привлечено, оценка, выручка и ч…",
+  "enriched_at": "2026-11-23",
   "first_seen": "2026-11-22",
   "focus": [
    "floor"
   ],
+  "founded": 2015,
+  "hq_city": "Пекин",
   "id": "viggo",
+  "last_round": {
+   "as_of": "2026-01-04",
+   "currency": "CNY",
+   "investors": [
+    "黄石市产业发展基金"
+   ],
+   "source": "https://news.qq.com/rain/a/20260105A05WF900",
+   "type": "стратегический (в источниках…",
+   "usd": 59868185.22,
+   "value": 400000000.0
+  },
   "name": "VIGGO",
   "origin": "news",
-  "updated": "2026-11-22"
+  "status": "active",
+  "updated": "2026-11-23",
+  "website": "https://www.viggorobot.com/"
  },
  "volatus-aerospace": {
   "aliases": [
