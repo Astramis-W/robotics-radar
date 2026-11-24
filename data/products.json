@@ -39,6 +39,24 @@
   "stage": "unknown",
   "updated": "2026-11-23"
  },
+ "a2z-drone-delivery--airdock": {
+  "categories": [
+   "aerial",
+   "security"
+  ],
+  "company_id": "a2z-drone-delivery",
+  "description": "Станция для дронов, используемая в сети дронов первого реагирования.",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "a2z-drone-delivery--airdock",
+  "name": "AirDock",
+  "sources": [
+   "https://dronelife.com/2026/11/24/a2z-drone-first-responder-forsyth-county/",
+   "https://www.suasnews.com/2026/11/forsyth-county-sheriffs-office-launches-first-u-s-a2z-airdock-network/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-24"
+ },
  "abz-innovation--c30": {
   "categories": [
    "aerial",
@@ -146,6 +164,22 @@
   "stage": "serial",
   "updated": "2026-11-17"
  },
+ "ai2--robotrack": {
+  "categories": [
+   "components"
+  ],
+  "company_id": "ai2",
+  "description": "Модель трекинга точек для видео с реальных роботов.",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "ai2--robotrack",
+  "name": "RoboTrack",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMifkFVX3lxTE4wSVFqMklndl9qMHdub0xJRkJUV0ppMDQ0Qm13VEV4VDlrdEhOQVpkUzV0RE85UElMc0RVNmdHN1pvZkpGNUdRNW9OOTBPYWVReGZtc1d6U1BvbjlmTjdjOXdPaUdzZzZBc3hjTFk2Y0F0U29qZWpLRHNjV1lLQQ?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-24"
+ },
  "aigen--element": {
   "categories": [
    "agro"
@@ -217,14 +251,14 @@
   "id": "amazon--prime-air",
   "name": "Prime Air",
   "sources": [
-   "https://dronexl.co/2026/11/20/amazon-jacksonville-drone-pad-setback-500-feet-29-planning-commission/",
    "https://dronexl.co/2026/11/23/amazon-prime-air-toledo-rossford-ohio-drone-delivery-launch/",
    "https://dronexl.co/2026/11/23/amazon-drones-nyt-wsj-the-times-coverage-public-debate/",
    "https://dronexl.co/2026/11/23/amazon-prime-air-tallahassee-jacksonville-coming-months-ruskin-tampa/",
-   "https://dronexl.co/2026/11/23/amazon-prime-air-drones-mt-juliet-tennessee-nashville-coming-soon/"
+   "https://dronexl.co/2026/11/23/amazon-prime-air-drones-mt-juliet-tennessee-nashville-coming-soon/",
+   "https://dronexl.co/2026/11/24/amazon-prime-air-jacksonville-before-christmas-faa-approval-councilman/"
   ],
   "stage": "pilot",
-  "updated": "2026-11-23"
+  "updated": "2026-11-24"
  },
  "amazon--prime-air-mk30": {
   "categories": [
@@ -310,6 +344,22 @@
   "stage": "unknown",
   "updated": "2026-11-24"
  },
+ "asrock--rbk-100-robotics-in-a-box": {
+  "categories": [
+   "components"
+  ],
+  "company_id": "asrock",
+  "description": "Интегрированная платформа для разработки физического ИИ и робототехники на базе NUC BOX-358H",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "asrock--rbk-100-robotics-in-a-box",
+  "name": "RBK-100 Robotics-in-a-Box",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/24/asrock-industrial-launches-robotics-in-a-box-for-physical-ai-development/107570/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-24"
+ },
  "asus--gallop": {
   "categories": [
    "humanoid",
@@ -327,6 +377,22 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-17"
+ },
+ "ati-robotics--sherpa": {
+  "categories": [
+   "logistics"
+  ],
+  "company_id": "ati-robotics",
+  "description": "Автономный мобильный робот для промышленных помещений.",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "ati-robotics--sherpa",
+  "name": "Sherpa",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/24/ati-robotics-adopts-simscale-ai-simulation-for-autonomous-vehicle-development/107602/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-24"
  },
  "bhf-robotics--blitz-electric-weeder": {
   "categories": [
@@ -422,14 +488,14 @@
   "id": "boston-dynamics--atlas",
   "name": "Atlas",
   "sources": [
-   "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcVJ5VDIyemE3bHhoWmE2czlDb203RzZSSnlwTzFYNjBYT0gyZ1hUS3dBQURPVGN5bnNXb3I5VkNSZGJERmJQX2k5d0ZaeG4zU05MMll5ZkpZZ01HZmpKZVJyY1ptZzFHMERxd00yd3kwcGhMVUJaVXdEUy12UTNONy1tRFNseTJf?oc=5",
    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNV2UwbVJGdGQ3LXUzY3JIMWxqd05IWDIzRzRmeGpyMElySVYtdVNBeGo1RVlvLWhsRHpBbzlkRFQ3Ulhua1N3al9Wcy04MERXUjIzMWNQQWJ6Q2JjQlAydEhxbE1aaTJZcE1XdFFGUUx1ODVKWVgwdElfZmp1MzhRSnhmS1hzVGkwY1ItOURBLVNVMllXZkZHUUREWENaS09lYjRTZXJwY1dwZw?oc=5",
    "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeWNGeVkzMFpURXRzMmRIdnIydmZPblFybHRVZEh2bl9tLXA4azl4UDdIQmoyanFNcVJybVA3TnBZNkxTMlZab2w3eURsSWpvSlF3TEpMSTZyQVVqRnNTSWZHVGhfS0l1UnNBS0hsR1hsWGYxSTRncTJYV1NpMkc2dkZUR2lRQUlMT0lBcVdRcTFPTF9kTFlEV0JZbDB1R1BGWnRtclRZRVZkSXRsaEFmQ2E3Ymt0RTJXSHhRakR5SE8yQQ?oc=5",
    "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYWFwWmp5ODVqaWxObS1WVnJMR1JBaFI3dFVpUjAyRy1iVFZOUU9DRTYwY0lmMF9ETnRnc1lCYmlfRTFjUC00ZzBwUTVqQ1YwMi1KcHpwVklvQ1hyMkl3VGNQNVVoVERHM0ZnODN5VkJKcFpSRWZJRV9UMzN6SUp3VVo3UQ?oc=5",
-   "https://roboticsandautomationnews.com/2026/11/22/boston-dynamics-gives-atlas-wheels-to-test-new-reinforcement-learning-capabilities/107438/"
+   "https://roboticsandautomationnews.com/2026/11/22/boston-dynamics-gives-atlas-wheels-to-test-new-reinforcement-learning-capabilities/107438/",
+   "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZTE3OGdpSkdHT3RVOVlVNl9oenZUQjBzZ1FYMFJEUDAtUnM3MkRzWU1aclhiQl80cVpMMjFaYlBJeFBQYi1SLVgzOURrZ0pyTk5RUV9QTjR3QTZtT0Q4dUVfdnlaWFlNTGxTaUNHYkJrU09WQzhkdlREYk1oMnprNTExaXB5LXl5aUN0UXRneWV5N1VhMENodl9RS3RfSnBhZHJXOGk3NlFBRnlvakE?oc=5"
   ],
   "stage": "prototype",
-  "updated": "2026-11-22"
+  "updated": "2026-11-24"
  },
  "boston-dynamics--spot": {
   "categories": [
@@ -625,6 +691,22 @@
   "stage": "serial",
   "updated": "2026-11-21"
  },
+ "cidi--bezkabinnyy-samosval-na-akkumulyatore": {
+  "categories": [
+   "underground"
+  ],
+  "company_id": "cidi",
+  "description": "Горный самосвал без кабины с аккумуляторным приводом.",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "cidi--bezkabinnyy-samosval-na-akkumulyatore",
+  "name": "Безкабинный самосвал на аккумуляторе",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaDQ3OUstaU1YUnBvSlhNRmE5RWdLTjBGalRkUmZlUDN4bFR4RTluWDZ1Wmd6clJUVGp1a1Zid1pTNmNWRkI2T3RYekJ6eEoxcnlhNjBtYWY5RHNlM2hZWmw1aHhkZkFnVjZaYklUZ3dicXFiYzF2VkprY3BUWGNfUWNnbEpEaXBHZWJxeFBtN3p3cU1ocUItay01VE8tTFVUU0hyTV8tTDB3MXFSSnR6SENZZ0hhSnpwaUFN?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-24"
+ },
  "cmr-surgical--versius": {
   "categories": [
    "medical"
@@ -689,6 +771,22 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-23"
+ },
+ "cranfield-aerospace--stingray": {
+  "categories": [
+   "aerial"
+  ],
+  "company_id": "cranfield-aerospace",
+  "description": "Водородный дрон",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "cranfield-aerospace--stingray",
+  "name": "Stingray",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMitgFBVV95cUxORmh3Rk1BcGs2Rjk1ajBodExibV8yWUJQMU9XMmdmb01OZWxRSER4RnlmejgxTFh4azRFaUJrZVZuNmdiWk1SZzh5VFhvMVBiWV9INzNQT2VoeHdrLWNjT3V0S3VaMWZGTFRzQ3p1VjROdGlTWXJvNm00Y2FEbHhqd20tRUNyRnk0alJ5VnZQSXZzQ2dkNmx3TFQ4REV3dlpuVUpEVi1oZ25fYWgxaGpVZ1RBbnNzdw?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-24"
  },
  "custom-electronics--vtol-sail-wing": {
   "categories": [
@@ -1283,6 +1381,23 @@
   "stage": "pilot",
   "updated": "2026-11-23"
  },
+ "keeta-drone--m-drone-4l": {
+  "categories": [
+   "aerial",
+   "delivery"
+  ],
+  "company_id": "keeta-drone",
+  "description": "Дрон с полезной нагрузкой 4,5 кг, дальностью 20 км, опускающий заказ на тросе с высоты 15 м.",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "keeta-drone--m-drone-4l",
+  "name": "M-Drone 4L",
+  "sources": [
+   "https://dronexl.co/2026/11/24/keeta-drone-dubai-doorstep-delivery-sobha-hartland-no-start-date/"
+  ],
+  "stage": "pilot",
+  "updated": "2026-11-24"
+ },
  "kret--dmr-2854": {
   "categories": [
    "components"
@@ -1668,6 +1783,22 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-23"
+ },
+ "pixelfarming--robot-one": {
+  "categories": [
+   "agro"
+  ],
+  "company_id": "pixelfarming",
+  "description": "Автономный робот для прополки шириной до 3,5 м с лазером или мотыгой, электрический, с солнечными панелями.",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "pixelfarming--robot-one",
+  "name": "Robot One",
+  "sources": [
+   "https://www.futurefarming.com/tech-in-focus/field-robots/pixelfarming-declared-bankrupt-website-immediately-taken-offline/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-24"
  },
  "pudu-robotics--bellabot": {
   "categories": [
@@ -2390,6 +2521,22 @@
   "stage": "unknown",
   "updated": "2026-11-23"
  },
+ "roskosmos--teledroid": {
+  "categories": [
+   "other"
+  ],
+  "company_id": "roskosmos",
+  "description": "Антропоморфный робот для помощи космонавтам на внешней поверхности МКС.",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "roskosmos--teledroid",
+  "name": "Теледроид",
+  "sources": [
+   "https://3dnews.ru/1151742"
+  ],
+  "stage": "pilot",
+  "updated": "2026-11-24"
+ },
  "rosteh--depesha": {
   "categories": [
    "other"
@@ -2888,6 +3035,29 @@
   "stage": "prototype",
   "updated": "2026-11-17"
  },
+ "unitree-robotics--uni-doggie": {
+  "categories": [
+   "service"
+  ],
+  "company_id": "unitree-robotics",
+  "description": "Робот-собака от Unitree.",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "unitree-robotics--uni-doggie",
+  "name": "UNI-DOGGIE",
+  "price": {
+   "as_of": "2026-11-24",
+   "currency": "CNY",
+   "source": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOM1daYXdQb0NzMmVrUjhYYUF5aloycE9zSTJqN1RoVEJiV0hhTXRaUkw0ektZN19KQ2JHSUExNnp3N2NRV3dSVm5KMTZONEFBWUtBeEZnSzY2cEdTM0NfcGp1U2NaWVhvaXBhX2xVbzhWSEZNdXN6WWk1UWJKaUh3YzlrYUxKV19iZm9HcEQya2VROVVkNWQtRGJ0LVBpODdCd2QzcHg1aHE?oc=5",
+   "usd": 6572.55,
+   "value": 43900.0
+  },
+  "sources": [
+   "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOM1daYXdQb0NzMmVrUjhYYUF5aloycE9zSTJqN1RoVEJiV0hhTXRaUkw0ektZN19KQ2JHSUExNnp3N2NRV3dSVm5KMTZONEFBWUtBeEZnSzY2cEdTM0NfcGp1U2NaWVhvaXBhX2xVbzhWSEZNdXN6WWk1UWJKaUh3YzlrYUxKV19iZm9HcEQya2VROVVkNWQtRGJ0LVBpODdCd2QzcHg1aHE?oc=5"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-24"
+ },
  "universal-robots--sereact-cortex": {
   "categories": [
    "logistics"
@@ -2919,6 +3089,24 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-22"
+ },
+ "viabot--viabot-one": {
+  "categories": [
+   "cleaning"
+  ],
+  "company_id": "viabot",
+  "description": "Платформа для автономной уборки открытых территорий торговых центров, коммерческих объектов и кампусов.",
+  "first_seen": "2026-11-24",
+  "focus": [
+   "floor"
+  ],
+  "id": "viabot--viabot-one",
+  "name": "Viabot One",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/24/viabot-expands-autonomous-outdoor-cleaning-operations-across-eight-us-states/107588/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-24"
  },
  "viam--launchpad": {
   "categories": [
@@ -3097,6 +3285,22 @@
   ],
   "stage": "serial",
   "updated": "2026-11-23"
+ },
+ "yarbo--yarbo-sdk-beta": {
+  "categories": [
+   "service"
+  ],
+  "company_id": "yarbo",
+  "description": "SDK для интеграции роботов Yarbo с внешними системами и приложениями",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "yarbo--yarbo-sdk-beta",
+  "name": "Yarbo SDK Beta",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/24/yarbo-opens-sdk-beta-to-developers-for-modular-yard-robots/107578/"
+  ],
+  "stage": "pilot",
+  "updated": "2026-11-24"
  },
  "zipline--dostavka-dronami-zipline": {
   "categories": [

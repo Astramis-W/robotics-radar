@@ -30,6 +30,29 @@
   "origin": "news",
   "updated": "2026-11-23"
  },
+ "a2z-drone-delivery": {
+  "aliases": [
+   "A2Z",
+   "A2Z AirDock"
+  ],
+  "categories": [
+   "aerial",
+   "security"
+  ],
+  "country": "US",
+  "description": "Калифорнийская компания, занимающаяся доставкой дронами.",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "a2z-drone-delivery",
+  "name": "A2Z Drone Delivery",
+  "origin": "news",
+  "robots_deployed": {
+   "as_of": "2026-11-24",
+   "source": "https://www.suasnews.com/2026/11/forsyth-county-sheriffs-office-launches-first-u-s-a2z-airdock-network/",
+   "value": 3
+  },
+  "updated": "2026-11-24"
+ },
  "abb-robotics": {
   "aliases": [
    "ABB",
@@ -243,7 +266,7 @@
    "source": "https://www.therobotreport.com/rockwell-automation-acquiring-mobile-robot-maker-agilox/",
    "value": 2500
   },
-  "updated": "2026-11-22"
+  "updated": "2026-11-24"
  },
  "agri-spray": {
   "aliases": [
@@ -277,6 +300,22 @@
   "name": "AgXeed",
   "origin": "news",
   "updated": "2026-11-17"
+ },
+ "ai2": {
+  "aliases": [
+   "Allen Institute for AI"
+  ],
+  "categories": [
+   "components"
+  ],
+  "country": "US",
+  "description": "Исследовательский институт в области ИИ.",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "ai2",
+  "name": "Ai2",
+  "origin": "news",
+  "updated": "2026-11-24"
  },
  "aigen": {
   "aliases": [
@@ -319,9 +358,10 @@
    "Advanced Navigation"
   ],
   "categories": [
-   "aerial"
+   "aerial",
+   "components"
   ],
-  "country": "",
+  "country": "AU",
   "description": "Разрабатывает гоночную серию электрических летающих автомобилей.",
   "first_seen": "2026-11-24",
   "focus": [],
@@ -362,7 +402,7 @@
   "id": "amazon",
   "name": "Amazon",
   "origin": "news",
-  "updated": "2026-11-23"
+  "updated": "2026-11-24"
  },
  "amicro": {
   "aliases": [],
@@ -485,20 +525,22 @@
   "updated": "2026-11-17"
  },
  "apricity": {
-  "aliases": [],
+  "aliases": [
+   "Apricity Robotics"
+  ],
   "categories": [
    "medical"
   ],
   "country": "",
-  "description": "",
+  "description": "Разрабатывает роботизированного ультразвукового ассистента",
   "first_seen": "2026-11-23",
   "focus": [],
   "id": "apricity",
   "last_round": {
-   "as_of": "2026-11-23",
+   "as_of": "2026-11-24",
    "currency": "USD",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOENPcnotTVRzUWs0ZFQzREFKeHFQZ0lybktUZDZoU2xrUG5lU1dJYm5kTHZWT2JkZmJOcjBZUkk3dUY3Q3RHb09yUnF5UEZOa29GZUlZemRuTnJabFM0eXQwamZHTkxLdnlTQW5hckE4bGt0bkQxYk1XZ0QtblV5WF90TmVCaDA5VTVfeGFZSTU?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWHgyNXM5MXlXWUlwVDBRS2t1MWVFWXYycFV5VEVXaXR3LThKem1DeUoxVkNDM1hreGFLcEhKNnBZMUZGU3EzM1JvYVBJa29lWmVNNFlTN1MtZEtJTFctQWRzOXdDRllRcGt0Wk9UWTFHa3UzcnNoalEyeWlkSy0tRXIxQmhnVzc4R2JGVTdIckc2dmkyT3RDcl9ncDlWQ0ZiNmppMGVsNVVpQ1d4S3RNS3NOTzBoUUFfMFRHM29TVU1xRGVWQ19Z?oc=5",
    "type": "series_a",
    "usd": 16100000.0,
    "value": 16100000.0
@@ -523,6 +565,23 @@
   "origin": "news",
   "updated": "2026-11-17"
  },
+ "asrock": {
+  "aliases": [
+   "АСРок",
+   "ASRock Industrial"
+  ],
+  "categories": [
+   "components"
+  ],
+  "country": "TW",
+  "description": "Тайваньский поставщик промышленных компьютеров и edge-ИИ решений",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "asrock",
+  "name": "ASRock",
+  "origin": "news",
+  "updated": "2026-11-24"
+ },
  "asus": {
   "aliases": [
    "Asus",
@@ -540,6 +599,45 @@
   "name": "Asus",
   "origin": "news",
   "updated": "2026-11-17"
+ },
+ "ati-robotics": {
+  "aliases": [],
+  "categories": [
+   "logistics"
+  ],
+  "country": "US",
+  "description": "Разработчик интеллектуальных транспортных средств для промышленных помещений.",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "ati-robotics",
+  "name": "Ati Robotics",
+  "origin": "news",
+  "updated": "2026-11-24"
+ },
+ "atom": {
+  "aliases": [
+   "ATOM"
+  ],
+  "categories": [
+   "humanoid"
+  ],
+  "country": "JP",
+  "description": "",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "atom",
+  "last_round": {
+   "as_of": "2026-11-24",
+   "currency": "USD",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUXdCWkVsVUlOa3NaYmJEN2RfYTRhU3lsQm5JVEwtb2F3SE5YV2IyOUZEWUttS01ubzZxNW1uaDl4WXdzcDZfZUpydnNGczBSOUlhcjg5d3RtSE5iV1FkaDlBOTZZWEFHSVlNaGpaeVVBN1pvTGNORm5ES1Q4SzMxaGdPWklRdWVDVlNnYnFqcUdQVnY5ZHB1c1JsU2JyYnRBZXhzbW5aUmJ3QnVraGFycnVySVo?oc=5",
+   "type": "debt",
+   "usd": 28300000.0,
+   "value": 28300000.0
+  },
+  "name": "ATOM",
+  "origin": "news",
+  "updated": "2026-11-24"
  },
  "atoms": {
   "aliases": [
@@ -856,7 +954,7 @@
    "value": 136000000000.0,
    "year": 2026
   },
-  "updated": "2026-11-23"
+  "updated": "2026-11-24"
  },
  "bot-auto": {
   "aliases": [],
@@ -1051,6 +1149,20 @@
   "origin": "news",
   "updated": "2026-11-23"
  },
+ "cidi": {
+  "aliases": [],
+  "categories": [
+   "underground"
+  ],
+  "country": "CN",
+  "description": "Китайский производитель горной техники.",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "cidi",
+  "name": "CiDi",
+  "origin": "news",
+  "updated": "2026-11-24"
+ },
  "circus-se": {
   "aliases": [],
   "categories": [
@@ -1138,7 +1250,8 @@
  },
  "cosine-robots": {
   "aliases": [
-   "Cosine Robots"
+   "Cosine Robots",
+   "Cosine"
   ],
   "categories": [
    "components"
@@ -1150,15 +1263,12 @@
   "id": "cosine-robots",
   "last_round": {
    "as_of": "2026-11-24",
-   "currency": "INR",
-   "investors": [
-    "Avaana",
-    "WEH"
-   ],
-   "source": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQTRJUWlJcUhSX0xJNjFQMVliQ2lpRFd4dW1EdlhWblBwNjZaZ2VJYnhHR290NjBpeUZxU09xT2tVd09wY0UzOHFzckhrcTNRNnA0ZFdDNWVRV2JiR3NEandFOVFwYTlkZ05iRXZyMndsZzJtRkE5SGFLYlV2UnB6R1BWZ0UyMVhHZjd0TnBWc0xBSzNCMkhJMi1NVUJUenluUUI4d09VRlUtN0xCVlNNSFh4VDVxaW0zODJ1REotakxLY0pRcl9nTnpfZ0NFSlZFbV9SY1pBX1BfZ9IB3wFBVV95cUxPN0tzeS1TZG5hQ0EtOURHVm4zaVZWYS10Y2JfanZsYkQydDgwWGVKamozdlVhbUJVcFlJRUo5Wl9JbDNPZ3BXTUVlUjlJeHFKWmxIUnFKS19oQUxJQmJ5cElLMGdDQkNESjlHcE91Ynppb3loMTdKeGhBSklYR09vZmtZd0dMM29xYnk2VTVYNkFqOHJCdFlWSVQ4a3V4MEUyR0o2b2FaeEJxTzdLWDk0bUhJZVRHZjBvWjlsQmlvUUVVWDcwTVozV1FhX0V0Y1U5aDBIbXBDVW42SGxpNnhj?oc=5",
+   "currency": "USD",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaVlnYmI1ME15eUhqaFZmYzNEWnUwbDlLZFBoanFvYW5JUmNKWEVzUGlMTFpLMFNDLUhWQTYtaVcwbFhwdG9JeWd5OXRIVlFvR2ZZdU5kY3g1Y2ZnVEZVbWo2dUppQV9BTlBHa0Fsa0R0QjgyMjF2d2J4VlFzTURpSWRvQnZpVG9ZbjA2Ql9oTUJOXzJBdGc?oc=5",
    "type": "unknown",
-   "usd": 2365718.13,
-   "value": 220000000.0
+   "usd": 2400000.0,
+   "value": 2400000.0
   },
   "name": "Cosine Robots",
   "origin": "news",
@@ -1180,6 +1290,20 @@
   "name": "Cosys Robots",
   "origin": "news",
   "updated": "2026-11-23"
+ },
+ "cranfield-aerospace": {
+  "aliases": [],
+  "categories": [
+   "aerial"
+  ],
+  "country": "GB",
+  "description": "",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "cranfield-aerospace",
+  "name": "Cranfield Aerospace",
+  "origin": "news",
+  "updated": "2026-11-24"
  },
  "custom-electronics": {
   "aliases": [
@@ -1263,6 +1387,20 @@
   "origin": "seed",
   "updated": "2026-11-16"
  },
+ "dialog-terminal": {
+  "aliases": [],
+  "categories": [
+   "logistics"
+  ],
+  "country": "",
+  "description": "3PL-склад.",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "dialog-terminal",
+  "name": "Диалог-Терминал",
+  "origin": "news",
+  "updated": "2026-11-24"
+ },
  "disney": {
   "aliases": [
    "Walt Disney"
@@ -1327,7 +1465,7 @@
   "id": "draganfly",
   "name": "Draganfly",
   "origin": "news",
-  "updated": "2026-11-17"
+  "updated": "2026-11-24"
  },
  "dronamics": {
   "aliases": [
@@ -1670,6 +1808,21 @@
   "name": "Epiroc",
   "origin": "seed",
   "updated": "2026-11-16"
+ },
+ "epropelled": {
+  "aliases": [],
+  "categories": [
+   "components",
+   "aerial"
+  ],
+  "country": "",
+  "description": "Производитель электрических силовых установок и систем управления энергией для беспилотной техники.",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "epropelled",
+  "name": "ePropelled",
+  "origin": "news",
+  "updated": "2026-11-24"
  },
  "eth-zurich": {
   "aliases": [
@@ -2247,6 +2400,21 @@
   "origin": "news",
   "updated": "2026-11-17"
  },
+ "globus": {
+  "aliases": [],
+  "categories": [
+   "logistics",
+   "manufacturing"
+  ],
+  "country": "RU",
+  "description": "ИТ-интегратор.",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "globus",
+  "name": "Globus",
+  "origin": "news",
+  "updated": "2026-11-24"
+ },
  "glonass": {
   "aliases": [
    "АО «ГЛОНАСС»"
@@ -2324,6 +2492,23 @@
   "name": "HausBots",
   "origin": "seed",
   "updated": "2026-11-16"
+ },
+ "heriot-watt-university": {
+  "aliases": [
+   "Heriot-Watt",
+   "International Blue Economy Robotarium"
+  ],
+  "categories": [
+   "marine"
+  ],
+  "country": "GB",
+  "description": "",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "heriot-watt-university",
+  "name": "Heriot-Watt University",
+  "origin": "news",
+  "updated": "2026-11-24"
  },
  "hhla-sky": {
   "aliases": [
@@ -2735,6 +2920,24 @@
   },
   "website": "https://keenon.com.cn/en"
  },
+ "keeta-drone": {
+  "aliases": [
+   "Keeta",
+   "Meituan"
+  ],
+  "categories": [
+   "aerial",
+   "delivery"
+  ],
+  "country": "CN",
+  "description": "Подразделение доставки дронами китайской Meituan.",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "keeta-drone",
+  "name": "Keeta Drone",
+  "origin": "news",
+  "updated": "2026-11-24"
+ },
  "kite-robotics": {
   "aliases": [],
   "categories": [
@@ -2822,6 +3025,30 @@
   "origin": "seed",
   "updated": "2026-11-16"
  },
+ "kraken-robotics": {
+  "aliases": [
+   "Kraken Robotics Inc"
+  ],
+  "categories": [
+   "marine"
+  ],
+  "country": "CA",
+  "description": "Разработчик подводных роботов и гидроакустического оборудования.",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "kraken-robotics",
+  "name": "Kraken Robotics",
+  "origin": "news",
+  "revenue": {
+   "as_of": "2026-11-24",
+   "currency": "USD",
+   "source": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRXRybGxkOU1RMFJNamNFdC1EZG0zV2xCdkw0cURLdHVRUkVKMm9EVEhuQXJwQUhnandVelAtNlFSNnZxRU9FckJHdnhnSFo3TUt0V1ZpckxhMjIzbWNuSzlaVWxzZG0zVHNndjRvSXFrRVJxUWtiUWFyV0RGVHRuMmd5SHpyS2I3SXU2ZFp6WklBS0VnbzZhZS1vSk9wTXNEbWVkTGppYUhUcnFNbkFST1V4amNYQUhWeVpXQ05QZTFobDA?oc=5",
+   "usd": 102200000.0,
+   "value": 102200000.0,
+   "year": null
+  },
+  "updated": "2026-11-24"
+ },
  "kret": {
   "aliases": [
    "Концерн «Радиоэлектронные технологии»",
@@ -2902,6 +3129,20 @@
   "name": "LG Electronics",
   "origin": "news",
   "updated": "2026-11-17"
+ },
+ "lion-robotics": {
+  "aliases": [
+   "Hanwha Aerospace"
+  ],
+  "categories": [],
+  "country": "KR",
+  "description": "Южнокорейский разработчик роботов и дронов.",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "lion-robotics",
+  "name": "Lion Robotics",
+  "origin": "news",
+  "updated": "2026-11-24"
  },
  "lionsbot": {
   "aliases": [],
@@ -3086,7 +3327,7 @@
   "id": "massrobotics",
   "name": "MassRobotics",
   "origin": "news",
-  "updated": "2026-11-21"
+  "updated": "2026-11-24"
  },
  "mastec": {
   "aliases": [],
@@ -3781,6 +4022,20 @@
   "origin": "news",
   "updated": "2026-11-19"
  },
+ "pixelfarming": {
+  "aliases": [],
+  "categories": [
+   "agro"
+  ],
+  "country": "NL",
+  "description": "Производитель автономных полевых роботов для прополки.",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "pixelfarming",
+  "name": "Pixelfarming",
+  "origin": "news",
+  "updated": "2026-11-24"
+ },
  "polight": {
   "aliases": [
    "poLight ASA",
@@ -3965,6 +4220,21 @@
   "status": "active",
   "updated": "2026-11-23",
   "website": "http://www.qysea.com"
+ },
+ "rai-institute": {
+  "aliases": [
+   "Robotics and AI Institute",
+   "RAI"
+  ],
+  "categories": [],
+  "country": "US",
+  "description": "Исследовательский институт фундаментальной робототехники, основанный Марком Рейбертом в 2022 году.",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "rai-institute",
+  "name": "RAI Institute",
+  "origin": "news",
+  "updated": "2026-11-24"
  },
  "raise": {
   "aliases": [],
@@ -4186,6 +4456,18 @@
   "origin": "seed",
   "updated": "2026-11-16"
  },
+ "robostrategy": {
+  "aliases": [],
+  "categories": [],
+  "country": "US",
+  "description": "",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "robostrategy",
+  "name": "RoboStrategy",
+  "origin": "news",
+  "updated": "2026-11-24"
+ },
  "robot-start": {
   "aliases": [
    "Robot Start Inc."
@@ -4280,6 +4562,20 @@
   "status": "active",
   "updated": "2026-11-23",
   "website": "https://www.rosiwit.com/"
+ },
+ "roskosmos": {
+  "aliases": [
+   "Roscosmos"
+  ],
+  "categories": [],
+  "country": "RU",
+  "description": "Государственная корпорация космической отрасли России.",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "roskosmos",
+  "name": "Роскосмос",
+  "origin": "news",
+  "updated": "2026-11-24"
  },
  "rosteh": {
   "aliases": [
@@ -4566,7 +4862,7 @@
    "investors": [
     "Ant Group"
    ],
-   "source": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTDN5ck1DYy15WXNDLUdscDFRTWNKX3FhY0FjbU5ReExxMjVBR0VlWUx4WTdiTjRPcXZPME91NHlVWkRIanNIYmtycmlUYUZ1UVFpa0JrRFROR0I3RmtOX1lMRzdMM2tYYUhBcXhXZTZVdGx3XzUtazNzUXhqeG1tZUM3ZmVybGNMUlVObEc3cWlVTnZrOFNwbHlPRQ?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQOUw2dHlIWjBSMWNHQnh0UWpjU1NVVXBIRTRSTi1PNmhVWGdNSzF6SzBraVpST0lLd1o0SVBkODRnMjF4RFpJeWlYNTgwWDVES3BfRlZoM0J0YUxUcTNjT0kzQy1MeDVNYW43NDRMRjg2clgyUVo5ZGtFQUtZdzVaWg?oc=5",
    "type": "unknown",
    "usd": 100000000.0,
    "value": 100000000.0
@@ -4575,9 +4871,9 @@
   "origin": "news",
   "updated": "2026-11-24",
   "valuation": {
-   "as_of": "2026-11-23",
+   "as_of": "2026-11-24",
    "currency": "USD",
-   "source": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQR05WTW80SzNVWE9CdXFKSS1lSC1vRHZPR2s3QjhsNHRyNWhnRllBTl9jdndLZHh2NTFIUklrMWF1VkdUVGhPbnFLM3BaVVVnUlFpbFhaOFBUN3RYbEtGYWdrNWJaOVVNZUQ0c0ZiVzNrRG12NjdOTnNlTGZDUXpXR3ZYZnA1T0tpOFZqbWg0VHBGM1RHNVhFa2gxOFNaVW9CSnJjNUJSRUJkSU1tUWc?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQOUw2dHlIWjBSMWNHQnh0UWpjU1NVVXBIRTRSTi1PNmhVWGdNSzF6SzBraVpST0lLd1o0SVBkODRnMjF4RFpJeWlYNTgwWDVES3BfRlZoM0J0YUxUcTNjT0kzQy1MeDVNYW43NDRMRjg2clgyUVo5ZGtFQUtZdzVaWg?oc=5",
    "usd": 1600000000.0,
    "value": 1600000000.0
   }
@@ -4885,7 +5181,19 @@
   "id": "symbotic",
   "name": "Symbotic",
   "origin": "seed",
-  "updated": "2026-11-21"
+  "updated": "2026-11-24"
+ },
+ "synapx": {
+  "aliases": [],
+  "categories": [],
+  "country": "",
+  "description": "Робототехнический стартап",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "synapx",
+  "name": "SynapX",
+  "origin": "news",
+  "updated": "2026-11-24"
  },
  "t1": {
   "aliases": [
@@ -5039,6 +5347,23 @@
   },
   "website": "https://www.tennantco.com"
  },
+ "tesco": {
+  "aliases": [],
+  "categories": [
+   "cleaning",
+   "service"
+  ],
+  "country": "GB",
+  "description": "Британская сеть супермаркетов.",
+  "first_seen": "2026-11-24",
+  "focus": [
+   "floor"
+  ],
+  "id": "tesco",
+  "name": "Tesco",
+  "origin": "news",
+  "updated": "2026-11-24"
+ },
  "tesla": {
   "aliases": [
    "Тесла",
@@ -5080,6 +5405,20 @@
   "name": "Tevel Aerobotics",
   "origin": "seed",
   "updated": "2026-11-16"
+ },
+ "the-quality": {
+  "aliases": [],
+  "categories": [
+   "logistics"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "the-quality",
+  "name": "The Quality Group",
+  "origin": "news",
+  "updated": "2026-11-24"
  },
  "theseus-robotics": {
   "aliases": [],
@@ -5306,10 +5645,13 @@
  },
  "unitree-robotics": {
   "aliases": [
-   "Unitree"
+   "Unitree",
+   "Юнитри",
+   "宇树科技"
   ],
   "categories": [
-   "humanoid"
+   "humanoid",
+   "service"
   ],
   "country": "CN",
   "description": "Китайский производитель роботов",
@@ -5318,7 +5660,7 @@
   "id": "unitree-robotics",
   "name": "Unitree Robotics",
   "origin": "seed",
-  "updated": "2026-11-23"
+  "updated": "2026-11-24"
  },
  "universal-robots": {
   "aliases": [
@@ -5435,6 +5777,24 @@
   "name": "Vetaion",
   "origin": "news",
   "updated": "2026-11-20"
+ },
+ "viabot": {
+  "aliases": [
+   "Viabot"
+  ],
+  "categories": [
+   "cleaning"
+  ],
+  "country": "US",
+  "description": "Разработчик автономных мобильных роботов для уборки больших открытых территорий.",
+  "first_seen": "2026-11-24",
+  "focus": [
+   "floor"
+  ],
+  "id": "viabot",
+  "name": "Viabot",
+  "origin": "news",
+  "updated": "2026-11-24"
  },
  "viam": {
   "aliases": [],
@@ -5562,6 +5922,29 @@
   "name": "Wheelies",
   "origin": "news",
   "updated": "2026-11-19"
+ },
+ "whereable-ai": {
+  "aliases": [],
+  "categories": [
+   "delivery"
+  ],
+  "country": "",
+  "description": "Стартап в сфере беспилотного вождения",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "whereable-ai",
+  "last_round": {
+   "as_of": "2026-11-24",
+   "currency": "USD",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5UYmdmbDlOYmY2YXhZcElJWXFxbnIwS2thcXRvVWlFUzdDcWwySXUxLS1DZHFCR1RHbmJZVlhmUVd5S18yU09ZT1IyZm16cThTa2RN?oc=5",
+   "type": "unknown",
+   "usd": 2300000.0,
+   "value": 2300000.0
+  },
+  "name": "Whereable.ai",
+  "origin": "news",
+  "updated": "2026-11-24"
  },
  "windracers": {
   "aliases": [
@@ -5748,7 +6131,21 @@
   "id": "yandeks-robotiks",
   "name": "Яндекс Роботикс",
   "origin": "seed",
-  "updated": "2026-11-20"
+  "updated": "2026-11-24"
+ },
+ "yarbo": {
+  "aliases": [],
+  "categories": [
+   "service"
+  ],
+  "country": "",
+  "description": "Разработчик модульных роботов для ухода за открытыми территориями",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "yarbo",
+  "name": "Yarbo",
+  "origin": "news",
+  "updated": "2026-11-24"
  },
  "zacua-ventures": {
   "aliases": [
