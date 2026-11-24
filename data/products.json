@@ -294,6 +294,22 @@
   "stage": "pilot",
   "updated": "2026-11-17"
  },
+ "apricity--robotizirovannoe-uzi": {
+  "categories": [
+   "medical"
+  ],
+  "company_id": "apricity",
+  "description": "",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "apricity--robotizirovannoe-uzi",
+  "name": "Роботизированное УЗИ",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOENPcnotTVRzUWs0ZFQzREFKeHFQZ0lybktUZDZoU2xrUG5lU1dJYm5kTHZWT2JkZmJOcjBZUkk3dUY3Q3RHb09yUnF5UEZOa29GZUlZemRuTnJabFM0eXQwamZHTkxLdnlTQW5hckE4bGt0bkQxYk1XZ0QtblV5WF90TmVCaDA5VTVfeGFZSTU?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-24"
+ },
  "asus--gallop": {
   "categories": [
    "humanoid",
@@ -624,6 +640,22 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-23"
+ },
+ "coprod--products": {
+  "categories": [
+   "components"
+  ],
+  "company_id": "coprod",
+  "description": "Совместимые аппаратные компоненты для роботов с программным API и инструментом конфигурации.",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "coprod--products",
+  "name": "co:products",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/23/coprod-raises-6-million-to-make-robot-hardware-as-easy-to-build-as-software/107544/"
+  ],
+  "stage": "prototype",
+  "updated": "2026-11-24"
  },
  "coprod--system": {
   "categories": [
@@ -1425,13 +1457,14 @@
   "id": "nauticus-robotics--wam-v",
   "name": "WAM-V",
   "sources": [
-   "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWEhPbmFMcnFpM1AwOWlobE50TDhHMTVoTmZjX21xZzRqN25FVnFOMmhsbnFiWE1vZF9pYjY1MndIc2xuck5ZX3cza2E2aE1GVVQ4YkRUZURNSlJ2ZmJIQWZLNTVNWTk5dFVoaURqS1pPTGVxNENYTWdodFJOOExmZEgwVGl0bUN1eGFLS3BEOUhuR2g2Z1FXaC1MTG8yNWNuWFQ5V0VRZGxoVXk3dnhmT0xJei1JYllHQlljX25ZV0dVXzZWS2phdlZYZm9XLUZ4S2c?oc=5",
    "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNko5RTJEaTBsRnpNUWJ2Zjg2NmtTUGhnYjl4RnR0MnZQN0tsSGlxLVBFR296QWlSRzNPSlo3aUdKSTN5T3VEbm15NXc3Rnh4UjlhLVhCNkRfUmp3UE93cDBtR3hSY0VkOFp1ZDFLTTVVRXZsUnJGaUtGZkpzR2RZeHdfQ2NTdTd2VFItaVdDMC10Y29pX3l2LU5wcWQ1WnA3bXhwcmRYRWZSUE5NaUlDdzZNbFh2Z0xVcHc?oc=5",
    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNanFtX05HY3JnZXRFNHhYUmM3cTFrMWhqUDhiUWF2T3pwN2gyS2pHZWpDcXVnRmVMS295Y0lVZnlNckpuV1Q4cU5yV2V1dTlUWjlZbTI2dDJQcUN2TmZHTFNZTFhZdUozMHAwUllkdkxYSzF4LTZ5bGxVdk1DR3NWTmcyaWpxanlH?oc=5",
-   "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOM1diU2l1TXpaZDZhREFBTXhqeU1FWGdoVHlGa2h6Qkpqc3daZXFsbTdvZXZjWVZtakJld2hMUFVkbkV3cU1rVDFrTWRaLWRaUjgwUDhhMmFFRzFJZHpWMnBqdWFPZ2c5eHVIUklsSnBQV3l4VVdhenZSakkzSWQtOXF4VWJSZklaMTYyRVNGemhWeU9XVTlvMW9sV1luZkw4em1KZVhrVXNOQTU2MEVLVnNEdU5yRXJaeV85aEU4cVBUNkNDc3dhM2FZSS1xS0hWNGwyRUtvbDRXOGZjMGVlSTRXOG52Z2ZqcWc?oc=5"
+   "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOM1diU2l1TXpaZDZhREFBTXhqeU1FWGdoVHlGa2h6Qkpqc3daZXFsbTdvZXZjWVZtakJld2hMUFVkbkV3cU1rVDFrTWRaLWRaUjgwUDhhMmFFRzFJZHpWMnBqdWFPZ2c5eHVIUklsSnBQV3l4VVdhenZSakkzSWQtOXF4VWJSZklaMTYyRVNGemhWeU9XVTlvMW9sV1luZkw4em1KZVhrVXNOQTU2MEVLVnNEdU5yRXJaeV85aEU4cVBUNkNDc3dhM2FZSS1xS0hWNGwyRUtvbDRXOGZjMGVlSTRXOG52Z2ZqcWc?oc=5",
+   "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMzdXYlItekNjXzFuRUgwU3lNcVR6eEQxVHJsTk8tT0NwaUhIVmNzd3ZRRU41cXhxN3F5TGdZSmRtVFJ4SFJCekU3aFZIYzM1VHpOTGZpbWtycExvUWxVUGx2czNkajVxMXRfN2F5d3h4cEx4cGFZZ1VPWUR4LW9vQ0t5RWdOWHRmRGZ0Qm5IT0FoaElJQXc?oc=5",
+   "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSVE5VmhfMV85Rl9YaGt6VUdoMm9IZzIySlQ0TW9LNUN5eGI3OGo4eXlyREJSMk12UWZaWk53WWZndXpXeGNBeHlVX2xSVHl0UkphY1g4TE1rcU5fdk1SU3FhRXZMcDJHVXd1V0x5eTNWN1ZfRWxMNEtzSlVxTmpJZ3FBSXh0T1o0b1E?oc=5"
   ],
   "stage": "unknown",
-  "updated": "2026-11-23"
+  "updated": "2026-11-24"
  },
  "neptune-robotics--neptune-annual-care-usluga": {
   "categories": [
@@ -1551,10 +1584,11 @@
   "id": "orchard-robotics--fruitscope",
   "name": "FruitScope",
   "sources": [
-   "https://agfundernews.com/john-deere-orchard-robotics-deal-signals-growing-value-of-actionable-farm-data-says-ag-robotics-og"
+   "https://agfundernews.com/john-deere-orchard-robotics-deal-signals-growing-value-of-actionable-farm-data-says-ag-robotics-og",
+   "https://www.therobotreport.com/how-does-orchard-ai-fit-into-john-deeres-technology-portfolio/"
   ],
   "stage": "serial",
-  "updated": "2026-11-21"
+  "updated": "2026-11-24"
  },
  "peppermint-robotics--lineyka-cr-chistye-pomescheniya": {
   "categories": [
@@ -3031,6 +3065,22 @@
   ],
   "stage": "pilot",
   "updated": "2026-11-17"
+ },
+ "x-square--model-x-square": {
+  "categories": [
+   "components"
+  ],
+  "company_id": "x-square",
+  "description": "Модель ИИ для роботов.",
+  "first_seen": "2026-11-24",
+  "focus": [],
+  "id": "x-square--model-x-square",
+  "name": "Модель X Square",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOQUxyWXZuOHMxZURUSFlIVUxCRmduZ3JGNzEtUXJWcTVRRjVUc2puRDFzUDJXcEV6TU42bmQtaXQ1czB3d1QwUXNOVFZIYlZlVWlZamE2eWViQV96bmcyUkV2NFRST0NpRlVLc2xDRkliTTVPck9qUGtQOVVvcGhMcC1wSk81dHdsRHl3YUw4bzAwYTFuZ0U0N25sTHpnRXA2RXRVOW5fMXYzWUs1anpVQVNjZFVpc2ItOWVCOVNKT3NPdFRjZlUtVHZMVTFHaFNRYVJ1djczb0s3X3VCcl83UUYybWVKc0E?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-24"
  },
  "xpeng--iron": {
   "categories": [
