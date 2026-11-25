@@ -344,6 +344,22 @@
   "stage": "unknown",
   "updated": "2026-11-24"
  },
+ "ascentiz--pro-i-ultra": {
+  "categories": [
+   "other"
+  ],
+  "company_id": "ascentiz",
+  "description": "модульные экзоскелеты для бедра",
+  "first_seen": "2026-11-25",
+  "focus": [],
+  "id": "ascentiz--pro-i-ultra",
+  "name": "Pro и Ultra",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/25/tuv-sud-awards-human-machine-performance-certification-to-ascentiz-exoskeletons/107662/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-25"
+ },
  "asrock--rbk-100-robotics-in-a-box": {
   "categories": [
    "components"
@@ -393,6 +409,41 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-24"
+ },
+ "autospray-systems--xag-p150-max": {
+  "categories": [
+   "aerial",
+   "logistics",
+   "construction"
+  ],
+  "company_id": "autospray-systems",
+  "description": "Грузовой дрон с системой доставки RevoSling",
+  "first_seen": "2026-11-25",
+  "focus": [],
+  "id": "autospray-systems--xag-p150-max",
+  "name": "XAG P150 Max",
+  "sources": [
+   "https://www.suasnews.com/2026/11/heavy-lift-drones-deliver-over-55-tonnes-of-solar-panels-to-bentley-motors-paint-shop-in-believed-uk-first/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-25"
+ },
+ "bentic--jupiter": {
+  "categories": [
+   "manufacturing",
+   "components"
+  ],
+  "company_id": "bentic",
+  "description": "Не привязанная к конкретному роботу платформа, которая использует опыт работы всего парка установок.",
+  "first_seen": "2026-11-25",
+  "focus": [],
+  "id": "bentic--jupiter",
+  "name": "Jupiter",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/25/bentic-prepares-for-us-expansion-as-physical-ai-robot-installations-approach-100/107656/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-25"
  },
  "bhf-robotics--blitz-electric-weeder": {
   "categories": [
@@ -707,6 +758,23 @@
   "stage": "unknown",
   "updated": "2026-11-24"
  },
+ "cidi--vega": {
+  "categories": [
+   "underground",
+   "delivery"
+  ],
+  "company_id": "cidi",
+  "description": "Электрический грузовик уровня L4 с интегрированной автономностью и резервированием тормозов и рулевого управления.",
+  "first_seen": "2026-11-25",
+  "focus": [],
+  "id": "cidi--vega",
+  "name": "VEGA",
+  "sources": [
+   "https://www.mining-technology.com/news/cidi-mining-vehicles-bauma-china-2026/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-25"
+ },
  "cmr-surgical--versius": {
   "categories": [
    "medical"
@@ -1012,6 +1080,23 @@
   ],
   "stage": "serial",
   "updated": "2026-11-18"
+ },
+ "embention--veronte-autopilot-4x-22": {
+  "categories": [
+   "aerial",
+   "components"
+  ],
+  "company_id": "embention",
+  "description": "Трёхрезервированный полётный контроллер для дронов, eVTOL и пилотируемых самолётов с сертификацией DAL A.",
+  "first_seen": "2026-11-25",
+  "focus": [],
+  "id": "embention--veronte-autopilot-4x-22",
+  "name": "Veronte Autopilot 4x 2.2",
+  "sources": [
+   "https://www.suasnews.com/2026/11/veronte-autopilot-4x-2-2-10x-power-and-improved-reliability/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-25"
  },
  "engineai--t800": {
   "categories": [
@@ -2687,6 +2772,22 @@
   "stage": "serial",
   "updated": "2026-11-19"
  },
+ "simplexity-robotics--wheeled-ix": {
+  "categories": [
+   "other"
+  ],
+  "company_id": "simplexity-robotics",
+  "description": "",
+  "first_seen": "2026-11-25",
+  "focus": [],
+  "id": "simplexity-robotics--wheeled-ix",
+  "name": "Wheeled iX",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMif0FVX3lxTE0xd2Qtd0tnT1lPZ1JHUm5WX3BhcTRpQ1c0S29Zb1I0V3JuVUllY0VnbTJhZjlDUU5nQ0pJSnZQM1VpMkN2RUJmZE40aHp4LS1OX2oySEM0SHU5WXQyd2NkdVB4aUpObGdtVjNydmk1Z0hDWERUaXhIeFRESHd5cU0?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-25"
+ },
  "skydio--controller-2": {
   "categories": [
    "aerial"
@@ -2979,10 +3080,11 @@
   "sources": [
    "https://news.google.com/rss/articles/CBMivwFBVV95cUxORm94Ui10aEYyeG5fWVNpYmdFUDNFUDlWaHN2ekFfZEVWSE4teHRKRjRrN3k0RzI5WHdRbVVNdmh4Z2EzU0JTUlJ5V3R0cXcwR21FMmlDM0RJRmNxdWxTaHc4dDg1dmZ2cVNuYlR2V0FwT19yS3dYbkVCclFTT1J4YlJsZ1ZpVUI5Y3RIU0ZNVzJLQ0FHUDlfRGc5NWo4LWxROEhDcFIxSTNqSnhidnRmbHl1UVJMc1JSeVNwQlpha9IBvwFBVV95cUxORm94Ui10aEYyeG5fWVNpYmdFUDNFUDlWaHN2ekFfZEVWSE4teHRKRjRrN3k0RzI5WHdRbVVNdmh4Z2EzU0JTUlJ5V3R0cXcwR21FMmlDM0RJRmNxdWxTaHc4dDg1dmZ2cVNuYlR2V0FwT19yS3dYbkVCclFTT1J4YlJsZ1ZpVUI5Y3RIU0ZNVzJLQ0FHUDlfRGc5NWo4LWxROEhDcFIxSTNqSnhidnRmbHl1UVJMc1JSeVNwQlphaw?oc=5",
    "https://news.google.com/rss/articles/CBMixwFBVV95cUxPV3NpQ2FzOHgyanZlMGhQeHJCUUtVRXY2SXdqQnR0OEZESmdvUVNxa0N0YXQzSEtnV205d2lrR2djekRlVUdOQnhqdWlDeDFNX29UbjF4bXNvdlFDZkE5dHMzZGxSYk1qd1hlb1AydThrbHc5R0JYSVNac3F5U29lWVowTnZqNzZnNWtfZlNvX2xLVEVZbU1LWTJRbEtubzBiTkpucnBYa1haZTBTWk9UWlZrNTBDZXJFd05BdWRxYnpBWWdrZGVJ0gHMAUFVX3lxTE50V3h1V0hNbnVmbWdUVXVJTHgxd0hxOEY5c3dkQjhPZWRmeEJBTktkdy1hQzdrZEZUMHRQZXJrNXNsR28wWlZjdUNPcFcwMF9XVlNKUV9lMnFDd19zVVhmbnJtWV9QS3F6VVZ2U0JqcHZwek9qajlEZmVFRWQ2NDhPVU5UQUxnR1E1d3VadmtNTk5oNGtBei1vU2dGeDZQTUk3Z0JqazRYWmRQWmRybzBsM0F3ekdZZUtpUHZHVkZwbXNrYU9DYll0OEFNTg?oc=5",
-   "https://news.google.com/rss/articles/CBMigwJBVV95cUxPdUdEbU5ZNVJxcERfb1pYajJUanhnTzB2NGNrMkxiczFjaEc1TDJqZkVkNWNYOHdMdV9QVjRKN05KWTV2NzZhQUZ3V1JCUWVKN0d6cUtkWXJXQXU0VDNIOUlkV1lzVWRZei04cGw4UFZoWTZPSWozUDBwcTA3dHQzYm9nckU5N0YzOFZjck9CY3Y1WUtocEtUYXd5UVE1Mkd4SENyX0Z2V1pxRGYtZTh6dUloNjAtdENfUmNOVmxSeExOUi11ZS1JRVNuYnhIMm96Si1EcWE2OHh5WWZpNTVfVVMxTHQ5VndGcGVlRUdYU0Z5NmRhTzNzSldSN09IOGpRSGlN0gGIAkFVX3lxTFBJdi0yT1FrSHlkN19VZ0ZGbTN6QlpYMWVROTZvMW85SDM1Mjg5RS1TanlZWWF2a1pINjVHUTFJcmdZNWJXYlZ3eTJ0X2VIMFFycEFwTUZnamJTa1VnTEVTcndEWlo5RDZrcWtqRG9kbFM2QXBZUlpaUWV5RC1tMHEtekZST1hLVnhybzJMS2RhajlidWNMLV9tVER3RWtLMEhMYjZON1gtb2RFMEJqZURxTkZQZjhncWZwRVI4UWxEY3VJTVFXcVUzRHhtdEVkOUp0TG9NWW5DNUFBOEF2SWZtcGFxa1hQaGk1eEpHSzVEWGp6SG9wQUdUaTRUTjlkcnpMUVFpcHh4Uw?oc=5"
+   "https://news.google.com/rss/articles/CBMigwJBVV95cUxPdUdEbU5ZNVJxcERfb1pYajJUanhnTzB2NGNrMkxiczFjaEc1TDJqZkVkNWNYOHdMdV9QVjRKN05KWTV2NzZhQUZ3V1JCUWVKN0d6cUtkWXJXQXU0VDNIOUlkV1lzVWRZei04cGw4UFZoWTZPSWozUDBwcTA3dHQzYm9nckU5N0YzOFZjck9CY3Y1WUtocEtUYXd5UVE1Mkd4SENyX0Z2V1pxRGYtZTh6dUloNjAtdENfUmNOVmxSeExOUi11ZS1JRVNuYnhIMm96Si1EcWE2OHh5WWZpNTVfVVMxTHQ5VndGcGVlRUdYU0Z5NmRhTzNzSldSN09IOGpRSGlN0gGIAkFVX3lxTFBJdi0yT1FrSHlkN19VZ0ZGbTN6QlpYMWVROTZvMW85SDM1Mjg5RS1TanlZWWF2a1pINjVHUTFJcmdZNWJXYlZ3eTJ0X2VIMFFycEFwTUZnamJTa1VnTEVTcndEWlo5RDZrcWtqRG9kbFM2QXBZUlpaUWV5RC1tMHEtekZST1hLVnhybzJMS2RhajlidWNMLV9tVER3RWtLMEhMYjZON1gtb2RFMEJqZURxTkZQZjhncWZwRVI4UWxEY3VJTVFXcVUzRHhtdEVkOUp0TG9NWW5DNUFBOEF2SWZtcGFxa1hQaGk1eEpHSzVEWGp6SG9wQUdUaTRUTjlkcnpMUVFpcHh4Uw?oc=5",
+   "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CMUVOTnROUk9pdUo4VUlQYzU4UXlfaS1OVTJrMm80Y1psX09vSTRRZTNkd01VTHFHNTRTZmdxaC1iNm9zLVJ3QmVjdE9uNUM4c0hpOEY0d2VBREZK?oc=5"
   ],
   "stage": "unknown",
-  "updated": "2026-11-22"
+  "updated": "2026-11-25"
  },
  "thg-fulfil--autostore": {
   "categories": [
