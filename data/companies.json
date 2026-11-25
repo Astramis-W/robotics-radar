@@ -759,6 +759,22 @@
   "origin": "seed",
   "updated": "2026-11-16"
  },
+ "avtodor": {
+  "aliases": [
+   "Автодор"
+  ],
+  "categories": [
+   "delivery"
+  ],
+  "country": "RU",
+  "description": "",
+  "first_seen": "2026-11-25",
+  "focus": [],
+  "id": "avtodor",
+  "name": "Автодор",
+  "origin": "news",
+  "updated": "2026-11-25"
+ },
  "bedrock-energy": {
   "aliases": [
    "Bedrock Energy"
@@ -853,6 +869,22 @@
   "name": "Biobest",
   "origin": "news",
   "updated": "2026-11-17"
+ },
+ "black-ai": {
+  "aliases": [
+   "Black AI"
+  ],
+  "categories": [
+   "humanoid"
+  ],
+  "country": "JP",
+  "description": "",
+  "first_seen": "2026-11-25",
+  "focus": [],
+  "id": "black-ai",
+  "name": "Black AI",
+  "origin": "news",
+  "updated": "2026-11-25"
  },
  "blastman-robotics": {
   "aliases": [],
@@ -985,17 +1017,19 @@
   "focus": [],
   "id": "botsync",
   "last_round": {
-   "as_of": "2026-11-23",
+   "as_of": "2026-11-24",
    "currency": "USD",
-   "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdzlBa1RFSm1pbEs0Tm45bXc4U0dNaWl2MUZhS3ZKVGRzZUVzRjNzbmZtb1BmQnVMcUx0NktORDAzWDVVcUluc0x6bXJ1THRVeHM0dGo4d0l4SVprdFZqZFNnQ1d4UUNjRk9NbW82cm9aVzl3Wl9DcWpYb2Jwd2pnUVRwMjd2TXZVVWlmNXBpX0ttbUdFZzJrREJpN195VFhGU0xOZWJYRUdQR0NMdzlVUFpwUzI3VTdmM2VYZmwweFBVeDRf?oc=5",
+   "investors": [
+    "IvyCap"
+   ],
+   "source": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOd2ZjYVZFdmdYSXplYjZlbTM2cTJFLXBraGgtM2JvR2sza0J2R3hhdmYzNENHWjFiZndCX2t5dUNVNnVPYU56STFUTV9aRU9KaTNiQzQ1THFJSXNwTVdJLUpTaUxUVHdvLVFJMDF6OEtrY0E0UkVqUHd3V1VOZ0lfbDNQWjhTd1VvVjlicFFqNFRuOHFQM21kVXAzMlp5SW1OSE1ORF9fYkQxSjM3N05UOTZkQko2aE8tZzdfQUFTUE4wMDY3ckNIb0o1bWQ3Z2YyRnVTWUpBONIB3AFBVV95cUxPVUtLVFlrRFpIS1N1SWNXNklYRVhhY09hNHl6ckdtc1d0a0lpM3JaS2RfTDhRLVdBaHBWZFdOMUNER0dDbHZYaGkwQlFyeTg1V1Y5NkFRYzYzYzhjV1hJbWFkbHREZVFtZGlWRUpjcVp5enkxbHVLS0ZOa2pmTmZRMzNyNVlDRHBVZXN1dnlRekZ5NWdZX0VKbzVkMWd3c3JNc2lLQlFDVjBMZWxVdnBoQkZkUzVnYUpRMWNIdk9mYWw4alJNUWluQmw1ZHV2UUdxMFFLbXdEcEhEcFBY?oc=5",
    "type": "unknown",
    "usd": 11000000.0,
    "value": 11000000.0
   },
   "name": "Botsync",
   "origin": "news",
-  "updated": "2026-11-23"
+  "updated": "2026-11-25"
  },
  "brain": {
   "aliases": [
@@ -1068,6 +1102,20 @@
    "usd": 750000000.0,
    "value": 750000000.0
   }
+ },
+ "brills": {
+  "aliases": [],
+  "categories": [
+   "manufacturing"
+  ],
+  "country": "KR",
+  "description": "",
+  "first_seen": "2026-11-25",
+  "focus": [],
+  "id": "brills",
+  "name": "Brills",
+  "origin": "news",
+  "updated": "2026-11-25"
  },
  "brinc": {
   "aliases": [
@@ -1263,16 +1311,16 @@
   "id": "cosine-robots",
   "last_round": {
    "as_of": "2026-11-24",
-   "currency": "USD",
+   "currency": "INR",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaVlnYmI1ME15eUhqaFZmYzNEWnUwbDlLZFBoanFvYW5JUmNKWEVzUGlMTFpLMFNDLUhWQTYtaVcwbFhwdG9JeWd5OXRIVlFvR2ZZdU5kY3g1Y2ZnVEZVbWo2dUppQV9BTlBHa0Fsa0R0QjgyMjF2d2J4VlFzTURpSWRvQnZpVG9ZbjA2Ql9oTUJOXzJBdGc?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMingFBVV95cUxPY3lXdkU1b1cwOVJ5elNwc0JoaTAzNDRwanBtME9CR2NLNWJ5LUlJa1dRSzU2UG1TV3VMNEs2R2xJb1FEakFJS0hESHoyYU43QW5SZkNCeUZHQ2F1T08zM3ZyS1d0dHQybVJoZGlYQzVMVzJyRGdoOWVrdldjeVBzampfaTVGd2cxckQ3T1RCeWhiR2k5c3BIVll0MHRvQQ?oc=5",
    "type": "unknown",
-   "usd": 2400000.0,
-   "value": 2400000.0
+   "usd": 2410540.1,
+   "value": 224000000.0
   },
   "name": "Cosine Robots",
   "origin": "news",
-  "updated": "2026-11-24"
+  "updated": "2026-11-25"
  },
  "cosys-robots": {
   "aliases": [
@@ -1356,6 +1404,22 @@
   "name": "DEEP Robotics",
   "origin": "news",
   "updated": "2026-11-23"
+ },
+ "dexory": {
+  "aliases": [
+   "Dexory"
+  ],
+  "categories": [
+   "logistics"
+  ],
+  "country": "GB",
+  "description": "",
+  "first_seen": "2026-11-25",
+  "focus": [],
+  "id": "dexory",
+  "name": "Dexory",
+  "origin": "news",
+  "updated": "2026-11-25"
  },
  "dhl-supply-chain": {
   "aliases": [],
@@ -1922,7 +1986,8 @@
  "faraday-future": {
   "aliases": [
    "FF",
-   "Faraday Future Intelligent Electric"
+   "Faraday Future Intelligent Electric",
+   "FFAI"
   ],
   "categories": [
    "delivery",
@@ -1943,7 +2008,7 @@
    "value": 2300000.0,
    "year": null
   },
-  "updated": "2026-11-17"
+  "updated": "2026-11-25"
  },
  "faresin": {
   "aliases": [],
@@ -1999,8 +2064,10 @@
   "aliases": [
    "FFR"
   ],
-  "categories": [],
-  "country": "",
+  "categories": [
+   "service"
+  ],
+  "country": "US",
   "description": "Экосистема в области робототехники и физического ИИ.",
   "first_seen": "2026-11-17",
   "focus": [],
@@ -2015,7 +2082,7 @@
    "value": 2300000.0,
    "year": null
   },
-  "updated": "2026-11-23"
+  "updated": "2026-11-25"
  },
  "ff-robotics": {
   "aliases": [],
@@ -2476,6 +2543,20 @@
   "name": "Google DeepMind",
   "origin": "news",
   "updated": "2026-11-16"
+ },
+ "hanwha": {
+  "aliases": [],
+  "categories": [
+   "service"
+  ],
+  "country": "KR",
+  "description": "",
+  "first_seen": "2026-11-25",
+  "focus": [],
+  "id": "hanwha",
+  "name": "Hanwha",
+  "origin": "news",
+  "updated": "2026-11-25"
  },
  "hausbots": {
   "aliases": [],
@@ -3027,10 +3108,12 @@
  },
  "kraken-robotics": {
   "aliases": [
-   "Kraken Robotics Inc"
+   "Kraken Robotics Inc",
+   "Kraken"
   ],
   "categories": [
-   "marine"
+   "marine",
+   "inspection"
   ],
   "country": "CA",
   "description": "Разработчик подводных роботов и гидроакустического оборудования.",
@@ -3041,13 +3124,13 @@
   "origin": "news",
   "revenue": {
    "as_of": "2026-11-24",
-   "currency": "USD",
-   "source": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRXRybGxkOU1RMFJNamNFdC1EZG0zV2xCdkw0cURLdHVRUkVKMm9EVEhuQXJwQUhnandVelAtNlFSNnZxRU9FckJHdnhnSFo3TUt0V1ZpckxhMjIzbWNuSzlaVWxzZG0zVHNndjRvSXFrRVJxUWtiUWFyV0RGVHRuMmd5SHpyS2I3SXU2ZFp6WklBS0VnbzZhZS1vSk9wTXNEbWVkTGppYUhUcnFNbkFST1V4amNYQUhWeVpXQ05QZTFobDA?oc=5",
-   "usd": 102200000.0,
+   "currency": "CAD",
+   "source": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPR1Q5V1NxaUQ4Rm9MWUJ5X0F1NmFKMWJPNnFGcWF6WTBQMlh3ZDl0SVI4M2RuXzZpRmRWS0p5UTJoNi00T3lzd0l6XzlqWlhiUjRBRE9uMEVUclFEZWN3MWlsYzM2U3lmQUZzb0dDMFY3d2FXUmhFVHZVYnBPajFpdDExT0RnZF9UUXBuSTJWWFFRWGhpYWs3ZEFn?oc=5",
+   "usd": 71512489.15,
    "value": 102200000.0,
-   "year": null
+   "year": 2026
   },
-  "updated": "2026-11-24"
+  "updated": "2026-11-25"
  },
  "kret": {
   "aliases": [
@@ -3298,6 +3381,23 @@
   "origin": "news",
   "updated": "2026-11-17"
  },
+ "mai": {
+  "aliases": [
+   "МАИ",
+   "Московский авиационный институт"
+  ],
+  "categories": [
+   "aerial"
+  ],
+  "country": "RU",
+  "description": "",
+  "first_seen": "2026-11-25",
+  "focus": [],
+  "id": "mai",
+  "name": "МАИ",
+  "origin": "news",
+  "updated": "2026-11-25"
+ },
  "marut-drones": {
   "aliases": [
    "Braiin"
@@ -3313,7 +3413,7 @@
   "id": "marut-drones",
   "name": "Marut Drones",
   "origin": "news",
-  "updated": "2026-11-24"
+  "updated": "2026-11-25"
  },
  "massrobotics": {
   "aliases": [],
@@ -3580,7 +3680,8 @@
  "nauticus-robotics": {
   "aliases": [
    "Nauticus",
-   "WAM-V"
+   "WAM-V",
+   "Ocean Power Technologies"
   ],
   "categories": [
    "marine"
@@ -3592,7 +3693,7 @@
   "id": "nauticus-robotics",
   "name": "Nauticus Robotics",
   "origin": "news",
-  "updated": "2026-11-24"
+  "updated": "2026-11-25"
  },
  "neptune-robotics": {
   "aliases": [],
@@ -4008,6 +4109,22 @@
   "origin": "news",
   "updated": "2026-11-16"
  },
+ "piklema": {
+  "aliases": [
+   "ПИР"
+  ],
+  "categories": [
+   "underground"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-25",
+  "focus": [],
+  "id": "piklema",
+  "name": "Пиклема",
+  "origin": "news",
+  "updated": "2026-11-25"
+ },
  "pix-moving": {
   "aliases": [],
   "categories": [
@@ -4226,7 +4343,9 @@
    "Robotics and AI Institute",
    "RAI"
   ],
-  "categories": [],
+  "categories": [
+   "components"
+  ],
   "country": "US",
   "description": "Исследовательский институт фундаментальной робототехники, основанный Марком Рейбертом в 2022 году.",
   "first_seen": "2026-11-24",
@@ -4234,7 +4353,7 @@
   "id": "rai-institute",
   "name": "RAI Institute",
   "origin": "news",
-  "updated": "2026-11-24"
+  "updated": "2026-11-25"
  },
  "raise": {
   "aliases": [],
@@ -5666,11 +5785,13 @@
   "aliases": [
    "Teradyne",
    "Sereact",
-   "Teradyne Robotics"
+   "Teradyne Robotics",
+   "Inbolt"
   ],
   "categories": [
    "manufacturing",
-   "logistics"
+   "logistics",
+   "components"
   ],
   "country": "DK",
   "description": "Американская компания, владеющая Universal Robots и Mobile Industrial Robotics",
@@ -5679,7 +5800,7 @@
   "id": "universal-robots",
   "name": "Universal Robots",
   "origin": "seed",
-  "updated": "2026-11-17"
+  "updated": "2026-11-25"
  },
  "unix-ai": {
   "aliases": [
@@ -6146,6 +6267,23 @@
   "name": "Yarbo",
   "origin": "news",
   "updated": "2026-11-24"
+ },
+ "yyforce": {
+  "aliases": [
+   "YFOR"
+  ],
+  "categories": [
+   "humanoid",
+   "service"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-25",
+  "focus": [],
+  "id": "yyforce",
+  "name": "YYForce",
+  "origin": "news",
+  "updated": "2026-11-25"
  },
  "zacua-ventures": {
   "aliases": [
