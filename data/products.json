@@ -250,15 +250,22 @@
   "focus": [],
   "id": "amazon--prime-air",
   "name": "Prime Air",
+  "price": {
+   "as_of": "2026-11-22",
+   "currency": "USD",
+   "source": "https://dronexl.co/2026/11/25/amazon-prime-air-mt-juliet-nashville-drone-delivery-launch/",
+   "usd": 2.99,
+   "value": 2.99
+  },
   "sources": [
-   "https://dronexl.co/2026/11/23/amazon-prime-air-toledo-rossford-ohio-drone-delivery-launch/",
    "https://dronexl.co/2026/11/23/amazon-drones-nyt-wsj-the-times-coverage-public-debate/",
    "https://dronexl.co/2026/11/23/amazon-prime-air-tallahassee-jacksonville-coming-months-ruskin-tampa/",
    "https://dronexl.co/2026/11/23/amazon-prime-air-drones-mt-juliet-tennessee-nashville-coming-soon/",
-   "https://dronexl.co/2026/11/24/amazon-prime-air-jacksonville-before-christmas-faa-approval-councilman/"
+   "https://dronexl.co/2026/11/24/amazon-prime-air-jacksonville-before-christmas-faa-approval-councilman/",
+   "https://dronexl.co/2026/11/25/amazon-prime-air-mt-juliet-nashville-drone-delivery-launch/"
   ],
-  "stage": "pilot",
-  "updated": "2026-11-24"
+  "stage": "serial",
+  "updated": "2026-11-26"
  },
  "amazon--prime-air-mk30": {
   "categories": [
@@ -291,6 +298,22 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-20"
+ },
+ "androidnaya-tehnika--teledroid": {
+  "categories": [
+   "humanoid"
+  ],
+  "company_id": "androidnaya-tehnika",
+  "description": "Антропоморфная торсовая система с двумя манипуляторами, управляемая в ручном, автоматическом режимах и голосом.",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "androidnaya-tehnika--teledroid",
+  "name": "Теледроид",
+  "sources": [
+   "https://www.kommersant.ru/doc/9130760"
+  ],
+  "stage": "pilot",
+  "updated": "2026-11-26"
  },
  "andromeda-robotics--abi": {
   "categories": [
@@ -742,6 +765,22 @@
   "stage": "serial",
   "updated": "2026-11-21"
  },
+ "brolan--clearx": {
+  "categories": [
+   "service"
+  ],
+  "company_id": "brolan",
+  "description": "Робот для мойки обуви.",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "brolan--clearx",
+  "name": "ClearX",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMisAFBVV95cUxNLWhjYkc0RjV6WFB2Z25JdXJWU21SVFlZMmlhVHBqbGRDODZGWXlQQjdDTDlmQnQ4NjVSYnp0M0dmcUQwYmlLWlQtRE8wSTJTUlZYY21KSTUtTFVDcFBrUk0xSUNnNnVpSm9PSGdjWl9vR1JNYzZGYUFCUVJtU0RuSWNpbXFGOTloa1lYRzY4bEVMMTI3QkYwWXB4RVNsUlZ2blJnOUhDY0hZbGFwMThmMQ?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-26"
+ },
  "cidi--bezkabinnyy-samosval-na-akkumulyatore": {
   "categories": [
    "underground"
@@ -757,6 +796,22 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-24"
+ },
+ "cidi--level-4-autonomous-electric-heavy-truck": {
+  "categories": [
+   "delivery"
+  ],
+  "company_id": "cidi",
+  "description": "Электрический тяжёлый грузовик с автономностью уровня 4.",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "cidi--level-4-autonomous-electric-heavy-truck",
+  "name": "Level 4 autonomous electric heavy truck",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcFkzODJIdnpHbmhrMGo3RmRlX2diLXMxX08yYi04VEhpY1o1bWZsXzBQNFdDVTJrTldCRURVbUZ0akpIWXBxY0ZhU25UcmszenlLTm9rREMtSXY5dFNaRW4zb05yRjhURDBxMzFJYW5XZWNMVVdqLUVBb3VTLTlOczlOUUFZT0dZZjlNc2pUMHhsUQ?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-26"
  },
  "cidi--vega": {
   "categories": [
@@ -921,6 +976,22 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-20"
+ },
+ "dji--inspire-2": {
+  "categories": [
+   "aerial"
+  ],
+  "company_id": "dji",
+  "description": "",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "dji--inspire-2",
+  "name": "Inspire 2",
+  "sources": [
+   "https://dronexl.co/2026/11/25/dji-inspire-2-end-of-service-december-1-phantom-4-rtk/"
+  ],
+  "stage": "discontinued",
+  "updated": "2026-11-26"
  },
  "dronamics--black-swan": {
   "categories": [
@@ -1148,6 +1219,22 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-18"
+ },
+ "focalpoint--tehnologiya-sputnikovoy-navigatsii-dlya-robotov": {
+  "categories": [
+   "components"
+  ],
+  "company_id": "focalpoint",
+  "description": "",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "focalpoint--tehnologiya-sputnikovoy-navigatsii-dlya-robotov",
+  "name": "Технология спутниковой навигации для роботов",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMicEFVX3lxTE1LbWhXb09BTV9RX0FVS2dMc25JaldQWmtBUDhNREswV29kcVk1eTg5MlpieDVCRkVGeVdRWjlXMkJBbWRIdXJJTWthYWgtSjZubFVaUmRzdUQyVjJEWF9SWUlScHY4Rkx6Z1pIRTNGSUI?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-26"
  },
  "foundation--phantom-mkii": {
   "categories": [
@@ -1666,6 +1753,30 @@
   "stage": "unknown",
   "updated": "2026-11-25"
  },
+ "neiry--biodrony-golubi-s-neyrointerfeysom": {
+  "categories": [
+   "aerial"
+  ],
+  "company_id": "neiry",
+  "description": "Голуби с имплантированными электродами и стимулятором, управляемые импульсами, с камерой на груди для аэрофотосъёмки.",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "neiry--biodrony-golubi-s-neyrointerfeysom",
+  "name": "Биодроны (голуби с нейроинтерфейсом)",
+  "price": {
+   "as_of": "2025-11-25",
+   "currency": "RUB",
+   "source": "https://3dnews.ru/1151809",
+   "usd": 3660.04,
+   "value": 300000.0
+  },
+  "sources": [
+   "https://vc.ru/tech/3278920-neiry-aerofotosyemka-golubei-biodronov?from=rss",
+   "https://3dnews.ru/1151809"
+  ],
+  "stage": "pilot",
+  "updated": "2026-11-26"
+ },
  "neptune-robotics--neptune-annual-care-usluga": {
   "categories": [
    "marine",
@@ -1738,6 +1849,22 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-22"
+ },
+ "noetix-robotics--boomy": {
+  "categories": [
+   "humanoid"
+  ],
+  "company_id": "noetix-robotics",
+  "description": "Компактный гуманоидный робот для экспериментов с программированием.",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "noetix-robotics--boomy",
+  "name": "Boomy",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdkg1cXBnYWtZVjhlMHFzNWNHUFhxWmFKSVVlVDJYaEltVFg2YjBWTk42OU9JMmd4ZnMzR08zRmJXQTdSbmlOenFSLVJTUEdaZEoxMHplZmludklLNlFYa3g5SXZoMHJhZVF3c2VGRHZUcDVsVVhTcXRJQ05OeXg3dEdTZ0JlRGJXMVk3bW5IQ05wbTQxVk9jVFVYODlBdXlNTjA2aDBCeEJGWjBWZEJwWlZPM2k4NjFsbFF6aFNHdHc5TjhHdXZPZDZpLXprQkN5?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-26"
  },
  "nomadic--nomad": {
   "categories": [
@@ -3081,10 +3208,11 @@
    "https://news.google.com/rss/articles/CBMivwFBVV95cUxORm94Ui10aEYyeG5fWVNpYmdFUDNFUDlWaHN2ekFfZEVWSE4teHRKRjRrN3k0RzI5WHdRbVVNdmh4Z2EzU0JTUlJ5V3R0cXcwR21FMmlDM0RJRmNxdWxTaHc4dDg1dmZ2cVNuYlR2V0FwT19yS3dYbkVCclFTT1J4YlJsZ1ZpVUI5Y3RIU0ZNVzJLQ0FHUDlfRGc5NWo4LWxROEhDcFIxSTNqSnhidnRmbHl1UVJMc1JSeVNwQlpha9IBvwFBVV95cUxORm94Ui10aEYyeG5fWVNpYmdFUDNFUDlWaHN2ekFfZEVWSE4teHRKRjRrN3k0RzI5WHdRbVVNdmh4Z2EzU0JTUlJ5V3R0cXcwR21FMmlDM0RJRmNxdWxTaHc4dDg1dmZ2cVNuYlR2V0FwT19yS3dYbkVCclFTT1J4YlJsZ1ZpVUI5Y3RIU0ZNVzJLQ0FHUDlfRGc5NWo4LWxROEhDcFIxSTNqSnhidnRmbHl1UVJMc1JSeVNwQlphaw?oc=5",
    "https://news.google.com/rss/articles/CBMixwFBVV95cUxPV3NpQ2FzOHgyanZlMGhQeHJCUUtVRXY2SXdqQnR0OEZESmdvUVNxa0N0YXQzSEtnV205d2lrR2djekRlVUdOQnhqdWlDeDFNX29UbjF4bXNvdlFDZkE5dHMzZGxSYk1qd1hlb1AydThrbHc5R0JYSVNac3F5U29lWVowTnZqNzZnNWtfZlNvX2xLVEVZbU1LWTJRbEtubzBiTkpucnBYa1haZTBTWk9UWlZrNTBDZXJFd05BdWRxYnpBWWdrZGVJ0gHMAUFVX3lxTE50V3h1V0hNbnVmbWdUVXVJTHgxd0hxOEY5c3dkQjhPZWRmeEJBTktkdy1hQzdrZEZUMHRQZXJrNXNsR28wWlZjdUNPcFcwMF9XVlNKUV9lMnFDd19zVVhmbnJtWV9QS3F6VVZ2U0JqcHZwek9qajlEZmVFRWQ2NDhPVU5UQUxnR1E1d3VadmtNTk5oNGtBei1vU2dGeDZQTUk3Z0JqazRYWmRQWmRybzBsM0F3ekdZZUtpUHZHVkZwbXNrYU9DYll0OEFNTg?oc=5",
    "https://news.google.com/rss/articles/CBMigwJBVV95cUxPdUdEbU5ZNVJxcERfb1pYajJUanhnTzB2NGNrMkxiczFjaEc1TDJqZkVkNWNYOHdMdV9QVjRKN05KWTV2NzZhQUZ3V1JCUWVKN0d6cUtkWXJXQXU0VDNIOUlkV1lzVWRZei04cGw4UFZoWTZPSWozUDBwcTA3dHQzYm9nckU5N0YzOFZjck9CY3Y1WUtocEtUYXd5UVE1Mkd4SENyX0Z2V1pxRGYtZTh6dUloNjAtdENfUmNOVmxSeExOUi11ZS1JRVNuYnhIMm96Si1EcWE2OHh5WWZpNTVfVVMxTHQ5VndGcGVlRUdYU0Z5NmRhTzNzSldSN09IOGpRSGlN0gGIAkFVX3lxTFBJdi0yT1FrSHlkN19VZ0ZGbTN6QlpYMWVROTZvMW85SDM1Mjg5RS1TanlZWWF2a1pINjVHUTFJcmdZNWJXYlZ3eTJ0X2VIMFFycEFwTUZnamJTa1VnTEVTcndEWlo5RDZrcWtqRG9kbFM2QXBZUlpaUWV5RC1tMHEtekZST1hLVnhybzJMS2RhajlidWNMLV9tVER3RWtLMEhMYjZON1gtb2RFMEJqZURxTkZQZjhncWZwRVI4UWxEY3VJTVFXcVUzRHhtdEVkOUp0TG9NWW5DNUFBOEF2SWZtcGFxa1hQaGk1eEpHSzVEWGp6SG9wQUdUaTRUTjlkcnpMUVFpcHh4Uw?oc=5",
-   "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CMUVOTnROUk9pdUo4VUlQYzU4UXlfaS1OVTJrMm80Y1psX09vSTRRZTNkd01VTHFHNTRTZmdxaC1iNm9zLVJ3QmVjdE9uNUM4c0hpOEY0d2VBREZK?oc=5"
+   "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CMUVOTnROUk9pdUo4VUlQYzU4UXlfaS1OVTJrMm80Y1psX09vSTRRZTNkd01VTHFHNTRTZmdxaC1iNm9zLVJ3QmVjdE9uNUM4c0hpOEY0d2VBREZK?oc=5",
+   "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZmN6ei1POWQ3SDNYWmRkczYtRE1qUVpIaV9QWWRmM2RWS0tqV294VVltWVE1OTkyZ2RVamR3RVFFTU5CaTZod18zWHZ0bk5KazhZb0l4SHp3TVNVMTNaVDNSNnZOcWc2dndGUG5vM25SSWtPS1ZFOWJRRzBYdEpWQmtsZHNleVltTnhGalpEOG92TmlrMVRrdA?oc=5"
   ],
   "stage": "unknown",
-  "updated": "2026-11-25"
+  "updated": "2026-11-26"
  },
  "thg-fulfil--autostore": {
   "categories": [

@@ -170,6 +170,23 @@
   "origin": "seed",
   "updated": "2026-11-16"
  },
+ "afk-sistema": {
+  "aliases": [
+   "АФК «Система»",
+   "AFK Sistema",
+   "Система",
+   "AKM"
+  ],
+  "categories": [],
+  "country": "RU",
+  "description": "Российская инвестиционная холдинговая компания.",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "afk-sistema",
+  "name": "АФК Система",
+  "origin": "news",
+  "updated": "2026-11-26"
+ },
  "agibot": {
   "aliases": [
    "Lens Technology",
@@ -302,6 +319,20 @@
   "origin": "news",
   "updated": "2026-11-17"
  },
+ "ai-robots": {
+  "aliases": [],
+  "categories": [
+   "service"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "ai-robots",
+  "name": "AI² Robots",
+  "origin": "news",
+  "updated": "2026-11-26"
+ },
  "ai2": {
   "aliases": [
    "Allen Institute for AI"
@@ -403,7 +434,7 @@
   "id": "amazon",
   "name": "Amazon",
   "origin": "news",
-  "updated": "2026-11-24"
+  "updated": "2026-11-26"
  },
  "amicro": {
   "aliases": [],
@@ -442,13 +473,13 @@
    "humanoid"
   ],
   "country": "RU",
-  "description": "",
+  "description": "Российская компания-разработчик антропоморфных робототехнических комплексов.",
   "first_seen": "2026-11-16",
   "focus": [],
   "id": "androidnaya-tehnika",
   "name": "НПО Андроидная техника",
   "origin": "seed",
-  "updated": "2026-11-16"
+  "updated": "2026-11-26"
  },
  "andromeda-robotics": {
   "aliases": [
@@ -856,6 +887,29 @@
   "origin": "news",
   "updated": "2026-11-17"
  },
+ "bedrock-robotics": {
+  "aliases": [
+   "Bedrock"
+  ],
+  "categories": [
+   "construction"
+  ],
+  "country": "US",
+  "description": "Компания, разрабатывающая автономные системы для строительной техники.",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "bedrock-robotics",
+  "name": "Bedrock Robotics",
+  "origin": "news",
+  "updated": "2026-11-26",
+  "valuation": {
+   "as_of": "2026-11-25",
+   "currency": "USD",
+   "source": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQekxZRHI5a2JtWWo1bEM1dFl5S0VONE8yOUdLUzFjcXFORjZpQmVreC04a2tFQ2JoLXN0aTZ0bVFCX1QtSklJdjFKNTdJYmwwVjNaRlJTWHowRm00ay1kR3I4Rk52Q2pmaG42bzV4MXpDenY0UVlEX2UwRTFyWTBsUnNWVQ?oc=5",
+   "usd": 4100000000.0,
+   "value": 4100000000.0
+  }
+ },
  "bentic": {
   "aliases": [
    "sewts",
@@ -1060,7 +1114,7 @@
    "value": 136000000000.0,
    "year": 2026
   },
-  "updated": "2026-11-24"
+  "updated": "2026-11-26"
  },
  "bot-auto": {
   "aliases": [],
@@ -1209,6 +1263,20 @@
   "origin": "news",
   "updated": "2026-11-21"
  },
+ "brolan": {
+  "aliases": [],
+  "categories": [
+   "service"
+  ],
+  "country": "CN",
+  "description": "Китайская компания, производитель робота для мойки обуви.",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "brolan",
+  "name": "Brolan",
+  "origin": "news",
+  "updated": "2026-11-26"
+ },
  "built-robotics": {
   "aliases": [],
   "categories": [
@@ -1253,6 +1321,23 @@
   "origin": "news",
   "updated": "2026-11-23"
  },
+ "certis": {
+  "aliases": [
+   "SUTD",
+   "Singapore University of Technology and Design"
+  ],
+  "categories": [
+   "security"
+  ],
+  "country": "SG",
+  "description": "",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "certis",
+  "name": "Certis",
+  "origin": "news",
+  "updated": "2026-11-26"
+ },
  "ceva-logistics": {
   "aliases": [
    "SIT",
@@ -1286,7 +1371,7 @@
   "id": "cidi",
   "name": "CiDi",
   "origin": "news",
-  "updated": "2026-11-25"
+  "updated": "2026-11-26"
  },
  "circus-se": {
   "aliases": [],
@@ -1361,17 +1446,17 @@
   "focus": [],
   "id": "coprod",
   "last_round": {
-   "as_of": "2026-11-23",
+   "as_of": "2026-11-25",
    "currency": "USD",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR0NjUGRWOHZmNGtVRkVaZ19HT1lELUZRSG13ajhOTlJnMGZXWXhtX1VfUjVmS0gwUWFWTnhVb2FVd1J6R0VSUHdKNzU1Mm1BZDgtRXVKek40ODAyRzlndEt5Y1UwTmRXa2RNcjUzc3J2cFhGd291WGE0Q3MwcHFRSWp1TFBydldyUzNr?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSXRQYzhYb3BIUFBxSE5kZl96N2Q0b0RoRUppMTVhX1dXdjVxeFQzT1EzQUNyT2JQVmRuRllpS19PRzFmUGZidDUzMWNDZ05aQjBreW5oZDZObl9FVXFpaDRZZnpRYXMxbkNzVzZ6akJXODNWRTl0XzRLSEFOeS1HNTRlTQ?oc=5",
    "type": "unknown",
    "usd": 6000000.0,
    "value": 6000000.0
   },
   "name": "coprod",
   "origin": "news",
-  "updated": "2026-11-24"
+  "updated": "2026-11-26"
  },
  "cosine-robots": {
   "aliases": [
@@ -1399,7 +1484,7 @@
   },
   "name": "Cosine Robots",
   "origin": "news",
-  "updated": "2026-11-25"
+  "updated": "2026-11-26"
  },
  "cosys-robots": {
   "aliases": [
@@ -1565,7 +1650,8 @@
    "SZ DJI Technology Co., Ltd.",
    "DJI Technology",
    "ДЖИ",
-   "Da-Jiang Innovations"
+   "Da-Jiang Innovations",
+   "DJI Innovations"
   ],
   "categories": [
    "aerial",
@@ -1578,7 +1664,7 @@
   "id": "dji",
   "name": "DJI",
   "origin": "seed",
-  "updated": "2026-11-25"
+  "updated": "2026-11-26"
  },
  "doomdoom": {
   "aliases": [],
@@ -1877,6 +1963,20 @@
   "origin": "news",
   "updated": "2026-11-18"
  },
+ "emag": {
+  "aliases": [],
+  "categories": [
+   "manufacturing"
+  ],
+  "country": "DE",
+  "description": "Немецкий поставщик робототехники и производственного оборудования.",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "emag",
+  "name": "EMAG",
+  "origin": "news",
+  "updated": "2026-11-26"
+ },
  "embention": {
   "aliases": [],
   "categories": [
@@ -2134,7 +2234,8 @@
  },
  "ff-eai-robotics": {
   "aliases": [
-   "FF EAI Robotics"
+   "FF EAI Robotics",
+   "FF EAI Robotics Ecosystem"
   ],
   "categories": [],
   "country": "",
@@ -2152,7 +2253,7 @@
    "value": 2300000.0,
    "year": null
   },
-  "updated": "2026-11-17"
+  "updated": "2026-11-26"
  },
  "ff-eai-robotics-ecosystem": {
   "aliases": [
@@ -2176,7 +2277,7 @@
    "value": 2300000.0,
    "year": null
   },
-  "updated": "2026-11-25"
+  "updated": "2026-11-26"
  },
  "ff-robotics": {
   "aliases": [],
@@ -2261,6 +2362,39 @@
   "name": "FlytBase",
   "origin": "news",
   "updated": "2026-11-18"
+ },
+ "fnac-darty": {
+  "aliases": [],
+  "categories": [
+   "logistics"
+  ],
+  "country": "FR",
+  "description": "",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "fnac-darty",
+  "name": "Fnac Darty",
+  "origin": "news",
+  "robots_deployed": {
+   "as_of": "2026-11-25",
+   "source": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOU53T0NITFJjUTl1aUctbU9qVmRCdnpfb3FINWtqcFpFQU9JVkFCOFhyLWJhMjlvU3pkTlU0MVlxOE5ndVVYblVVSlA3S01TNC14STI4TjQ4czZNUDZxQ3Z6QXV1Tl9yYlhjYllnUTIxLThVSnMwdE5hcDFPSDYzekNvRktrYUVicHBn?oc=5",
+   "value": 25
+  },
+  "updated": "2026-11-26"
+ },
+ "focalpoint": {
+  "aliases": [],
+  "categories": [
+   "components"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "focalpoint",
+  "name": "FocalPoint",
+  "origin": "news",
+  "updated": "2026-11-26"
  },
  "fort-robotics": {
   "aliases": [
@@ -2873,6 +3007,38 @@
   "origin": "news",
   "updated": "2026-11-19"
  },
+ "indrocorp-technologies": {
+  "aliases": [
+   "Indrocorp"
+  ],
+  "categories": [
+   "aerial"
+  ],
+  "country": "CA",
+  "description": "Канадская компания, разрабатывающая дроны и роботов.",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "indrocorp-technologies",
+  "name": "Indrocorp Technologies",
+  "origin": "news",
+  "updated": "2026-11-26"
+ },
+ "innok-robotics": {
+  "aliases": [
+   "Innok Robotics Group AG"
+  ],
+  "categories": [
+   "logistics"
+  ],
+  "country": "DE",
+  "description": "Разработчик мобильных роботов и роботизированных платформ",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "innok-robotics",
+  "name": "Innok Robotics",
+  "origin": "news",
+  "updated": "2026-11-26"
+ },
  "intel": {
   "aliases": [
    "Intel Corp.",
@@ -3350,6 +3516,22 @@
   "origin": "news",
   "updated": "2026-11-17"
  },
+ "liebherr": {
+  "aliases": [
+   "Liebherr's"
+  ],
+  "categories": [
+   "logistics"
+  ],
+  "country": "DE",
+  "description": "Производитель техники, внедряющий AMR-автоматизацию.",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "liebherr",
+  "name": "Liebherr",
+  "origin": "news",
+  "updated": "2026-11-26"
+ },
  "lion-robotics": {
   "aliases": [
    "Hanwha Aerospace"
@@ -3465,6 +3647,27 @@
   "name": "Lupa Robotics",
   "origin": "news",
   "updated": "2026-11-25"
+ },
+ "lute": {
+  "aliases": [],
+  "categories": [],
+  "country": "",
+  "description": "Робототехнический стартап.",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "lute",
+  "last_round": {
+   "as_of": "2026-11-25",
+   "currency": "USD",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUWRZMllWdnBXYmVXNUh4MkIwVVpMU1ZzTjJFQ1Bzc1Q4cUdwN2pobkQtb2FJcHIwajFfZXR1UU83OVF3YjBudU1DWDhpOVEwSlNiT3hWQ1FUdXFvTUI1QjRfVzhfSUhsZXoydm1UYWp1T0VVWGd0d2R1NnpyM0VDd3hmVlVxZVBHQVVDenE4YTVQMkdTZmc?oc=5",
+   "type": "unknown",
+   "usd": 20000000.0,
+   "value": 20000000.0
+  },
+  "name": "Lute",
+  "origin": "news",
+  "updated": "2026-11-26"
  },
  "m-l-technologies": {
   "aliases": [
@@ -3846,7 +4049,23 @@
   "id": "nauticus-robotics",
   "name": "Nauticus Robotics",
   "origin": "news",
-  "updated": "2026-11-25"
+  "updated": "2026-11-26"
+ },
+ "neiry": {
+  "aliases": [
+   "Нейри"
+  ],
+  "categories": [
+   "aerial"
+  ],
+  "country": "RU",
+  "description": "Российская компания нейротехнологий, разрабатывающая нейроинтерфейсы, медицинские импланты и носимые устройства.",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "neiry",
+  "name": "Neiry",
+  "origin": "news",
+  "updated": "2026-11-26"
  },
  "neptune-robotics": {
   "aliases": [],
@@ -3959,6 +4178,22 @@
   "name": "Nilfisk",
   "origin": "seed",
   "updated": "2026-11-16"
+ },
+ "noetix-robotics": {
+  "aliases": [
+   "Noetix"
+  ],
+  "categories": [
+   "humanoid"
+  ],
+  "country": "CN",
+  "description": "",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "noetix-robotics",
+  "name": "Noetix Robotics",
+  "origin": "news",
+  "updated": "2026-11-26"
  },
  "noitom-robotics": {
   "aliases": [
@@ -4144,6 +4379,22 @@
   "name": "Osage",
   "origin": "news",
   "updated": "2026-11-25"
+ },
+ "oversonic-robotics": {
+  "aliases": [
+   "Oversonic"
+  ],
+  "categories": [
+   "humanoid"
+  ],
+  "country": "IT",
+  "description": "Итальянская компания, разрабатывающая и производящая когнитивных гуманоидных роботов.",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "oversonic-robotics",
+  "name": "Oversonic Robotics",
+  "origin": "news",
+  "updated": "2026-11-26"
  },
  "oyy-technology": {
   "aliases": [
@@ -4566,7 +4817,7 @@
   "id": "rai-institute",
   "name": "RAI Institute",
   "origin": "news",
-  "updated": "2026-11-25"
+  "updated": "2026-11-26"
  },
  "raise": {
   "aliases": [],
@@ -4610,7 +4861,8 @@
  },
  "realbotix": {
   "aliases": [
-   "Realbotix Series 1"
+   "Realbotix Series 1",
+   "Onconetix"
   ],
   "categories": [
    "humanoid",
@@ -4623,7 +4875,7 @@
   "id": "realbotix",
   "name": "Realbotix",
   "origin": "news",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "remedy-robotics": {
   "aliases": [
@@ -4717,7 +4969,7 @@
    "value": 300
   },
   "status": "active",
-  "updated": "2026-11-23",
+  "updated": "2026-11-26",
   "website": "https://www.richtechrobotics.com/"
  },
  "ring": {
@@ -5172,6 +5424,22 @@
    "value": 2000
   },
   "updated": "2026-11-20"
+ },
+ "severstal": {
+  "aliases": [
+   "Severstal"
+  ],
+  "categories": [
+   "manufacturing"
+  ],
+  "country": "RU",
+  "description": "",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "severstal",
+  "name": "Северсталь",
+  "origin": "news",
+  "updated": "2026-11-26"
  },
  "shenzhen": {
   "aliases": [
@@ -5767,7 +6035,21 @@
    "source": "https://www.cnews.ru/news/top/2026-11-17_ilon_mask_sobiraetsya_cherez",
    "value": 573
   },
-  "updated": "2026-11-25"
+  "updated": "2026-11-26"
+ },
+ "tethpower": {
+  "aliases": [],
+  "categories": [
+   "aerial"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "tethpower",
+  "name": "TethPower",
+  "origin": "news",
+  "updated": "2026-11-26"
  },
  "tevel-aerobotics": {
   "aliases": [
@@ -6101,6 +6383,20 @@
   "name": "Vectigo",
   "origin": "news",
   "updated": "2026-11-22"
+ },
+ "vention": {
+  "aliases": [],
+  "categories": [
+   "manufacturing"
+  ],
+  "country": "CA",
+  "description": "",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "vention",
+  "name": "Vention",
+  "origin": "news",
+  "updated": "2026-11-26"
  },
  "verobotics": {
   "aliases": [],
@@ -6513,7 +6809,7 @@
   "id": "yandeks-robotiks",
   "name": "Яндекс Роботикс",
   "origin": "seed",
-  "updated": "2026-11-24"
+  "updated": "2026-11-26"
  },
  "yarbo": {
   "aliases": [],
@@ -6611,7 +6907,7 @@
   },
   "name": "Zipline",
   "origin": "seed",
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "valuation": {
    "as_of": "2026-11-19",
    "currency": "USD",
