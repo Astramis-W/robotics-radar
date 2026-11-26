@@ -394,10 +394,11 @@
   "id": "asrock--rbk-100-robotics-in-a-box",
   "name": "RBK-100 Robotics-in-a-Box",
   "sources": [
-   "https://roboticsandautomationnews.com/2026/11/24/asrock-industrial-launches-robotics-in-a-box-for-physical-ai-development/107570/"
+   "https://roboticsandautomationnews.com/2026/11/24/asrock-industrial-launches-robotics-in-a-box-for-physical-ai-development/107570/",
+   "https://habr.com/ru/companies/selectel/articles/1112306/?utm_campaign=1112306&utm_source=habrahabr&utm_medium=rss"
   ],
   "stage": "unknown",
-  "updated": "2026-11-24"
+  "updated": "2026-11-26"
  },
  "asus--gallop": {
   "categories": [
@@ -830,6 +831,22 @@
   "stage": "unknown",
   "updated": "2026-11-25"
  },
+ "clobot--boston-dynamics-spot": {
+  "categories": [
+   "inspection"
+  ],
+  "company_id": "clobot",
+  "description": "Четырёхногий робот для инспекции и промышленных задач.",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "clobot--boston-dynamics-spot",
+  "name": "Boston Dynamics Spot",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMibEFVX3lxTE5jOS1BNlo1b01kT3NKYjFMaDZOTkdSX2VnZ1AzYVBRRURWblpWQlN4STJDQ1R4RWF5M2daNDZ3QWFvZ1QwLXY5QTNva1pfdEFfQ2pNRHVmeGlDcjNfY3pnb1ZxMzFRLXgtelRJSA?oc=5"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-26"
+ },
  "cmr-surgical--versius": {
   "categories": [
    "medical"
@@ -1186,6 +1203,22 @@
   "stage": "unknown",
   "updated": "2026-11-18"
  },
+ "exotec--skypod": {
+  "categories": [
+   "logistics"
+  ],
+  "company_id": "exotec",
+  "description": "Складские роботы для системы «товар человеку» с отбором заказов.",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "exotec--skypod",
+  "name": "Skypod",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/26/exotec-helps-fnac-darty-handle-black-friday-rush-with-refurbished-and-rented-robots/107714/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-26"
+ },
  "faresin--eramix": {
   "categories": [
    "agro"
@@ -1403,6 +1436,23 @@
   ],
   "stage": "serial",
   "updated": "2026-11-16"
+ },
+ "hexagon-robotics--aeon": {
+  "categories": [
+   "humanoid",
+   "manufacturing"
+  ],
+  "company_id": "hexagon-robotics",
+  "description": "Гуманоидный робот на колёсах для производственных задач, обучаемый имитационным обучением.",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "hexagon-robotics--aeon",
+  "name": "AEON",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/26/volvo-cars-begins-training-hexagon-humanoid-robots-for-factory-work/107733/"
+  ],
+  "stage": "pilot",
+  "updated": "2026-11-26"
  },
  "hidonix--hido-ii": {
   "categories": [
@@ -1667,6 +1717,22 @@
   "stage": "unknown",
   "updated": "2026-11-21"
  },
+ "mimic--flux-mimic-x": {
+  "categories": [
+   "components"
+  ],
+  "company_id": "mimic",
+  "description": "Видео-экшн модель с 7 млрд параметров для управления роботами-манипуляторами.",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "mimic--flux-mimic-x",
+  "name": "FLUX-mimic-x",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/26/physical-ai-model-outpaces-human-operator-in-robot-manipulation-tests/107719/"
+  ],
+  "stage": "prototype",
+  "updated": "2026-11-26"
+ },
  "mobilicom--swarmix": {
   "categories": [
    "aerial",
@@ -1744,14 +1810,31 @@
   "id": "nauticus-robotics--wam-v",
   "name": "WAM-V",
   "sources": [
-   "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOM1diU2l1TXpaZDZhREFBTXhqeU1FWGdoVHlGa2h6Qkpqc3daZXFsbTdvZXZjWVZtakJld2hMUFVkbkV3cU1rVDFrTWRaLWRaUjgwUDhhMmFFRzFJZHpWMnBqdWFPZ2c5eHVIUklsSnBQV3l4VVdhenZSakkzSWQtOXF4VWJSZklaMTYyRVNGemhWeU9XVTlvMW9sV1luZkw4em1KZVhrVXNOQTU2MEVLVnNEdU5yRXJaeV85aEU4cVBUNkNDc3dhM2FZSS1xS0hWNGwyRUtvbDRXOGZjMGVlSTRXOG52Z2ZqcWc?oc=5",
    "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMzdXYlItekNjXzFuRUgwU3lNcVR6eEQxVHJsTk8tT0NwaUhIVmNzd3ZRRU41cXhxN3F5TGdZSmRtVFJ4SFJCekU3aFZIYzM1VHpOTGZpbWtycExvUWxVUGx2czNkajVxMXRfN2F5d3h4cEx4cGFZZ1VPWUR4LW9vQ0t5RWdOWHRmRGZ0Qm5IT0FoaElJQXc?oc=5",
    "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSVE5VmhfMV85Rl9YaGt6VUdoMm9IZzIySlQ0TW9LNUN5eGI3OGo4eXlyREJSMk12UWZaWk53WWZndXpXeGNBeHlVX2xSVHl0UkphY1g4TE1rcU5fdk1SU3FhRXZMcDJHVXd1V0x5eTNWN1ZfRWxMNEtzSlVxTmpJZ3FBSXh0T1o0b1E?oc=5",
    "https://news.google.com/rss/articles/CBMie0FVX3lxTE9oRF9sY1NhRzBBMmI2SjFzV2RXcnhKZ3g5T3BvcmUwRmNFQ3hSY0hObWR0OGEtRm9iVlZnV1BhVVNIci0wWmZhazgxRnBzSDNFa3drbGlVd251ZjJMSkVlTnNQZmlGZ0R6NnNzeFRLOVhqV0NoQ0ZNX3RNZw?oc=5",
-   "https://news.google.com/rss/articles/CBMizwFBVV95cUxOLU1WRk1JbDdjaUR6XzFqSk1rNGxqQUlWcTVPbE4zWEotQnBRRGFidWQ3anVMSGlQLVZkX3pHSWYyU0hDVDd6NXVEcjNlcEt3NjdoSllIenlxQzZzNjNrS204SWg1dDlWU19KY1liLVFWRUw2aHdUTlpFdDdNNUNKZFJ5YXZTZExITXJsRUp1UVVvWVFxei1wRTNSQUxrZThCUFdyRUZZVkxjT0txZ0NmUEF3UDJwX1FwZWRkRjFUV09GNmJIcG91dVRCWVlSbms?oc=5"
+   "https://news.google.com/rss/articles/CBMizwFBVV95cUxOLU1WRk1JbDdjaUR6XzFqSk1rNGxqQUlWcTVPbE4zWEotQnBRRGFidWQ3anVMSGlQLVZkX3pHSWYyU0hDVDd6NXVEcjNlcEt3NjdoSllIenlxQzZzNjNrS204SWg1dDlWU19KY1liLVFWRUw2aHdUTlpFdDdNNUNKZFJ5YXZTZExITXJsRUp1UVVvWVFxei1wRTNSQUxrZThCUFdyRUZZVkxjT0txZ0NmUEF3UDJwX1FwZWRkRjFUV09GNmJIcG91dVRCWVlSbms?oc=5",
+   "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcVNmcTVqMHNCNTJOYllxTUN4bFJDUzNQVVRiZGtTMUhyUWV4VmhwZmRfQ1paSmh4U0RVMWJpdm5tT2hxNFd5MTRLZ0tXNm5PQ3pqLXRTRE1mV0dPNG5TYU1JMWdYZkRDXzg0anhqNWJZTnk3NExaeGo0SHNCV1p5cTdGcUQ5dEI5VEtnR2tqVGpsanhhNVJrQ2RaNmtMNE9tXzVzRTFMQWlwZjIzbE8tY01zX0pYbDJEQWJDQ3ZoVXE?oc=5"
   ],
   "stage": "unknown",
-  "updated": "2026-11-25"
+  "updated": "2026-11-26"
+ },
+ "neiry--biodron-golub": {
+  "categories": [
+   "aerial",
+   "inspection"
+  ],
+  "company_id": "neiry",
+  "description": "Голубь с имплантированными в мозг электродами и бортовым радиоэлектронным оборудованием для дистанционного управления.",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "neiry--biodron-golub",
+  "name": "Биодрон-голубь",
+  "sources": [
+   "https://www.vedomosti.ru/technology/news/2026/11/25/1415264-golubi-biodroni-viletov"
+  ],
+  "stage": "prototype",
+  "updated": "2026-11-26"
  },
  "neiry--biodrony-golubi-s-neyrointerfeysom": {
   "categories": [
@@ -2192,6 +2275,22 @@
   "stage": "serial",
   "updated": "2026-11-23"
  },
+ "pudu-robotics--pudu-d9": {
+  "categories": [
+   "service"
+  ],
+  "company_id": "pudu-robotics",
+  "description": "",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "pudu-robotics--pudu-d9",
+  "name": "PUDU D9",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1QZnhldVJIaWVERlplWWd0Y0FUcXF6dXNjYUFiQm03SzNadVo5MGJ2THAyc3JNd0l5YTQxMngtS1BUSmNuNktHVWFsV1lWTnpoSmxNSkJIVVJoc0pmN3hBeHVsLUg?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-26"
+ },
  "pudu-robotics--t300-t600": {
   "categories": [
    "service",
@@ -2605,6 +2704,22 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-17"
+ },
+ "robostroyteh--robot-stroitel-dlya-zalivki-styazhki-pola": {
+  "categories": [
+   "construction"
+  ],
+  "company_id": "robostroyteh",
+  "description": "",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "robostroyteh--robot-stroitel-dlya-zalivki-styazhki-pola",
+  "name": "робот-строитель для заливки стяжки пола",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNM1lnckoyeGhSczV1b3NmZEJ1MWk5Y0R1Sy1PNkF4eHpHM2RBdnFxS2pyZmpxUmFiVU90TXhTN3lXalppNkpCNmlRWVYxZ1ZsYlY0dnJScnNaSTNrWVdDZGJtaWdsOC12OXA1Ym9TbFcxaHdrRkxQTDQxb0oxSFhGNk1LNlppNF9JNEthaXBjaWRPbkd6NWNhUEU2NUpVejlMOXVidzBqdkMwVEhyOUpTT2NFek4zLUtxYWNMVTNtSVhGb0xnUjB0dzNmYTZ2bU5nNzNmaVlB0gHUAUFVX3lxTE1GbmVSSDdQaUtqWTQ3WHczWmN6Qm90WTdRaGxYS1NKRDZCRC1MWmNDc1BjS2Z6QUh6czVkUVVlOXBfYUd6dEpFZ2NMeVJ2Q0NxUldhN0hDbGlXQTVFcWZMdldNSXVyMWZ5WGh4LWV0LUZTOWUwYnRJOVR2TXluU2YyVEgxTXdQU2dOTC01VG5pMkd4TVE2Z2ZnNDV4b3c4U25FZ3dWZTl1NlF3dW9hYWMyYzVwMTl3N040SGRzZ0tYN0pJb1FXYjUwa3lCSWRXUzBfbU5Y?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-26"
  },
  "rosiwit--pilot-one": {
   "categories": [
@@ -3288,6 +3403,23 @@
   "stage": "serial",
   "updated": "2026-11-24"
  },
+ "universal-robots--inbolt-standard": {
+  "categories": [
+   "manufacturing",
+   "components"
+  ],
+  "company_id": "universal-robots",
+  "description": "Программное обеспечение 3D-видеонавигации, работающее на роботах Universal Robots Gen 7.",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "universal-robots--inbolt-standard",
+  "name": "Inbolt Standard",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/26/universal-robots-brings-inbolts-3d-ai-vision-directly-onto-its-gen-7-robots/107737/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-26"
+ },
  "universal-robots--sereact-cortex": {
   "categories": [
    "logistics"
@@ -3353,6 +3485,22 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-16"
+ },
+ "viam--viam-launchpad": {
+  "categories": [
+   "components"
+  ],
+  "company_id": "viam",
+  "description": "Шестимесячная программа акселерации для стартапов с кредитами на платформу и доступом к лаборатории.",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "viam--viam-launchpad",
+  "name": "Viam Launchpad",
+  "sources": [
+   "https://t.me/prorobots/3675"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-26"
  },
  "viggo--mix1-mix1pro": {
   "categories": [
@@ -3511,10 +3659,28 @@
   "id": "xpeng--iron",
   "name": "Iron",
   "sources": [
-   "https://roboticsandautomationnews.com/2026/11/23/xpeng-to-showcase-humanoid-robot-and-physical-ai-advances-at-ai-day-2026/107497/"
+   "https://roboticsandautomationnews.com/2026/11/23/xpeng-to-showcase-humanoid-robot-and-physical-ai-advances-at-ai-day-2026/107497/",
+   "https://3dnews.ru/1151839",
+   "https://news.google.com/rss/articles/CBMidkFVX3lxTE9TVnV3QnNRbGRvSU9VVHc0Q1ZjcE5VTllYajRiZ2EteDFtTVZzQW1pSWd3c2F2aUV3TlRpTG5zbllxZHJ4bkVjNEs4SHU2RkFLMm1IUzlrWkxWZ2tQSHNIdEtDQ0I3Wm9IVk9TTVlMSGNHZlUwV0E?oc=5"
   ],
   "stage": "serial",
-  "updated": "2026-11-23"
+  "updated": "2026-11-26"
+ },
+ "yandeks-lavka--rover": {
+  "categories": [
+   "delivery"
+  ],
+  "company_id": "yandeks-lavka",
+  "description": "Робот-доставщик четвёртого поколения с обновлённой подвеской, более мощным вычислительным блоком и новым лидаром",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "yandeks-lavka--rover",
+  "name": "Ровер",
+  "sources": [
+   "https://www.cnews.ru/news/line/2026-11-26_yandeks_lavka_nachala_zapuskat"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-26"
  },
  "yarbo--yarbo-sdk-beta": {
   "categories": [
@@ -3566,6 +3732,38 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-21"
+ },
+ "zoomlion--ai-excavation-robot": {
+  "categories": [
+   "construction"
+  ],
+  "company_id": "zoomlion",
+  "description": "Робот-экскаватор с искусственным интеллектом.",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "zoomlion--ai-excavation-robot",
+  "name": "AI Excavation Robot",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRHNKckswOGZYR1M5aWJSN2hVa3hvT1I2ajJlNm80TzAzVzRHbjNMblo4eWtBeldtWnk1OVp5Z2R4QzQySVpVXzNPbG0yZUx0SE8yeXVPWUlqX2xtV0M0VE5TNEdQNlh6RXIwVHZvTy1SZXljTlRERkhXNndtTkRTeEtZSXlUN0sxb2pLamxyNXFoSDZ3UmNNRmgtRlk4MlNBaDZsd1FPZEg4T3J4bHlJV0puckpuTkNPTnRoNWJLVzZuNWlZU2pHMUNuSmZSYlB6b3hJMmFvdw?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-26"
+ },
+ "zoomlion--ii-ekskavator-robot": {
+  "categories": [
+   "construction"
+  ],
+  "company_id": "zoomlion",
+  "description": "Экскаватор с ИИ-управлением на основе embodied intelligence.",
+  "first_seen": "2026-11-26",
+  "focus": [],
+  "id": "zoomlion--ii-ekskavator-robot",
+  "name": "ИИ-экскаватор-робот",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMibEFVX3lxTE54SmZ3Rk9TdFM4cmVsbjZYcWZ4Z0xTNzJlckpJUzhIRmFSMzlaVi1nakwwdTN5Z2loU2xzY3lJcTdHTmV1T0JWMHltcVlMYW1UelVOWE1xb1V1N0xsOUFnRWcxNGw2TVFiNzhWOdIBbEFVX3lxTE54SmZ3Rk9TdFM4cmVsbjZYcWZ4Z0xTNzJlckpJUzhIRmFSMzlaVi1nakwwdTN5Z2loU2xzY3lJcTdHTmV1T0JWMHltcVlMYW1UelVOWE1xb1V1N0xsOUFnRWcxNGw2TVFiNzhWOQ?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-26"
  },
  "zoox--robotaksi-zoox": {
   "categories": [
