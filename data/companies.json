@@ -317,6 +317,31 @@
   "origin": "news",
   "updated": "2026-11-17"
  },
+ "agripass": {
+  "aliases": [],
+  "categories": [
+   "agro"
+  ],
+  "country": "IL",
+  "description": "Израильский стартап, разрабатывающий робота для прополки",
+  "first_seen": "2026-11-27",
+  "focus": [],
+  "id": "agripass",
+  "last_round": {
+   "as_of": "2026-11-26",
+   "currency": "USD",
+   "investors": [
+    "Mazal"
+   ],
+   "source": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcWlpaDNoRkNueWVmSVJkNkNvLUI5OFZWWFhVZWFHaVVsLTNHd29vSkpxUkJ0eGdUbFltVHEtcTdDeDhXaUFzdkZ2eEVoalVMcUttTzdMMV9Od1hzUzJIeUxHXy12YTRCY19fQmtOMTg2Y1NiQmFZeGMzVzVVeVN2REZ3QmVYeWRBUnFjV3hZeElzVEwxSlJZUkE1UjhFSTYzQUE?oc=5",
+   "type": "unknown",
+   "usd": 3000000.0,
+   "value": 3000000.0
+  },
+  "name": "AgriPass",
+  "origin": "news",
+  "updated": "2026-11-27"
+ },
  "agxeed": {
   "aliases": [
    "AgXeed"
@@ -448,7 +473,7 @@
   "id": "amazon",
   "name": "Amazon",
   "origin": "news",
-  "updated": "2026-11-26"
+  "updated": "2026-11-27"
  },
  "amicro": {
   "aliases": [],
@@ -785,7 +810,9 @@
   "updated": "2026-11-25"
  },
  "autostore": {
-  "aliases": [],
+  "aliases": [
+   "Plexus"
+  ],
   "categories": [
    "logistics"
   ],
@@ -796,7 +823,7 @@
   "id": "autostore",
   "name": "AutoStore",
   "origin": "seed",
-  "updated": "2026-11-16"
+  "updated": "2026-11-27"
  },
  "auvsi": {
   "aliases": [
@@ -876,6 +903,29 @@
   "name": "Автодор",
   "origin": "news",
   "updated": "2026-11-25"
+ },
+ "azalea-robotics": {
+  "aliases": [],
+  "categories": [
+   "logistics"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-27",
+  "focus": [],
+  "id": "azalea-robotics",
+  "last_round": {
+   "as_of": "2026-11-25",
+   "currency": "USD",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQS1oxZG55MkRTeHlWTTY5WGQ4UE05QTBjNk9iTklPdDNKdUhId3h0cTR4TzRTVXZfYjNxdkppM253T1RERmUyWU9aeld0UjYwVHJCMkNucWZfZ2poTVRHMFZlLU1leER5cTlFdXZFX1ZtMzhLbjJYS21oRTdVUjVpNEl6QWV0X2JfbHZWY2lzWGxnT09TVmo5aDhlYw?oc=5",
+   "type": "unknown",
+   "usd": 3500000.0,
+   "value": 3500000.0
+  },
+  "name": "Azalea Robotics",
+  "origin": "news",
+  "updated": "2026-11-27"
  },
  "bedrock-energy": {
   "aliases": [
@@ -1418,7 +1468,8 @@
  },
  "clobot": {
   "aliases": [
-   "클로봇"
+   "클로봇",
+   "Boston Dynamics"
   ],
   "categories": [
    "inspection"
@@ -1430,7 +1481,15 @@
   "id": "clobot",
   "name": "CLOBOT",
   "origin": "news",
-  "updated": "2026-11-26"
+  "revenue": {
+   "as_of": "2026-11-26",
+   "currency": "KRW",
+   "source": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBnLUlpUW9DMk9uTmhPTFVfdXdVVUdpRGVRdENOVXZ1eFViYkRXdXMyUnVkemtNTUVzcW9QYnR4VGh5NmVpUEg2Ql9UQVlMamhHWXMwSUVmVmFVc2l6c3JUWEE5Y2hVY2tNYmJPNV8tYUJXZ0NQM0E?oc=5",
+   "usd": 7441351.5,
+   "value": 10000000000.0,
+   "year": null
+  },
+  "updated": "2026-11-27"
  },
  "cmr-surgical": {
   "aliases": [
@@ -2144,10 +2203,26 @@
   "origin": "news",
   "updated": "2026-11-21"
  },
+ "everdrone": {
+  "aliases": [],
+  "categories": [
+   "aerial",
+   "medical"
+  ],
+  "country": "SE",
+  "description": "Шведская компания, разрабатывающая дроны с дефибрилляторами AED.",
+  "first_seen": "2026-11-27",
+  "focus": [],
+  "id": "everdrone",
+  "name": "Everdrone",
+  "origin": "news",
+  "updated": "2026-11-27"
+ },
  "exotec": {
   "aliases": [
    "Эксотек",
-   "Hellmann"
+   "Hellmann",
+   "Fnac Darty"
   ],
   "categories": [
    "logistics"
@@ -2164,7 +2239,7 @@
    "source": "https://roboticsandautomationnews.com/2026/11/26/exotec-helps-fnac-darty-handle-black-friday-rush-with-refurbished-and-rented-robots/107714/",
    "value": 36
   },
-  "updated": "2026-11-26"
+  "updated": "2026-11-27"
  },
  "exyn-technologies": {
   "aliases": [
@@ -2833,7 +2908,8 @@
  },
  "hai-robotics": {
   "aliases": [
-   "KLN Partners"
+   "KLN Partners",
+   "KLN Logistics"
   ],
   "categories": [
    "logistics"
@@ -2845,7 +2921,7 @@
   "id": "hai-robotics",
   "name": "Hai Robotics",
   "origin": "news",
-  "updated": "2026-11-26"
+  "updated": "2026-11-27"
  },
  "hanwha": {
   "aliases": [],
@@ -2996,7 +3072,7 @@
   },
   "name": "Humble Robotics",
   "origin": "news",
-  "updated": "2026-11-18"
+  "updated": "2026-11-27"
  },
  "humyn-labs": {
   "aliases": [
@@ -3481,6 +3557,29 @@
   "origin": "seed",
   "updated": "2026-11-16"
  },
+ "korben": {
+  "aliases": [],
+  "categories": [
+   "service"
+  ],
+  "country": "",
+  "description": "Компания, развивающая мультибрендовых сервисных роботов.",
+  "first_seen": "2026-11-27",
+  "focus": [],
+  "id": "korben",
+  "last_round": {
+   "as_of": "2026-11-26",
+   "currency": "EUR",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeWNDcVJhWXQ4MUlJVWRRSzd0TlNxMFB3N3g3QThiUzNWLXhQNUUwdTlrN2xfWnFhYlI4M0F1ZzFvV2VNcTBkNzZiOUg2eENjZElhRXh5YkR0RE1fVmlzMXExai10SEcwNnZMUG9Mb1dkQmZma2RUMHpfUVBsbkFNX1NjclF5cS1YNHV1ODVqT0Y?oc=5",
+   "type": "unknown",
+   "usd": 11192641.83,
+   "value": 10200000.0
+  },
+  "name": "Korben",
+  "origin": "news",
+  "updated": "2026-11-27"
+ },
  "kraken-robotics": {
   "aliases": [
    "Kraken Robotics Inc",
@@ -3731,38 +3830,41 @@
   "focus": [],
   "id": "lupa-robotics",
   "last_round": {
-   "as_of": "2026-11-25",
+   "as_of": "2026-11-26",
    "currency": "USD",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0xX2dPNHdoWlVZOUVzUDBnMkNfeFJrTU5rRDh3b1lFQ190aENZYW1GRnVBbkhiWjFGTURDVDRON1NpOUMyRWNJMWpHNUFLam96eXM3c0FWdEpZNk1tZW9SM1JUZ1FfWW41N0FrNVl3Um5HYll4V25oU1JMa2pnWVk?oc=5",
-   "type": "unknown",
+   "source": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQX0w3RXBKeG8zbHUwM0RLblg0SUJCcVZvN1ZvZTA3T2IwSmtrOGlka2lORXZMOHdrUUxxSnFYWmc1eE15N2Z4NFpnR2ZGaEJJeHRkV3Jid3pHaUlDZU81d2lNX09xdzdrUjgtVEdrS1dOejRCMzFoaEt3RnFGcVVWVmtqbHZLSlJ3QXltbWNOcnFWTG9oYjFpMDZxSWEyZF9hRE9wTWpyaU9VQQ?oc=5",
+   "type": "seed",
    "usd": 1670000.0,
    "value": 1670000.0
   },
   "name": "Lupa Robotics",
   "origin": "news",
-  "updated": "2026-11-26"
+  "updated": "2026-11-27"
  },
  "lute": {
   "aliases": [],
-  "categories": [],
+  "categories": [
+   "components",
+   "logistics"
+  ],
   "country": "",
   "description": "Робототехнический стартап.",
   "first_seen": "2026-11-26",
   "focus": [],
   "id": "lute",
   "last_round": {
-   "as_of": "2026-11-25",
-   "currency": "USD",
+   "as_of": "2026-11-26",
+   "currency": "EUR",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUWRZMllWdnBXYmVXNUh4MkIwVVpMU1ZzTjJFQ1Bzc1Q4cUdwN2pobkQtb2FJcHIwajFfZXR1UU83OVF3YjBudU1DWDhpOVEwSlNiT3hWQ1FUdXFvTUI1QjRfVzhfSUhsZXoydm1UYWp1T0VVWGd0d2R1NnpyM0VDd3hmVlVxZVBHQVVDenE4YTVQMkdTZmc?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdUltYUdhWDRYMWtMTjZYUjdKa3ZpdnJNckF1ZU5lSjdVaENvZFBmRVZZWEkwVU1GV0NfMzlLZnJGcTJRSTE3TGhDYWN5RVRBM2FOUHNSYXdnWnJCSktzYWdCMVpMV0Y4X1ZLRjNxRVBaVVlEYm0yMGFNaWZGcVROZnVQUWdsUEx1aHlrSXFhT1U4aW1HRWEwbE93ZzZIbFRVSVR1ZGhNbXg0UGlaT2M4TUJyN001T1FmOXc?oc=5",
    "type": "unknown",
-   "usd": 20000000.0,
-   "value": 20000000.0
+   "usd": 18873866.61,
+   "value": 17200000.0
   },
   "name": "Lute",
   "origin": "news",
-  "updated": "2026-11-26"
+  "updated": "2026-11-27"
  },
  "m-l-technologies": {
   "aliases": [
@@ -4209,6 +4311,23 @@
   "origin": "news",
   "updated": "2026-11-26"
  },
+ "naver": {
+  "aliases": [
+   "Naver",
+   "네이버"
+  ],
+  "categories": [
+   "delivery"
+  ],
+  "country": "KR",
+  "description": "",
+  "first_seen": "2026-11-27",
+  "focus": [],
+  "id": "naver",
+  "name": "Naver",
+  "origin": "news",
+  "updated": "2026-11-27"
+ },
  "neiry": {
   "aliases": [
    "Нейри",
@@ -4521,7 +4640,7 @@
   "id": "orchard-robotics",
   "name": "Orchard Robotics",
   "origin": "news",
-  "updated": "2026-11-24"
+  "updated": "2026-11-27"
  },
  "osage": {
   "aliases": [
@@ -4779,6 +4898,20 @@
   "name": "poLight",
   "origin": "news",
   "updated": "2026-11-17"
+ },
+ "pos-malaysia": {
+  "aliases": [],
+  "categories": [
+   "logistics"
+  ],
+  "country": "MY",
+  "description": "Почтовый оператор Малайзии.",
+  "first_seen": "2026-11-27",
+  "focus": [],
+  "id": "pos-malaysia",
+  "name": "Pos Malaysia",
+  "origin": "news",
+  "updated": "2026-11-27"
  },
  "prikladnaya-robototehnika": {
   "aliases": [
@@ -5470,17 +5603,37 @@
   },
   "updated": "2026-11-17"
  },
- "samsung": {
+ "saipem": {
   "aliases": [],
-  "categories": [],
+  "categories": [
+   "marine",
+   "inspection"
+  ],
+  "country": "IT",
+  "description": "Итальянский подрядчик для энергетического сектора",
+  "first_seen": "2026-11-27",
+  "focus": [],
+  "id": "saipem",
+  "name": "Saipem",
+  "origin": "news",
+  "updated": "2026-11-27"
+ },
+ "samsung": {
+  "aliases": [
+   "Samsung Electronics",
+   "Самсунг"
+  ],
+  "categories": [
+   "manufacturing"
+  ],
   "country": "KR",
-  "description": "",
+  "description": "Производитель электроники и полупроводников",
   "first_seen": "2026-11-26",
   "focus": [],
   "id": "samsung",
   "name": "Samsung",
   "origin": "news",
-  "updated": "2026-11-26"
+  "updated": "2026-11-27"
  },
  "sanctuary-ai": {
   "aliases": [],
@@ -5543,15 +5696,18 @@
    "Sber",
    "СБЕР"
   ],
-  "categories": [],
+  "categories": [
+   "humanoid",
+   "delivery"
+  ],
   "country": "RU",
-  "description": "",
+  "description": "Банк, развивающий собственные роботы и нейросетевую платформу GreenVLA",
   "first_seen": "2026-11-17",
   "focus": [],
   "id": "sber",
   "name": "Сбер",
   "origin": "news",
-  "updated": "2026-11-17"
+  "updated": "2026-11-27"
  },
  "se3": {
   "aliases": [
@@ -5780,6 +5936,24 @@
   "name": "Skyline Robotics",
   "origin": "seed",
   "updated": "2026-11-16"
+ },
+ "skyports-drone-services": {
+  "aliases": [
+   "Skyports",
+   "Skyports Drone Services"
+  ],
+  "categories": [
+   "aerial",
+   "delivery"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-27",
+  "focus": [],
+  "id": "skyports-drone-services",
+  "name": "Skyports Drone Services",
+  "origin": "news",
+  "updated": "2026-11-27"
  },
  "skypsi": {
   "aliases": [
@@ -6027,7 +6201,7 @@
   "id": "symbotic",
   "name": "Symbotic",
   "origin": "seed",
-  "updated": "2026-11-24"
+  "updated": "2026-11-27"
  },
  "synapx": {
   "aliases": [],
@@ -6521,7 +6695,7 @@
   "id": "unitree-robotics",
   "name": "Unitree Robotics",
   "origin": "seed",
-  "updated": "2026-11-24"
+  "updated": "2026-11-27"
  },
  "universal-robots": {
   "aliases": [
@@ -6775,7 +6949,8 @@
  "waymo": {
   "aliases": [
    "Waymo",
-   "Serve Robotics"
+   "Serve Robotics",
+   "Вэймо"
   ],
   "categories": [
    "delivery"
@@ -6787,7 +6962,7 @@
   "id": "waymo",
   "name": "Waymo",
   "origin": "news",
-  "updated": "2026-11-23"
+  "updated": "2026-11-27"
  },
  "wheelies": {
   "aliases": [],
@@ -6873,7 +7048,7 @@
   "id": "wing",
   "name": "Wing",
   "origin": "seed",
-  "updated": "2026-11-23"
+  "updated": "2026-11-27"
  },
  "witron": {
   "aliases": [
@@ -6997,7 +7172,8 @@
    "XPENG's"
   ],
   "categories": [
-   "humanoid"
+   "humanoid",
+   "components"
   ],
   "country": "CN",
   "description": "Китайский производитель электромобилей, разрабатывающий человекоподобных роботов.",
@@ -7015,7 +7191,7 @@
   },
   "name": "XPeng",
   "origin": "news",
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "valuation": {
    "as_of": "2026-11-23",
    "currency": "USD",

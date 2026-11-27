@@ -258,14 +258,14 @@
    "value": 2.99
   },
   "sources": [
-   "https://dronexl.co/2026/11/23/amazon-drones-nyt-wsj-the-times-coverage-public-debate/",
    "https://dronexl.co/2026/11/23/amazon-prime-air-tallahassee-jacksonville-coming-months-ruskin-tampa/",
    "https://dronexl.co/2026/11/23/amazon-prime-air-drones-mt-juliet-tennessee-nashville-coming-soon/",
    "https://dronexl.co/2026/11/24/amazon-prime-air-jacksonville-before-christmas-faa-approval-councilman/",
-   "https://dronexl.co/2026/11/25/amazon-prime-air-mt-juliet-nashville-drone-delivery-launch/"
+   "https://dronexl.co/2026/11/25/amazon-prime-air-mt-juliet-nashville-drone-delivery-launch/",
+   "https://dronexl.co/2026/11/26/canyon-county-amazon-drone-complaints-faa-laser-warning-nampa/"
   ],
   "stage": "serial",
-  "updated": "2026-11-26"
+  "updated": "2026-11-27"
  },
  "amazon--prime-air-mk30": {
   "categories": [
@@ -451,6 +451,22 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-25"
+ },
+ "autostore--autostore": {
+  "categories": [
+   "logistics"
+  ],
+  "company_id": "autostore",
+  "description": "",
+  "first_seen": "2026-11-27",
+  "focus": [],
+  "id": "autostore--autostore",
+  "name": "AutoStore",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSTI0X05qR3hJb1luRk9NdnNWSWlIRUo5RTY4bXhsS3hKQTF1WXJQeFJFMXhqOEZWZFpVUTJUVWRiYVpWamp6WDhvUXJBdkV0UTF2bmt1ZWdQRUhNN09UTmVCMUxBd21PSHlwaHMwaFJjNC1VTzBxSzV0QUFxcm5jSndsc2NiUGpDOXdkWHVGZjVKZw?oc=5"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-27"
  },
  "bentic--jupiter": {
   "categories": [
@@ -847,6 +863,22 @@
   "stage": "serial",
   "updated": "2026-11-26"
  },
+ "clobot--spot": {
+  "categories": [
+   "inspection"
+  ],
+  "company_id": "clobot",
+  "description": "",
+  "first_seen": "2026-11-27",
+  "focus": [],
+  "id": "clobot--spot",
+  "name": "Spot",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMidkFVX3lxTFBnLUlpUW9DMk9uTmhPTFVfdXdVVUdpRGVRdENOVXZ1eFViYkRXdXMyUnVkemtNTUVzcW9QYnR4VGh5NmVpUEg2Ql9UQVlMamhHWXMwSUVmVmFVc2l6c3JUWEE5Y2hVY2tNYmJPNV8tYUJXZ0NQM0E?oc=5"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-27"
+ },
  "cmr-surgical--versius": {
   "categories": [
    "medical"
@@ -1202,6 +1234,23 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-18"
+ },
+ "everdrone--e3": {
+  "categories": [
+   "aerial",
+   "medical"
+  ],
+  "company_id": "everdrone",
+  "description": "Дрон-дефибриллятор, передающий позицию через FLARM.",
+  "first_seen": "2026-11-27",
+  "focus": [],
+  "id": "everdrone--e3",
+  "name": "E3",
+  "sources": [
+   "https://dronexl.co/2026/11/26/everdrone-avincis-flarm-air-ambulance-helicopter-stockholm/"
+  ],
+  "stage": "pilot",
+  "updated": "2026-11-27"
  },
  "exotec--skypod": {
   "categories": [
@@ -1652,6 +1701,23 @@
   "stage": "serial",
   "updated": "2026-11-19"
  },
+ "lute--lute-0": {
+  "categories": [
+   "components",
+   "logistics"
+  ],
+  "company_id": "lute",
+  "description": "Первая видео-экшн модель Lute, переводящая изменения сцены в движения робота.",
+  "first_seen": "2026-11-27",
+  "focus": [],
+  "id": "lute--lute-0",
+  "name": "Lute-0",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/26/lute-raises-20-million-to-give-robots-a-sense-of-touch/107756/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-27"
+ },
  "machina-labs--machina-rebellis": {
   "categories": [
    "manufacturing"
@@ -1818,6 +1884,22 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-26"
+ },
+ "naver--nuri": {
+  "categories": [
+   "delivery"
+  ],
+  "company_id": "naver",
+  "description": "Тротуарный робокурьер для доставки на последней миле в жилых комплексах.",
+  "first_seen": "2026-11-27",
+  "focus": [],
+  "id": "naver--nuri",
+  "name": "NURI",
+  "sources": [
+   "https://t.me/prorobots/3676"
+  ],
+  "stage": "pilot",
+  "updated": "2026-11-27"
  },
  "neiry--biodron-golub": {
   "categories": [
@@ -1999,6 +2081,22 @@
   ],
   "stage": "serial",
   "updated": "2026-11-24"
+ },
+ "orchard-robotics--fruitscope-vision": {
+  "categories": [
+   "agro"
+  ],
+  "company_id": "orchard-robotics",
+  "description": "Камерная система для сканирования плодовых деревьев на ходу, монтируется на квадроцикл или трактор.",
+  "first_seen": "2026-11-27",
+  "focus": [],
+  "id": "orchard-robotics--fruitscope-vision",
+  "name": "FruitScope Vision",
+  "sources": [
+   "https://www.futurefarming.com/smart-farming/tools-data/john-deere-acquires-us-start-up-orchard-robotics-and-its-crop-cameras/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-27"
  },
  "peppermint-robotics--lineyka-cr-chistye-pomescheniya": {
   "categories": [
@@ -2946,6 +3044,23 @@
   "stage": "serial",
   "updated": "2026-11-17"
  },
+ "saipem--hydrone-r": {
+  "categories": [
+   "marine",
+   "inspection"
+  ],
+  "company_id": "saipem",
+  "description": "Подводный дрон, постоянно находящийся на морском дне, для инспекции и вмешательства",
+  "first_seen": "2026-11-27",
+  "focus": [],
+  "id": "saipem--hydrone-r",
+  "name": "Hydrone-R",
+  "sources": [
+   "https://dronexl.co/2026/11/26/saipem-hydrone-r-seabed-drone-equinor-njord-2034/"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-27"
+ },
  "saturn-dynamics--arc": {
   "categories": [
    "components"
@@ -2961,6 +3076,57 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-19"
+ },
+ "sber--grin-20": {
+  "categories": [
+   "humanoid",
+   "delivery"
+  ],
+  "company_id": "sber",
+  "description": "Человекоподобный робот на базе GreenVLA 2.0 для сложных манипуляций с предметами",
+  "first_seen": "2026-11-27",
+  "focus": [],
+  "id": "sber--grin-20",
+  "name": "Грин 2.0",
+  "sources": [
+   "https://vc.ru/tech/3270388-sber-predstavil-robota-grin-yuni-i-kuriera-dostavki?from=rss",
+   "https://3dnews.ru/1151857"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-27"
+ },
+ "sber--robot-kurer": {
+  "categories": [
+   "delivery"
+  ],
+  "company_id": "sber",
+  "description": "Колёсно-шагающий робот-курьер для доставки последней мили, преодолевает бордюры и лестницы",
+  "first_seen": "2026-11-27",
+  "focus": [],
+  "id": "sber--robot-kurer",
+  "name": "Робот-курьер",
+  "sources": [
+   "https://vc.ru/tech/3270388-sber-predstavil-robota-grin-yuni-i-kuriera-dostavki?from=rss"
+  ],
+  "stage": "pilot",
+  "updated": "2026-11-27"
+ },
+ "sber--yuni": {
+  "categories": [
+   "humanoid"
+  ],
+  "company_id": "sber",
+  "description": "Робот-атлет для хореографических и акробатических трюков",
+  "first_seen": "2026-11-27",
+  "focus": [],
+  "id": "sber--yuni",
+  "name": "Юни",
+  "sources": [
+   "https://vc.ru/tech/3270388-sber-predstavil-robota-grin-yuni-i-kuriera-dostavki?from=rss",
+   "https://t.me/banksta/106270"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-27"
  },
  "serve-robotics--av-delivery-developer-portal": {
   "categories": [
@@ -3098,6 +3264,23 @@
   ],
   "stage": "serial",
   "updated": "2026-11-21"
+ },
+ "skyports-drone-services--speedbird-dlv-2": {
+  "categories": [
+   "aerial",
+   "delivery"
+  ],
+  "company_id": "skyports-drone-services",
+  "description": "Дрон с лебёдкой для доставки грузов на палубу судов без посадки.",
+  "first_seen": "2026-11-27",
+  "focus": [],
+  "id": "skyports-drone-services--speedbird-dlv-2",
+  "name": "Speedbird DLV-2",
+  "sources": [
+   "https://dronexl.co/2026/11/26/michigan-skyports-great-lakes-freighter-drone-deliveries-512168-grant/"
+  ],
+  "stage": "pilot",
+  "updated": "2026-11-27"
  },
  "skypsi--operator": {
   "categories": [
@@ -3661,10 +3844,29 @@
   "sources": [
    "https://roboticsandautomationnews.com/2026/11/23/xpeng-to-showcase-humanoid-robot-and-physical-ai-advances-at-ai-day-2026/107497/",
    "https://3dnews.ru/1151839",
-   "https://news.google.com/rss/articles/CBMidkFVX3lxTE9TVnV3QnNRbGRvSU9VVHc0Q1ZjcE5VTllYajRiZ2EteDFtTVZzQW1pSWd3c2F2aUV3TlRpTG5zbllxZHJ4bkVjNEs4SHU2RkFLMm1IUzlrWkxWZ2tQSHNIdEtDQ0I3Wm9IVk9TTVlMSGNHZlUwV0E?oc=5"
+   "https://news.google.com/rss/articles/CBMidkFVX3lxTE9TVnV3QnNRbGRvSU9VVHc0Q1ZjcE5VTllYajRiZ2EteDFtTVZzQW1pSWd3c2F2aUV3TlRpTG5zbllxZHJ4bkVjNEs4SHU2RkFLMm1IUzlrWkxWZ2tQSHNIdEtDQ0I3Wm9IVk9TTVlMSGNHZlUwV0E?oc=5",
+   "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN2hHN0QxWlYtY3dGRm5tMVVrczFoTHNKLUcwbVVUYlUyNmFLTnFfdmh4Z2poTTMzMHZrTEhWMHhYdFNiNFFpUkU4aTRTVlFwM0xkMk0tLTJ6b081LWs0WWpRWHFiWEdhbzdkdkVHek9DcmJYcWFELUNXZ1RrdGkxdl8tUW1Xa2tvejI0ZDFzLWpyWFpBczZzUDVDWV9LU0l0UVFTN2ZjWklGMHBCNTViYlZIWlFkaVV6S3MxX0liWjXSAbYBQVVfeXFMTVJqczlsT2xzR3YtaUdUM29KdDFvQTM5cjA3N01NUzZvdkdUek16eEhUTVI5cl9Pb3NzVnZic1Y5SnVXcEhkYnpPTXU1NTExM25IeFRPOWJNZER6a2NVTjZQQmQxN2Fod0diekFveTlHQnJLd0hBb2R5UU5Yc1FIQVpqdlRfQ3puRkdseVZtSm1oMXpkQkhfM05RX2JBc1ZqalUxZkVESUFyVHJmTWdTWnYxcWoxVXc?oc=5",
+   "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYjlVN3U5bWNuTHJrYU1UN1lrSVQ5YThQc2E3QmZaLU0wdUxhWFFtTUlnSXlqR2lObFZxOG80Y1Z0WDRYZXRTbU10RUZpd3RPUlduYnBsckJSekU0cExhNUVqb0RwajVSZHhramlaZW1oak1Da3V4NEZRQjJXM2JrYm9uSmlPY0NSZEdkU1NHZ3VjS3RzRkNRU0JkZVpNYUhCa2o0dm5NdEhCT3M5blY2cUdUZ1ZvaFdYV3FJVndqZ2w5c2Z2OC0wNUxzOUV4M0xzZlFvbnBR?oc=5"
   ],
   "stage": "serial",
-  "updated": "2026-11-26"
+  "updated": "2026-11-27"
+ },
+ "xpeng--worldgpt": {
+  "categories": [
+   "components",
+   "humanoid"
+  ],
+  "company_id": "xpeng",
+  "description": "Единая ИИ-модель для автомобилей, роботов и дронов.",
+  "first_seen": "2026-11-27",
+  "focus": [],
+  "id": "xpeng--worldgpt",
+  "name": "WorldGPT",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUGFDTVhsTWZUOFhxZm5JRkFaclhJa0Q0MUotSFNPbGVweG5oVDgzQXQwVjJCSW1UcmpoR094aXlnalJkYWliQWdENEZUaTVjMTZKNDAwWkFPUmlEdmp0b210dUU2ZEFOTm5VVFJMUEZBLTE2X1BIRTlNUTl2YTdGQjdyMnpSeFk?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-27"
  },
  "yandeks-lavka--rover": {
   "categories": [
