@@ -579,14 +579,14 @@
   "id": "boston-dynamics--atlas",
   "name": "Atlas",
   "sources": [
-   "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNV2UwbVJGdGQ3LXUzY3JIMWxqd05IWDIzRzRmeGpyMElySVYtdVNBeGo1RVlvLWhsRHpBbzlkRFQ3Ulhua1N3al9Wcy04MERXUjIzMWNQQWJ6Q2JjQlAydEhxbE1aaTJZcE1XdFFGUUx1ODVKWVgwdElfZmp1MzhRSnhmS1hzVGkwY1ItOURBLVNVMllXZkZHUUREWENaS09lYjRTZXJwY1dwZw?oc=5",
    "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeWNGeVkzMFpURXRzMmRIdnIydmZPblFybHRVZEh2bl9tLXA4azl4UDdIQmoyanFNcVJybVA3TnBZNkxTMlZab2w3eURsSWpvSlF3TEpMSTZyQVVqRnNTSWZHVGhfS0l1UnNBS0hsR1hsWGYxSTRncTJYV1NpMkc2dkZUR2lRQUlMT0lBcVdRcTFPTF9kTFlEV0JZbDB1R1BGWnRtclRZRVZkSXRsaEFmQ2E3Ymt0RTJXSHhRakR5SE8yQQ?oc=5",
    "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYWFwWmp5ODVqaWxObS1WVnJMR1JBaFI3dFVpUjAyRy1iVFZOUU9DRTYwY0lmMF9ETnRnc1lCYmlfRTFjUC00ZzBwUTVqQ1YwMi1KcHpwVklvQ1hyMkl3VGNQNVVoVERHM0ZnODN5VkJKcFpSRWZJRV9UMzN6SUp3VVo3UQ?oc=5",
    "https://roboticsandautomationnews.com/2026/11/22/boston-dynamics-gives-atlas-wheels-to-test-new-reinforcement-learning-capabilities/107438/",
-   "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZTE3OGdpSkdHT3RVOVlVNl9oenZUQjBzZ1FYMFJEUDAtUnM3MkRzWU1aclhiQl80cVpMMjFaYlBJeFBQYi1SLVgzOURrZ0pyTk5RUV9QTjR3QTZtT0Q4dUVfdnlaWFlNTGxTaUNHYkJrU09WQzhkdlREYk1oMnprNTExaXB5LXl5aUN0UXRneWV5N1VhMENodl9RS3RfSnBhZHJXOGk3NlFBRnlvakE?oc=5"
+   "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZTE3OGdpSkdHT3RVOVlVNl9oenZUQjBzZ1FYMFJEUDAtUnM3MkRzWU1aclhiQl80cVpMMjFaYlBJeFBQYi1SLVgzOURrZ0pyTk5RUV9QTjR3QTZtT0Q4dUVfdnlaWFlNTGxTaUNHYkJrU09WQzhkdlREYk1oMnprNTExaXB5LXl5aUN0UXRneWV5N1VhMENodl9RS3RfSnBhZHJXOGk3NlFBRnlvakE?oc=5",
+   "https://habr.com/ru/articles/1113194/?utm_campaign=1113194&utm_source=habrahabr&utm_medium=rss"
   ],
   "stage": "prototype",
-  "updated": "2026-11-24"
+  "updated": "2026-11-27"
  },
  "boston-dynamics--spot": {
   "categories": [
@@ -603,10 +603,11 @@
    "https://news.google.com/rss/articles/CBMiWEFVX3lxTE93X0RWSlh3MHZwZmdaVXg5ZlZkckpzTHVnb3pSd2pnMEtBYmZjR18zNmtEc1YweGNvODdxMThiYkViQXNJekZPOXFmai03TVd0M0lETXA3OXA?oc=5",
    "https://roboticsandautomationnews.com/2026/11/18/boston-dynamics-and-globalfoundries-expand-spot-operations-and-prepare-to-test-atlas-humanoid/107266/",
    "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSTlSc0doVTQ5eDh0bnEydUJfZEx5OVp5aHp6aGRZbFNDMnhxY1FGQU9IdVlzaHpSaGRudE5vY3hJY1NMLS1XeWRLNkF5TXNMczlQOUlrMkFmOGlhNVRQNHVDd25aS1pNVjhNTTZVbkYtOGpCNTgxWGE2Qmw5MlhZMVJEMjN1N3pKV2NGdVFkOEctU1B0SF9JNnljRmVoc1lZMEFWcHlfOTF4aDJtYUJhTUdR?oc=5",
-   "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBRMldDdkZCVnJmWlJQTDNpekZfcVdKaTR4TmhLTzM5QjNGMHdEWkhFc3FQRjJ5cVROai1tRlpRemNYak1tQ2w5NUV0SXVvSmxXX0U5MU1sUQ?oc=5"
+   "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBRMldDdkZCVnJmWlJQTDNpekZfcVdKaTR4TmhLTzM5QjNGMHdEWkhFc3FQRjJ5cVROai1tRlpRemNYak1tQ2w5NUV0SXVvSmxXX0U5MU1sUQ?oc=5",
+   "https://habr.com/ru/companies/ibs/articles/1112144/?utm_campaign=1112144&utm_source=habrahabr&utm_medium=rss"
   ],
   "stage": "serial",
-  "updated": "2026-11-19"
+  "updated": "2026-11-27"
  },
  "boston-dynamics--stretch-gen-2": {
   "categories": [
@@ -977,6 +978,23 @@
   "stage": "unknown",
   "updated": "2026-11-17"
  },
+ "deep-robotics--kolesno-nogiy-robot": {
+  "categories": [
+   "agro",
+   "inspection"
+  ],
+  "company_id": "deep-robotics",
+  "description": "Колёсно-ногий робот для инспекций.",
+  "first_seen": "2026-11-27",
+  "focus": [],
+  "id": "deep-robotics--kolesno-nogiy-robot",
+  "name": "Колёсно-ногий робот",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZVhXLXZBc3VOcEdWQ2FGTWNlMHVmakdMMk4zNzg2MDJoSWpHUlZrNk1wblBxd1J6elZ6d1pRQWpFODFXRGFsYm1CdHJLREhHMUFfQWVRUjFnc3ZDTWR3ckl1LWJibWZlOXctSF9BaUw2T0djSURxQWJVVHZPbjRFX2xjVDN1Ukc1YXZnQnByTVl3ZmlxcTUw?oc=5"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-27"
+ },
  "dji--dji-matrice-4-series": {
   "categories": [
    "aerial"
@@ -1263,10 +1281,11 @@
   "id": "exotec--skypod",
   "name": "Skypod",
   "sources": [
-   "https://roboticsandautomationnews.com/2026/11/26/exotec-helps-fnac-darty-handle-black-friday-rush-with-refurbished-and-rented-robots/107714/"
+   "https://roboticsandautomationnews.com/2026/11/26/exotec-helps-fnac-darty-handle-black-friday-rush-with-refurbished-and-rented-robots/107714/",
+   "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPU3lqTU5HVmIzS2lYd1ZBeThzVGMyc2hwckgweTkyNU11MGg4VkVGanBRZk84WTZTVVEydmpmdGpTa0VmVVk4c3pyTFZMSkFva1lRZkNyUWd0WUprLVlLR3pjZlFuQnQwdm5RSzNsRUNFVjFGb1RrMUNMZGQ4VkdGRGI4cWpYXzlERWNhODJZN1oweHltMm1GYWpueVV1Mnp1UjdkOFlDZkZRX3dWMXdoMWpvQUFONE8tRG1YQmk5OEk4dlVQSGZMeWVlSmdXNHc1WXFQcDRwcUtaMHRKZmZtWWMtc0wtdElKWXgxRERn?oc=5"
   ],
   "stage": "serial",
-  "updated": "2026-11-26"
+  "updated": "2026-11-27"
  },
  "faresin--eramix": {
   "categories": [
@@ -1284,6 +1303,23 @@
   ],
   "stage": "prototype",
   "updated": "2026-11-19"
+ },
+ "figure-ai--figure-02": {
+  "categories": [
+   "humanoid",
+   "manufacturing"
+  ],
+  "company_id": "figure-ai",
+  "description": "",
+  "first_seen": "2026-11-27",
+  "focus": [],
+  "id": "figure-ai--figure-02",
+  "name": "Figure 02",
+  "sources": [
+   "https://habr.com/ru/articles/1113194/?utm_campaign=1113194&utm_source=habrahabr&utm_medium=rss"
+  ],
+  "stage": "pilot",
+  "updated": "2026-11-27"
  },
  "flytbase--octane": {
   "categories": [
@@ -1498,10 +1534,11 @@
   "id": "hexagon-robotics--aeon",
   "name": "AEON",
   "sources": [
-   "https://roboticsandautomationnews.com/2026/11/26/volvo-cars-begins-training-hexagon-humanoid-robots-for-factory-work/107733/"
+   "https://roboticsandautomationnews.com/2026/11/26/volvo-cars-begins-training-hexagon-humanoid-robots-for-factory-work/107733/",
+   "https://habr.com/ru/articles/1113194/?utm_campaign=1113194&utm_source=habrahabr&utm_medium=rss"
   ],
   "stage": "pilot",
-  "updated": "2026-11-26"
+  "updated": "2026-11-27"
  },
  "hidonix--hido-ii": {
   "categories": [
@@ -1713,7 +1750,8 @@
   "id": "lute--lute-0",
   "name": "Lute-0",
   "sources": [
-   "https://roboticsandautomationnews.com/2026/11/26/lute-raises-20-million-to-give-robots-a-sense-of-touch/107756/"
+   "https://roboticsandautomationnews.com/2026/11/26/lute-raises-20-million-to-give-robots-a-sense-of-touch/107756/",
+   "https://techfundingnews.com/lute-raises-20m-from-otb-ventures-and-forward-one-to-give-robots-a-sense-of-touch/"
   ],
   "stage": "unknown",
   "updated": "2026-11-27"
@@ -1798,6 +1836,22 @@
   ],
   "stage": "prototype",
   "updated": "2026-11-26"
+ },
+ "minimal--bot": {
+  "categories": [
+   "delivery"
+  ],
+  "company_id": "minimal",
+  "description": "Беспилотный тротуарный робокурьер вместимостью 0,8 м³.",
+  "first_seen": "2026-11-27",
+  "focus": [],
+  "id": "minimal--bot",
+  "name": "Bot",
+  "sources": [
+   "https://t.me/prorobots/3677"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-27"
  },
  "mobilicom--swarmix": {
   "categories": [
@@ -1998,6 +2052,23 @@
   ],
   "stage": "serial",
   "updated": "2026-11-23"
+ },
+ "neura-robotics--neura-gym-aragon": {
+  "categories": [
+   "manufacturing",
+   "components"
+  ],
+  "company_id": "neura-robotics",
+  "description": "Центр и зона моделей физического ИИ в Арагоне для обучения роботов на промышленном опыте.",
+  "first_seen": "2026-11-27",
+  "focus": [],
+  "id": "neura-robotics--neura-gym-aragon",
+  "name": "Neura Gym Aragón",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/27/turning-industrial-knowledge-into-robotic-skills-neura-robotics-partners-with-costa-group-to-develop-aragons-physical-ai-ambitions/107778/"
+  ],
+  "stage": "concept",
+  "updated": "2026-11-27"
  },
  "nexcom--robowiz": {
   "categories": [
@@ -2819,6 +2890,22 @@
   "stage": "unknown",
   "updated": "2026-11-26"
  },
+ "rosatom--aim": {
+  "categories": [
+   "manufacturing"
+  ],
+  "company_id": "rosatom",
+  "description": "Промышленный робот собственного бренда Росатома для роботизированной сварки",
+  "first_seen": "2026-11-27",
+  "focus": [],
+  "id": "rosatom--aim",
+  "name": "АИМ",
+  "sources": [
+   "https://naked-science.ru/article/column/800-tysyach-cheloveko-chasov"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-27"
+ },
  "rosiwit--pilot-one": {
   "categories": [
    "cleaning"
@@ -3077,6 +3164,22 @@
   "stage": "unknown",
   "updated": "2026-11-19"
  },
+ "sber--grin": {
+  "categories": [
+   "components"
+  ],
+  "company_id": "sber",
+  "description": "Человекоподобный робот, разрабатываемый центром робототехники Сбера.",
+  "first_seen": "2026-11-27",
+  "focus": [],
+  "id": "sber--grin",
+  "name": "Грин",
+  "sources": [
+   "https://habr.com/ru/companies/sberbank/articles/1112572/?utm_campaign=1112572&utm_source=habrahabr&utm_medium=rss"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-27"
+ },
  "sber--grin-20": {
   "categories": [
    "humanoid",
@@ -3113,7 +3216,9 @@
  },
  "sber--yuni": {
   "categories": [
-   "humanoid"
+   "humanoid",
+   "service",
+   "delivery"
   ],
   "company_id": "sber",
   "description": "Робот-атлет для хореографических и акробатических трюков",
@@ -3123,7 +3228,8 @@
   "name": "Юни",
   "sources": [
    "https://vc.ru/tech/3270388-sber-predstavil-robota-grin-yuni-i-kuriera-dostavki?from=rss",
-   "https://t.me/banksta/106270"
+   "https://t.me/banksta/106270",
+   "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaF9lbU9PYThiV3dQb0tnWkVrTDdaOVJ2NjFXTTNsSnpSN1dxeWtLTDVvVmMxcWN3MGV6d0V3RWNqSlQzTElVb1RWak90dXFZU0FvMTlmaHBwdlJYMV9vR0NsYU04N3ozUDRaRXZjbTFfWG9rWnFEaFFoQlgtck5EVmtHYmU3cEtZMU1VNlRQQWQtcTlnLXIzZmRqR0xCbjd6aV9rU3NiaDVyMDRrTnNQd2VJclJPX2IwX2hjOVVRTzZCb2ljOEE?oc=5"
   ],
   "stage": "unknown",
   "updated": "2026-11-27"
@@ -3780,6 +3886,22 @@
   "stage": "serial",
   "updated": "2026-11-18"
  },
+ "waymo--waymo-driver": {
+  "categories": [
+   "delivery"
+  ],
+  "company_id": "waymo",
+  "description": "Беспилотные автомобили-такси, работающие в Денвере.",
+  "first_seen": "2026-11-27",
+  "focus": [],
+  "id": "waymo--waymo-driver",
+  "name": "Waymo Driver",
+  "sources": [
+   "https://habr.com/ru/articles/1113036/?utm_campaign=1113036&utm_source=habrahabr&utm_medium=rss"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-27"
+ },
  "windracers--windracers-ultra": {
   "categories": [
    "aerial"
@@ -3842,11 +3964,11 @@
   "id": "xpeng--iron",
   "name": "Iron",
   "sources": [
-   "https://roboticsandautomationnews.com/2026/11/23/xpeng-to-showcase-humanoid-robot-and-physical-ai-advances-at-ai-day-2026/107497/",
    "https://3dnews.ru/1151839",
    "https://news.google.com/rss/articles/CBMidkFVX3lxTE9TVnV3QnNRbGRvSU9VVHc0Q1ZjcE5VTllYajRiZ2EteDFtTVZzQW1pSWd3c2F2aUV3TlRpTG5zbllxZHJ4bkVjNEs4SHU2RkFLMm1IUzlrWkxWZ2tQSHNIdEtDQ0I3Wm9IVk9TTVlMSGNHZlUwV0E?oc=5",
    "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN2hHN0QxWlYtY3dGRm5tMVVrczFoTHNKLUcwbVVUYlUyNmFLTnFfdmh4Z2poTTMzMHZrTEhWMHhYdFNiNFFpUkU4aTRTVlFwM0xkMk0tLTJ6b081LWs0WWpRWHFiWEdhbzdkdkVHek9DcmJYcWFELUNXZ1RrdGkxdl8tUW1Xa2tvejI0ZDFzLWpyWFpBczZzUDVDWV9LU0l0UVFTN2ZjWklGMHBCNTViYlZIWlFkaVV6S3MxX0liWjXSAbYBQVVfeXFMTVJqczlsT2xzR3YtaUdUM29KdDFvQTM5cjA3N01NUzZvdkdUek16eEhUTVI5cl9Pb3NzVnZic1Y5SnVXcEhkYnpPTXU1NTExM25IeFRPOWJNZER6a2NVTjZQQmQxN2Fod0diekFveTlHQnJLd0hBb2R5UU5Yc1FIQVpqdlRfQ3puRkdseVZtSm1oMXpkQkhfM05RX2JBc1ZqalUxZkVESUFyVHJmTWdTWnYxcWoxVXc?oc=5",
-   "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYjlVN3U5bWNuTHJrYU1UN1lrSVQ5YThQc2E3QmZaLU0wdUxhWFFtTUlnSXlqR2lObFZxOG80Y1Z0WDRYZXRTbU10RUZpd3RPUlduYnBsckJSekU0cExhNUVqb0RwajVSZHhramlaZW1oak1Da3V4NEZRQjJXM2JrYm9uSmlPY0NSZEdkU1NHZ3VjS3RzRkNRU0JkZVpNYUhCa2o0dm5NdEhCT3M5blY2cUdUZ1ZvaFdYV3FJVndqZ2w5c2Z2OC0wNUxzOUV4M0xzZlFvbnBR?oc=5"
+   "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYjlVN3U5bWNuTHJrYU1UN1lrSVQ5YThQc2E3QmZaLU0wdUxhWFFtTUlnSXlqR2lObFZxOG80Y1Z0WDRYZXRTbU10RUZpd3RPUlduYnBsckJSekU0cExhNUVqb0RwajVSZHhramlaZW1oak1Da3V4NEZRQjJXM2JrYm9uSmlPY0NSZEdkU1NHZ3VjS3RzRkNRU0JkZVpNYUhCa2o0dm5NdEhCT3M5blY2cUdUZ1ZvaFdYV3FJVndqZ2w5c2Z2OC0wNUxzOUV4M0xzZlFvbnBR?oc=5",
+   "https://news.google.com/rss/articles/CBMinwJBVV95cUxNdXlGMERFYmFObS1YaVZTdnRVTzVXM050bHdNcnlyU3I3ZGhLQ3BBTEg3NkVKWGxHaHF1VkpPSm5nWFRRY1IzVi1qUHVYU08xUFZfUUhJZHo1TmdtN0E5aVdzdGd0RkNUQ3Azd0ZIeXZNQjVwWFJlcFc5NW5RNUJDRHRISEtGRnlweWJ5dWx3SUd4MG5LVWlIeF9ESGtwTlB4UG50a0t6MElINThEYktyaGJwVVVPZTRrWUV6cHVTZVM2bExfYXE0S2NMRlNfS2Q3TDdlaF90cElhNmVFbkRCbTBLLWktTnFuUmZwN3hyLXNwX2pMaGs1bXp0M2tSQVpnbjloOGNyc3FJZlRJRURiSmgwbnRsLTloTjVvazNoY9IBpAJBVV95cUxOamU5Wmx5c3kzY0FkSTB1WUxuOWI0U1BpUDBGV3BpemhuSTYzcUZzQjhoek4zRjh6MFY0OEw3TlNvd3MxLWtNR3ZMV052LXE0d3RVTEphX0dPLUFiaUE5bGhuWW9JT2lrRXY5RENZN1VBU1FFT2tyT0pjQ1JGMzZPbWFTRklyc2dVaTluOVAwM1RTc0I4Nm9OZEFOSEhYSk85VkNPZm03ZGFUbHZ0TGNuWllEMWtQa3c5YnNRQUJOalFGcnJDRXp0MEdZd3Q0QlJxM0wyQU1IQ0RBTEdtS0hxZEJvcUNWbEQwczZ0di1HOHdMYUU2U05IcUY0cXo5YUZxTUxyMUFocW1qT1F2UnNwMWtDV2EzZGNrNnRUSS15UWlQZWdQ?oc=5"
   ],
   "stage": "serial",
   "updated": "2026-11-27"
@@ -3868,6 +3990,22 @@
   "stage": "unknown",
   "updated": "2026-11-27"
  },
+ "yandeks-lavka--robodostavka": {
+  "categories": [
+   "delivery"
+  ],
+  "company_id": "yandeks-lavka",
+  "description": "Доставка роботами в новых городах запуска Яндекс Лавки.",
+  "first_seen": "2026-11-27",
+  "focus": [],
+  "id": "yandeks-lavka--robodostavka",
+  "name": "Рободоставка",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMiSkFVX3lxTE11R25ZbmU2RnhwUE5VRjl4cnpHdUtXMjV0TXc1MUk1QkFiSE1mZXN2dEYxQlNqMnlLNFJYLXJyek5yaGNSTU96X25B?oc=5"
+  ],
+  "stage": "serial",
+  "updated": "2026-11-27"
+ },
  "yandeks-lavka--rover": {
   "categories": [
    "delivery"
@@ -3883,6 +4021,23 @@
   ],
   "stage": "serial",
   "updated": "2026-11-26"
+ },
+ "yandeks-robotiks--robot-gumanoid-dlya-dostavki": {
+  "categories": [
+   "delivery",
+   "humanoid"
+  ],
+  "company_id": "yandeks-robotiks",
+  "description": "Гуманоид для передачи заказов клиентам внутри здания в связке с ровером-доставщиком.",
+  "first_seen": "2026-11-27",
+  "focus": [],
+  "id": "yandeks-robotiks--robot-gumanoid-dlya-dostavki",
+  "name": "Робот-гуманоид для доставки",
+  "sources": [
+   "https://www.cnews.ru/news/top/2026-11-27_yandeks_obedinit_gumanoidnyh"
+  ],
+  "stage": "pilot",
+  "updated": "2026-11-27"
  },
  "yarbo--yarbo-sdk-beta": {
   "categories": [
@@ -3966,6 +4121,22 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-26"
+ },
+ "zoomlion--robot-ekskavator-s-ii": {
+  "categories": [
+   "construction"
+  ],
+  "company_id": "zoomlion",
+  "description": "Экскаватор с искусственным интеллектом для автономной работы.",
+  "first_seen": "2026-11-27",
+  "focus": [],
+  "id": "zoomlion--robot-ekskavator-s-ii",
+  "name": "Робот-экскаватор с ИИ",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTm5JZjdtZjVBWk44alpQWVhyQ2xoQXJveHZFa1d4Q3JHa21SZ2RER0FNbVN2aERKSUxhdktHMVVMcjdiVl9XMlJEUTRXNWVhb1NGYTg5emQtOXFCdkh3OE5UTE9qVXZteTZrWU53Q3Y5bk8yZnJQek9CbFQ0dUY1dHlZSkRKY0Zwc2liQ0ZLeDRlRUhWazJFaTFKMkdjMjgxU2VvLXpiYmJFUk5CVFFMMjNyd3pmTVR3TnN1M3N1TllMbFk?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-27"
  },
  "zoox--robotaksi-zoox": {
   "categories": [
