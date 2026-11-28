@@ -346,10 +346,11 @@
   "name": "Apollo",
   "sources": [
    "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeldYUVdhYkhDZ1VmeV8xeDM2RDgxX2Y4U3h2eGI2SEt4LWRtUXFhNEhyQmVCcVYzZDR0N2Z5SWcyRk5rV3p2MWVDZXp6djQtczdrQ0lIemRSRkZubEpzUlo3Ym9GekhBTllvZVBwWDR6aEt2QnB5MlFHc3BmU3ZPdjB0NzhiNjhGYUFIYW93?oc=5",
-   "https://news.google.com/rss/articles/CBMiggFBVV95cUxNV2p1YTN4Yi1DbDhzWVo1MmplOER3U3oyU1B4ajVrSTR6RnlETXpYbVpIX1RkWExBV09lNFBmcUdWYlFvNTBUdk1hYUtzRE1va3FRRHdsbDJ0V01nU0pKb09VMjc2UEcwNGFRTGQ3eXR5NDh5NERYekwwRmU0SC1IMzdn?oc=5"
+   "https://news.google.com/rss/articles/CBMiggFBVV95cUxNV2p1YTN4Yi1DbDhzWVo1MmplOER3U3oyU1B4ajVrSTR6RnlETXpYbVpIX1RkWExBV09lNFBmcUdWYlFvNTBUdk1hYUtzRE1va3FRRHdsbDJ0V01nU0pKb09VMjc2UEcwNGFRTGQ3eXR5NDh5NERYekwwRmU0SC1IMzdn?oc=5",
+   "https://www.therobotreport.com/gxo-doubling-down-on-robotics-in-2027/"
   ],
   "stage": "pilot",
-  "updated": "2026-11-17"
+  "updated": "2026-11-28"
  },
  "apricity--robotizirovannoe-uzi": {
   "categories": [
@@ -1535,10 +1536,11 @@
   "name": "AEON",
   "sources": [
    "https://roboticsandautomationnews.com/2026/11/26/volvo-cars-begins-training-hexagon-humanoid-robots-for-factory-work/107733/",
-   "https://habr.com/ru/articles/1113194/?utm_campaign=1113194&utm_source=habrahabr&utm_medium=rss"
+   "https://habr.com/ru/articles/1113194/?utm_campaign=1113194&utm_source=habrahabr&utm_medium=rss",
+   "https://3dnews.ru/1151895"
   ],
   "stage": "pilot",
-  "updated": "2026-11-27"
+  "updated": "2026-11-28"
  },
  "hidonix--hido-ii": {
   "categories": [
@@ -2264,6 +2266,24 @@
   "stage": "unknown",
   "updated": "2026-11-24"
  },
+ "prensilia--nh1-era": {
+  "categories": [
+   "components",
+   "humanoid",
+   "manufacturing"
+  ],
+  "company_id": "prensilia",
+  "description": "Роботизированная кисть для гуманоидов и коботов, рассчитанная на промышленное применение.",
+  "first_seen": "2026-11-28",
+  "focus": [],
+  "id": "prensilia--nh1-era",
+  "name": "NH1 Era",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/27/prensilia-launches-new-robotic-hand-for-industrial-humanoids-and-cobots/107822/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-28"
+ },
  "pudu-robotics--bellabot": {
   "categories": [
    "service",
@@ -2858,6 +2878,22 @@
   "stage": "unknown",
   "updated": "2026-11-17"
  },
+ "robbyant--lingbot-map-20-lingbot-navi": {
+  "categories": [
+   "components"
+  ],
+  "company_id": "robbyant",
+  "description": "Открытые ИИ-модели для картографирования и навигации роботов с сохранением пространственной памяти.",
+  "first_seen": "2026-11-28",
+  "focus": [],
+  "id": "robbyant--lingbot-map-20-lingbot-navi",
+  "name": "LingBot-Map 2.0; LingBot-Navi",
+  "sources": [
+   "https://roboticsandautomationnews.com/2026/11/27/robbyant-open-sources-ai-models-to-improve-robotic-navigation-and-spatial-memory/107827/"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-28"
+ },
  "robbyant--lingbot-touch": {
   "categories": [
    "components"
@@ -3193,10 +3229,11 @@
   "name": "Грин 2.0",
   "sources": [
    "https://vc.ru/tech/3270388-sber-predstavil-robota-grin-yuni-i-kuriera-dostavki?from=rss",
-   "https://3dnews.ru/1151857"
+   "https://3dnews.ru/1151857",
+   "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeG92TlM0dXMwcVVPLWNncnlwamRBaWQ4clB5WUFwN2tBMnVDclY5QUdRVlh5UmEtdTlITXR2VmdtbnFTTlFCNEpGSmEtX1VYY2ktYktQbmVnZ3h6eHBScFpFWlQ4V0dUZXB6aTVYek9ZMGN4TmJpbXNtUWdjUjR3WEpONEdibEx5eFRpQmNpcjlNQ3pCYTlHanNnZlI2TnI3cmxDR1laUm1YWkh3WnFXQUxsc3YtRFQ4WUl6R2NmVU9reGh1MnRz?oc=5"
   ],
   "stage": "unknown",
-  "updated": "2026-11-27"
+  "updated": "2026-11-28"
  },
  "sber--robot-kurer": {
   "categories": [
@@ -3349,10 +3386,11 @@
    "https://dronexl.co/2026/11/19/knoxville-police-skydio-dfr-drones-launch-public-flight-log/",
    "https://dronexl.co/2026/11/20/nashville-police-skydio-dfr-trial-98-percent-overtime-ran-low/",
    "https://dronexl.co/2026/11/20/ucla-police-skydio-x10-drones-la28-olympic-village-regents/",
-   "https://dronexl.co/2026/11/20/grapevine-police-skydio-x10-dfr-axon-one-year-state-grant/"
+   "https://dronexl.co/2026/11/20/grapevine-police-skydio-x10-dfr-axon-one-year-state-grant/",
+   "https://dronexl.co/2026/11/27/jupiter-florida-skydio-x10-dfr-docks-1-7-million-axon-vote/"
   ],
   "stage": "serial",
-  "updated": "2026-11-21"
+  "updated": "2026-11-28"
  },
  "skyebrowse--realistic-3d": {
   "categories": [
@@ -3475,6 +3513,22 @@
   ],
   "stage": "unknown",
   "updated": "2026-11-19"
+ },
+ "tdk--tmr-sensory": {
+  "categories": [
+   "components"
+  ],
+  "company_id": "tdk",
+  "description": "Магниторезистивные сенсоры для роботов и дата-центров.",
+  "first_seen": "2026-11-28",
+  "focus": [],
+  "id": "tdk--tmr-sensory",
+  "name": "TMR-сенсоры",
+  "sources": [
+   "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWGg2LUlkUWh1UHRhVjE0TU8waG9DZ0R2dXRSdjBIdkJpVkd1V3JMNkR4ejFja1VkWUtuMEFVOFRHZFlSQ2M1bjY5eWxzNTVoZmZnRWptdnRtcWJvbXNEVjNVd2RSeWt1bXEzcXBnQkRaQ2p4dWZjU214SjVwdlNZUUpURHFGTU1RcXRPVE5R?oc=5"
+  ],
+  "stage": "unknown",
+  "updated": "2026-11-28"
  },
  "tennant--p1-vac": {
   "categories": [
@@ -3955,7 +4009,8 @@
  },
  "xpeng--iron": {
   "categories": [
-   "humanoid"
+   "humanoid",
+   "service"
   ],
   "company_id": "xpeng",
   "description": "Универсальный гуманоидный робот XPeng ростом около 170 см",
@@ -3964,14 +4019,14 @@
   "id": "xpeng--iron",
   "name": "Iron",
   "sources": [
-   "https://3dnews.ru/1151839",
-   "https://news.google.com/rss/articles/CBMidkFVX3lxTE9TVnV3QnNRbGRvSU9VVHc0Q1ZjcE5VTllYajRiZ2EteDFtTVZzQW1pSWd3c2F2aUV3TlRpTG5zbllxZHJ4bkVjNEs4SHU2RkFLMm1IUzlrWkxWZ2tQSHNIdEtDQ0I3Wm9IVk9TTVlMSGNHZlUwV0E?oc=5",
-   "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN2hHN0QxWlYtY3dGRm5tMVVrczFoTHNKLUcwbVVUYlUyNmFLTnFfdmh4Z2poTTMzMHZrTEhWMHhYdFNiNFFpUkU4aTRTVlFwM0xkMk0tLTJ6b081LWs0WWpRWHFiWEdhbzdkdkVHek9DcmJYcWFELUNXZ1RrdGkxdl8tUW1Xa2tvejI0ZDFzLWpyWFpBczZzUDVDWV9LU0l0UVFTN2ZjWklGMHBCNTViYlZIWlFkaVV6S3MxX0liWjXSAbYBQVVfeXFMTVJqczlsT2xzR3YtaUdUM29KdDFvQTM5cjA3N01NUzZvdkdUek16eEhUTVI5cl9Pb3NzVnZic1Y5SnVXcEhkYnpPTXU1NTExM25IeFRPOWJNZER6a2NVTjZQQmQxN2Fod0diekFveTlHQnJLd0hBb2R5UU5Yc1FIQVpqdlRfQ3puRkdseVZtSm1oMXpkQkhfM05RX2JBc1ZqalUxZkVESUFyVHJmTWdTWnYxcWoxVXc?oc=5",
-   "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYjlVN3U5bWNuTHJrYU1UN1lrSVQ5YThQc2E3QmZaLU0wdUxhWFFtTUlnSXlqR2lObFZxOG80Y1Z0WDRYZXRTbU10RUZpd3RPUlduYnBsckJSekU0cExhNUVqb0RwajVSZHhramlaZW1oak1Da3V4NEZRQjJXM2JrYm9uSmlPY0NSZEdkU1NHZ3VjS3RzRkNRU0JkZVpNYUhCa2o0dm5NdEhCT3M5blY2cUdUZ1ZvaFdYV3FJVndqZ2w5c2Z2OC0wNUxzOUV4M0xzZlFvbnBR?oc=5",
-   "https://news.google.com/rss/articles/CBMinwJBVV95cUxNdXlGMERFYmFObS1YaVZTdnRVTzVXM050bHdNcnlyU3I3ZGhLQ3BBTEg3NkVKWGxHaHF1VkpPSm5nWFRRY1IzVi1qUHVYU08xUFZfUUhJZHo1TmdtN0E5aVdzdGd0RkNUQ3Azd0ZIeXZNQjVwWFJlcFc5NW5RNUJDRHRISEtGRnlweWJ5dWx3SUd4MG5LVWlIeF9ESGtwTlB4UG50a0t6MElINThEYktyaGJwVVVPZTRrWUV6cHVTZVM2bExfYXE0S2NMRlNfS2Q3TDdlaF90cElhNmVFbkRCbTBLLWktTnFuUmZwN3hyLXNwX2pMaGs1bXp0M2tSQVpnbjloOGNyc3FJZlRJRURiSmgwbnRsLTloTjVvazNoY9IBpAJBVV95cUxOamU5Wmx5c3kzY0FkSTB1WUxuOWI0U1BpUDBGV3BpemhuSTYzcUZzQjhoek4zRjh6MFY0OEw3TlNvd3MxLWtNR3ZMV052LXE0d3RVTEphX0dPLUFiaUE5bGhuWW9JT2lrRXY5RENZN1VBU1FFT2tyT0pjQ1JGMzZPbWFTRklyc2dVaTluOVAwM1RTc0I4Nm9OZEFOSEhYSk85VkNPZm03ZGFUbHZ0TGNuWllEMWtQa3c5YnNRQUJOalFGcnJDRXp0MEdZd3Q0QlJxM0wyQU1IQ0RBTEdtS0hxZEJvcUNWbEQwczZ0di1HOHdMYUU2U05IcUY0cXo5YUZxTUxyMUFocW1qT1F2UnNwMWtDV2EzZGNrNnRUSS15UWlQZWdQ?oc=5"
+   "https://news.google.com/rss/articles/CBMinwJBVV95cUxNdXlGMERFYmFObS1YaVZTdnRVTzVXM050bHdNcnlyU3I3ZGhLQ3BBTEg3NkVKWGxHaHF1VkpPSm5nWFRRY1IzVi1qUHVYU08xUFZfUUhJZHo1TmdtN0E5aVdzdGd0RkNUQ3Azd0ZIeXZNQjVwWFJlcFc5NW5RNUJDRHRISEtGRnlweWJ5dWx3SUd4MG5LVWlIeF9ESGtwTlB4UG50a0t6MElINThEYktyaGJwVVVPZTRrWUV6cHVTZVM2bExfYXE0S2NMRlNfS2Q3TDdlaF90cElhNmVFbkRCbTBLLWktTnFuUmZwN3hyLXNwX2pMaGs1bXp0M2tSQVpnbjloOGNyc3FJZlRJRURiSmgwbnRsLTloTjVvazNoY9IBpAJBVV95cUxOamU5Wmx5c3kzY0FkSTB1WUxuOWI0U1BpUDBGV3BpemhuSTYzcUZzQjhoek4zRjh6MFY0OEw3TlNvd3MxLWtNR3ZMV052LXE0d3RVTEphX0dPLUFiaUE5bGhuWW9JT2lrRXY5RENZN1VBU1FFT2tyT0pjQ1JGMzZPbWFTRklyc2dVaTluOVAwM1RTc0I4Nm9OZEFOSEhYSk85VkNPZm03ZGFUbHZ0TGNuWllEMWtQa3c5YnNRQUJOalFGcnJDRXp0MEdZd3Q0QlJxM0wyQU1IQ0RBTEdtS0hxZEJvcUNWbEQwczZ0di1HOHdMYUU2U05IcUY0cXo5YUZxTUxyMUFocW1qT1F2UnNwMWtDV2EzZGNrNnRUSS15UWlQZWdQ?oc=5",
+   "https://roboticsandautomationnews.com/2026/11/27/the-iron-age-xpeng-prepares-for-mass-production-of-its-humanoid-robot/107831/",
+   "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZ3FpUzdYdnhTY2FKd2hMZkYxSC1XNDlMb0V3MjlHdVh3MzFOU2hBcl96OEJ3aG1tWEhRdjBJME5sV2xlWk5PUUVHOTFNTHhHMHEweTlEX3RBa3llR1ppTlluVDBoN3BlQjcyQzNFU2NmVzhqczRMWWZjWm9GMDNKM2U2azM3M2l6a3NaTzVIVnNVNXFDX0lkVXdLdkxhS2ZFcW5JWmlja0VHRm1uXzBSREpRbTZPc3QxWFVRNW9VTW5Kd2JlVnRJVFVfamJwV1Zfb0VqSVZFbFBmanFM0gHiAUFVX3lxTE5haDFvWmJ1NTAyVzZlUV9waWxtckZTTFd2ODlWQUFCNHhaSURYLWlSNlFnb0NpbThXcjVoaW5CNEtJRXBnRnZ4MTBka1JkaE9uaFJ0am55RlpjZkQzbVlpbWUyTWlnY1RhbTlhc0tXS0Jfd2tZaXhKa1lqV1RfSldjeC11LTZEWVBIN0Jpam1MZ3gyb09aNDdpYk9xZERGNkdpUUdpblpvSGFwZkpQalFKNkRfeERneDVFempoODJpRlBZUmhuTjlfWHdxVU9ZSHp0cFh0d29vMWVURDRwLXh2RUE?oc=5",
+   "https://news.google.com/rss/articles/CBMipgFBVV95cUxObXJMRDJrQVo1NUhYWTZJcl9YY0ozTUc4a1AtQ0QybnoycUhqY1o4aEI3NERMaF85NjM1WXdPTDZSejFIck9SZGNLblFnZ2tyUl9wb3lJZ3dEelQ0Rm1ZODJxaXo1WW1LSHhVVTNyMnpYWDgwZVFMck1lTmZLQUlMMlV1Q0UzUTJ4ZDRwQjdjQ2kzZGpCcFhSLUdJMHFvVEJ4NlhJSFB3?oc=5",
+   "https://news.google.com/rss/articles/CBMiogFBVV95cUxNU2Q4MTg1dWVOZWxEM3VWS3dFakZTVlBzamJRMHdTTkJaUHUwVlRzeUZfRmFnN250NHVDTHRFNzZxWjRfTWctRDBTSEdzeS1rbF9yV2lKTlRUTERZcmRseHhCWXNNSDI1MzZuc2haLWJfWFZ2bC0xMm93bUNJbkE1WURBelpKbFhaTjlUWnBBTzJJRVAtSDBMLThzWWlTeTJWbVE?oc=5"
   ],
-  "stage": "serial",
-  "updated": "2026-11-27"
+  "stage": "prototype",
+  "updated": "2026-11-28"
  },
  "xpeng--worldgpt": {
   "categories": [

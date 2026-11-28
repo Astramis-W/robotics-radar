@@ -182,7 +182,7 @@
   "id": "aerpace-industries",
   "name": "Aerpace Industries",
   "origin": "news",
-  "updated": "2026-11-26"
+  "updated": "2026-11-28"
  },
  "afk-sistema": {
   "aliases": [
@@ -593,7 +593,7 @@
   "id": "apptronik",
   "name": "Apptronik",
   "origin": "seed",
-  "updated": "2026-11-17"
+  "updated": "2026-11-28"
  },
  "apricity": {
   "aliases": [
@@ -1210,19 +1210,17 @@
   "focus": [],
   "id": "botsync",
   "last_round": {
-   "as_of": "2026-11-25",
+   "as_of": "2026-11-27",
    "currency": "USD",
-   "investors": [
-    "IvyCap Ventures"
-   ],
-   "source": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOU05OSXJsUlVMdE9DbVRfTkQ4Y2dEVzFBX2NmNmI3dXJxZDdlT05LMktHUFV3S3ZoUU5MaTdWWGNzbUdkYmwwdXc0aHd4ekZHa3J1VzVINnBmbFZVblliTGo3VWVYNS1xRTJtbkpLQ2ZqLVhpZTEyeGNYLWhXN2dzY1hlVnBMYlhMZmxLVFhXNXJIQ2NnNndNeFlzejF3elZuaVR2MGotNXk4R1k4Ri14X3pIM0Viczlob0d5cFRua0F3LUFUclE?oc=5",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRnRPRHdrVjJIcDJCR3QtR2ZTclVIZzBNbU5KVDZ4WXMwU1JTZFZTa1h3UmxxdTdBTTdqUGdyYm1lODRqWFloZVZoRXpTTy1BelUwdHFqc0o3VzFSSHNqaUJOM3U1QURYM0JkYktWbXNoQzNndkZqcVV2Ykp0UnhkWV9Lcy1uN012aDBMT21PTlNrWUFNMHhSLVNrbmdFN3Z3VVh6UA?oc=5",
    "type": "unknown",
    "usd": 11000000.0,
    "value": 11000000.0
   },
   "name": "Botsync",
   "origin": "news",
-  "updated": "2026-11-25"
+  "updated": "2026-11-28"
  },
  "brain": {
   "aliases": [
@@ -1556,14 +1554,14 @@
    "as_of": "2026-11-25",
    "currency": "USD",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSXRQYzhYb3BIUFBxSE5kZl96N2Q0b0RoRUppMTVhX1dXdjVxeFQzT1EzQUNyT2JQVmRuRllpS19PRzFmUGZidDUzMWNDZ05aQjBreW5oZDZObl9FVXFpaDRZZnpRYXMxbkNzVzZ6akJXODNWRTl0XzRLSEFOeS1HNTRlTQ?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNzhhcTVrX3lhdldHM3pmT043N0hid04yRVduNHZMbUpuYUN1Ym1tZ2tGdXR3V0I2YzdwWVh0a3pyMWY1UDdIQjI2VjlxR2dkSGd3MzJkTXlpcHpyOVh3RjdWVkxGeF8yVDNJZHNOaE1WaXlSSkQzMnNKMHZkUDJZR2lXdVl4eXI3dFQ2T1BBMkVOaGtHWERrd0lBN1VKUQ?oc=5",
    "type": "unknown",
    "usd": 6000000.0,
    "value": 6000000.0
   },
   "name": "coprod",
   "origin": "news",
-  "updated": "2026-11-26"
+  "updated": "2026-11-28"
  },
  "cosine-robots": {
   "aliases": [
@@ -2070,10 +2068,13 @@
  },
  "emag": {
   "aliases": [
-   "Tesla"
+   "Tesla",
+   "Тесла"
   ],
   "categories": [
-   "manufacturing"
+   "manufacturing",
+   "humanoid",
+   "components"
   ],
   "country": "DE",
   "description": "Немецкий поставщик робототехники и производственного оборудования.",
@@ -2082,7 +2083,7 @@
   "id": "emag",
   "name": "EMAG",
   "origin": "news",
-  "updated": "2026-11-27"
+  "updated": "2026-11-28"
  },
  "embention": {
   "aliases": [],
@@ -2389,7 +2390,7 @@
    "value": 2300000.0,
    "year": null
   },
-  "updated": "2026-11-27"
+  "updated": "2026-11-28"
  },
  "ff-eai-robotics-ecosystem": {
   "aliases": [
@@ -2824,6 +2825,22 @@
    "value": 3500000000.0
   }
  },
+ "genrobotics": {
+  "aliases": [
+   "Armscor"
+  ],
+  "categories": [
+   "underground"
+  ],
+  "country": "IN",
+  "description": "",
+  "first_seen": "2026-11-28",
+  "focus": [],
+  "id": "genrobotics",
+  "name": "Genrobotics",
+  "origin": "news",
+  "updated": "2026-11-28"
+ },
  "geoskan": {
   "aliases": [
    "Geoscan"
@@ -3023,7 +3040,8 @@
    "Hexagon",
    "Volvo Cars",
    "Volvo",
-   "Hexagon Robotics Aeon"
+   "Hexagon Robotics Aeon",
+   "Хексагон"
   ],
   "categories": [
    "humanoid",
@@ -3036,7 +3054,7 @@
   "id": "hexagon-robotics",
   "name": "Hexagon Robotics",
   "origin": "news",
-  "updated": "2026-11-27"
+  "updated": "2026-11-28"
  },
  "hhla-sky": {
   "aliases": [
@@ -3236,7 +3254,7 @@
   "id": "innok-robotics",
   "name": "Innok Robotics",
   "origin": "news",
-  "updated": "2026-11-27"
+  "updated": "2026-11-28"
  },
  "intel": {
   "aliases": [
@@ -3656,7 +3674,7 @@
    "value": 102200000.0,
    "year": 2026
   },
-  "updated": "2026-11-25"
+  "updated": "2026-11-28"
  },
  "kret": {
   "aliases": [
@@ -3913,14 +3931,14 @@
    "as_of": "2026-11-27",
    "currency": "USD",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE11NU9hc01Bel8xV1BPaEEtTWNtZ21XaS1IQ083QXQ3V1RZRHRPcmwwYWsxalNhN1FXOVdsSy1jUWZQRkdIelNuMm9OQXFPQTNOYWNoYjJCYlo?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOWlqX0Zja3VMVXRqeC01U0xHbWR4NEJ2SThnNHdCRUMydWozUzhuZjRYOEJ0SHdJU3NrVHpIMVlqN29mZURON2xWS3BrY1pCd09iRDFyWFM2V0JCV2RrOUhpeGkybUd1b3o0V3pvSTVZQlFOdk9IbmRjeHlMVnBYU0gwTkotRGc4a2VpLUV0TEdSdy1CZkt1cG9zaXE?oc=5",
    "type": "unknown",
    "usd": 20000000.0,
    "value": 20000000.0
   },
   "name": "Lute",
   "origin": "news",
-  "updated": "2026-11-27"
+  "updated": "2026-11-28"
  },
  "m-l-technologies": {
   "aliases": [
@@ -4478,7 +4496,7 @@
   "id": "neura-robotics",
   "name": "Neura Robotics",
   "origin": "news",
-  "updated": "2026-11-27"
+  "updated": "2026-11-28"
  },
  "neuryn-robotics": {
   "aliases": [],
@@ -4545,6 +4563,22 @@
   "name": "Nilfisk",
   "origin": "seed",
   "updated": "2026-11-16"
+ },
+ "nisa-medical": {
+  "aliases": [
+   "Nisa Medical Group"
+  ],
+  "categories": [
+   "medical"
+  ],
+  "country": "",
+  "description": "",
+  "first_seen": "2026-11-28",
+  "focus": [],
+  "id": "nisa-medical",
+  "name": "Nisa Medical Group",
+  "origin": "news",
+  "updated": "2026-11-28"
  },
  "noetix-robotics": {
   "aliases": [
@@ -5001,6 +5035,22 @@
   "origin": "news",
   "updated": "2026-11-27"
  },
+ "prensilia": {
+  "aliases": [],
+  "categories": [
+   "components",
+   "humanoid",
+   "manufacturing"
+  ],
+  "country": "IT",
+  "description": "",
+  "first_seen": "2026-11-28",
+  "focus": [],
+  "id": "prensilia",
+  "name": "Prensilia",
+  "origin": "news",
+  "updated": "2026-11-28"
+ },
  "prikladnaya-robototehnika": {
   "aliases": [
    "ГТЛК"
@@ -5386,7 +5436,7 @@
   "id": "robbyant",
   "name": "Robbyant",
   "origin": "news",
-  "updated": "2026-11-17"
+  "updated": "2026-11-28"
  },
  "robco": {
   "aliases": [
@@ -5492,11 +5542,11 @@
   "name": "ROBOTERA",
   "origin": "news",
   "robots_deployed": {
-   "as_of": "2026-11-26",
-   "source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4xNEh2Rm9PTHNCbjBXZkdETmJuak9FQmppWkVBTVRVZ09SdWlUaGpuNmF1X2NacE5URzdhbGtTVGJiSmhDOERkaGZCTVdFbWRuN0ZZNjRCenkyanR5?oc=5",
+   "as_of": "2026-11-27",
+   "source": "https://3dnews.ru/1151907",
    "value": 45
   },
-  "updated": "2026-11-26"
+  "updated": "2026-11-28"
  },
  "robotis": {
   "aliases": [
@@ -5738,7 +5788,7 @@
   "id": "samsung",
   "name": "Samsung",
   "origin": "news",
-  "updated": "2026-11-27"
+  "updated": "2026-11-28"
  },
  "sanctuary-ai": {
   "aliases": [],
@@ -5815,7 +5865,7 @@
   "id": "sber",
   "name": "Сбер",
   "origin": "news",
-  "updated": "2026-11-27"
+  "updated": "2026-11-28"
  },
  "se3": {
   "aliases": [
@@ -5990,7 +6040,7 @@
    "source": "https://dronexl.co/2026/11/20/ucla-police-skydio-x10-drones-la28-olympic-village-regents/",
    "value": 5
   },
-  "updated": "2026-11-21",
+  "updated": "2026-11-28",
   "valuation": {
    "as_of": "2026-11-14",
    "currency": "USD",
@@ -6262,6 +6312,29 @@
   "origin": "news",
   "updated": "2026-11-23"
  },
+ "suota-wujie": {
+  "aliases": [],
+  "categories": [
+   "service"
+  ],
+  "country": "CN",
+  "description": "",
+  "first_seen": "2026-11-28",
+  "focus": [],
+  "id": "suota-wujie",
+  "last_round": {
+   "as_of": "2026-11-27",
+   "currency": "USD",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeHQ1cGxJOEZyNF81dnR4MWlwdmxoM2s3aTdoZzYxWVBlZjNVbG9nTV9OMXVlSDgtbHJaWnFtQnpoNEd5M1BOX3dhOVJNQXJzOW1oTGVYMTBubkVndi1DTTlpX2E4cmlYVnZzWDNiUDBsdFYzY29nTWFFSnczTVFGdVpTZlJwRmxtQy1TaGN4OGdzTlB0MG5UbzdrY0RSZnFwb2FWYkUxYVI?oc=5",
+   "type": "unknown",
+   "usd": 4510000.0,
+   "value": 4510000.0
+  },
+  "name": "Suota Wujie",
+  "origin": "news",
+  "updated": "2026-11-28"
+ },
  "surskaya-mebel": {
   "aliases": [
    "Сурская мебель"
@@ -6401,6 +6474,29 @@
   "name": "TARSBOT",
   "origin": "news",
   "updated": "2026-11-17"
+ },
+ "tdk": {
+  "aliases": [],
+  "categories": [
+   "components"
+  ],
+  "country": "JP",
+  "description": "",
+  "first_seen": "2026-11-28",
+  "focus": [],
+  "id": "tdk",
+  "last_round": {
+   "as_of": "2026-11-27",
+   "currency": "USD",
+   "investors": [],
+   "source": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWGg2LUlkUWh1UHRhVjE0TU8waG9DZ0R2dXRSdjBIdkJpVkd1V3JMNkR4ejFja1VkWUtuMEFVOFRHZFlSQ2M1bjY5eWxzNTVoZmZnRWptdnRtcWJvbXNEVjNVd2RSeWt1bXEzcXBnQkRaQ2p4dWZjU214SjVwdlNZUUpURHFGTU1RcXRPVE5R?oc=5",
+   "type": "unknown",
+   "usd": 635000000.0,
+   "value": 635000000.0
+  },
+  "name": "TDK",
+  "origin": "news",
+  "updated": "2026-11-28"
  },
  "tehnored": {
   "aliases": [
@@ -7318,7 +7414,8 @@
   "aliases": [
    "小鹏",
    "XPENG's",
-   "Xpeng Robotics"
+   "Xpeng Robotics",
+   "小鹏汽车"
   ],
   "categories": [
    "humanoid",
@@ -7341,7 +7438,7 @@
   },
   "name": "XPeng",
   "origin": "news",
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "valuation": {
    "as_of": "2026-11-23",
    "currency": "USD",
@@ -7382,7 +7479,7 @@
   "id": "yandeks-lavka",
   "name": "Яндекс Лавка",
   "origin": "news",
-  "updated": "2026-11-27"
+  "updated": "2026-11-28"
  },
  "yandeks-robotiks": {
   "aliases": [
@@ -7408,7 +7505,7 @@
    "source": "https://www.cnews.ru/news/top/2026-11-27_yandeks_obedinit_gumanoidnyh",
    "value": 1000
   },
-  "updated": "2026-11-27"
+  "updated": "2026-11-28"
  },
  "yarbo": {
   "aliases": [],
