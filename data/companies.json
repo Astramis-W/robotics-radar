@@ -71,7 +71,7 @@
   "id": "abb-robotics",
   "name": "ABB Robotics",
   "origin": "seed",
-  "updated": "2026-11-25"
+  "updated": "2026-11-28"
  },
  "abz-innovation": {
   "aliases": [
@@ -641,25 +641,26 @@
    "Aqura"
   ],
   "categories": [
-   "marine"
+   "marine",
+   "agro"
   ],
-  "country": "",
+  "country": "GB",
   "description": "Разработчик робота для мониторинга рыбных ферм.",
   "first_seen": "2026-11-25",
   "focus": [],
   "id": "aqura-systems",
   "last_round": {
-   "as_of": "2026-11-26",
+   "as_of": "2026-11-27",
    "currency": "GBP",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNV1ZBY0ZDVGdDWldELWpaUnhQVTlVLXd4MDg3aTl1N3JrczVJZXJqMHAxeFJWM1FMOThiaFpERVVEXzFuMTJKZjhlWXlWSHNsdU5VcVktdzhEVnp2dnk0bkQzRkRiSmdHY19DMlZFVVVNQXoyS19CblBKMGtxQXZrWnZaT0U5M0diR2c?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQRjlWX0lyS3ByVHhaNDlqbld5TEQ4Ukx3eGhxT1RmSnpiTGRTb2pOcDBJbkxQWXlCZllpMUxraXZUQlBMbFdDdVlETjVYWnJxNkpMbmxtSjFMRXdqUlhLaWZmb3I4ei1XNjVnOVRHWGxSa2NmSVNtV3FmVW5oQkhjMTJfZ2dwWjd4RnItVnViMjdjYjR4RWNRel9oUFNMaFRxWW9XT09rS1ZNdl85Rk96ZFRSTTZleHktMXk2RHR0czdHOWpPVU14c1g3SXE1clBtck5wN1BrV1NMdnkzcThkQWE4eG1mdURLZXBaMnZ3?oc=5",
    "type": "unknown",
-   "usd": 2751323.58,
+   "usd": 2752181.76,
    "value": 2100000.0
   },
   "name": "Aqura Systems",
   "origin": "news",
-  "updated": "2026-11-26"
+  "updated": "2026-11-28"
  },
  "ascentiz": {
   "aliases": [],
@@ -1438,7 +1439,8 @@
  },
  "cidi": {
   "aliases": [
-   "希迪智驾"
+   "希迪智驾",
+   "China's CIDI"
   ],
   "categories": [
    "underground",
@@ -1451,7 +1453,7 @@
   "id": "cidi",
   "name": "CiDi",
   "origin": "news",
-  "updated": "2026-11-26"
+  "updated": "2026-11-28"
  },
  "circus-se": {
   "aliases": [],
@@ -2105,7 +2107,8 @@
    "Embo"
   ],
   "categories": [
-   "components"
+   "components",
+   "humanoid"
   ],
   "country": "",
   "description": "Разработчик моделей мира для роботов.",
@@ -2113,17 +2116,17 @@
   "focus": [],
   "id": "embo",
   "last_round": {
-   "as_of": "2026-11-24",
+   "as_of": "2026-11-28",
    "currency": "USD",
    "investors": [],
-   "source": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQkFqZXhjUTZBMkEzZUlOU21vbEJQeWxtOTByeG11NlQ5RkExSnpZcXFYbmlxVE9nbVAtZFdYNzVENS1KNW5CRWRuTlJlQks5VjN5dURtN3FWT2h5SlIwMnVOak14clF2TTNMLXdSMnlkOGJQaE9PUExYbmdjN2xIdUMxdm1NWWNQTVN3NHdGX2pycmpuZlVpVm1fajZwa1Zncmc?oc=5",
+   "source": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPX1Y5c3NYcW8zSlJIUVdpSFlQQUVjSk1DNzVfWkl6ZTNGcmZ4MDdFQW8tLUszdDJKTUZnRl9MdjhTSkY0VGs5U1FvMjYxZkI0Y0FMUDRmTDh4dUtQb01fOFJJTmJXa0FBTnEwZWg3SDRBdERyQ2sycWltVkdsRlBUU2hZaGVYT1VWUUdRRXJ3?oc=5",
    "type": "seed",
    "usd": 110000000.0,
    "value": 110000000.0
   },
   "name": "Embo",
   "origin": "news",
-  "updated": "2026-11-24"
+  "updated": "2026-11-28"
  },
  "emesent": {
   "aliases": [],
@@ -5564,6 +5567,23 @@
   "name": "Robotis",
   "origin": "news",
   "updated": "2026-11-23"
+ },
+ "rokae-robotics": {
+  "aliases": [
+   "ROKAE",
+   "TermiTech"
+  ],
+  "categories": [
+   "manufacturing"
+  ],
+  "country": "CN",
+  "description": "Китайский производитель промышленных роботов",
+  "first_seen": "2026-11-28",
+  "focus": [],
+  "id": "rokae-robotics",
+  "name": "ROKAE Robotics",
+  "origin": "news",
+  "updated": "2026-11-28"
  },
  "ronavi-robotiks": {
   "aliases": [
